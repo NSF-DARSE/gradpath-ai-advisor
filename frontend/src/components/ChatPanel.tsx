@@ -5,6 +5,8 @@ import type { ChatMessage } from '../types';
 type ChatPanelProps = {
   messages: ChatMessage[];
   loading: boolean;
+  sessionId: string;
+  lastAnalysisTimestamp: string | null;
   draft: string;
   selectedFile: File | null;
   error: string | null;
@@ -24,6 +26,8 @@ export function ChatPanel(props: ChatPanelProps) {
   const {
     messages,
     loading,
+    sessionId,
+    lastAnalysisTimestamp,
     draft,
     selectedFile,
     error,
@@ -38,6 +42,10 @@ export function ChatPanel(props: ChatPanelProps) {
         <div>
           <span className="chat-shell__eyebrow">Interactive panel</span>
           <h2>GradPath Advisor Chat</h2>
+          <div className="chat-shell__session">
+            <span>Session {sessionId ? sessionId.slice(0, 8) : 'pending'}</span>
+            <span>Last analysis {formatTime(lastAnalysisTimestamp ?? '') || 'n/a'}</span>
+          </div>
         </div>
         <span className="status-dot">{loading ? 'Analyzing...' : 'Ready'}</span>
       </div>

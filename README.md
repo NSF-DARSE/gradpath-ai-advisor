@@ -18,7 +18,8 @@ gradpath/
 │       ├── models.py                  # API and dashboard schemas
 │       ├── routers/chat.py            # Session bootstrap + chat/upload routes
 │       └── services/
-│           ├── agent_adapter.py       # Wraps existing GradPath logic for the UI
+│           ├── agent_adapter.py       # Maps ADK/planning output into the UI schema
+│           ├── adk_service.py         # Runs the live Google ADK workflow for web sessions
 │           ├── session_store.py       # In-memory chat session state
 │           └── transcript_parser.py   # Upload parsing helpers
 ├── frontend/
@@ -50,7 +51,7 @@ The user only interacts through chat. The dashboard cards are read-only and are 
 1. The browser opens a GradPath session with `GET /api/session`.
 2. The student types a message and can optionally upload a transcript file.
 3. `POST /api/chat` sends the message and file to FastAPI.
-4. The backend parses the upload, resolves a known student record if possible, and runs the adapter layer.
+4. The backend parses the upload, resolves a known student record if possible, and runs the ADK workflow when it can.
 5. The adapter returns:
    - chat reply text
    - completed courses
@@ -65,13 +66,12 @@ The user only interacts through chat. The dashboard cards are read-only and are 
 
 The UI is designed to wrap your existing agent, not replace it.
 
-The main connection point is:
+The main connection points are:
 
 - [backend/app/services/agent_adapter.py](/Users/arunr3ddy/Documents/New project/gradpath/backend/app/services/agent_adapter.py)
+- [backend/app/services/adk_service.py](/Users/arunr3ddy/Documents/New project/gradpath/backend/app/services/adk_service.py)
 
-Look for `_try_invoke_google_adk_agent(...)`.
-
-Right now, the UI backend uses your existing normalized data and planning logic as a safe local adapter. That gives you a working site immediately. If you want the web app to call your full Google ADK multi-agent pipeline directly, replace that stub with your ADK session runner and map the result back into the dashboard schema.
+The web app now attempts to run the real ADK multi-agent flow first for known student records and maps the planner output into the dashboard schema. If the live ADK call cannot run, the backend falls back to the local planning adapter so the site still works during development or when transcript uploads do not map to the current ADK tools.
 
 ## API Routes
 
@@ -213,7 +213,7 @@ Copy `.env.example` to `.env` and fill in what you need.
 
 ```env
 GOOGLE_API_KEY=your_google_api_key_here
-GRADPATH_USE_ADK_WRAPPER=false
+GRADPATH_USE_ADK_WRAPPER=true
 GRADPATH_DEFAULT_TARGET_SEMESTER=Fall 2026
 GRADPATH_DEFAULT_MAX_CREDITS=9
 GRADPATH_FRONTEND_ORIGIN=http://localhost:5173
@@ -222,7 +222,7 @@ GRADPATH_FRONTEND_ORIGIN=http://localhost:5173
 Meaning:
 
 - `GOOGLE_API_KEY`: needed for your existing Google ADK setup
-- `GRADPATH_USE_ADK_WRAPPER`: set to `true` once you wire your real ADK invocation into the adapter
+- `GRADPATH_USE_ADK_WRAPPER`: enables the live ADK workflow and falls back locally if the agent cannot complete
 - `GRADPATH_DEFAULT_TARGET_SEMESTER`: fallback term when the student does not specify one
 - `GRADPATH_DEFAULT_MAX_CREDITS`: fallback credit load
 - `GRADPATH_FRONTEND_ORIGIN`: CORS origin for Vite dev mode

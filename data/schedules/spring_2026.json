@@ -1,1846 +1,1311 @@
 {
   "term": "Spring 2026",
-  "source_pdf": "COURSE_SCHEDULE2026SPNEW.pdf",
+  "source": "COURSE_SCHEDULE2026SPNEW.pdf",
   "offerings": [
     {
-      "course_id": "ACC-2005",
+      "course_id": "ACC2005",
       "section": "01",
-      "source_line": "ACC-2005 01 Principles of Accounting MC MW 04:00 PM 05:40 PM S. Duncan DHAL 2534 LEC"
+      "source_code": "ACC-2005"
     },
     {
-      "course_id": "ACC-3032",
+      "course_id": "ACC3032",
       "section": "01",
-      "source_line": "ACC-3032 01 Intermediate Accounting II MC TR 10:00 AM 11:40 AM I. Uqdah DHAL 2054 LEC"
+      "source_code": "ACC-3032"
     },
     {
-      "course_id": "ACC-3038",
+      "course_id": "ACC3038",
       "section": "01",
-      "source_line": "ACC-3038 01 Federal & Ind Income Taxation MC MW 02:00 PM 03:40 PM To be Announced DHAL 2534 LEC"
+      "source_code": "ACC-3038"
     },
     {
-      "course_id": "ACC-3040",
+      "course_id": "ACC3040",
       "section": "01",
-      "source_line": "ACC-3040 01 Accounting Information Systems MC MW 04:00 PM 05:40 PM To be Announced DHAL 2544 LEC"
+      "source_code": "ACC-3040"
     },
     {
-      "course_id": "ACC-4031",
+      "course_id": "ACC4031",
       "section": "01",
-      "source_line": "ACC-4031 01 Advanced Accounting MC TR 02:00 PM 03:40 PM I. Uqdah DHAL 2534 LEC"
+      "source_code": "ACC-4031"
     },
     {
-      "course_id": "ACC-4050",
+      "course_id": "ACC4050",
       "section": "01",
-      "source_line": "ACC-4050 01 Accounting Practicum MC TR 04:00 PM 05:40 PM I. Uqdah4 LEC"
+      "source_code": "ACC-4050"
     },
     {
-      "course_id": "ANT-2001",
+      "course_id": "ANT2001",
       "section": "01",
-      "source_line": "ANT-2001 01 General Anthropology MC MW 10:00 AM 11:40 AM E. Babatunde DHAL 3264 LEC"
+      "source_code": "ANT-2001"
     },
     {
-      "course_id": "ANT-2005",
+      "course_id": "ANT2005",
       "section": "G1",
-      "source_line": "ANT-2005 G1 Marriage and the Family GC S 08:00 AM 11:30 AM B. Dawson4 LEC"
+      "source_code": "ANT-2005"
     },
     {
-      "course_id": "ANT-2008",
+      "course_id": "ANT2008",
       "section": "01",
-      "source_line": "ANT-2008 01 Pol. Anthro. - African Society MC MW 12:00 PM 01:40 PM E. Babatunde DHAL 3264 LEC"
+      "source_code": "ANT-2008"
     },
     {
-      "course_id": "ARA-1001",
+      "course_id": "ARA1001",
       "section": "01",
-      "source_line": "ARA-1001 01 Elementary Arabic I MC MTWF 10:00 AM 10:50 AM B. Mohamed UNIV 2034 LEC"
+      "source_code": "ARA-1001"
     },
     {
-      "course_id": "ARA-1002",
+      "course_id": "ARA1002",
       "section": "02",
-      "source_line": "ARA-1002 02 Elementary Arabic II MC MTWF 11:00 AM 11:50 AM B. Mohamed UNIV 2034 LEC"
+      "source_code": "ARA-1002"
     },
     {
-      "course_id": "ARH-2012",
+      "course_id": "ARH2012",
       "section": "01",
-      "source_line": "ARH-2012 01 Art History II MC TR 02:00 PM 03:40 PM M. Wilson AMOS 2014 LEC"
+      "source_code": "ARH-2012"
     },
     {
-      "course_id": "ARH-2076",
+      "course_id": "ARH2076",
       "section": "01",
-      "source_line": "ARH-2076 01 African American Art History MC TR 10:00 AM 11:40 AM M. Wilson AMOS 2044 LEC"
+      "source_code": "ARH-2076"
     },
     {
-      "course_id": "ART-1000",
+      "course_id": "ART1000",
       "section": "01",
-      "source_line": "ART-1000 01 Fundamentals of 2-D Design MC TR 08:00 AM 09:40 AM C. Lacy AMOS 2054 LEC"
+      "source_code": "ART-1000"
     },
     {
-      "course_id": "ART-1000",
-      "section": "02",
-      "source_line": "ART-1000 02 Fundamentals of 2-D Design MC MW 10:00 AM 11:40 AM M. Downing AMOS 2044 LEC"
-    },
-    {
-      "course_id": "ART-1000",
-      "section": "03",
-      "source_line": "ART-1000 03 Fundamentals of 2-D Design MC MW 12:00 PM 01:40 PM P. Moshanko AMOS 2044 LEC"
-    },
-    {
-      "course_id": "ART-1000",
-      "section": "04",
-      "source_line": "ART-1000 04 Fundamentals of 2-D Design MC MW 02:00 PM 03:40 PM P. Moshanko AMOS 2044 LEC"
-    },
-    {
-      "course_id": "ART-1001",
+      "course_id": "ART1001",
       "section": "01",
-      "source_line": "ART-1001 01 Fundamentals of 3-D Design MC TR 10:00 AM 11:40 AM To be Announced4 LEC"
+      "source_code": "ART-1001"
     },
     {
-      "course_id": "ART-1002",
+      "course_id": "ART1002",
       "section": "01",
-      "source_line": "ART-1002 01 Introduction to Graphic Arts MC MW 10:00 AM 11:40 AM A. Kuhn AMOS 2014 LEC"
+      "source_code": "ART-1002"
     },
     {
-      "course_id": "ART-1002",
-      "section": "02",
-      "source_line": "ART-1002 02 Introduction to Graphic Arts MC MW 12:00 PM 01:40 PM A. Kuhn AMOS 2014 LEC"
-    },
-    {
-      "course_id": "ART-1002",
-      "section": "03",
-      "source_line": "ART-1002 03 Introduction to Graphic Arts MC MW 04:00 PM 05:40 PM To be Announced AMOS 2014 LEC"
-    },
-    {
-      "course_id": "ART-1002",
-      "section": "04",
-      "source_line": "ART-1002 04 Introduction to Graphic Arts MC TR 02:00 PM 03:40 PM G. Stillman AMOS 2024 LEC"
-    },
-    {
-      "course_id": "ART-2000",
+      "course_id": "ART2000",
       "section": "01",
-      "source_line": "ART-2000 01 Intro to Art MC TR 08:00 AM 09:40 AM M. Downing4 LEC"
+      "source_code": "ART-2000"
     },
     {
-      "course_id": "ART-2005",
+      "course_id": "ART2005",
       "section": "01",
-      "source_line": "ART-2005 01 Intermediate Drawing MC TR 04:00 PM 05:40 PM D. Beach AMOS 2064 LEC"
+      "source_code": "ART-2005"
     },
     {
-      "course_id": "ART-2010",
+      "course_id": "ART2010",
       "section": "01",
-      "source_line": "ART-2010 01 Introduction to Ceramics MC MW 12:00 PM 01:40 PM T. Osei AMOS 1144 LEC"
+      "source_code": "ART-2010"
     },
     {
-      "course_id": "ART-2010",
-      "section": "02",
-      "source_line": "ART-2010 02 Introduction to Ceramics MC TR 02:00 PM 03:40 PM To be Announced AMOS 1144 LEC"
-    },
-    {
-      "course_id": "ART-2015",
+      "course_id": "ART2015",
       "section": "01",
-      "source_line": "ART-2015 01 Intro to Printmaking MC TR 02:00 PM 03:40 PM C. Lacy AMOS 2104 LEC"
+      "source_code": "ART-2015"
     },
     {
-      "course_id": "ART-2020",
+      "course_id": "ART2020",
       "section": "01",
-      "source_line": "ART-2020 01 Design for Print and Web MC TR 10:00 AM 11:40 AM G. Stillman4 STUDO"
+      "source_code": "ART-2020"
     },
     {
-      "course_id": "ART-2025",
+      "course_id": "ART2025",
       "section": "01",
-      "source_line": "ART-2025 01 Introduction to Painting MC TR 02:00 PM 03:40 PM D. Beach4 LEC"
+      "source_code": "ART-2025"
     },
     {
-      "course_id": "ART-2061",
+      "course_id": "ART2061",
       "section": "01",
-      "source_line": "ART-2061 01 Intro to Darkroom Photo MC MW 02:00 PM 03:40 PM C. Kerns AMOS 0084 LEC"
+      "source_code": "ART-2061"
     },
     {
-      "course_id": "ART-3010",
+      "course_id": "ART3010",
       "section": "01",
-      "source_line": "ART-3010 01 Sculptural Ceramics MC MW 10:00 AM 11:40 AM T. Osei AMOS 1144 LEC"
+      "source_code": "ART-3010"
     },
     {
-      "course_id": "ART-3060",
+      "course_id": "ART3060",
       "section": "01",
-      "source_line": "ART-3060 01 Digital Photo Manipulation MC MW 10:00 AM 11:40 AM C. Kerns AMOS 2024 LEC"
+      "source_code": "ART-3060"
     },
     {
-      "course_id": "ART-3090",
+      "course_id": "ART3090",
       "section": "01",
-      "source_line": "ART-3090 01 ST: Art and Black Thought MC TR 04:00 PM 05:40 PM M. Wilson AMOS 2014 LEC"
+      "source_code": "ART-3090"
     },
     {
-      "course_id": "ART-3090",
-      "section": "02",
-      "source_line": "ART-3090 02 ST: Mixed Media MC TR 10:00 AM 11:40 AM C. Lacy AMOS 2104 LEC"
-    },
-    {
-      "course_id": "ART-3090",
-      "section": "03",
-      "source_line": "ART-3090 03 ST: Taking Shape MC MW 10:00 AM 11:40 AM A. Hassinger AMOS 2054 LEC"
-    },
-    {
-      "course_id": "ART-3090",
-      "section": "04",
-      "source_line": "ART-3090 04 ST: Making a Brand MC MW 02:00 PM 03:40 PM A. Hassinger AMOS 2014 LEC"
-    },
-    {
-      "course_id": "ART-3090",
-      "section": "05",
-      "source_line": "ART-3090 05 ST: Intermediate Painting MC MW 02:00 PM 03:40 PM A. Kuhn AMOS 2064 LEC"
-    },
-    {
-      "course_id": "ART-3095",
+      "course_id": "ART3095",
       "section": "01",
-      "source_line": "ART-3095 01 Junior Seminar MC MW 12:00 PM 01:40 PM A. Hassinger AMOS 2054 LEC"
+      "source_code": "ART-3095"
     },
     {
-      "course_id": "ART-4091",
+      "course_id": "ART4091",
       "section": "01",
-      "source_line": "ART-4091 01 Senior Seminar II MC M 12:00 PM 01:40 PM C. Kerns AMOS 2022 LEC"
+      "source_code": "ART-4091"
     },
     {
-      "course_id": "ART-4095",
+      "course_id": "ART4095",
       "section": "I1",
-      "source_line": "ART-4095 I1 Independent Study MC T. Osei1 LEC"
+      "source_code": "ART-4095"
     },
     {
-      "course_id": "ART-4095",
+      "course_id": "BES1010",
+      "section": "01",
+      "source_code": "BES-1010"
+    },
+    {
+      "course_id": "BES1014",
+      "section": "01",
+      "source_code": "BES-1014"
+    },
+    {
+      "course_id": "BES4030",
+      "section": "01",
+      "source_code": "BES-4030"
+    },
+    {
+      "course_id": "BES4059",
+      "section": "W1",
+      "source_code": "BES-4059"
+    },
+    {
+      "course_id": "BIO1001",
+      "section": "01",
+      "source_code": "BIO-1001"
+    },
+    {
+      "course_id": "BIO1003",
+      "section": "01",
+      "source_code": "BIO-1003"
+    },
+    {
+      "course_id": "BIO1004",
+      "section": "01",
+      "source_code": "BIO-1004"
+    },
+    {
+      "course_id": "BIO2000",
+      "section": "G1",
+      "source_code": "BIO-2000"
+    },
+    {
+      "course_id": "BIO2005",
+      "section": "01",
+      "source_code": "BIO-2005"
+    },
+    {
+      "course_id": "BIO2006",
+      "section": "01",
+      "source_code": "BIO-2006"
+    },
+    {
+      "course_id": "BIO2007",
+      "section": "01",
+      "source_code": "BIO-2007"
+    },
+    {
+      "course_id": "BIO2008",
+      "section": "01",
+      "source_code": "BIO-2008"
+    },
+    {
+      "course_id": "BIO2011",
+      "section": "01",
+      "source_code": "BIO-2011"
+    },
+    {
+      "course_id": "BIO3001",
+      "section": "01",
+      "source_code": "BIO-3001"
+    },
+    {
+      "course_id": "BIO3004",
+      "section": "01",
+      "source_code": "BIO-3004"
+    },
+    {
+      "course_id": "BIO3005",
+      "section": "01",
+      "source_code": "BIO-3005"
+    },
+    {
+      "course_id": "BIO3008",
+      "section": "01",
+      "source_code": "BIO-3008"
+    },
+    {
+      "course_id": "BIO3011",
+      "section": "01",
+      "source_code": "BIO-3011"
+    },
+    {
+      "course_id": "BIO3090",
+      "section": "01",
+      "source_code": "BIO-3090"
+    },
+    {
+      "course_id": "BIO4001",
+      "section": "01",
+      "source_code": "BIO-4001"
+    },
+    {
+      "course_id": "BIO4014",
+      "section": "01",
+      "source_code": "BIO-4014"
+    },
+    {
+      "course_id": "BUS1001",
+      "section": "02",
+      "source_code": "BUS-1001"
+    },
+    {
+      "course_id": "BUS3034",
+      "section": "01",
+      "source_code": "BUS-3034"
+    },
+    {
+      "course_id": "BUS4041",
+      "section": "01",
+      "source_code": "BUS-4041"
+    },
+    {
+      "course_id": "CHE1001",
+      "section": "01",
+      "source_code": "CHE-1001"
+    },
+    {
+      "course_id": "CHE1003",
+      "section": "01",
+      "source_code": "CHE-1003"
+    },
+    {
+      "course_id": "CHE1004",
+      "section": "01",
+      "source_code": "CHE-1004"
+    },
+    {
+      "course_id": "CHE1020",
+      "section": "01",
+      "source_code": "CHE-1020"
+    },
+    {
+      "course_id": "CHE2001",
+      "section": "01",
+      "source_code": "CHE-2001"
+    },
+    {
+      "course_id": "CHE2003",
+      "section": "01",
+      "source_code": "CHE-2003"
+    },
+    {
+      "course_id": "CHE2004",
+      "section": "01",
+      "source_code": "CHE-2004"
+    },
+    {
+      "course_id": "CHE2005",
+      "section": "01",
+      "source_code": "CHE-2005"
+    },
+    {
+      "course_id": "CHE3001",
+      "section": "01",
+      "source_code": "CHE-3001"
+    },
+    {
+      "course_id": "CHE3003",
+      "section": "01",
+      "source_code": "CHE-3003"
+    },
+    {
+      "course_id": "CHE3004",
+      "section": "01",
+      "source_code": "CHE-3004"
+    },
+    {
+      "course_id": "CHE3010",
+      "section": "01",
+      "source_code": "CHE-3010"
+    },
+    {
+      "course_id": "CHE3090",
+      "section": "01",
+      "source_code": "CHE-3090"
+    },
+    {
+      "course_id": "CHI1001",
+      "section": "01",
+      "source_code": "CHI-1001"
+    },
+    {
+      "course_id": "COM2001",
+      "section": "01",
+      "source_code": "COM-2001"
+    },
+    {
+      "course_id": "COM2002",
+      "section": "W1",
+      "source_code": "COM-2002"
+    },
+    {
+      "course_id": "COM2003",
+      "section": "01",
+      "source_code": "COM-2003"
+    },
+    {
+      "course_id": "COM2005",
+      "section": "01",
+      "source_code": "COM-2005"
+    },
+    {
+      "course_id": "COM2007",
+      "section": "01",
+      "source_code": "COM-2007"
+    },
+    {
+      "course_id": "COM3000",
+      "section": "01",
+      "source_code": "COM-3000"
+    },
+    {
+      "course_id": "COM3002",
+      "section": "01",
+      "source_code": "COM-3002"
+    },
+    {
+      "course_id": "COM3012",
+      "section": "01",
+      "source_code": "COM-3012"
+    },
+    {
+      "course_id": "COM3020",
+      "section": "01",
+      "source_code": "COM-3020"
+    },
+    {
+      "course_id": "COM3022",
+      "section": "01",
+      "source_code": "COM-3022"
+    },
+    {
+      "course_id": "COM3023",
+      "section": "01",
+      "source_code": "COM-3023"
+    },
+    {
+      "course_id": "COM3032",
+      "section": "01",
+      "source_code": "COM-3032"
+    },
+    {
+      "course_id": "COM4001",
+      "section": "W1",
+      "source_code": "COM-4001"
+    },
+    {
+      "course_id": "COM4005",
+      "section": "01",
+      "source_code": "COM-4005"
+    },
+    {
+      "course_id": "COM4050",
+      "section": "01",
+      "source_code": "COM-4050"
+    },
+    {
+      "course_id": "COM4052",
+      "section": "01",
+      "source_code": "COM-4052"
+    },
+    {
+      "course_id": "CRJ2003",
+      "section": "01",
+      "source_code": "CRJ-2003"
+    },
+    {
+      "course_id": "CRJ2007",
+      "section": "01",
+      "source_code": "CRJ-2007"
+    },
+    {
+      "course_id": "CRJ3001",
+      "section": "01",
+      "source_code": "CRJ-3001"
+    },
+    {
+      "course_id": "CRJ3014",
+      "section": "01",
+      "source_code": "CRJ-3014"
+    },
+    {
+      "course_id": "CRJ3015",
+      "section": "01",
+      "source_code": "CRJ-3015"
+    },
+    {
+      "course_id": "CRJ3020",
+      "section": "01",
+      "source_code": "CRJ-3020"
+    },
+    {
+      "course_id": "CRJ3023",
+      "section": "01",
+      "source_code": "CRJ-3023"
+    },
+    {
+      "course_id": "CRJ3052",
+      "section": "01",
+      "source_code": "CRJ-3052"
+    },
+    {
+      "course_id": "CSC1051",
+      "section": "03",
+      "source_code": "CSC-1051"
+    },
+    {
+      "course_id": "CSC1052",
+      "section": "01",
+      "source_code": "CSC-1052"
+    },
+    {
+      "course_id": "CSC1058",
+      "section": "01",
+      "source_code": "CSC-1058"
+    },
+    {
+      "course_id": "CSC1059",
+      "section": "01",
+      "source_code": "CSC-1059"
+    },
+    {
+      "course_id": "CSC2054",
+      "section": "01",
+      "source_code": "CSC-2054"
+    },
+    {
+      "course_id": "CSC3053",
+      "section": "01",
+      "source_code": "CSC-3053"
+    },
+    {
+      "course_id": "CSC3054",
+      "section": "01",
+      "source_code": "CSC-3054"
+    },
+    {
+      "course_id": "CSC3058",
+      "section": "01",
+      "source_code": "CSC-3058"
+    },
+    {
+      "course_id": "CSC3059",
+      "section": "01",
+      "source_code": "CSC-3059"
+    },
+    {
+      "course_id": "CSC3090",
+      "section": "01",
+      "source_code": "CSC-3090"
+    },
+    {
+      "course_id": "CSC4054",
+      "section": "01",
+      "source_code": "CSC-4054"
+    },
+    {
+      "course_id": "CSC4095",
+      "section": "I1",
+      "source_code": "CSC-4095"
+    },
+    {
+      "course_id": "CSC4098",
+      "section": "01",
+      "source_code": "CSC-4098"
+    },
+    {
+      "course_id": "ECO2003",
+      "section": "01",
+      "source_code": "ECO-2003"
+    },
+    {
+      "course_id": "ECO3036",
+      "section": "01",
+      "source_code": "ECO-3036"
+    },
+    {
+      "course_id": "ENG1001",
+      "section": "01",
+      "source_code": "ENG-1001"
+    },
+    {
+      "course_id": "ENG1002",
+      "section": "01",
+      "source_code": "ENG-1002"
+    },
+    {
+      "course_id": "ENG2007",
+      "section": "G1",
+      "source_code": "ENG-2007"
+    },
+    {
+      "course_id": "ENG2008",
+      "section": "03",
+      "source_code": "ENG-2008"
+    },
+    {
+      "course_id": "ENG2009",
+      "section": "01",
+      "source_code": "ENG-2009"
+    },
+    {
+      "course_id": "ENG2085",
+      "section": "01",
+      "source_code": "ENG-2085"
+    },
+    {
+      "course_id": "ENG3014",
+      "section": "01",
+      "source_code": "ENG-3014"
+    },
+    {
+      "course_id": "ENG3015",
+      "section": "01",
+      "source_code": "ENG-3015"
+    },
+    {
+      "course_id": "ENG3020",
+      "section": "01",
+      "source_code": "ENG-3020"
+    },
+    {
+      "course_id": "ENG3025",
+      "section": "01",
+      "source_code": "ENG-3025"
+    },
+    {
+      "course_id": "ENG4012",
+      "section": "01",
+      "source_code": "ENG-4012"
+    },
+    {
+      "course_id": "ENS3011",
+      "section": "01",
+      "source_code": "ENS-3011"
+    },
+    {
+      "course_id": "ETP2020",
+      "section": "01",
+      "source_code": "ETP-2020"
+    },
+    {
+      "course_id": "FIN3041",
+      "section": "01",
+      "source_code": "FIN-3041"
+    },
+    {
+      "course_id": "FIN3042",
+      "section": "01",
+      "source_code": "FIN-3042"
+    },
+    {
+      "course_id": "FIN3047",
+      "section": "01",
+      "source_code": "FIN-3047"
+    },
+    {
+      "course_id": "FIN3050",
+      "section": "01",
+      "source_code": "FIN-3050"
+    },
+    {
+      "course_id": "FIN4047",
+      "section": "01",
+      "source_code": "FIN-4047"
+    },
+    {
+      "course_id": "FIN4053",
+      "section": "01",
+      "source_code": "FIN-4053"
+    },
+    {
+      "course_id": "FIN4055",
+      "section": "01",
+      "source_code": "FIN-4055"
+    },
+    {
+      "course_id": "FRE1002",
+      "section": "01",
+      "source_code": "FRE-1002"
+    },
+    {
+      "course_id": "FRE2002",
+      "section": "01",
+      "source_code": "FRE-2002"
+    },
+    {
+      "course_id": "GSC1002",
+      "section": "01",
+      "source_code": "GSC-1002"
+    },
+    {
+      "course_id": "GSC1011",
+      "section": "01",
+      "source_code": "GSC-1011"
+    },
+    {
+      "course_id": "GSC1012",
+      "section": "G1",
+      "source_code": "GSC-1012"
+    },
+    {
+      "course_id": "HIS1002",
+      "section": "01",
+      "source_code": "HIS-1002"
+    },
+    {
+      "course_id": "HIS1003",
+      "section": "01",
+      "source_code": "HIS-1003"
+    },
+    {
+      "course_id": "HIS2006",
+      "section": "01",
+      "source_code": "HIS-2006"
+    },
+    {
+      "course_id": "HON3000",
+      "section": "01",
+      "source_code": "HON-3000"
+    },
+    {
+      "course_id": "HSC1030",
+      "section": "01",
+      "source_code": "HSC-1030"
+    },
+    {
+      "course_id": "HSC1040",
+      "section": "01",
+      "source_code": "HSC-1040"
+    },
+    {
+      "course_id": "HSC1060",
+      "section": "01",
+      "source_code": "HSC-1060"
+    },
+    {
+      "course_id": "HSC2007",
+      "section": "W1",
+      "source_code": "HSC-2007"
+    },
+    {
+      "course_id": "HSC2046",
+      "section": "W1",
+      "source_code": "HSC-2046"
+    },
+    {
+      "course_id": "HSC2050",
+      "section": "01",
+      "source_code": "HSC-2050"
+    },
+    {
+      "course_id": "HSC3008",
+      "section": "01",
+      "source_code": "HSC-3008"
+    },
+    {
+      "course_id": "HSC3015",
+      "section": "01",
+      "source_code": "HSC-3015"
+    },
+    {
+      "course_id": "HSC3080",
+      "section": "01",
+      "source_code": "HSC-3080"
+    },
+    {
+      "course_id": "HSC3097",
+      "section": "01",
+      "source_code": "HSC-3097"
+    },
+    {
+      "course_id": "HSC3099",
+      "section": "01",
+      "source_code": "HSC-3099"
+    },
+    {
+      "course_id": "HSC4010",
+      "section": "W1",
+      "source_code": "HSC-4010"
+    },
+    {
+      "course_id": "HSC4014",
+      "section": "W1",
+      "source_code": "HSC-4014"
+    },
+    {
+      "course_id": "HUS2043",
+      "section": "01",
+      "source_code": "HUS-2043"
+    },
+    {
+      "course_id": "HUS2045",
+      "section": "01",
+      "source_code": "HUS-2045"
+    },
+    {
+      "course_id": "HUS3007",
+      "section": "01",
+      "source_code": "HUS-3007"
+    },
+    {
+      "course_id": "HUS3012",
+      "section": "01",
+      "source_code": "HUS-3012"
+    },
+    {
+      "course_id": "HUS3019",
+      "section": "01",
+      "source_code": "HUS-3019"
+    },
+    {
+      "course_id": "HUS3025",
+      "section": "01",
+      "source_code": "HUS-3025"
+    },
+    {
+      "course_id": "HUS3027",
+      "section": "01",
+      "source_code": "HUS-3027"
+    },
+    {
+      "course_id": "HUS3090",
+      "section": "G1",
+      "source_code": "HUS-3090"
+    },
+    {
+      "course_id": "HUS4041",
+      "section": "01",
+      "source_code": "HUS-4041"
+    },
+    {
+      "course_id": "HUS4095",
+      "section": "I3",
+      "source_code": "HUS-4095"
+    },
+    {
+      "course_id": "INF2010",
+      "section": "01",
+      "source_code": "INF-2010"
+    },
+    {
+      "course_id": "INF3030",
+      "section": "01",
+      "source_code": "INF-3030"
+    },
+    {
+      "course_id": "INF3054",
+      "section": "01",
+      "source_code": "INF-3054"
+    },
+    {
+      "course_id": "INF4020",
+      "section": "01",
+      "source_code": "INF-4020"
+    },
+    {
+      "course_id": "INF4040",
+      "section": "01",
+      "source_code": "INF-4040"
+    },
+    {
+      "course_id": "MAT1001",
+      "section": "01",
+      "source_code": "MAT-1001"
+    },
+    {
+      "course_id": "MAT1006",
+      "section": "01",
+      "source_code": "MAT-1006"
+    },
+    {
+      "course_id": "MAT1010",
+      "section": "01",
+      "source_code": "MAT-1010"
+    },
+    {
+      "course_id": "MAT1011",
+      "section": "01",
+      "source_code": "MAT-1011"
+    },
+    {
+      "course_id": "MAT1014",
+      "section": "01",
+      "source_code": "MAT-1014"
+    },
+    {
+      "course_id": "MAT1017",
+      "section": "01",
+      "source_code": "MAT-1017"
+    },
+    {
+      "course_id": "MAT1020",
+      "section": "01",
+      "source_code": "MAT-1020"
+    },
+    {
+      "course_id": "MAT1021",
+      "section": "01",
+      "source_code": "MAT-1021"
+    },
+    {
+      "course_id": "MAT1022",
+      "section": "01",
+      "source_code": "MAT-1022"
+    },
+    {
+      "course_id": "MAT2013",
+      "section": "01",
+      "source_code": "MAT-2013"
+    },
+    {
+      "course_id": "MAT2021",
+      "section": "01",
+      "source_code": "MAT-2021"
+    },
+    {
+      "course_id": "MAT2022",
+      "section": "01",
+      "source_code": "MAT-2022"
+    },
+    {
+      "course_id": "MAT3025",
+      "section": "01",
+      "source_code": "MAT-3025"
+    },
+    {
+      "course_id": "MDL4051",
+      "section": "01",
+      "source_code": "MDL-4051"
+    },
+    {
+      "course_id": "MGT3006",
+      "section": "01",
+      "source_code": "MGT-3006"
+    },
+    {
+      "course_id": "MGT3035",
+      "section": "01",
+      "source_code": "MGT-3035"
+    },
+    {
+      "course_id": "MGT3050",
+      "section": "01",
+      "source_code": "MGT-3050"
+    },
+    {
+      "course_id": "MGT4035",
+      "section": "01",
+      "source_code": "MGT-4035"
+    },
+    {
+      "course_id": "MGT4037",
+      "section": "01",
+      "source_code": "MGT-4037"
+    },
+    {
+      "course_id": "MGT4090",
+      "section": "01",
+      "source_code": "MGT-4090"
+    },
+    {
+      "course_id": "MGT4095",
+      "section": "I3",
+      "source_code": "MGT-4095"
+    },
+    {
+      "course_id": "MKT3037",
+      "section": "01",
+      "source_code": "MKT-3037"
+    },
+    {
+      "course_id": "MSM2010",
+      "section": "01",
+      "source_code": "MSM-2010"
+    },
+    {
+      "course_id": "MUS1006",
+      "section": "01",
+      "source_code": "MUS-1006"
+    },
+    {
+      "course_id": "MUS1007",
+      "section": "01",
+      "source_code": "MUS-1007"
+    },
+    {
+      "course_id": "MUS1008",
+      "section": "01",
+      "source_code": "MUS-1008"
+    },
+    {
+      "course_id": "MUS1090",
+      "section": "01",
+      "source_code": "MUS-1090"
+    },
+    {
+      "course_id": "MUS2000",
+      "section": "01",
+      "source_code": "MUS-2000"
+    },
+    {
+      "course_id": "MUS2004",
+      "section": "01",
+      "source_code": "MUS-2004"
+    },
+    {
+      "course_id": "MUS2006",
+      "section": "01",
+      "source_code": "MUS-2006"
+    },
+    {
+      "course_id": "MUS2027",
+      "section": "01",
+      "source_code": "MUS-2027"
+    },
+    {
+      "course_id": "MUS3023",
+      "section": "01",
+      "source_code": "MUS-3023"
+    },
+    {
+      "course_id": "MUS4007",
+      "section": "01",
+      "source_code": "MUS-4007"
+    },
+    {
+      "course_id": "MUS4009",
+      "section": "01",
+      "source_code": "MUS-4009"
+    },
+    {
+      "course_id": "PAS1092",
+      "section": "01",
+      "source_code": "PAS-1092"
+    },
+    {
+      "course_id": "PAS2006",
+      "section": "01",
+      "source_code": "PAS-2006"
+    },
+    {
+      "course_id": "PAS2092",
+      "section": "01",
+      "source_code": "PAS-2092"
+    },
+    {
+      "course_id": "PAS3001",
+      "section": "01",
+      "source_code": "PAS-3001"
+    },
+    {
+      "course_id": "PHL2000",
+      "section": "01",
+      "source_code": "PHL-2000"
+    },
+    {
+      "course_id": "PHL2014",
+      "section": "01",
+      "source_code": "PHL-2014"
+    },
+    {
+      "course_id": "PHL2015",
+      "section": "01",
+      "source_code": "PHL-2015"
+    },
+    {
+      "course_id": "PHL2016",
+      "section": "G1",
+      "source_code": "PHL-2016"
+    },
+    {
+      "course_id": "PHL2017",
+      "section": "01",
+      "source_code": "PHL-2017"
+    },
+    {
+      "course_id": "PHL2019",
+      "section": "01",
+      "source_code": "PHL-2019"
+    },
+    {
+      "course_id": "PHL3003",
+      "section": "01",
+      "source_code": "PHL-3003"
+    },
+    {
+      "course_id": "PHL4001",
+      "section": "01",
+      "source_code": "PHL-4001"
+    },
+    {
+      "course_id": "PHY1003",
+      "section": "01",
+      "source_code": "PHY-1003"
+    },
+    {
+      "course_id": "PHY1004",
+      "section": "01",
+      "source_code": "PHY-1004"
+    },
+    {
+      "course_id": "PHY1005",
+      "section": "01",
+      "source_code": "PHY-1005"
+    },
+    {
+      "course_id": "PHY1006",
+      "section": "01",
+      "source_code": "PHY-1006"
+    },
+    {
+      "course_id": "PHY1081",
+      "section": "01",
+      "source_code": "PHY-1081"
+    },
+    {
+      "course_id": "PHY2051",
+      "section": "01",
+      "source_code": "PHY-2051"
+    },
+    {
+      "course_id": "PHY3042",
+      "section": "01",
+      "source_code": "PHY-3042"
+    },
+    {
+      "course_id": "POL1001",
+      "section": "01",
+      "source_code": "POL-1001"
+    },
+    {
+      "course_id": "POL1002",
+      "section": "01",
+      "source_code": "POL-1002"
+    },
+    {
+      "course_id": "POL2004",
+      "section": "01",
+      "source_code": "POL-2004"
+    },
+    {
+      "course_id": "POL3001",
+      "section": "01",
+      "source_code": "POL-3001"
+    },
+    {
+      "course_id": "POL3003",
+      "section": "01",
+      "source_code": "POL-3003"
+    },
+    {
+      "course_id": "POL3004",
+      "section": "01",
+      "source_code": "POL-3004"
+    },
+    {
+      "course_id": "POL3010",
+      "section": "01",
+      "source_code": "POL-3010"
+    },
+    {
+      "course_id": "POL4060",
+      "section": "01",
+      "source_code": "POL-4060"
+    },
+    {
+      "course_id": "POL4082",
+      "section": "01",
+      "source_code": "POL-4082"
+    },
+    {
+      "course_id": "POL4095",
       "section": "I2",
-      "source_line": "ART-4095 I2 Independent Study MC To be Announced1 LEC"
+      "source_code": "POL-4095"
     },
     {
-      "course_id": "ART-4095",
-      "section": "I3",
-      "source_line": "ART-4095 I3 Independent Study MC To be Announced1"
-    },
-    {
-      "course_id": "ART-4095",
-      "section": "I4",
-      "source_line": "ART-4095 I4 Independent Study MC To be Announced1"
-    },
-    {
-      "course_id": "BES-1010",
+      "course_id": "PSY1001",
       "section": "01",
-      "source_line": "BES-1010 01 Business Mathematics MC TR 04:00 PM 05:40 PM P. White DHAL 2054 LEC"
+      "source_code": "PSY-1001"
     },
     {
-      "course_id": "BES-1014",
+      "course_id": "PSY2006",
       "section": "01",
-      "source_line": "BES-1014 01 Business Statistics MC TR 10:00 AM 11:40 AM P. White DHAL 2544 LEC"
+      "source_code": "PSY-2006"
     },
     {
-      "course_id": "BES-4030",
+      "course_id": "PSY2008",
       "section": "01",
-      "source_line": "BES-4030 01 Internship MC To be Announced4 LEC"
+      "source_code": "PSY-2008"
     },
     {
-      "course_id": "BES-4059",
-      "section": "W1",
-      "source_line": "BES-4059 W1 BES Senior Seminar MC MW 02:00 PM 03:40 PM H. Dameron, D. Elli DHAL 2054 LEC"
-    },
-    {
-      "course_id": "BIO-1001",
+      "course_id": "PSY2009",
       "section": "01",
-      "source_line": "BIO-1001 01 Human Biology MC MWF 10:00 AM 10:50 AM K. Baskerville SCIB 1194 LEC"
+      "source_code": "PSY-2009"
     },
     {
-      "course_id": "BIO-1001",
-      "section": "02",
-      "source_line": "BIO-1001 02 Human Biology MC WF 10:00 AM 11:15 AM M. Norman SCIB 1234 LEC"
-    },
-    {
-      "course_id": "BIO-1001",
-      "section": "03",
-      "source_line": "BIO-1001 03 Human Biology MC TR 02:00 PM 03:15 PM C. Long SCIB 1134 LEC"
-    },
-    {
-      "course_id": "BIO-1003",
+      "course_id": "PSY2014",
       "section": "01",
-      "source_line": "BIO-1003 01 General Biology I for Bio Maj MC TR 10:00 AM 11:15 AM M. Norman SCIB 1234 LEC"
+      "source_code": "PSY-2014"
     },
     {
-      "course_id": "BIO-1004",
+      "course_id": "PSY3001",
       "section": "01",
-      "source_line": "BIO-1004 01 General Biology II for Bio Maj MC TR 10:00 AM 11:15 AM J. McCarthy SCIB 1194 LEC"
+      "source_code": "PSY-3001"
     },
     {
-      "course_id": "BIO-1004",
-      "section": "02",
-      "source_line": "BIO-1004 02 General Biology II for Bio Maj MC MW 10:00 AM 11:15 AM E. Humphrey SCIB 1114 LEC"
+      "course_id": "PSY3006",
+      "section": "01",
+      "source_code": "PSY-3006"
     },
     {
-      "course_id": "BIO-2000",
+      "course_id": "PSY3013",
+      "section": "01",
+      "source_code": "PSY-3013"
+    },
+    {
+      "course_id": "PSY3016",
+      "section": "01",
+      "source_code": "PSY-3016"
+    },
+    {
+      "course_id": "PSY3019",
+      "section": "01",
+      "source_code": "PSY-3019"
+    },
+    {
+      "course_id": "PSY3021",
       "section": "G1",
-      "source_line": "BIO-2000 G1 HIV/Aids GC M 05:30 PM 09:00 PM J. Williams4 LEC"
+      "source_code": "PSY-3021"
     },
     {
-      "course_id": "BIO-2005",
+      "course_id": "PSY3024",
       "section": "01",
-      "source_line": "BIO-2005 01 Anatomy and Physiology I MC TR 10:00 AM 11:15 AM J. Parnell-Peake SCIB 1184 LEC"
+      "source_code": "PSY-3024"
     },
     {
-      "course_id": "BIO-2006",
+      "course_id": "PSY4004",
       "section": "01",
-      "source_line": "BIO-2006 01 Anatomy and Physiology II MC MW 08:30 AM 09:45 AM E. Humphrey SCIB 1184 LEC"
+      "source_code": "PSY-4004"
     },
     {
-      "course_id": "BIO-2007",
-      "section": "01",
-      "source_line": "BIO-2007 01 Cell Biology MC TR 08:30 AM 09:45 AM J. Parnell-Peake SCIB 1184 LEC"
-    },
-    {
-      "course_id": "BIO-2008",
-      "section": "01",
-      "source_line": "BIO-2008 01 Genetics MC TR 10:00 AM 11:15 AM A. Hull SCIB 1114 LEC"
-    },
-    {
-      "course_id": "BIO-2011",
-      "section": "01",
-      "source_line": "BIO-2011 01 Intro to Biological Research MC WF 10:00 AM 12:00 PM S. Safford SCIB 2014 LEC"
-    },
-    {
-      "course_id": "BIO-3001",
-      "section": "01",
-      "source_line": "BIO-3001 01 Endocrinology MC MTWF 09:00 AM 09:50 AM S. Safford SCIB 1114 LEC"
-    },
-    {
-      "course_id": "BIO-3004",
-      "section": "01",
-      "source_line": "BIO-3004 01 Developmental Biology MC TR 10:00 AM 11:15 AM J. Zoodsma, C. Dre SCIB 1204 LEC"
-    },
-    {
-      "course_id": "BIO-3005",
-      "section": "01",
-      "source_line": "BIO-3005 01 Biological Techniques MC W 02:00 PM 06:00 PM J. Gallagher SCIB 2234 LEC"
-    },
-    {
-      "course_id": "BIO-3008",
-      "section": "01",
-      "source_line": "BIO-3008 01 Histology MC MWF 09:00 AM 09:50 AM K. Baskerville SCIB 1304 LEC"
-    },
-    {
-      "course_id": "BIO-3011",
-      "section": "01",
-      "source_line": "BIO-3011 01 Conservation Biology MC MW 12:00 PM 01:45 PM J. McCarthy SCIB 1114 LEC"
-    },
-    {
-      "course_id": "BIO-3090",
-      "section": "01",
-      "source_line": "BIO-3090 01 ST: Life Science Innovation MC MW 02:00 PM 03:45 PM R. Saunders SCIB 1184 LEC"
-    },
-    {
-      "course_id": "BIO-4001",
-      "section": "01",
-      "source_line": "BIO-4001 01 Microbiology MC TR 10:00 AM 11:15 AM R. Saunders SCIB 1224 LEC"
-    },
-    {
-      "course_id": "BIO-4014",
-      "section": "01",
-      "source_line": "BIO-4014 01 Biology Research II MC F 12:00 PM 12:50 PM K. Baskerville SCIB 1302 LEC"
-    },
-    {
-      "course_id": "BUS-1001",
-      "section": "02",
-      "source_line": "BUS-1001 02 Introduction to Business MC TR 10:00 AM 11:40 AM G. Ridgely DHAL 2534 LEC"
-    },
-    {
-      "course_id": "BUS-3034",
-      "section": "01",
-      "source_line": "BUS-3034 01 Business Law MC TR 10:00 AM 11:40 AM D. Zhang4 LEC"
-    },
-    {
-      "course_id": "BUS-4041",
-      "section": "01",
-      "source_line": "BUS-4041 01 International Business MC MW 10:00 AM 11:40 AM D. Elliott DHAL 2544 LEC"
-    },
-    {
-      "course_id": "CHE-1001",
-      "section": "01",
-      "source_line": "CHE-1001 01 Chemistry in Action MC TR 10:00 AM 11:40 AM A. Tung SCIB 1284 LEC"
-    },
-    {
-      "course_id": "CHE-1003",
-      "section": "01",
-      "source_line": "CHE-1003 01 General Chemistry I MC MW 08:30 AM 09:45 AM T. Booker SCIB 1234 LEC"
-    },
-    {
-      "course_id": "CHE-1004",
-      "section": "01",
-      "source_line": "CHE-1004 01 General Chemistry II MC MW 08:30 AM 09:45 AM J. Hayes SCIB 1194 LEC"
-    },
-    {
-      "course_id": "CHE-1020",
-      "section": "01",
-      "source_line": "CHE-1020 01 Che. for Health Science MC MW 10:00 AM 11:15 AM S. Mahmud SCIB 1304 LEC"
-    },
-    {
-      "course_id": "CHE-2001",
-      "section": "01",
-      "source_line": "CHE-2001 01 Quantitative Analysis MC MW 10:00 AM 11:15 AM T. Booker SCIB 3034 LEC"
-    },
-    {
-      "course_id": "CHE-2003",
-      "section": "01",
-      "source_line": "CHE-2003 01 Organic Chemistry I MC MWF 10:00 AM 10:50 AM T. Gluodenis SCIB 3184 LEC"
-    },
-    {
-      "course_id": "CHE-2004",
-      "section": "01",
-      "source_line": "CHE-2004 01 Organic Chemistry II MC MWF 11:00 AM 11:50 AM T. Gluodenis SCIB 3184 LEC"
-    },
-    {
-      "course_id": "CHE-2005",
-      "section": "01",
-      "source_line": "CHE-2005 01 Inorganic Chemistry MC TR 02:00 PM 03:15 PM V. Herrera SCIB 1304 LEC"
-    },
-    {
-      "course_id": "CHE-3001",
-      "section": "01",
-      "source_line": "CHE-3001 01 Physical Chemistry II MC MW 11:00 AM 12:15 PM J. Hayes SCIB 1074 LEC"
-    },
-    {
-      "course_id": "CHE-3003",
-      "section": "01",
-      "source_line": "CHE-3003 01 Biochemistry I MC TR 10:00 AM 11:15 AM C. Gallagher SCIB 3034 LEC"
-    },
-    {
-      "course_id": "CHE-3004",
-      "section": "01",
-      "source_line": "CHE-3004 01 Biochemistry II MC TR 08:30 AM 09:45 AM V. Herrera SCIB 1304 LEC"
-    },
-    {
-      "course_id": "CHE-3010",
-      "section": "01",
-      "source_line": "CHE-3010 01 Research Seminar I MC W 08:00 AM 09:50 AM C. Gallagher SCIB 3034 LEC"
-    },
-    {
-      "course_id": "CHE-3090",
-      "section": "01",
-      "source_line": "CHE-3090 01 ST: Metabolism MC MW 12:00 PM 01:40 PM C. Gallagher SCIB 3034 LEC"
-    },
-    {
-      "course_id": "CHI-1001",
-      "section": "01",
-      "source_line": "CHI-1001 01 Elementary Chinese I MC MTWF 09:00 AM 09:50 AM M. Yang UNIV 2054 LEC"
-    },
-    {
-      "course_id": "COM-2001",
-      "section": "01",
-      "source_line": "COM-2001 01 Intro to Media Studies MC TR 10:00 AM 11:40 AM M. Sneed-Jacobs SCIB 1094 LEC"
-    },
-    {
-      "course_id": "COM-2002",
-      "section": "W1",
-      "source_line": "COM-2002 W1 Writing for Communication Prof MC TR 04:00 PM 05:40 PM M. Sneed-Jacobs GRIM 3064 LEC"
-    },
-    {
-      "course_id": "COM-2003",
-      "section": "01",
-      "source_line": "COM-2003 01 Public Speaking MC MW 12:00 PM 01:40 PM T. Whitfield GRIM 3064 LEC"
-    },
-    {
-      "course_id": "COM-2005",
-      "section": "01",
-      "source_line": "COM-2005 01 Human Communication MC TR 02:00 PM 03:40 PM N. Files-Thompson GRIM 2064 LEC"
-    },
-    {
-      "course_id": "COM-2007",
-      "section": "01",
-      "source_line": "COM-2007 01 Media Technology MC MW 10:00 AM 11:40 AM J. Smith GRIM 2074 LEC"
-    },
-    {
-      "course_id": "COM-3000",
-      "section": "01",
-      "source_line": "COM-3000 01 Communication Theory MC MW 04:00 PM 05:40 PM T. Whitfield GRIM 3064 LEC"
-    },
-    {
-      "course_id": "COM-3002",
-      "section": "01",
-      "source_line": "COM-3002 01 Strategic Communication MC MW 12:00 PM 01:40 PM K. Stephens GRIM 1164 LEC"
-    },
-    {
-      "course_id": "COM-3012",
-      "section": "01",
-      "source_line": "COM-3012 01 Audio Production MC MW 12:00 PM 01:40 PM J. Smith GRIM 2074 LEC"
-    },
-    {
-      "course_id": "COM-3020",
-      "section": "01",
-      "source_line": "COM-3020 01 Gender and the Media MC MW 02:00 PM 03:40 PM T. Whitfield GRIM 3064 LEC"
-    },
-    {
-      "course_id": "COM-3022",
-      "section": "01",
-      "source_line": "COM-3022 01 African Americans and Media MC TR 02:00 PM 03:40 PM M. Sneed-Jacobs GRIM 3074 LEC"
-    },
-    {
-      "course_id": "COM-3023",
-      "section": "01",
-      "source_line": "COM-3023 01 Media and Popular Culture MC TR 10:00 AM 11:40 AM N. Files-Thompson GRIM 2074 LEC"
-    },
-    {
-      "course_id": "COM-3032",
-      "section": "01",
-      "source_line": "COM-3032 01 Digital Media Strategies MC MW 02:00 PM 03:40 PM J. Smith GRIM 1164 LEC"
-    },
-    {
-      "course_id": "COM-4001",
-      "section": "W1",
-      "source_line": "COM-4001 W1 Research Methods in Mass Com MC MW 02:00 PM 03:40 PM L. Pelliccio GRIM 3134 LEC"
-    },
-    {
-      "course_id": "COM-4005",
-      "section": "01",
-      "source_line": "COM-4005 01 Strategic Communication Campa MC MW 10:00 AM 11:40 AM K. Stephens GRIM 1164 LEC"
-    },
-    {
-      "course_id": "COM-4050",
-      "section": "01",
-      "source_line": "COM-4050 01 Social Media Management MC M 04:00 PM 08:00 PM L. Pelliccio GRIM 1164 LEC"
-    },
-    {
-      "course_id": "COM-4052",
-      "section": "01",
-      "source_line": "COM-4052 01 Lincolnian Practicum MC TR 04:00 PM 05:40 PM T. Davis LHML 3104 LEC"
-    },
-    {
-      "course_id": "CRJ-2003",
-      "section": "01",
-      "source_line": "CRJ-2003 01 Intro to Criminal Justice Sys MC MW 04:00 PM 05:40 PM B. Miller DHAL 3264 LEC"
-    },
-    {
-      "course_id": "CRJ-2007",
-      "section": "01",
-      "source_line": "CRJ-2007 01 Criminal Law I MC MW 10:00 AM 11:40 AM K. Smith-Williamso DHAL 1054 LEC"
-    },
-    {
-      "course_id": "CRJ-3001",
-      "section": "01",
-      "source_line": "CRJ-3001 01 Law and Society MC TR 08:00 AM 09:40 AM G. Koon DHAL 3264 LEC"
-    },
-    {
-      "course_id": "CRJ-3014",
-      "section": "01",
-      "source_line": "CRJ-3014 01 Criminological Theory MC TR 10:00 AM 11:40 AM M. Pass DHAL 3754 LEC"
-    },
-    {
-      "course_id": "CRJ-3015",
-      "section": "01",
-      "source_line": "CRJ-3015 01 Ct & Corrections MC TR 10:00 AM 11:40 AM G. Koon DHAL 3264 LEC"
-    },
-    {
-      "course_id": "CRJ-3020",
-      "section": "01",
-      "source_line": "CRJ-3020 01 Intro to Law Enforcement MC TR 02:00 PM 03:40 PM R. Gibbs DHAL 3264 LEC"
-    },
-    {
-      "course_id": "CRJ-3023",
-      "section": "01",
-      "source_line": "CRJ-3023 01 Criminal Justice Admin MC MW 04:00 PM 05:40 PM K. Smith-Williamso DHAL 3734 LEC"
-    },
-    {
-      "course_id": "CRJ-3052",
-      "section": "01",
-      "source_line": "CRJ-3052 01 Criminal Law II MC MW 02:00 PM 03:40 PM K. Smith-Williamso DHAL 3734 LEC"
-    },
-    {
-      "course_id": "CSC-1051",
-      "section": "03",
-      "source_line": "CSC-1051 03 Computer Applications & Coding MC MW 10:00 AM 11:40 AM To be Announced SCIB 1224 LEC"
-    },
-    {
-      "course_id": "CSC-1052",
-      "section": "01",
-      "source_line": "CSC-1052 01 Introduction to Computer Progr MC MW 08:00 AM 09:40 AM M. Samizadeh SCIB 1224 LEC"
-    },
-    {
-      "course_id": "CSC-1052",
-      "section": "02",
-      "source_line": "CSC-1052 02 Introduction to Computer Progr MC TR 02:00 PM 03:40 PM B. Falah SCIB 1244 LEC"
-    },
-    {
-      "course_id": "CSC-1058",
-      "section": "01",
-      "source_line": "CSC-1058 01 Computer Programming I MC MW 10:00 AM 11:40 AM M. Samizadeh4 LEC"
-    },
-    {
-      "course_id": "CSC-1059",
-      "section": "01",
-      "source_line": "CSC-1059 01 Computer Programming II MC MW 04:00 PM 05:40 PM D. Dedefa4 LEC"
-    },
-    {
-      "course_id": "CSC-2054",
-      "section": "01",
-      "source_line": "CSC-2054 01 Data Structures MC TR 10:00 AM 11:40 AM O. Tawose4 LEC"
-    },
-    {
-      "course_id": "CSC-3053",
-      "section": "01",
-      "source_line": "CSC-3053 01 Computer Orgnztn & Archictr MC TR 10:00 AM 11:40 AM B. Falah4 LEC"
-    },
-    {
-      "course_id": "CSC-3054",
-      "section": "01",
-      "source_line": "CSC-3054 01 Database Design & Development MC MW 12:00 PM 01:40 PM D. Dedefa SCIB 2504 LEC"
-    },
-    {
-      "course_id": "CSC-3058",
-      "section": "01",
-      "source_line": "CSC-3058 01 Artfcl Intllgnc & McHn Lrng MC MW 02:00 PM 03:40 PM M. Samizadeh4 LEC"
-    },
-    {
-      "course_id": "CSC-3059",
-      "section": "01",
-      "source_line": "CSC-3059 01 Cyber Scrty & Informtn Assrnc MC MW 10:00 AM 11:40 AM D. Dedefa4 LEC"
-    },
-    {
-      "course_id": "CSC-3090",
-      "section": "01",
-      "source_line": "CSC-3090 01 Special Topics MC TR 08:00 AM 09:40 AM B. Falah4 LEC"
-    },
-    {
-      "course_id": "CSC-4054",
-      "section": "01",
-      "source_line": "CSC-4054 01 Software Engineering MC TR 02:00 PM 03:40 PM O. Tawose4 LEC"
-    },
-    {
-      "course_id": "CSC-4095",
+      "course_id": "PSY4095",
       "section": "I1",
-      "source_line": "CSC-4095 I1 Independent Study MC To be Announced1"
+      "source_code": "PSY-4095"
     },
     {
-      "course_id": "CSC-4095",
-      "section": "I2",
-      "source_line": "CSC-4095 I2 Independent Study MC To be Announced1"
-    },
-    {
-      "course_id": "CSC-4095",
-      "section": "I3",
-      "source_line": "CSC-4095 I3 Independent Study MC To be Announced1"
-    },
-    {
-      "course_id": "CSC-4098",
-      "section": "01",
-      "source_line": "CSC-4098 01 Topics in Computer Science MC TR 04:00 PM 05:40 PM T. Smith4 LEC"
-    },
-    {
-      "course_id": "ECO-2003",
-      "section": "01",
-      "source_line": "ECO-2003 01 Principles of Economics MC TR 08:00 AM 09:40 AM G. Ridgely DHAL 2534 LEC"
-    },
-    {
-      "course_id": "ECO-3036",
-      "section": "01",
-      "source_line": "ECO-3036 01 Managerial Economics MC MW 08:00 AM 09:40 AM C. Phillips4 LEC"
-    },
-    {
-      "course_id": "ENG-1001",
-      "section": "01",
-      "source_line": "ENG-1001 01 English Composition I MC MW 10:00 AM 11:40 AM W. Young UNIV 1014 LEC"
-    },
-    {
-      "course_id": "ENG-1001",
-      "section": "02",
-      "source_line": "ENG-1001 02 English Composition I MC MW 12:00 PM 01:40 PM W. Young UNIV 1044 LEC"
-    },
-    {
-      "course_id": "ENG-1002",
-      "section": "01",
-      "source_line": "ENG-1002 01 English Comp II MC MW 08:00 AM 09:40 AM T. Davis UNIV 1044 LEC"
-    },
-    {
-      "course_id": "ENG-1002",
-      "section": "02",
-      "source_line": "ENG-1002 02 English Comp II MC MW 10:00 AM 11:40 AM S. Robinson UNIV 2024 LEC"
-    },
-    {
-      "course_id": "ENG-1002",
-      "section": "03",
-      "source_line": "ENG-1002 03 English Comp II MC TR 08:00 AM 09:40 AM R. Sample UNIV 1044 LEC"
-    },
-    {
-      "course_id": "ENG-1002",
-      "section": "04",
-      "source_line": "ENG-1002 04 English Comp II MC MW 12:00 PM 01:40 PM A. Lazar UNIV 1034 LEC"
-    },
-    {
-      "course_id": "ENG-1002",
-      "section": "05",
-      "source_line": "ENG-1002 05 English Comp II MC TR 02:00 PM 03:40 PM T. Pennamon UNIV 2024 LEC"
-    },
-    {
-      "course_id": "ENG-1002",
-      "section": "06",
-      "source_line": "ENG-1002 06 English Comp II MC TR 10:00 AM 11:40 AM C. Borror UNIV 1014 LEC"
-    },
-    {
-      "course_id": "ENG-1002",
-      "section": "07",
-      "source_line": "ENG-1002 07 English Comp II MC MW 10:00 AM 11:40 AM T. Davis UNIV 2014 LEC"
-    },
-    {
-      "course_id": "ENG-1002",
-      "section": "08",
-      "source_line": "ENG-1002 08 English Comp II MC MW 10:00 AM 11:40 AM A. Lazar UNIV 1034 LEC"
-    },
-    {
-      "course_id": "ENG-1002",
-      "section": "09",
-      "source_line": "ENG-1002 09 English Comp II MC TR 02:00 PM 03:40 PM J. Ayewoh UNIV 1014 LEC"
-    },
-    {
-      "course_id": "ENG-1002",
-      "section": "10",
-      "source_line": "ENG-1002 10 English Comp II MC MW 10:00 AM 11:40 AM L. Stratton UNIV 1044 LEC"
-    },
-    {
-      "course_id": "ENG-1002",
-      "section": "11",
-      "source_line": "ENG-1002 11 English Comp II MC TR 10:00 AM 11:40 AM D. Amadio UNIV 2014 LEC"
-    },
-    {
-      "course_id": "ENG-1002",
-      "section": "12",
-      "source_line": "ENG-1002 12 English Comp II MC TR 10:00 AM 11:40 AM A. Rogers UNIV 2044 LEC"
-    },
-    {
-      "course_id": "ENG-1002",
-      "section": "13",
-      "source_line": "ENG-1002 13 English Comp II MC TR 10:00 AM 11:40 AM J. Ayewoh LHML 3074 LEC"
-    },
-    {
-      "course_id": "ENG-1002",
-      "section": "14",
-      "source_line": "ENG-1002 14 English Comp II MC TR 10:00 AM 11:40 AM S. Gamie UNIV 2024 LEC"
-    },
-    {
-      "course_id": "ENG-1002",
-      "section": "15",
-      "source_line": "ENG-1002 15 English Comp II MC MW 12:00 PM 01:40 PM W. Donohue LHML 3094 LEC"
-    },
-    {
-      "course_id": "ENG-1002",
-      "section": "16",
-      "source_line": "ENG-1002 16 English Comp II MC MW 12:00 PM 01:40 PM C. Calderon UNIV 1014 LEC"
-    },
-    {
-      "course_id": "ENG-1002",
-      "section": "17",
-      "source_line": "ENG-1002 17 English Comp II MC MW 02:00 PM 03:40 PM K. Spangler UNIV 1024 LEC"
-    },
-    {
-      "course_id": "ENG-1002",
-      "section": "18",
-      "source_line": "ENG-1002 18 English Comp II MC TR 02:00 PM 03:40 PM A. Rogers UNIV 2034 LEC"
-    },
-    {
-      "course_id": "ENG-1002",
-      "section": "19",
-      "source_line": "ENG-1002 19 English Comp II MC MW 02:00 PM 03:40 PM A. Lazar UNIV 1034 LEC"
-    },
-    {
-      "course_id": "ENG-1002",
-      "section": "20",
-      "source_line": "ENG-1002 20 English Comp II MC TR 02:00 PM 03:40 PM C. Borror UNIV 2044 LEC"
-    },
-    {
-      "course_id": "ENG-1002",
-      "section": "G1",
-      "source_line": "ENG-1002 G1 English Comp II GC T 05:30 PM 09:00 PM L. Thomas, J. Wadl4 LEC"
-    },
-    {
-      "course_id": "ENG-2007",
-      "section": "G1",
-      "source_line": "ENG-2007 G1 World Literature I GC S 03:40 PM 07:10 PM To be Announced4 LEC"
-    },
-    {
-      "course_id": "ENG-2007",
-      "section": "W1",
-      "source_line": "ENG-2007 W1 World Literature I MC TR 02:00 PM 03:40 PM S. Gamie UNIV 2064 LEC"
-    },
-    {
-      "course_id": "ENG-2008",
-      "section": "03",
-      "source_line": "ENG-2008 03 World Literature II MC MW 12:00 PM 01:40 PM K. Spangler UNIV 2014 LEC"
-    },
-    {
-      "course_id": "ENG-2008",
-      "section": "04",
-      "source_line": "ENG-2008 04 World Literature II MC MW 10:00 AM 11:40 AM C. Calderon UNIV 1024 LEC"
-    },
-    {
-      "course_id": "ENG-2009",
-      "section": "01",
-      "source_line": "ENG-2009 01 Womens Literature MC TR 10:00 AM 11:40 AM S. Robinson GRIM 2064 LEC"
-    },
-    {
-      "course_id": "ENG-2085",
-      "section": "01",
-      "source_line": "ENG-2085 01 Harlem Renaissance MC TR 02:00 PM 03:40 PM S. Robinson UNIV 2054 LEC"
-    },
-    {
-      "course_id": "ENG-3014",
-      "section": "01",
-      "source_line": "ENG-3014 01 Legal Analysis and Writing MC T 05:30 PM 08:00 PM T. Williams UNIV 1034 LEC"
-    },
-    {
-      "course_id": "ENG-3015",
-      "section": "01",
-      "source_line": "ENG-3015 01 Literary Magazine Publishing MC MW 04:00 PM 05:40 PM D. Amadio UNIV 2014 LEC"
-    },
-    {
-      "course_id": "ENG-3020",
-      "section": "01",
-      "source_line": "ENG-3020 01 Studies in Afro American Lit. MC TR 10:00 AM 11:40 AM T. Pennamon UNIV 2054 LEC"
-    },
-    {
-      "course_id": "ENG-3025",
-      "section": "01",
-      "source_line": "ENG-3025 01 Screenwriting MC MW 02:00 PM 03:40 PM D. Amadio UNIV 1014 LEC"
-    },
-    {
-      "course_id": "ENG-4012",
-      "section": "01",
-      "source_line": "ENG-4012 01 ST: History Makers MC TR 04:00 PM 05:40 PM M. Button UNIV 2064 LEC"
-    },
-    {
-      "course_id": "ENS-3011",
-      "section": "01",
-      "source_line": "ENS-3011 01 Digital Signal Processing MC MW 08:00 AM 09:45 AM V. Zeljkovic SCIB 1054 LEC"
-    },
-    {
-      "course_id": "ETP-2020",
-      "section": "01",
-      "source_line": "ETP-2020 01 Principles of Entrepreneurship MC TR 04:00 PM 05:40 PM To be Announced DHAL 2544 LEC"
-    },
-    {
-      "course_id": "FIN-3041",
-      "section": "01",
-      "source_line": "FIN-3041 01 Financial Management MC MW 04:00 PM 05:40 PM R. Chambers DHAL 2054 LEC"
-    },
-    {
-      "course_id": "FIN-3042",
-      "section": "01",
-      "source_line": "FIN-3042 01 Advanced Financial Managemen MC MW 12:00 PM 01:40 PM C. Phillips DHAL 2054 LEC"
-    },
-    {
-      "course_id": "FIN-3047",
-      "section": "01",
-      "source_line": "FIN-3047 01 International Financial Mgmt MC TR 04:00 PM 05:40 PM To be Announced DHAL 2534 LEC"
-    },
-    {
-      "course_id": "FIN-3050",
-      "section": "01",
-      "source_line": "FIN-3050 01 Principles of Investments MC MW 10:00 AM 11:40 AM C. Phillips DHAL 2054 LEC"
-    },
-    {
-      "course_id": "FIN-4047",
-      "section": "01",
-      "source_line": "FIN-4047 01 Risk Management and Insurance MC MW 04:00 PM 05:40 PM To be Announced DHAL 2554 LEC"
-    },
-    {
-      "course_id": "FIN-4053",
-      "section": "01",
-      "source_line": "FIN-4053 01 Investment & Portfolio Mgmt MC TR 02:00 PM 03:40 PM P. White DHAL 2544 LEC"
-    },
-    {
-      "course_id": "FIN-4055",
-      "section": "01",
-      "source_line": "FIN-4055 01 Financial Institutional Mgmt. MC MW 10:00 AM 11:40 AM H. Dameron DHAL 2554 LEC"
-    },
-    {
-      "course_id": "FRE-1002",
-      "section": "01",
-      "source_line": "FRE-1002 01 Elementary French II MC MW 10:00 AM 11:40 AM N. Siamundele UNIV 2064 LEC"
-    },
-    {
-      "course_id": "FRE-2002",
-      "section": "01",
-      "source_line": "FRE-2002 01 Intermediate French II MC MW 02:00 PM 03:40 PM N. Siamundele UNIV 2064 LEC"
-    },
-    {
-      "course_id": "GSC-1002",
-      "section": "01",
-      "source_line": "GSC-1002 01 Physical Science II MC TR 08:30 AM 09:45 AM M. Badea SCIB 1234 LEC"
-    },
-    {
-      "course_id": "GSC-1011",
-      "section": "01",
-      "source_line": "GSC-1011 01 Environmental Science MC MW 10:00 AM 11:45 AM J. McCarthy SCIB 1064 LEC"
-    },
-    {
-      "course_id": "GSC-1012",
-      "section": "G1",
-      "source_line": "GSC-1012 G1 Food: You and the World GC S 12:00 PM 03:30 PM S. Beyah4 LEC"
-    },
-    {
-      "course_id": "HIS-1002",
-      "section": "01",
-      "source_line": "HIS-1002 01 Modern European History II MC TR 10:00 AM 11:40 AM G. Muzorewa UNIV 1054 LEC"
-    },
-    {
-      "course_id": "HIS-1003",
-      "section": "01",
-      "source_line": "HIS-1003 01 Contemporary World History I MC MW 10:00 AM 11:40 AM S. Edwards4 LEC"
-    },
-    {
-      "course_id": "HIS-1003",
-      "section": "02",
-      "source_line": "HIS-1003 02 Contemporary World History I MC TR 04:00 PM 05:40 PM G. Muzorewa DHAL 135a4 LEC"
-    },
-    {
-      "course_id": "HIS-2006",
-      "section": "01",
-      "source_line": "HIS-2006 01 Afr Amer. History II 1861-1954 MC MW 12:00 PM 01:40 PM S. Edwards DHAL 3744 LEC"
-    },
-    {
-      "course_id": "HON-3000",
-      "section": "01",
-      "source_line": "HON-3000 01 Honors Seminar MC W S. Safford SCIB 2034 LEC"
-    },
-    {
-      "course_id": "HSC-1030",
-      "section": "01",
-      "source_line": "HSC-1030 01 Introduction to Health Science MC TR 02:00 PM 03:40 PM Y. Hilton GRIM 3064 LEC"
-    },
-    {
-      "course_id": "HSC-1030",
-      "section": "02",
-      "source_line": "HSC-1030 02 Introduction to Health Science MC TR 10:00 AM 11:40 AM C. Firkin SCIB 1064 LEC"
-    },
-    {
-      "course_id": "HSC-1040",
-      "section": "01",
-      "source_line": "HSC-1040 01 Medical Terminology MC MWRF 09:00 AM 09:50 AM K. Robell SCIB 1064 LEC"
-    },
-    {
-      "course_id": "HSC-1060",
-      "section": "01",
-      "source_line": "HSC-1060 01 Community Health and Aging MC TR 10:00 AM 11:40 AM D. Butler Aungst WELL 1374 LEC"
-    },
-    {
-      "course_id": "HSC-1060",
-      "section": "02",
-      "source_line": "HSC-1060 02 Community Health and Aging MC TR 02:00 PM 03:40 PM K. Robell SCIB 1044 LEC"
-    },
-    {
-      "course_id": "HSC-2007",
-      "section": "W1",
-      "source_line": "HSC-2007 W1 Health Promo: Theory& Practice MC TR 02:00 PM 03:40 PM C. Firkin SCIB 3084 LEC"
-    },
-    {
-      "course_id": "HSC-2007",
-      "section": "W2",
-      "source_line": "HSC-2007 W2 Health Promo: Theory& Practice MC MW 02:00 PM 03:40 PM S. Nixon SCIB 1044 LEC"
-    },
-    {
-      "course_id": "HSC-2046",
-      "section": "W1",
-      "source_line": "HSC-2046 W1 Cultural Competency & Ethics MC TR 02:00 PM 03:40 PM D. Butler Aungst SCIB 1064 LEC"
-    },
-    {
-      "course_id": "HSC-2046",
-      "section": "W2",
-      "source_line": "HSC-2046 W2 Cultural Competency & Ethics MC MW 10:00 AM 11:40 AM D. Butler Aungst, Y SCIB 1094 LEC"
-    },
-    {
-      "course_id": "HSC-2050",
-      "section": "01",
-      "source_line": "HSC-2050 01 Nutrition MC MW 02:00 PM 03:40 PM K. Robell SCIB 1134 LEC"
-    },
-    {
-      "course_id": "HSC-3008",
-      "section": "01",
-      "source_line": "HSC-3008 01 Kinesiology MC MW 12:00 PM 01:40 PM C. Firkin SCIB 3084 LEC"
-    },
-    {
-      "course_id": "HSC-3015",
-      "section": "01",
-      "source_line": "HSC-3015 01 Principles of Coaching MC MW 10:00 AM 11:40 AM A. Nelson SCIB 3084 LEC"
-    },
-    {
-      "course_id": "HSC-3080",
-      "section": "01",
-      "source_line": "HSC-3080 01 Research and Evaluation MC TR 10:00 AM 11:40 AM A. Oladipo WELL 2234 LEC"
-    },
-    {
-      "course_id": "HSC-3097",
-      "section": "01",
-      "source_line": "HSC-3097 01 Internship Seminar MC WF 10:00 AM 11:40 AM S. Porter WELL 1374 LEC"
-    },
-    {
-      "course_id": "HSC-3099",
-      "section": "01",
-      "source_line": "HSC-3099 01 Health Science Internship MC WF S. Porter4 LEC"
-    },
-    {
-      "course_id": "HSC-4010",
-      "section": "W1",
-      "source_line": "HSC-4010 W1 Program Planning MC WF 12:00 PM 01:40 PM A. Oladipo WELL 2234 LEC"
-    },
-    {
-      "course_id": "HSC-4014",
-      "section": "W1",
-      "source_line": "HSC-4014 W1 Sport Leadership MC MW 02:00 PM 03:40 PM A. Nelson SCIB 1114 LEC"
-    },
-    {
-      "course_id": "HUS-2043",
-      "section": "01",
-      "source_line": "HUS-2043 01 Intro to Hmn Srvcs & Soc Polcy MC MW 12:00 PM 01:40 PM D. Brown DHAL 2964 LEC"
-    },
-    {
-      "course_id": "HUS-2045",
-      "section": "01",
-      "source_line": "HUS-2045 01 Human Growth and Developme MC MW 02:00 PM 03:40 PM D. Brown DHAL 2964 LEC"
-    },
-    {
-      "course_id": "HUS-2045",
-      "section": "G1",
-      "source_line": "HUS-2045 G1 Human Growth and Developme GC To be Announced4"
-    },
-    {
-      "course_id": "HUS-3007",
-      "section": "01",
-      "source_line": "HUS-3007 01 Human Services Methods MC TR 02:00 PM 03:40 PM A. Llewellyn DHAL 1054 LEC"
-    },
-    {
-      "course_id": "HUS-3012",
-      "section": "01",
-      "source_line": "HUS-3012 01 Statistics MC MW 12:00 PM 01:40 PM M. McConatha DHAL 2844 LEC"
-    },
-    {
-      "course_id": "HUS-3012",
-      "section": "G1",
-      "source_line": "HUS-3012 G1 Statistics GC S 08:00 AM 11:30 AM A. Tucho GRAD 3254 LEC"
-    },
-    {
-      "course_id": "HUS-3019",
-      "section": "01",
-      "source_line": "HUS-3019 01 Research Design & Analysis MC MW 10:00 AM 11:40 AM D. Brown DHAL 2964 LEC"
-    },
-    {
-      "course_id": "HUS-3019",
-      "section": "G1",
-      "source_line": "HUS-3019 G1 Research Design & Analysis GC S 08:00 AM 11:30 AM S. Beyah GRAD 3234 LEC"
-    },
-    {
-      "course_id": "HUS-3025",
-      "section": "01",
-      "source_line": "HUS-3025 01 Social Gerontology MC TR 10:00 AM 11:40 AM A. Llewellyn DHAL 2964 LEC"
-    },
-    {
-      "course_id": "HUS-3027",
-      "section": "01",
-      "source_line": "HUS-3027 01 Child Welfare Services MC TR 04:00 PM 05:40 PM A. Llewellyn DHAL 1024 LEC"
-    },
-    {
-      "course_id": "HUS-3027",
-      "section": "G1",
-      "source_line": "HUS-3027 G1 Child Welfare Services GC S 03:40 PM 07:10 PM B. Dawson4 LEC"
-    },
-    {
-      "course_id": "HUS-3090",
-      "section": "G1",
-      "source_line": "HUS-3090 G1 ST: Critical Reading & Writing GC S 12:00 PM 03:30 PM A. Somerville4 LEC"
-    },
-    {
-      "course_id": "HUS-4041",
-      "section": "01",
-      "source_line": "HUS-4041 01 Human Services Capstone MC MW 02:00 PM 03:40 PM M. McConatha4 LEC"
-    },
-    {
-      "course_id": "HUS-4041",
-      "section": "G1",
-      "source_line": "HUS-4041 G1 Human Services Capstone GC 12:00 PM 03:30 PM B. Dawson4 LEC"
-    },
-    {
-      "course_id": "HUS-4095",
-      "section": "I3",
-      "source_line": "HUS-4095 I3 Independent Study GC To be Announced1"
-    },
-    {
-      "course_id": "HUS-4095",
-      "section": "I4",
-      "source_line": "HUS-4095 I4 Independent Study MC To be Announced1"
-    },
-    {
-      "course_id": "HUS-4095",
-      "section": "I5",
-      "source_line": "HUS-4095 I5 Independent Study MC To be Announced1"
-    },
-    {
-      "course_id": "INF-2010",
-      "section": "01",
-      "source_line": "INF-2010 01 Application Dev for Business MC TR 02:00 PM 03:40 PM M. Asadi DHAL 135a4 LEC"
-    },
-    {
-      "course_id": "INF-3030",
-      "section": "01",
-      "source_line": "INF-3030 01 Information Technology Mgmt. MC MW 10:00 AM 11:40 AM C. Carlies DHAL 135a4 LEC"
-    },
-    {
-      "course_id": "INF-3054",
-      "section": "01",
-      "source_line": "INF-3054 01 Database Management MC TR 10:00 AM 11:40 AM M. Asadi DHAL 135a4 LEC"
-    },
-    {
-      "course_id": "INF-4020",
-      "section": "01",
-      "source_line": "INF-4020 01 Data Mining MC MW 12:00 PM 01:40 PM C. Carlies4 LEC"
-    },
-    {
-      "course_id": "INF-4040",
-      "section": "01",
-      "source_line": "INF-4040 01 Project Management MC TR 08:00 AM 09:40 AM D. Zhang DHAL 2554 LEC"
-    },
-    {
-      "course_id": "MAT-1001",
-      "section": "01",
-      "source_line": "MAT-1001 01 Elem and Intermediate Algebra MC MW 10:00 AM 11:40 AM A. Ayele SCIB 2444 LEC"
-    },
-    {
-      "course_id": "MAT-1001",
-      "section": "02",
-      "source_line": "MAT-1001 02 Elem and Intermediate Algebra MC MW 08:00 AM 09:40 AM C. Tameze SCIB 1264 LEC"
-    },
-    {
-      "course_id": "MAT-1001",
-      "section": "03",
-      "source_line": "MAT-1001 03 Elem and Intermediate Algebra MC MW 12:00 PM 01:40 PM C. Tameze SCIB 1264 LEC"
-    },
-    {
-      "course_id": "MAT-1001",
-      "section": "04",
-      "source_line": "MAT-1001 04 Elem and Intermediate Algebra MC TR 10:00 AM 11:40 AM Z. Carson4 LEC"
-    },
-    {
-      "course_id": "MAT-1001",
-      "section": "05",
-      "source_line": "MAT-1001 05 Elem and Intermediate Algebra MC TR 02:00 PM 03:40 PM Z. Carson SCIB 1194 LEC"
-    },
-    {
-      "course_id": "MAT-1006",
-      "section": "01",
-      "source_line": "MAT-1006 01 Math for Liberal Arts MC MW 12:00 PM 01:40 PM M. Haimbodi4 LEC"
-    },
-    {
-      "course_id": "MAT-1006",
-      "section": "02",
-      "source_line": "MAT-1006 02 Math for Liberal Arts MC MWF 10:20 AM 11:30 AM P. Xu SCIB 1244 LEC"
-    },
-    {
-      "course_id": "MAT-1006",
-      "section": "03",
-      "source_line": "MAT-1006 03 Math for Liberal Arts MC MW 10:00 AM 11:40 AM Z. Carson4 LEC"
-    },
-    {
-      "course_id": "MAT-1006",
-      "section": "04",
-      "source_line": "MAT-1006 04 Math for Liberal Arts MC MW 03:00 PM 04:40 PM A. Soboki SCIB 1304 LEC"
-    },
-    {
-      "course_id": "MAT-1006",
-      "section": "05",
-      "source_line": "MAT-1006 05 Math for Liberal Arts MC MWF 12:00 PM 01:10 PM R. Naik SCIB 1224 LEC"
-    },
-    {
-      "course_id": "MAT-1006",
-      "section": "G1",
-      "source_line": "MAT-1006 G1 Math for Liberal Arts GC S 12:00 PM 03:30 PM A. Tucho4 LEC"
-    },
-    {
-      "course_id": "MAT-1010",
-      "section": "01",
-      "source_line": "MAT-1010 01 College Algebra MC MTWF 11:00 AM 11:50 AM T. Banh SCIB 1044 LEC"
-    },
-    {
-      "course_id": "MAT-1010",
-      "section": "03",
-      "source_line": "MAT-1010 03 College Algebra MC MWF 12:00 PM 01:10 PM P. Xu4 LEC"
-    },
-    {
-      "course_id": "MAT-1010",
-      "section": "04",
-      "source_line": "MAT-1010 04 College Algebra MC MF 02:00 PM 03:40 PM To be Announced SCIB 1064 LEC"
-    },
-    {
-      "course_id": "MAT-1010",
-      "section": "05",
-      "source_line": "MAT-1010 05 College Algebra MC TR 02:00 PM 03:40 PM To be Announced SCIB 2444 LEC"
-    },
-    {
-      "course_id": "MAT-1011",
+      "course_id": "REL2000",
       "section": "01",
-      "source_line": "MAT-1011 01 Pre-Calculus MC MWF 10:00 AM 11:10 AM M. Arichi SCIB 1204 LEC"
-    },
-    {
-      "course_id": "MAT-1011",
-      "section": "02",
-      "source_line": "MAT-1011 02 Pre-Calculus MC MWF 12:45 PM 01:55 PM To be Announced SCIB 1244 LEC"
-    },
-    {
-      "course_id": "MAT-1014",
-      "section": "01",
-      "source_line": "MAT-1014 01 Elementary Statistics I MC MW 12:00 PM 01:40 PM A. Ayele SCIB 2444 LEC"
-    },
-    {
-      "course_id": "MAT-1014",
-      "section": "02",
-      "source_line": "MAT-1014 02 Elementary Statistics I MC MWF 09:00 AM 10:10 AM P. Xu SCIB 1244 LEC"
-    },
-    {
-      "course_id": "MAT-1017",
-      "section": "01",
-      "source_line": "MAT-1017 01 Finite Mathematics MC MWF 10:00 AM 11:10 AM R. Naik SCIB 1284 LEC"
-    },
-    {
-      "course_id": "MAT-1020",
-      "section": "01",
-      "source_line": "MAT-1020 01 Calculus Soc Sci Majors MC MW 10:00 AM 11:40 AM C. Tameze SCIB 1264 LEC"
-    },
-    {
-      "course_id": "MAT-1021",
-      "section": "01",
-      "source_line": "MAT-1021 01 Calculus I MC MWF 08:40 AM 09:50 AM M. Arichi SCIB 1204 LEC"
-    },
-    {
-      "course_id": "MAT-1022",
-      "section": "01",
-      "source_line": "MAT-1022 01 Calculus II MC MTWF 10:00 AM 10:50 AM T. Banh SCIB 1044 LEC"
-    },
-    {
-      "course_id": "MAT-2013",
-      "section": "01",
-      "source_line": "MAT-2013 01 Discrete Mathematics MC MW 02:00 PM 03:40 PM A. Ayele SCIB 2444 LEC"
-    },
-    {
-      "course_id": "MAT-2021",
-      "section": "01",
-      "source_line": "MAT-2021 01 Calculus III MC MTWF 02:00 PM 02:50 PM T. Banh SCIB 3184 LEC"
-    },
-    {
-      "course_id": "MAT-2022",
-      "section": "01",
-      "source_line": "MAT-2022 01 Differential Equations MC MWRF 12:00 PM 12:50 PM T. Banh SCIB 1044 LEC"
-    },
-    {
-      "course_id": "MAT-3025",
-      "section": "01",
-      "source_line": "MAT-3025 01 Modern Algebra I MC MWF 02:00 PM 03:10 PM R. Naik SCIB 1284 LEC"
-    },
-    {
-      "course_id": "MDL-4051",
-      "section": "01",
-      "source_line": "MDL-4051 01 Study Abroad RL To be Announced0"
-    },
-    {
-      "course_id": "MGT-3006",
-      "section": "01",
-      "source_line": "MGT-3006 01 Quantitative Methods for Mgmt. MC TR 08:00 AM 09:40 AM M. Asadi DHAL 135a4 LEC"
-    },
-    {
-      "course_id": "MGT-3035",
-      "section": "01",
-      "source_line": "MGT-3035 01 Principles of Management MC MW 02:00 PM 03:40 PM S. Williams DHAL 2274 LEC"
-    },
-    {
-      "course_id": "MGT-3050",
-      "section": "01",
-      "source_line": "MGT-3050 01 Leadership MC TR 02:00 PM 03:40 PM R. Chambers DHAL 2274 LEC"
-    },
-    {
-      "course_id": "MGT-4035",
-      "section": "01",
-      "source_line": "MGT-4035 01 Organizational Behavior MC TR 04:00 PM 05:40 PM R. Chambers DHAL 2274 LEC"
-    },
-    {
-      "course_id": "MGT-4037",
-      "section": "01",
-      "source_line": "MGT-4037 01 Human Resources Management MC MW 04:00 PM 05:40 PM R. Chambers DHAL 2274 LEC"
-    },
-    {
-      "course_id": "MGT-4090",
-      "section": "01",
-      "source_line": "MGT-4090 01 ST: Shawn Carter CFFL MC MW 10:00 AM 11:40 AM S. Williams DHAL 2274 LEC"
-    },
-    {
-      "course_id": "MGT-4095",
-      "section": "I3",
-      "source_line": "MGT-4095 I3 Independent Study MC To be Announced1"
-    },
-    {
-      "course_id": "MKT-3037",
-      "section": "01",
-      "source_line": "MKT-3037 01 Principles of Marketing MC MW 12:00 PM 01:40 PM S. Williams DHAL 2274 LEC"
-    },
-    {
-      "course_id": "MSM-2010",
-      "section": "01",
-      "source_line": "MSM-2010 01 Museums & Collections I MC MW 04:00 PM 05:40 PM To be Announced AMOS 2024 LEC"
-    },
-    {
-      "course_id": "MUS-1006",
-      "section": "01",
-      "source_line": "MUS-1006 01 Music Theory II MC TR 10:00 AM 11:40 AM D. Arlotto WARE 1064 LEC"
-    },
-    {
-      "course_id": "MUS-1007",
-      "section": "01",
-      "source_line": "MUS-1007 01 Piano I MC F 12:00 PM 01:40 PM T. Caldwell-Hall WARE 1071 LEC"
-    },
-    {
-      "course_id": "MUS-1008",
-      "section": "01",
-      "source_line": "MUS-1008 01 Piano II MC F 10:00 AM 11:40 AM T. Caldwell-Hall WARE 1071 LEC"
-    },
-    {
-      "course_id": "MUS-1090",
-      "section": "01",
-      "source_line": "MUS-1090 01 ST: Jazz Piano (Advanced) MC T 02:00 PM 03:40 PM D. Arlotto WARE 1071 LEC"
-    },
-    {
-      "course_id": "MUS-1090",
-      "section": "02",
-      "source_line": "MUS-1090 02 ST: Jazz Piano (Beginner) MC R 02:00 PM 03:40 PM D. Arlotto WARE 1071 LEC"
-    },
-    {
-      "course_id": "MUS-1090",
-      "section": "03",
-      "source_line": "MUS-1090 03 ST: Afrofuturism MC TR 04:00 PM 05:40 PM I. Ichile GRIM 3131 LEC"
-    },
-    {
-      "course_id": "MUS-1090",
-      "section": "04",
-      "source_line": "MUS-1090 04 ST: Hip Hop Music MC TR 02:00 PM 03:40 PM I. Ichile GRIM 3131 LEC"
-    },
-    {
-      "course_id": "MUS-1090",
-      "section": "05",
-      "source_line": "MUS-1090 05 ST: History of Mus of Trinidad MC MW 10:00 AM 11:40 AM K. Bishop WARE 1121 LEC"
-    },
-    {
-      "course_id": "MUS-1090",
-      "section": "06",
-      "source_line": "MUS-1090 06 ST: Intro to Amer Gospel Music MC MW 12:00 PM 01:40 PM K. Bishop WARE 1121 LEC"
-    },
-    {
-      "course_id": "MUS-2000",
-      "section": "01",
-      "source_line": "MUS-2000 01 Introduction to Music MC MW 10:00 AM 11:40 AM L. Mallory WARE 1394 LEC"
-    },
-    {
-      "course_id": "MUS-2000",
-      "section": "02",
-      "source_line": "MUS-2000 02 Introduction to Music MC MW 12:00 PM 01:40 PM L. Mallory WARE 1394 LEC"
-    },
-    {
-      "course_id": "MUS-2000",
-      "section": "03",
-      "source_line": "MUS-2000 03 Introduction to Music MC TR 08:00 AM 09:40 AM C. Limb WARE 1394 LEC"
-    },
-    {
-      "course_id": "MUS-2000",
-      "section": "04",
-      "source_line": "MUS-2000 04 Introduction to Music MC TR 10:00 AM 11:40 AM C. Limb WARE 1394 LEC"
-    },
-    {
-      "course_id": "MUS-2000",
-      "section": "05",
-      "source_line": "MUS-2000 05 Introduction to Music MC TR 08:00 AM 09:40 AM D. Arlotto WARE 1064 LEC"
-    },
-    {
-      "course_id": "MUS-2000",
-      "section": "06",
-      "source_line": "MUS-2000 06 Introduction to Music MC MW 08:00 AM 09:40 AM K. Bishop WARE 1394 LEC"
-    },
-    {
-      "course_id": "MUS-2000",
-      "section": "G1",
-      "source_line": "MUS-2000 G1 Introduction to Music GC S 03:40 PM 07:10 PM R. Bradley GRAD 3164 LEC"
-    },
-    {
-      "course_id": "MUS-2004",
-      "section": "01",
-      "source_line": "MUS-2004 01 Music Literature and Styles II MC MW 10:00 AM 11:40 AM C. Pettaway WARE 1154 LEC"
-    },
-    {
-      "course_id": "MUS-2006",
-      "section": "01",
-      "source_line": "MUS-2006 01 Advanced Theory IV MC MW 12:00 PM 01:40 PM C. Pettaway WARE 1154 LEC"
-    },
-    {
-      "course_id": "MUS-2027",
-      "section": "01",
-      "source_line": "MUS-2027 01 Vocal Diction (French-German) MC TR 10:00 AM 10:50 AM M. Hampton WARE 1152 LEC"
-    },
-    {
-      "course_id": "MUS-3023",
-      "section": "01",
-      "source_line": "MUS-3023 01 Jazz in American Culture MC MW 10:00 AM 11:40 AM C. Harter WARE 1064 LEC"
-    },
-    {
-      "course_id": "MUS-4007",
-      "section": "01",
-      "source_line": "MUS-4007 01 Piano Pedagogy I MC C. Pettaway1 LEC"
-    },
-    {
-      "course_id": "MUS-4009",
-      "section": "01",
-      "source_line": "MUS-4009 01 Voice Pedagogy MC TR 11:00 AM 11:50 AM M. Hampton WARE 1151 LEC"
-    },
-    {
-      "course_id": "PAS-1092",
-      "section": "01",
-      "source_line": "PAS-1092 01 Women Pan-African Mov I MC MW 12:00 PM 01:40 PM E. Poe DHAL 1024 LEC"
-    },
-    {
-      "course_id": "PAS-2006",
-      "section": "01",
-      "source_line": "PAS-2006 01 Surv of PanAfr Agncy Snc 1961 MC MW 10:00 AM 11:40 AM G. Gnaka DHAL 1364 LEC"
-    },
-    {
-      "course_id": "PAS-2092",
-      "section": "01",
-      "source_line": "PAS-2092 01 Women of Pan-African Mvmnt II MC TR 10:00 AM 11:40 AM I. Ichile DHAL 1144 LEC"
-    },
-    {
-      "course_id": "PAS-3001",
-      "section": "01",
-      "source_line": "PAS-3001 01 Slave Rebellions to Blk Power MC TR 02:00 PM 03:40 PM J. Denson DHAL 2964 LEC"
-    },
-    {
-      "course_id": "PHL-2000",
-      "section": "01",
-      "source_line": "PHL-2000 01 Introduction to Philosophy MC TR 02:00 PM 03:40 PM F. Kodena DHAL 3744 LEC"
-    },
-    {
-      "course_id": "PHL-2000",
-      "section": "02",
-      "source_line": "PHL-2000 02 Introduction to Philosophy MC TR 04:00 PM 05:40 PM F. Kodena DHAL 3744 LEC"
-    },
-    {
-      "course_id": "PHL-2000",
-      "section": "04",
-      "source_line": "PHL-2000 04 Introduction to Philosophy MC MW 10:00 AM 11:40 AM A. Thieme DHAL 3724 LEC"
-    },
-    {
-      "course_id": "PHL-2014",
-      "section": "01",
-      "source_line": "PHL-2014 01 ST: Philosophies of Freedom MC MW 02:00 PM 03:40 PM C. Gray DHAL 1024 LEC"
-    },
-    {
-      "course_id": "PHL-2015",
-      "section": "01",
-      "source_line": "PHL-2015 01 Ethics MC TR 10:00 AM 11:40 AM F. Kodena DHAL 3744 LEC"
-    },
-    {
-      "course_id": "PHL-2016",
-      "section": "G1",
-      "source_line": "PHL-2016 G1 Contemporary Moral Problems GC W 05:30 PM 09:00 PM P. Kennebrew4 LEC"
-    },
-    {
-      "course_id": "PHL-2017",
-      "section": "01",
-      "source_line": "PHL-2017 01 Critical Reasoning MC MW 10:00 AM 11:40 AM D. Flint DHAL 1144 LEC"
-    },
-    {
-      "course_id": "PHL-2019",
-      "section": "01",
-      "source_line": "PHL-2019 01 World Philosophy I MC MW 04:00 PM 05:40 PM D. Flint DHAL 1094 LEC"
-    },
-    {
-      "course_id": "PHL-3003",
-      "section": "01",
-      "source_line": "PHL-3003 01 Legal Philosophy MC MW 12:00 PM 01:40 PM A. Thieme DHAL 135a4 LEC"
-    },
-    {
-      "course_id": "PHL-4001",
-      "section": "01",
-      "source_line": "PHL-4001 01 Epistemology MC MW 12:00 PM 01:40 PM D. Flint DHAL 1094 LEC"
-    },
-    {
-      "course_id": "PHY-1003",
-      "section": "01",
-      "source_line": "PHY-1003 01 Introduction to Physics I MC MW 12:00 PM 01:15 PM S. Mahmud SCIB 1284 LEC"
-    },
-    {
-      "course_id": "PHY-1004",
-      "section": "01",
-      "source_line": "PHY-1004 01 Introduction to Physics II MC MW 12:00 PM 01:15 PM V. Zeljkovic SCIB 3184 LEC"
-    },
-    {
-      "course_id": "PHY-1005",
-      "section": "01",
-      "source_line": "PHY-1005 01 General Physics I MC MW 12:00 PM 01:15 PM V. Lakey SCIB 1304 LEC"
-    },
-    {
-      "course_id": "PHY-1006",
-      "section": "01",
-      "source_line": "PHY-1006 01 General Physics II MC MW 12:00 PM 01:15 PM S. Gayen SCIB 1094 LEC"
-    },
-    {
-      "course_id": "PHY-1081",
-      "section": "01",
-      "source_line": "PHY-1081 01 Elementary Astronomy MC MW 10:00 AM 11:15 AM V. Zeljkovic SCIB 1134 LEC"
-    },
-    {
-      "course_id": "PHY-2051",
-      "section": "01",
-      "source_line": "PHY-2051 01 Modern Physics MC TR 08:00 AM 09:45 AM V. Lakey SCIB 1054 LEC"
-    },
-    {
-      "course_id": "PHY-3042",
-      "section": "01",
-      "source_line": "PHY-3042 01 Electromagnetic Theory MC MW 10:00 AM 11:40 AM S. Gayen SCIB 1054 LEC"
-    },
-    {
-      "course_id": "POL-1001",
-      "section": "01",
-      "source_line": "POL-1001 01 American National Government MC TR 10:00 AM 11:40 AM J. Maxwell LLCC C2144 LEC"
-    },
-    {
-      "course_id": "POL-1001",
-      "section": "02",
-      "source_line": "POL-1001 02 American National Government MC TR 02:00 PM 03:40 PM W. Edge DHAL 3724 LEC"
-    },
-    {
-      "course_id": "POL-1001",
-      "section": "03",
-      "source_line": "POL-1001 03 American National Government MC MW 12:00 PM 01:40 PM L. Hawkins DHAL 1054 LEC"
-    },
-    {
-      "course_id": "POL-1001",
-      "section": "04",
-      "source_line": "POL-1001 04 American National Government MC TR 08:00 AM 09:40 AM J. Maxwell DHAL 1144 LEC"
-    },
-    {
-      "course_id": "POL-1002",
-      "section": "01",
-      "source_line": "POL-1002 01 Intro to Political Science MC TR 10:00 AM 11:40 AM C. Ihejirika DHAL 3724 LEC"
-    },
-    {
-      "course_id": "POL-2004",
-      "section": "01",
-      "source_line": "POL-2004 01 Intro International Relations MC MW 12:00 PM 01:40 PM S. Ogutcu-Fu DHAL 3724 LEC"
-    },
-    {
-      "course_id": "POL-3001",
-      "section": "01",
-      "source_line": "POL-3001 01 Political Theory II MC TR 02:00 PM 03:40 PM C. Ihejirika DHAL 3734 LEC"
-    },
-    {
-      "course_id": "POL-3003",
-      "section": "01",
-      "source_line": "POL-3003 01 Comparative Politics II MC TR 10:00 AM 11:40 AM W. Edge DHAL 3734 LEC"
-    },
-    {
-      "course_id": "POL-3004",
-      "section": "01",
-      "source_line": "POL-3004 01 Comparative African Politics MC TR 04:00 PM 05:40 PM W. Edge DHAL 3724 LEC"
-    },
-    {
-      "course_id": "POL-3010",
-      "section": "01",
-      "source_line": "POL-3010 01 Race and American Law MC MW 04:00 PM 05:40 PM A. Scott DHAL 1024 LEC"
-    },
-    {
-      "course_id": "POL-4060",
-      "section": "01",
-      "source_line": "POL-4060 01 Workshop in Intl Affairs MC TR 08:00 AM 09:40 AM W. Edge4 LEC"
-    },
-    {
-      "course_id": "POL-4082",
-      "section": "01",
-      "source_line": "POL-4082 01 Senior Seminar MC MW 02:00 PM 03:40 PM S. Ogutcu-Fu DHAL 3724 LEC"
-    },
-    {
-      "course_id": "POL-4095",
-      "section": "I2",
-      "source_line": "POL-4095 I2 Independent Study MC To be Announced4"
-    },
-    {
-      "course_id": "PSY-1001",
-      "section": "01",
-      "source_line": "PSY-1001 01 General Psychology MC M 05:00 PM 08:30 PM V. Bennifield DHAL 1054 LEC"
-    },
-    {
-      "course_id": "PSY-1001",
-      "section": "02",
-      "source_line": "PSY-1001 02 General Psychology MC TR 08:00 AM 09:40 AM D. Weathington DHAL 1054 LEC"
-    },
-    {
-      "course_id": "PSY-1001",
-      "section": "03",
-      "source_line": "PSY-1001 03 General Psychology MC TR 10:00 AM 11:40 AM D. Weathington DHAL 1054 LEC"
-    },
-    {
-      "course_id": "PSY-2006",
-      "section": "01",
-      "source_line": "PSY-2006 01 Lifespan Dev Psychology MC TR 04:00 PM 05:40 PM C. Warner DHAL 1054 LEC"
-    },
-    {
-      "course_id": "PSY-2008",
-      "section": "01",
-      "source_line": "PSY-2008 01 Black Psychology MC TR 02:00 PM 03:40 PM C. Warner DHAL 1024 LEC"
-    },
-    {
-      "course_id": "PSY-2008",
-      "section": "G1",
-      "source_line": "PSY-2008 G1 Black Psychology GC T 05:30 PM 09:00 PM To be Announced GRAD 3284 LEC"
-    },
-    {
-      "course_id": "PSY-2009",
-      "section": "01",
-      "source_line": "PSY-2009 01 Multicultural Psychology MC TR 10:00 AM 11:40 AM D. Gaither-Hardy DHAL 2844 LEC"
-    },
-    {
-      "course_id": "PSY-2014",
-      "section": "01",
-      "source_line": "PSY-2014 01 Abnormal Psychology MC MW 04:00 PM 05:40 PM V. Duncan DHAL 2964 LEC"
-    },
-    {
-      "course_id": "PSY-2014",
-      "section": "02",
-      "source_line": "PSY-2014 02 Abnormal Psychology MC MW 10:00 AM 11:40 AM C. Swinton-Jackso DHAL 3754 LEC"
-    },
-    {
-      "course_id": "PSY-3001",
-      "section": "01",
-      "source_line": "PSY-3001 01 Social Psychology MC TR 02:00 PM 03:40 PM K. Favor DHAL 2844 LEC"
-    },
-    {
-      "course_id": "PSY-3001",
-      "section": "G1",
-      "source_line": "PSY-3001 G1 Social Psychology GC T 05:30 PM 09:00 PM J. Wadley4 LEC"
-    },
-    {
-      "course_id": "PSY-3006",
-      "section": "01",
-      "source_line": "PSY-3006 01 Psychobiology MC MW 08:00 AM 09:40 AM L. Williams DHAL 2844 LEC"
-    },
-    {
-      "course_id": "PSY-3013",
-      "section": "01",
-      "source_line": "PSY-3013 01 Statistics II MC TR 08:00 AM 09:40 AM D. Gaither-Hardy DHAL 2844 LEC"
-    },
-    {
-      "course_id": "PSY-3016",
-      "section": "01",
-      "source_line": "PSY-3016 01 Psychological Assessment MC MW 10:00 AM 11:40 AM L. Williams DHAL 2844 LEC"
-    },
-    {
-      "course_id": "PSY-3019",
-      "section": "01",
-      "source_line": "PSY-3019 01 Research Design & Analysis MC TR 10:00 AM 11:40 AM C. Warner4 LEC"
-    },
-    {
-      "course_id": "PSY-3021",
-      "section": "G1",
-      "source_line": "PSY-3021 G1 Psychology of Addictions GC R 05:30 PM 09:00 PM M. May GRAD 3284 LEC"
-    },
-    {
-      "course_id": "PSY-3024",
-      "section": "01",
-      "source_line": "PSY-3024 01 History and Systems Psychology MC MW 02:00 PM 03:40 PM V. Duncan DHAL 1054 LEC"
-    },
-    {
-      "course_id": "PSY-3024",
-      "section": "G1",
-      "source_line": "PSY-3024 G1 History and Systems Psychology GC F 05:30 PM 09:00 PM P. Kennebrew GRAD 3234 LEC"
+      "source_code": "REL-2000"
     },
     {
-      "course_id": "PSY-4004",
+      "course_id": "REL3010",
       "section": "01",
-      "source_line": "PSY-4004 01 Senior Seminar II MC W 02:00 PM 05:30 PM K. Favor DHAL 2844 LEC"
+      "source_code": "REL-3010"
     },
     {
-      "course_id": "PSY-4095",
+      "course_id": "REL4095",
       "section": "I1",
-      "source_line": "PSY-4095 I1 Independent Study MC To be Announced1"
+      "source_code": "REL-4095"
     },
     {
-      "course_id": "REL-2000",
+      "course_id": "SOC1001",
       "section": "01",
-      "source_line": "REL-2000 01 Introduction to Religion MC MW 08:00 AM 09:40 AM E. Flores DHAL 1024 LEC"
+      "source_code": "SOC-1001"
     },
     {
-      "course_id": "REL-2000",
-      "section": "02",
-      "source_line": "REL-2000 02 Introduction to Religion MC MW 10:00 AM 11:40 AM C. Gray DHAL 1024 LEC"
-    },
-    {
-      "course_id": "REL-2000",
-      "section": "03",
-      "source_line": "REL-2000 03 Introduction to Religion MC TR 08:00 AM 09:40 AM C. Choi DHAL 3744 LEC"
-    },
-    {
-      "course_id": "REL-2000",
-      "section": "04",
-      "source_line": "REL-2000 04 Introduction to Religion MC TR 10:00 AM 11:40 AM C. Choi DHAL 1364 LEC"
-    },
-    {
-      "course_id": "REL-2000",
-      "section": "05",
-      "source_line": "REL-2000 05 Introduction to Religion MC MW 10:00 AM 11:40 AM E. Flores DHAL 3734 LEC"
-    },
-    {
-      "course_id": "REL-3010",
+      "course_id": "SOC2009",
       "section": "01",
-      "source_line": "REL-3010 01 Martin and Malcolm MC TR 02:00 PM 03:40 PM C. Choi4 LEC"
+      "source_code": "SOC-2009"
     },
     {
-      "course_id": "REL-4095",
-      "section": "I1",
-      "source_line": "REL-4095 I1 Indepenedent Study MC To be Announced4"
-    },
-    {
-      "course_id": "SOC-1001",
+      "course_id": "SOC3005",
       "section": "01",
-      "source_line": "SOC-1001 01 Introduction to Sociology MC TR 04:00 PM 05:40 PM R. Gibbs DHAL 3264 LEC"
+      "source_code": "SOC-3005"
     },
     {
-      "course_id": "SOC-1001",
-      "section": "02",
-      "source_line": "SOC-1001 02 Introduction to Sociology MC MW 10:00 AM 11:40 AM M. Lynch DHAL 3744 LEC"
-    },
-    {
-      "course_id": "SOC-1001",
-      "section": "03",
-      "source_line": "SOC-1001 03 Introduction to Sociology MC TR 02:00 PM 03:40 PM To be Announced4 LEC"
-    },
-    {
-      "course_id": "SOC-1001",
-      "section": "04",
-      "source_line": "SOC-1001 04 Introduction to Sociology MC TR 10:00 AM 11:40 AM G. Evans DHAL 1024 LEC"
-    },
-    {
-      "course_id": "SOC-2009",
+      "course_id": "SOC3006",
       "section": "01",
-      "source_line": "SOC-2009 01 Institutional Racism MC MW 12:00 PM 01:40 PM K. Smith-Williamso DHAL 3734 LEC"
+      "source_code": "SOC-3006"
     },
     {
-      "course_id": "SOC-3005",
+      "course_id": "SOC3018",
       "section": "01",
-      "source_line": "SOC-3005 01 Research Methods MC TR 08:00 AM 09:40 AM M. Pass DHAL 3754 LEC"
+      "source_code": "SOC-3018"
     },
     {
-      "course_id": "SOC-3006",
+      "course_id": "SOC3019",
       "section": "01",
-      "source_line": "SOC-3006 01 Social Statistics MC MW 12:00 PM 01:40 PM S. Feliciano DHAL 3754 LEC"
+      "source_code": "SOC-3019"
     },
     {
-      "course_id": "SOC-3018",
-      "section": "01",
-      "source_line": "SOC-3018 01 Sociological Theory MC TR 02:00 PM 03:40 PM R. Millette DHAL 3754 LEC"
-    },
-    {
-      "course_id": "SOC-3019",
-      "section": "01",
-      "source_line": "SOC-3019 01 Urban Sociology MC TR 08:00 AM 09:40 AM G. Evans DHAL 3724 LEC"
-    },
-    {
-      "course_id": "SOC-4010",
+      "course_id": "SOC4010",
       "section": "W1",
-      "source_line": "SOC-4010 W1 Senior Seminar MC MW 02:00 PM 03:40 PM S. Feliciano DHAL 3754 LEC"
+      "source_code": "SOC-4010"
     },
     {
-      "course_id": "SOS-1051",
+      "course_id": "SOS1051",
       "section": "01",
-      "source_line": "SOS-1051 01 African American Experience MC TR 08:00 AM 09:40 AM J. Denson DHAL 1024 LEC"
+      "source_code": "SOS-1051"
     },
     {
-      "course_id": "SOS-1051",
-      "section": "02",
-      "source_line": "SOS-1051 02 African American Experience MC MW 02:00 PM 03:40 PM E. Poe DHAL 3264 LEC"
-    },
-    {
-      "course_id": "SOS-1051",
-      "section": "03",
-      "source_line": "SOS-1051 03 African American Experience MC MW 04:00 PM 05:40 PM E. Poe DHAL 3724 LEC"
-    },
-    {
-      "course_id": "SOS-1051",
-      "section": "04",
-      "source_line": "SOS-1051 04 African American Experience MC MW 12:00 PM 01:40 PM G. Gnaka DHAL 2534 LEC"
-    },
-    {
-      "course_id": "SOS-1051",
-      "section": "05",
-      "source_line": "SOS-1051 05 African American Experience MC TR 04:00 PM 05:40 PM To be Announced DHAL 1144 LEC"
-    },
-    {
-      "course_id": "SOS-1051",
-      "section": "G1",
-      "source_line": "SOS-1051 G1 African American Experience GC S 08:00 AM 11:30 AM S. Webster4 LEC"
-    },
-    {
-      "course_id": "SPM-2001",
+      "course_id": "SPM2001",
       "section": "01",
-      "source_line": "SPM-2001 01 Princ. of Sports Management MC MW 10:00 AM 11:40 AM K. Merritt DHAL 2534 LEC"
+      "source_code": "SPM-2001"
     },
     {
-      "course_id": "SPM-2005",
+      "course_id": "SPM2005",
       "section": "01",
-      "source_line": "SPM-2005 01 Sports Marketing MC MW 12:00 PM 01:40 PM D. Elliott DHAL 2544 LEC"
+      "source_code": "SPM-2005"
     },
     {
-      "course_id": "SPN-1001",
+      "course_id": "SPN1001",
       "section": "01",
-      "source_line": "SPN-1001 01 Elementary Spanish I MC MW 04:00 PM 05:40 PM N. Ortega-Moran UNIV 1044 LEC"
+      "source_code": "SPN-1001"
     },
     {
-      "course_id": "SPN-1002",
+      "course_id": "SPN1002",
       "section": "01",
-      "source_line": "SPN-1002 01 Elementary Spanish II MC MTWF 09:00 AM 09:50 AM M. Vargas UNIV 1014 LEC"
+      "source_code": "SPN-1002"
     },
     {
-      "course_id": "SPN-1002",
-      "section": "02",
-      "source_line": "SPN-1002 02 Elementary Spanish II MC MW 02:00 PM 03:40 PM N. Gardner UNIV 2014 LEC"
-    },
-    {
-      "course_id": "SPN-1002",
-      "section": "03",
-      "source_line": "SPN-1002 03 Elementary Spanish II MC TR 10:00 AM 11:40 AM J. Martinez Millan UNIV 1024 LEC"
-    },
-    {
-      "course_id": "SPN-1002",
-      "section": "04",
-      "source_line": "SPN-1002 04 Elementary Spanish II MC TR 02:00 PM 03:40 PM J. Martinez Millan UNIV 1044 LEC"
-    },
-    {
-      "course_id": "SPN-1002",
-      "section": "05",
-      "source_line": "SPN-1002 05 Elementary Spanish II MC MW 03:00 PM 04:40 PM J. Grulke UNIV 2034 LEC"
-    },
-    {
-      "course_id": "SPN-2001",
+      "course_id": "SPN2001",
       "section": "01",
-      "source_line": "SPN-2001 01 Intermediate Spanish I MC To be Announced4"
+      "source_code": "SPN-2001"
     },
     {
-      "course_id": "SPN-2002",
+      "course_id": "SPN2002",
       "section": "01",
-      "source_line": "SPN-2002 01 Intermediate Spanish II MC MW 04:40 PM 06:20 PM J. Grulke UNIV 2034 LEC"
+      "source_code": "SPN-2002"
     },
     {
-      "course_id": "SPN-3002",
+      "course_id": "SPN3002",
       "section": "W1",
-      "source_line": "SPN-3002 W1 Adv. Spanish: Comp. & Conv. II MC MW 04:00 PM 05:40 PM N. Gardner UNIV 2064 LEC"
+      "source_code": "SPN-3002"
     },
     {
-      "course_id": "SPN-4095",
+      "course_id": "SPN4095",
       "section": "I1",
-      "source_line": "SPN-4095 I1 Independent Study MC To be Announced4 LEC"
+      "source_code": "SPN-4095"
     },
     {
-      "course_id": "SWA-1001",
+      "course_id": "SWA1001",
       "section": "01",
-      "source_line": "SWA-1001 01 Elementary Swahili I MC MTWF 09:00 AM 09:50 AM D. Kariri UNIV 3134 LEC"
+      "source_code": "SWA-1001"
     },
     {
-      "course_id": "SWA-1002",
+      "course_id": "SWA1002",
       "section": "02",
-      "source_line": "SWA-1002 02 Elementary Swahili II MC MTWF 11:00 AM 11:50 AM D. Kariri UNIV 3134 LEC"
+      "source_code": "SWA-1002"
     }
   ]
 }

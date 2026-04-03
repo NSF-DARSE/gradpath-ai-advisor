@@ -4,17 +4,51 @@ import { DashboardCard } from './DashboardCard';
 type DashboardPanelProps = {
   dashboard: DashboardData;
   loading: boolean;
+  sessionId: string;
+  lastAnalysisTimestamp: string | null;
 };
 
 function EmptyState({ text }: { text: string }) {
   return <p className="empty-state">{text}</p>;
 }
 
-export function DashboardPanel({ dashboard, loading }: DashboardPanelProps) {
+function formatTimestamp(timestamp: string | null) {
+  if (!timestamp) {
+    return 'Not analyzed yet';
+  }
+
+  const date = new Date(timestamp);
+  return Number.isNaN(date.getTime())
+    ? 'Not analyzed yet'
+    : date.toLocaleString([], {
+        month: 'short',
+        day: 'numeric',
+        hour: 'numeric',
+        minute: '2-digit',
+      });
+}
+
+export function DashboardPanel({
+  dashboard,
+  loading,
+  sessionId,
+  lastAnalysisTimestamp,
+}: DashboardPanelProps) {
   const { student, progress_summary, completed_courses, recommended_courses, advising_notes } = dashboard;
 
   return (
     <div className="dashboard-panel">
+      <div className="session-strip" aria-live="polite">
+        <div className="session-chip">
+          <span>Session</span>
+          <strong>{sessionId ? sessionId.slice(0, 8) : 'pending'}</strong>
+        </div>
+        <div className="session-chip">
+          <span>Last analysis</span>
+          <strong>{loading ? 'Analyzing now...' : formatTimestamp(lastAnalysisTimestamp)}</strong>
+        </div>
+      </div>
+
       <header className="hero-card">
         <div className="hero-card__content">
           <span className="hero-card__badge">GradPath</span>

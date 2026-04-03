@@ -47,6 +47,8 @@ function App() {
   const [selectedFile, setSelectedFile] = useState<File | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const lastAnalysisTimestamp =
+    [...messages].reverse().find((message) => message.role === 'assistant')?.timestamp ?? null;
 
   useEffect(() => {
     let cancelled = false;
@@ -109,12 +111,19 @@ function App() {
   return (
     <main className="app-shell">
       <section className="app-shell__left">
-        <DashboardPanel dashboard={dashboard} loading={loading} />
+        <DashboardPanel
+          dashboard={dashboard}
+          loading={loading}
+          sessionId={sessionId}
+          lastAnalysisTimestamp={lastAnalysisTimestamp}
+        />
       </section>
       <section className="app-shell__right">
         <ChatPanel
           messages={messages}
           loading={loading}
+          sessionId={sessionId}
+          lastAnalysisTimestamp={lastAnalysisTimestamp}
           draft={draft}
           selectedFile={selectedFile}
           error={error}

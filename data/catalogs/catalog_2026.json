@@ -1,150 +1,2165 @@
 {
-  "catalog_name": "GradPath Demo Catalog 2026",
+  "catalog_name": "Lincoln University 2025-2026 Catalog",
   "majors": {
     "CS": {
+      "name": "Computer Science",
+      "degree": "BS",
       "required_courses": [
-        "CS101",
-        "CS102",
-        "CS201",
-        "CS210",
-        "CS220",
-        "CS230",
-        "MATH101",
-        "MATH201",
-        "STAT200",
-        "ENG101"
-      ]
+        "MAT1010",
+        "ENG1001",
+        "ENG1002",
+        "CSC1058",
+        "CSC1059",
+        "CSC2001",
+        "CSC2054",
+        "CSC3053",
+        "CSC3054",
+        "CSC3055",
+        "CSC4054",
+        "CSC4057",
+        "CSC4098",
+        "MAT1014",
+        "MAT2013"
+      ],
+      "elective_courses": [
+        "MAT1020",
+        "MAT1021",
+        "CSC1051",
+        "CSC1052",
+        "CSC3002",
+        "CSC3056",
+        "CSC3058",
+        "CSC3059",
+        "CSC3090",
+        "CSC3095",
+        "CSC3099",
+        "CSC4053",
+        "CSC4058",
+        "CSC4091",
+        "CSC4095"
+      ],
+      "notes": "Plus one of MAT1020 or MAT1021 (Calculus). Total 128 credits for BS, 128 for BA (with language through 2002 level)."
+    },
+    "BIO": {
+      "name": "Biology",
+      "degree": "BS",
+      "required_courses": [
+        "ENG1001",
+        "ENG1002",
+        "BIO1003",
+        "BIO1004",
+        "BIO2007",
+        "BIO2008",
+        "CHE1003",
+        "CHE1004",
+        "CHE2003",
+        "CHE2004",
+        "MAT1014"
+      ],
+      "elective_courses": [
+        "MAT1020",
+        "MAT1021",
+        "PHY1003",
+        "PHY1004",
+        "PHY1005",
+        "PHY1006",
+        "BIO3001",
+        "BIO3002",
+        "BIO3004",
+        "BIO3005",
+        "BIO3008",
+        "BIO3009",
+        "BIO3010",
+        "BIO3011",
+        "BIO3012",
+        "BIO3017",
+        "BIO3019",
+        "BIO3090",
+        "BIO4001",
+        "BIO4002",
+        "BIO4005",
+        "BIO4007",
+        "BIO4008",
+        "BIO4012",
+        "BIO4020",
+        "CHE3003",
+        "CHE3005"
+      ],
+      "notes": "Select five upper-division bio electives (three must include labs). Physics I and II required as gen-ed natural science. Total 129 credits."
+    },
+    "CHE": {
+      "name": "Chemistry",
+      "degree": "BS",
+      "required_courses": [
+        "ENG1001",
+        "ENG1002",
+        "MAT1021",
+        "MAT1022",
+        "BIO1003",
+        "BIO1004",
+        "CHE1003",
+        "CHE1004",
+        "CHE2001",
+        "CHE2003",
+        "CHE2004",
+        "CHE2005",
+        "CHE3000",
+        "CHE3001",
+        "CHE3003",
+        "CHE3004",
+        "CHE3010",
+        "CHE4002",
+        "PHY1005",
+        "PHY1006"
+      ],
+      "elective_courses": [
+        "BIO2008",
+        "BIO3090",
+        "CHE2055",
+        "CHE3005",
+        "CHE3090",
+        "CHE4003",
+        "CHE4095",
+        "ENS1000",
+        "MAT1014",
+        "MAT2021"
+      ],
+      "notes": "ACS-Accredited track. Select 3 elective courses (12 credits). Total 128 credits."
+    },
+    "BIOCHEM": {
+      "name": "Biochemistry and Molecular Biology",
+      "degree": "BS",
+      "required_courses": [
+        "ENG1001",
+        "ENG1002",
+        "MAT1021",
+        "BIO1003",
+        "BIO1004",
+        "BIO2007",
+        "BIO2008",
+        "BIO4007",
+        "CHE1003",
+        "CHE1004",
+        "CHE2001",
+        "CHE2003",
+        "CHE2004",
+        "CHE3003",
+        "CHE3004",
+        "CHE3013",
+        "CHE3000",
+        "PHY1005",
+        "PHY1006"
+      ],
+      "elective_courses": [
+        "BIO3004",
+        "BIO3017",
+        "BIO3090",
+        "BIO4001",
+        "BIO4002",
+        "BIO4012",
+        "BIO4013",
+        "BIO4014",
+        "CHE2005",
+        "CHE3001",
+        "CHE3005",
+        "CHE4002",
+        "CHE4095",
+        "CHE3010",
+        "CHE3011"
+      ],
+      "notes": "Select 3-5 elective courses (12-20 credits). Research Seminar I or II required. Total 128 credits."
+    },
+    "HSC": {
+      "name": "Health Science",
+      "degree": "BS",
+      "required_courses": [
+        "ENG1001",
+        "ENG1002",
+        "BIO1003",
+        "BIO1004",
+        "BIO2005",
+        "BIO2006",
+        "PSY1001",
+        "SOC1001",
+        "HSC1030",
+        "HSC1040",
+        "HSC1060",
+        "HSC2007",
+        "HSC2046",
+        "HSC2050",
+        "HSC3080",
+        "HSC3097",
+        "HSC3099",
+        "MAT1014"
+      ],
+      "elective_courses": [
+        "CHE1003",
+        "CHE1020",
+        "HSC2020",
+        "HSC2055",
+        "HSC3008",
+        "HSC3013",
+        "HSC3015",
+        "HSC3025",
+        "HSC3027",
+        "HSC4001",
+        "HSC4007",
+        "HSC4010",
+        "HSC4012",
+        "HSC4013",
+        "HSC4014",
+        "HSC4015",
+        "HUS2043",
+        "HUS2045",
+        "PSY2006",
+        "PSY2014",
+        "PSY3024",
+        "SOC3006",
+        "PSY3012",
+        "HUS3012"
+      ],
+      "notes": "Select 2 from 2000-3000 level HSC electives, 1 from 4000-level HSC capstone, and 1 from Psychology/Human Services list. Chemistry: CHE1003 or CHE1020. Statistics: MAT1014, PSY3012, HUS3012, or SOC3006. Total 128 credits."
+    },
+    "ACC": {
+      "name": "Accounting",
+      "degree": "BS",
+      "required_courses": [
+        "ENG1001",
+        "ENG1002",
+        "ECO2003",
+        "ETP1051",
+        "BES1010",
+        "BES1014",
+        "ACC2005",
+        "FIN3041",
+        "INF2010",
+        "MGT3006",
+        "MGT3035",
+        "MKT3037",
+        "ACC3031",
+        "ACC3032",
+        "ACC3038",
+        "ACC3040",
+        "ACC3051",
+        "ACC4031",
+        "ACC4050",
+        "BES4059"
+      ],
+      "elective_courses": [
+        "BUS1001",
+        "BUS3036",
+        "BUS3034",
+        "ECO3010",
+        "ECO3015",
+        "ECO3020",
+        "ETP2020",
+        "FIN1001",
+        "FIN3013",
+        "FIN3042",
+        "INF3030",
+        "INF3049",
+        "MGT3050",
+        "MGT4035",
+        "MGT4037",
+        "SPM2001",
+        "SPM2005"
+      ],
+      "notes": "Select 1 BES elective (4 cr). Total 128 credits."
+    },
+    "FIN": {
+      "name": "Finance",
+      "degree": "BS",
+      "required_courses": [
+        "ENG1001",
+        "ENG1002",
+        "ECO2003",
+        "ETP1051",
+        "BES1010",
+        "BES1014",
+        "ACC2005",
+        "FIN3041",
+        "INF2010",
+        "MGT3006",
+        "MGT3035",
+        "MKT3037",
+        "FIN3042",
+        "FIN3047",
+        "FIN3050",
+        "FIN4047",
+        "FIN4053",
+        "FIN4055",
+        "BES4059"
+      ],
+      "elective_courses": [
+        "ECO3010",
+        "ECO3013",
+        "BUS1001",
+        "BUS3036",
+        "BUS3034",
+        "ECO3015",
+        "ECO3020",
+        "ETP2020",
+        "FIN1001",
+        "FIN3013",
+        "INF3030",
+        "INF3049",
+        "MGT3050",
+        "MGT4035",
+        "MGT4037",
+        "SPM2001",
+        "SPM2005"
+      ],
+      "notes": "Select 1 from ECO3010/ECO3013 (Money & Banking or Digital Economy) as required Finance elective. Select 1 BES elective. Total 128 credits."
+    },
+    "MGT": {
+      "name": "Management",
+      "degree": "BS",
+      "required_courses": [
+        "ENG1001",
+        "ENG1002",
+        "ECO2003",
+        "ETP1051",
+        "BES1010",
+        "BES1014",
+        "ACC2005",
+        "FIN3041",
+        "INF2010",
+        "MGT3006",
+        "MGT3035",
+        "MKT3037",
+        "BUS3034",
+        "BUS4041",
+        "ETP2020",
+        "FIN3050",
+        "MGT3050",
+        "MGT4035",
+        "MGT4037",
+        "BES4059"
+      ],
+      "elective_courses": [
+        "BUS1001",
+        "BUS3036",
+        "ECO3010",
+        "ECO3015",
+        "ECO3020",
+        "FIN1001",
+        "FIN3013",
+        "FIN3042",
+        "INF3030",
+        "INF3049",
+        "SPM2001",
+        "SPM2005"
+      ],
+      "notes": "Select 1 BES elective. Total 128 credits."
+    },
+    "ISM": {
+      "name": "Information Systems Management",
+      "degree": "BS",
+      "required_courses": [
+        "ENG1001",
+        "ENG1002",
+        "ECO2003",
+        "ETP1051",
+        "BES1010",
+        "BES1014",
+        "CSC1051",
+        "CSC1052",
+        "ACC2005",
+        "FIN3041",
+        "INF2010",
+        "MGT3006",
+        "MGT3035",
+        "MKT3037",
+        "INF3030",
+        "INF3045",
+        "INF3049",
+        "INF3054",
+        "INF4020",
+        "INF4040",
+        "BES4059"
+      ],
+      "elective_courses": [
+        "BUS1001",
+        "BUS3036",
+        "BUS3034",
+        "ECO3010",
+        "ECO3015",
+        "ECO3020",
+        "ETP2020",
+        "FIN1001",
+        "FIN3013",
+        "FIN3042",
+        "MGT3050",
+        "MGT4035",
+        "MGT4037",
+        "SPM2001",
+        "SPM2005"
+      ],
+      "notes": "Select 1 BES elective. Total 128 credits."
+    },
+    "CRJ": {
+      "name": "Criminal Justice",
+      "degree": "BS",
+      "required_courses": [
+        "ENG1001",
+        "ENG1002",
+        "SOC1001",
+        "PSY1001",
+        "POL1001",
+        "CRJ2003",
+        "CRJ2007",
+        "CRJ3014",
+        "CRJ3015",
+        "CRJ3023",
+        "PHL1011",
+        "SOC3005",
+        "SOC3006",
+        "SOC4010"
+      ],
+      "elective_courses": [
+        "CRJ3020",
+        "CRJ3022",
+        "CRJ3045",
+        "CRJ3046",
+        "CRJ3048",
+        "CRJ3049",
+        "CRJ4095",
+        "PSY2014",
+        "PSY3001",
+        "CRJ3001",
+        "CRJ3052",
+        "ENG3014",
+        "PHL3003",
+        "POL4001",
+        "POL3010"
+      ],
+      "notes": "Three tracks: Law Enforcement, Legal Studies, and Crime Scene Investigation. Select track-specific courses. Total 128 credits."
+    },
+    "ANT": {
+      "name": "Anthropology",
+      "degree": "BS",
+      "required_courses": [
+        "ENG1001",
+        "ENG1002",
+        "SOC1001",
+        "HIS1003",
+        "REL2000",
+        "POL1001",
+        "PSY1001",
+        "ANT2001",
+        "ANT2005",
+        "ANT3003",
+        "ANT3054",
+        "SOC3005",
+        "SOC3006",
+        "SOC4010"
+      ],
+      "elective_courses": [
+        "ANT2008",
+        "ANT3021",
+        "SOC2009",
+        "SOC2015",
+        "SOC3011",
+        "SOC3019",
+        "SOC3034",
+        "ANT4095"
+      ],
+      "notes": "Select 1 from ANT2008/ANT3021. Select 2 from SOC/ANT electives. Total 128 credits."
     }
   },
   "courses": [
     {
-      "course_id": "CS101",
-      "title": "Intro to Programming",
-      "credits": 3,
+      "course_id": "ENG1001",
+      "source_code": "ENG 1001",
+      "title": "English Composition I",
+      "credits": 4,
       "prerequisites": [],
-      "offered_terms": [
-        "Fall",
-        "Spring"
-      ]
+      "offered_terms": ["Fall", "Spring"]
     },
     {
-      "course_id": "CS102",
-      "title": "Data Structures",
-      "credits": 3,
-      "prerequisites": [
-        "CS101"
-      ],
-      "offered_terms": [
-        "Fall",
-        "Spring"
-      ]
+      "course_id": "ENG1002",
+      "source_code": "ENG 1002",
+      "title": "English Composition II",
+      "credits": 4,
+      "prerequisites": ["ENG1001"],
+      "offered_terms": ["Fall", "Spring"]
     },
     {
-      "course_id": "CS201",
-      "title": "Discrete Mathematics for CS",
-      "credits": 3,
-      "prerequisites": [
-        "CS102"
-      ],
-      "offered_terms": [
-        "Fall",
-        "Spring"
-      ]
+      "course_id": "MAT1001",
+      "source_code": "MAT 1001",
+      "title": "Basic Mathematics",
+      "credits": 4,
+      "prerequisites": [],
+      "offered_terms": ["Fall", "Spring"]
     },
     {
-      "course_id": "CS210",
-      "title": "Computer Organization",
-      "credits": 3,
-      "prerequisites": [
-        "CS102"
-      ],
-      "offered_terms": [
-        "Fall"
-      ]
+      "course_id": "MAT1002",
+      "source_code": "MAT 1002",
+      "title": "Intermediate Mathematics",
+      "credits": 4,
+      "prerequisites": [],
+      "offered_terms": ["Fall", "Spring"]
     },
     {
-      "course_id": "CS220",
-      "title": "Algorithms",
-      "credits": 3,
-      "prerequisites": [
-        "CS201"
-      ],
-      "offered_terms": [
-        "Fall",
-        "Spring"
-      ]
+      "course_id": "MAT1006",
+      "source_code": "MAT 1006",
+      "title": "Math for Liberal Arts",
+      "credits": 4,
+      "prerequisites": [],
+      "offered_terms": ["Fall", "Spring"]
     },
     {
-      "course_id": "CS230",
-      "title": "Database Systems",
-      "credits": 3,
-      "prerequisites": [
-        "CS201"
-      ],
-      "offered_terms": [
-        "Fall"
-      ]
+      "course_id": "MAT1010",
+      "source_code": "MAT 1010",
+      "title": "College Algebra",
+      "credits": 4,
+      "prerequisites": [],
+      "offered_terms": ["Fall", "Spring"]
     },
     {
-      "course_id": "MATH101",
+      "course_id": "MAT1011",
+      "source_code": "MAT 1011",
+      "title": "Pre-Calculus",
+      "credits": 4,
+      "prerequisites": ["MAT1010"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "MAT1014",
+      "source_code": "MAT 1014",
+      "title": "Elementary Statistics I",
+      "credits": 4,
+      "prerequisites": [],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "MAT1020",
+      "source_code": "MAT 1020",
+      "title": "Calculus for Life Science and Social Science Majors",
+      "credits": 4,
+      "prerequisites": ["MAT1011"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "MAT1021",
+      "source_code": "MAT 1021",
       "title": "Calculus I",
       "credits": 4,
-      "prerequisites": [],
-      "offered_terms": [
-        "Fall",
-        "Spring"
-      ]
+      "prerequisites": ["MAT1011"],
+      "offered_terms": ["Fall", "Spring"]
     },
     {
-      "course_id": "MATH201",
+      "course_id": "MAT1022",
+      "source_code": "MAT 1022",
       "title": "Calculus II",
       "credits": 4,
-      "prerequisites": [
-        "MATH101"
-      ],
-      "offered_terms": [
-        "Fall",
-        "Spring"
-      ]
+      "prerequisites": ["MAT1021"],
+      "offered_terms": ["Fall", "Spring"]
     },
     {
-      "course_id": "STAT200",
-      "title": "Intro to Statistics",
-      "credits": 3,
-      "prerequisites": [
-        "MATH101"
-      ],
-      "offered_terms": [
-        "Spring"
-      ]
-    },
-    {
-      "course_id": "ENG101",
-      "title": "Academic Writing",
-      "credits": 3,
+      "course_id": "MAT2013",
+      "source_code": "MAT 2013",
+      "title": "Discrete Mathematics",
+      "credits": 4,
       "prerequisites": [],
-      "offered_terms": [
-        "Fall",
-        "Spring"
-      ]
+      "offered_terms": ["Fall", "Spring"]
     },
     {
-      "course_id": "HIST101",
-      "title": "World History",
-      "credits": 3,
+      "course_id": "MAT2021",
+      "source_code": "MAT 2021",
+      "title": "Calculus III",
+      "credits": 4,
+      "prerequisites": ["MAT1022"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "CSC1051",
+      "source_code": "CSC 1051",
+      "title": "Computer Applications and Coding",
+      "credits": 4,
+      "prerequisites": ["MAT1001"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "CSC1052",
+      "source_code": "CSC 1052",
+      "title": "Intro to Computer Programming",
+      "credits": 4,
+      "prerequisites": ["MAT1001"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "CSC1058",
+      "source_code": "CSC 1058",
+      "title": "Computer Programming I",
+      "credits": 4,
       "prerequisites": [],
-      "offered_terms": [
-        "Fall"
-      ]
+      "corequisites": ["MAT1010"],
+      "offered_terms": ["Fall", "Spring"]
     },
     {
-      "course_id": "ECON101",
+      "course_id": "CSC1059",
+      "source_code": "CSC 1059",
+      "title": "Computer Programming II",
+      "credits": 4,
+      "prerequisites": ["CSC1058", "MAT1010"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "CSC2001",
+      "source_code": "CSC 2001",
+      "title": "Web Design and Development",
+      "credits": 4,
+      "prerequisites": ["CSC1058"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "CSC2054",
+      "source_code": "CSC 2054",
+      "title": "Data Structures",
+      "credits": 4,
+      "prerequisites": ["CSC1059"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "CSC3002",
+      "source_code": "CSC 3002",
+      "title": "Computer Graphics and Animation",
+      "credits": 4,
+      "prerequisites": ["CSC1059"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "CSC3053",
+      "source_code": "CSC 3053",
+      "title": "Computer Organization and Assembly Language",
+      "credits": 4,
+      "prerequisites": [],
+      "corequisites": ["CSC2054"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "CSC3054",
+      "source_code": "CSC 3054",
+      "title": "Database Design and Development",
+      "credits": 4,
+      "prerequisites": ["CSC2054"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "CSC3055",
+      "source_code": "CSC 3055",
+      "title": "Operating Systems with Linux",
+      "credits": 4,
+      "prerequisites": ["CSC2054"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "CSC3056",
+      "source_code": "CSC 3056",
+      "title": "Visual and Event Driven Programming",
+      "credits": 4,
+      "prerequisites": ["CSC1059"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "CSC3058",
+      "source_code": "CSC 3058",
+      "title": "Artificial Intelligence and Machine Learning",
+      "credits": 4,
+      "prerequisites": ["CSC2054", "MAT1014"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "CSC3059",
+      "source_code": "CSC 3059",
+      "title": "Cyber Security and Information Assurance",
+      "credits": 4,
+      "prerequisites": ["CSC1059"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "CSC3090",
+      "source_code": "CSC 3090",
+      "title": "Special Topics",
+      "credits": 4,
+      "prerequisites": ["CSC1058"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "CSC3095",
+      "source_code": "CSC 3095",
+      "title": "HCI and User Experience",
+      "credits": 4,
+      "prerequisites": ["CSC1059"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "CSC3099",
+      "source_code": "CSC 3099",
+      "title": "Computer Science Internship",
+      "credits": 4,
+      "prerequisites": ["CSC2054"],
+      "offered_terms": ["Fall", "Spring", "Summer"]
+    },
+    {
+      "course_id": "CSC4053",
+      "source_code": "CSC 4053",
+      "title": "Compiler Construction",
+      "credits": 4,
+      "prerequisites": ["CSC2054"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "CSC4054",
+      "source_code": "CSC 4054",
+      "title": "Software Engineering",
+      "credits": 4,
+      "prerequisites": ["CSC2054"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "CSC4057",
+      "source_code": "CSC 4057",
+      "title": "Computer Networking and Security",
+      "credits": 4,
+      "prerequisites": ["CSC1059"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "CSC4058",
+      "source_code": "CSC 4058",
+      "title": "Game Programming and Development",
+      "credits": 4,
+      "prerequisites": ["CSC3002"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "CSC4091",
+      "source_code": "CSC 4091",
+      "title": "3D Games Development Capstone",
+      "credits": 4,
+      "prerequisites": ["CSC4058"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "CSC4095",
+      "source_code": "CSC 4095",
+      "title": "Independent Study",
+      "credits": 4,
+      "prerequisites": [],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "CSC4098",
+      "source_code": "CSC 4098",
+      "title": "Topics in Computer Science",
+      "credits": 4,
+      "prerequisites": [],
+      "offered_terms": ["Fall", "Spring"],
+      "notes": "Prerequisite: Senior Status in CS Major"
+    },
+    {
+      "course_id": "BIO1003",
+      "source_code": "BIO 1003",
+      "title": "General Biology I for Biology Majors w/Lab",
+      "credits": 4,
+      "prerequisites": ["MAT1001"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "BIO1004",
+      "source_code": "BIO 1004",
+      "title": "General Biology II for Biology Majors w/Lab",
+      "credits": 4,
+      "prerequisites": ["BIO1003"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "BIO2005",
+      "source_code": "BIO 2005",
+      "title": "Anatomy and Physiology I w/Lab",
+      "credits": 4,
+      "prerequisites": ["BIO1003"],
+      "offered_terms": ["Fall", "Spring"],
+      "notes": "Also accepts BIO1001+BIO1002, BIO1005, or HSC1060 as prereq"
+    },
+    {
+      "course_id": "BIO2006",
+      "source_code": "BIO 2006",
+      "title": "Anatomy and Physiology II w/Lab",
+      "credits": 4,
+      "prerequisites": ["BIO2005"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "BIO2007",
+      "source_code": "BIO 2007",
+      "title": "Cell Biology w/Lab",
+      "credits": 4,
+      "prerequisites": ["BIO1004"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "BIO2008",
+      "source_code": "BIO 2008",
+      "title": "Genetics w/Lab",
+      "credits": 4,
+      "prerequisites": ["BIO1004"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "BIO3001",
+      "source_code": "BIO 3001",
+      "title": "Endocrinology",
+      "credits": 4,
+      "prerequisites": ["BIO1003", "CHE1004"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "BIO3002",
+      "source_code": "BIO 3002",
+      "title": "Vertebrate Physiology w/Lab",
+      "credits": 4,
+      "prerequisites": ["BIO2007", "CHE1004"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "BIO3004",
+      "source_code": "BIO 3004",
+      "title": "Developmental Biology w/Lab",
+      "credits": 4,
+      "prerequisites": ["BIO2007"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "BIO3005",
+      "source_code": "BIO 3005",
+      "title": "Biological Techniques",
+      "credits": 4,
+      "prerequisites": ["BIO1003"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "BIO3008",
+      "source_code": "BIO 3008",
+      "title": "Histology w/Lab",
+      "credits": 4,
+      "prerequisites": ["BIO1004"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "BIO3009",
+      "source_code": "BIO 3009",
+      "title": "Botany w/Lab",
+      "credits": 4,
+      "prerequisites": ["BIO1004"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "BIO3010",
+      "source_code": "BIO 3010",
+      "title": "Invertebrate Zoology w/Lab",
+      "credits": 4,
+      "prerequisites": ["BIO1004"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "BIO3011",
+      "source_code": "BIO 3011",
+      "title": "Conservation Biology",
+      "credits": 4,
+      "prerequisites": ["BIO1004"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "BIO3012",
+      "source_code": "BIO 3012",
+      "title": "General Ecology w/Lab",
+      "credits": 4,
+      "prerequisites": ["BIO1004"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "BIO3017",
+      "source_code": "BIO 3017",
+      "title": "Principles of Medical Pharmacology",
+      "credits": 4,
+      "prerequisites": ["BIO1004"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "BIO3019",
+      "source_code": "BIO 3019",
+      "title": "Cancer Biology",
+      "credits": 4,
+      "prerequisites": ["BIO1004"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "BIO3090",
+      "source_code": "BIO 3090",
+      "title": "Special Topics",
+      "credits": 4,
+      "prerequisites": ["BIO1004"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "BIO4001",
+      "source_code": "BIO 4001",
+      "title": "Microbiology w/Lab",
+      "credits": 4,
+      "prerequisites": ["BIO2007"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "BIO4002",
+      "source_code": "BIO 4002",
+      "title": "Immunology w/Lab",
+      "credits": 4,
+      "prerequisites": ["BIO2007"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "BIO4005",
+      "source_code": "BIO 4005",
+      "title": "Comparative Anatomy of Vertebrates w/Lab",
+      "credits": 4,
+      "prerequisites": ["BIO2007"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "BIO4007",
+      "source_code": "BIO 4007",
+      "title": "Molecular Biology w/Lab",
+      "credits": 4,
+      "prerequisites": ["BIO2008"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "BIO4008",
+      "source_code": "BIO 4008",
+      "title": "Human Anatomy w/Lab",
+      "credits": 4,
+      "prerequisites": ["BIO2007"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "BIO4012",
+      "source_code": "BIO 4012",
+      "title": "Neuroscience w/Lab",
+      "credits": 4,
+      "prerequisites": ["BIO2007"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "BIO4013",
+      "source_code": "BIO 4013",
+      "title": "Biology Research I",
+      "credits": 2,
+      "prerequisites": ["BIO2008"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "BIO4014",
+      "source_code": "BIO 4014",
+      "title": "Biology Research II",
+      "credits": 2,
+      "prerequisites": ["BIO4013"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "BIO4020",
+      "source_code": "BIO 4020",
+      "title": "Senior Seminar",
+      "credits": 1,
+      "prerequisites": ["BIO2007", "BIO2008"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "CHE1003",
+      "source_code": "CHE 1003",
+      "title": "General Chemistry I w/Lab",
+      "credits": 4,
+      "prerequisites": ["MAT1001"],
+      "corequisites": ["MAT1010"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "CHE1004",
+      "source_code": "CHE 1004",
+      "title": "General Chemistry II w/Lab",
+      "credits": 4,
+      "prerequisites": ["CHE1003"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "CHE1020",
+      "source_code": "CHE 1020",
+      "title": "Chemistry for Health Science w/Lab",
+      "credits": 4,
+      "prerequisites": [],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "CHE2001",
+      "source_code": "CHE 2001",
+      "title": "Quantitative Analysis w/Lab",
+      "credits": 4,
+      "prerequisites": ["CHE1004", "MAT1011"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "CHE2003",
+      "source_code": "CHE 2003",
+      "title": "Organic Chemistry I w/Lab",
+      "credits": 4,
+      "prerequisites": ["CHE1004"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "CHE2004",
+      "source_code": "CHE 2004",
+      "title": "Organic Chemistry II w/Lab",
+      "credits": 4,
+      "prerequisites": ["CHE2003"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "CHE2005",
+      "source_code": "CHE 2005",
+      "title": "Inorganic Chemistry w/Lab",
+      "credits": 4,
+      "prerequisites": ["CHE1004"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "CHE2055",
+      "source_code": "CHE 2055",
+      "title": "Intro to Bioinformatics w/Lab",
+      "credits": 4,
+      "prerequisites": [],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "CHE3000",
+      "source_code": "CHE 3000",
+      "title": "Physical Chemistry I w/Lab",
+      "credits": 4,
+      "prerequisites": ["PHY1006"],
+      "corequisites": ["MAT1021"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "CHE3001",
+      "source_code": "CHE 3001",
+      "title": "Physical Chemistry II w/Lab",
+      "credits": 4,
+      "prerequisites": ["CHE3000"],
+      "corequisites": ["MAT1022"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "CHE3003",
+      "source_code": "CHE 3003",
+      "title": "Biochemistry I w/Lab",
+      "credits": 4,
+      "prerequisites": ["CHE2004"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "CHE3004",
+      "source_code": "CHE 3004",
+      "title": "Biochemistry II w/Lab",
+      "credits": 4,
+      "prerequisites": ["CHE3003"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "CHE3005",
+      "source_code": "CHE 3005",
+      "title": "Toxicology",
+      "credits": 4,
+      "prerequisites": [],
+      "corequisites": ["CHE3003"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "CHE3010",
+      "source_code": "CHE 3010",
+      "title": "Research Seminar I",
+      "credits": 4,
+      "prerequisites": [],
+      "offered_terms": ["Fall", "Spring"],
+      "notes": "Required of junior and senior chemistry majors. Listed as 4 cr in major requirements table but 1 cr in course description."
+    },
+    {
+      "course_id": "CHE3011",
+      "source_code": "CHE 3011",
+      "title": "Research Seminar II",
+      "credits": 1,
+      "prerequisites": ["CHE3010"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "CHE3013",
+      "source_code": "CHE 3013",
+      "title": "Scientific Literature",
+      "credits": 2,
+      "prerequisites": ["CHE2004"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "CHE3090",
+      "source_code": "CHE 3090",
+      "title": "Special Topics",
+      "credits": 4,
+      "prerequisites": [],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "CHE4002",
+      "source_code": "CHE 4002",
+      "title": "Instrumental Analysis w/Lab",
+      "credits": 4,
+      "prerequisites": ["CHE3001"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "CHE4003",
+      "source_code": "CHE 4003",
+      "title": "Advanced Inorganic Chemistry",
+      "credits": 4,
+      "prerequisites": ["CHE2005"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "CHE4095",
+      "source_code": "CHE 4095",
+      "title": "Independent Study Research",
+      "credits": 4,
+      "prerequisites": [],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "PHY1003",
+      "source_code": "PHY 1003",
+      "title": "Introduction to Physics I w/Lab",
+      "credits": 4,
+      "prerequisites": [],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "PHY1004",
+      "source_code": "PHY 1004",
+      "title": "Introduction to Physics II w/Lab",
+      "credits": 4,
+      "prerequisites": ["PHY1003"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "PHY1005",
+      "source_code": "PHY 1005",
+      "title": "General Physics I w/Lab",
+      "credits": 4,
+      "prerequisites": ["MAT1011"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "PHY1006",
+      "source_code": "PHY 1006",
+      "title": "General Physics II w/Lab",
+      "credits": 4,
+      "prerequisites": ["PHY1005"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "HSC1030",
+      "source_code": "HSC 1030",
+      "title": "Introduction to Health Science",
+      "credits": 4,
+      "prerequisites": [],
+      "offered_terms": ["Fall", "Spring"],
+      "notes": "Prerequisite: HSC Major"
+    },
+    {
+      "course_id": "HSC1040",
+      "source_code": "HSC 1040",
+      "title": "Medical Terminology",
+      "credits": 4,
+      "prerequisites": [],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "HSC1060",
+      "source_code": "HSC 1060",
+      "title": "Community Health and Aging",
+      "credits": 4,
+      "prerequisites": [],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "HSC2007",
+      "source_code": "HSC 2007",
+      "title": "Health Promotion: Theory and Practice",
+      "credits": 4,
+      "prerequisites": ["HSC1030"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "HSC2020",
+      "source_code": "HSC 2020",
+      "title": "Stress Management",
+      "credits": 4,
+      "prerequisites": [],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "HSC2046",
+      "source_code": "HSC 2046",
+      "title": "Cultural Competence and Ethics",
+      "credits": 4,
+      "prerequisites": ["HSC1030"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "HSC2050",
+      "source_code": "HSC 2050",
+      "title": "Nutrition",
+      "credits": 4,
+      "prerequisites": [],
+      "corequisites": ["CHE1003"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "HSC2055",
+      "source_code": "HSC 2055",
+      "title": "Athletic Injuries",
+      "credits": 4,
+      "prerequisites": ["HSC1030"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "HSC3008",
+      "source_code": "HSC 3008",
+      "title": "Kinesiology",
+      "credits": 4,
+      "prerequisites": ["BIO2005"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "HSC3013",
+      "source_code": "HSC 3013",
+      "title": "Health Communication",
+      "credits": 4,
+      "prerequisites": ["HSC2007"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "HSC3015",
+      "source_code": "HSC 3015",
+      "title": "Principles of Coaching",
+      "credits": 4,
+      "prerequisites": ["HSC1030", "HSC1060"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "HSC3025",
+      "source_code": "HSC 3025",
+      "title": "Drugs and Society",
+      "credits": 4,
+      "prerequisites": ["HSC1030", "SOC1001"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "HSC3027",
+      "source_code": "HSC 3027",
+      "title": "Chronic and Communicable Diseases",
+      "credits": 4,
+      "prerequisites": ["HSC1030", "HSC1060"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "HSC3080",
+      "source_code": "HSC 3080",
+      "title": "Research and Evaluation",
+      "credits": 4,
+      "prerequisites": ["HSC1030", "MAT1014"],
+      "offered_terms": ["Fall", "Spring"],
+      "notes": "Stats prereq can be MAT1014, PSY3012, HUS3012, or SOC3006"
+    },
+    {
+      "course_id": "HSC3097",
+      "source_code": "HSC 3097",
+      "title": "Professional Seminar",
+      "credits": 4,
+      "prerequisites": ["HSC1030"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "HSC3099",
+      "source_code": "HSC 3099",
+      "title": "Health Science Internship",
+      "credits": 4,
+      "prerequisites": ["HSC3097"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "HSC4001",
+      "source_code": "HSC 4001",
+      "title": "Epidemiology",
+      "credits": 4,
+      "prerequisites": ["HSC2007", "HSC3080"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "HSC4007",
+      "source_code": "HSC 4007",
+      "title": "Personal Training Preparation",
+      "credits": 4,
+      "prerequisites": [],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "HSC4010",
+      "source_code": "HSC 4010",
+      "title": "Program Planning",
+      "credits": 4,
+      "prerequisites": ["HSC2007", "HSC3080"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "HSC4012",
+      "source_code": "HSC 4012",
+      "title": "Health Administration",
+      "credits": 4,
+      "prerequisites": ["HSC2007", "HSC3080"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "HSC4013",
+      "source_code": "HSC 4013",
+      "title": "Health Disparities and Advocacy",
+      "credits": 4,
+      "prerequisites": ["HSC2007", "HSC3080"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "HSC4014",
+      "source_code": "HSC 4014",
+      "title": "Sport Leadership",
+      "credits": 4,
+      "prerequisites": ["HSC2007", "HSC3080"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "HSC4015",
+      "source_code": "HSC 4015",
+      "title": "Issues and Trends in Allied Health Professions",
+      "credits": 4,
+      "prerequisites": ["HSC2007", "HSC3080"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "ACC2005",
+      "source_code": "ACC 2005",
+      "title": "Principles of Accounting",
+      "credits": 4,
+      "prerequisites": ["ENG1001"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "ACC3031",
+      "source_code": "ACC 3031",
+      "title": "Intermediate Accounting I",
+      "credits": 4,
+      "prerequisites": ["ACC2005"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "ACC3032",
+      "source_code": "ACC 3032",
+      "title": "Intermediate Accounting II",
+      "credits": 4,
+      "prerequisites": ["ACC3031"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "ACC3038",
+      "source_code": "ACC 3038",
+      "title": "Federal and Individual Income Taxation",
+      "credits": 4,
+      "prerequisites": ["ACC2005"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "ACC3040",
+      "source_code": "ACC 3040",
+      "title": "Accounting Information Systems",
+      "credits": 4,
+      "prerequisites": ["ACC2005"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "ACC3051",
+      "source_code": "ACC 3051",
+      "title": "Auditing",
+      "credits": 4,
+      "prerequisites": ["ACC2005"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "ACC4031",
+      "source_code": "ACC 4031",
+      "title": "Advanced Accounting",
+      "credits": 4,
+      "prerequisites": ["ACC3032"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "ACC4041",
+      "source_code": "ACC 4041",
+      "title": "Government and Non-Profit Accounting",
+      "credits": 4,
+      "prerequisites": ["ACC3032"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "ACC4050",
+      "source_code": "ACC 4050",
+      "title": "Accounting Practicum",
+      "credits": 4,
+      "prerequisites": ["ACC3032"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "BES1010",
+      "source_code": "BES 1010",
+      "title": "Business Mathematics",
+      "credits": 4,
+      "prerequisites": ["MAT1001"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "BES1014",
+      "source_code": "BES 1014",
+      "title": "Business Statistics",
+      "credits": 4,
+      "prerequisites": ["BES1010"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "BES4059",
+      "source_code": "BES 4059",
+      "title": "B.E.S. Senior Seminar",
+      "credits": 4,
+      "prerequisites": ["BES1010", "MGT3006"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "BUS1001",
+      "source_code": "BUS 1001",
+      "title": "Introduction to Business",
+      "credits": 4,
+      "prerequisites": [],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "BUS3034",
+      "source_code": "BUS 3034",
+      "title": "Business Law",
+      "credits": 4,
+      "prerequisites": ["MGT3035"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "BUS3036",
+      "source_code": "BUS 3036",
+      "title": "Business Communications",
+      "credits": 4,
+      "prerequisites": ["MGT3035"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "BUS4041",
+      "source_code": "BUS 4041",
+      "title": "International Business",
+      "credits": 4,
+      "prerequisites": ["MGT3035"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "ECO2003",
+      "source_code": "ECO 2003",
       "title": "Principles of Economics",
-      "credits": 3,
+      "credits": 4,
+      "prerequisites": ["MAT1001"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "ECO3010",
+      "source_code": "ECO 3010",
+      "title": "Digital Economy",
+      "credits": 4,
+      "prerequisites": ["ECO2003", "BES1014"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "ECO3013",
+      "source_code": "ECO 3013",
+      "title": "Money and Banking",
+      "credits": 4,
+      "prerequisites": ["ECO2003", "BES1010"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "ECO3015",
+      "source_code": "ECO 3015",
+      "title": "Public Finance",
+      "credits": 4,
+      "prerequisites": ["ECO2003", "BES1010"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "ECO3020",
+      "source_code": "ECO 3020",
+      "title": "Economic Inequalities and Discrimination",
+      "credits": 4,
+      "prerequisites": ["ECO2003"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "ECO3036",
+      "source_code": "ECO 3036",
+      "title": "Managerial Economics",
+      "credits": 4,
+      "prerequisites": ["ECO2003", "BES1014", "MGT3035"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "ETP1051",
+      "source_code": "ETP 1051",
+      "title": "Black Entrepreneurship",
+      "credits": 4,
       "prerequisites": [],
-      "offered_terms": [
-        "Spring"
-      ]
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "ETP2020",
+      "source_code": "ETP 2020",
+      "title": "Principles of Entrepreneurship",
+      "credits": 4,
+      "prerequisites": [],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "ETP4059",
+      "source_code": "ETP 4059",
+      "title": "Entrepreneurship Senior Seminar",
+      "credits": 4,
+      "prerequisites": ["ETP2020"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "FIN1001",
+      "source_code": "FIN 1001",
+      "title": "Personal Finance",
+      "credits": 4,
+      "prerequisites": [],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "FIN3013",
+      "source_code": "FIN 3013",
+      "title": "Money and Banking",
+      "credits": 4,
+      "prerequisites": ["ECO2003", "BES1010"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "FIN3041",
+      "source_code": "FIN 3041",
+      "title": "Financial Management",
+      "credits": 4,
+      "prerequisites": ["BES1014", "ACC2005"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "FIN3042",
+      "source_code": "FIN 3042",
+      "title": "Advanced Financial Management",
+      "credits": 4,
+      "prerequisites": ["FIN3041"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "FIN3047",
+      "source_code": "FIN 3047",
+      "title": "International Financial Management",
+      "credits": 4,
+      "prerequisites": ["FIN3041"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "FIN3050",
+      "source_code": "FIN 3050",
+      "title": "Principles of Investments",
+      "credits": 4,
+      "prerequisites": ["FIN3041"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "FIN4047",
+      "source_code": "FIN 4047",
+      "title": "Risk Management and Insurance",
+      "credits": 4,
+      "prerequisites": ["ECO2003", "BES1014"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "FIN4053",
+      "source_code": "FIN 4053",
+      "title": "Investment and Portfolio Management",
+      "credits": 4,
+      "prerequisites": ["FIN3050"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "FIN4055",
+      "source_code": "FIN 4055",
+      "title": "Financial Institutional Management",
+      "credits": 4,
+      "prerequisites": ["ECO3013"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "INF2010",
+      "source_code": "INF 2010",
+      "title": "Application Development for Business",
+      "credits": 4,
+      "prerequisites": [],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "INF3030",
+      "source_code": "INF 3030",
+      "title": "Information Technology Management",
+      "credits": 4,
+      "prerequisites": ["MGT3035"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "INF3045",
+      "source_code": "INF 3045",
+      "title": "Supply Chain Management",
+      "credits": 4,
+      "prerequisites": ["MGT3035"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "INF3049",
+      "source_code": "INF 3049",
+      "title": "E-Commerce/E-Business",
+      "credits": 4,
+      "prerequisites": ["MKT3037"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "INF3054",
+      "source_code": "INF 3054",
+      "title": "Database Management",
+      "credits": 4,
+      "prerequisites": ["CSC1052", "INF3030"],
+      "offered_terms": ["Fall", "Spring"],
+      "notes": "Prereq: CSC1052 or CSC1058 AND INF3030"
+    },
+    {
+      "course_id": "INF4020",
+      "source_code": "INF 4020",
+      "title": "Data Mining, Warehousing and Modeling",
+      "credits": 4,
+      "prerequisites": ["INF3054"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "INF4040",
+      "source_code": "INF 4040",
+      "title": "Project Management",
+      "credits": 4,
+      "prerequisites": ["INF2010", "INF3030"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "MGT3006",
+      "source_code": "MGT 3006",
+      "title": "Quantitative Methods for Management",
+      "credits": 4,
+      "prerequisites": ["ACC2005", "BES1014"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "MGT3035",
+      "source_code": "MGT 3035",
+      "title": "Principles of Management",
+      "credits": 4,
+      "prerequisites": ["ECO2003"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "MGT3050",
+      "source_code": "MGT 3050",
+      "title": "Leadership",
+      "credits": 4,
+      "prerequisites": ["MGT3035"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "MGT4035",
+      "source_code": "MGT 4035",
+      "title": "Organizational Behavior",
+      "credits": 4,
+      "prerequisites": ["MGT3035"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "MGT4037",
+      "source_code": "MGT 4037",
+      "title": "Human Resources Management",
+      "credits": 4,
+      "prerequisites": ["MGT3035"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "MKT3037",
+      "source_code": "MKT 3037",
+      "title": "Principles of Marketing",
+      "credits": 4,
+      "prerequisites": ["ECO2003"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "SPM2001",
+      "source_code": "SPM 2001",
+      "title": "Principles of Sports Management",
+      "credits": 4,
+      "prerequisites": [],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "SPM2005",
+      "source_code": "SPM 2005",
+      "title": "Sports Marketing",
+      "credits": 4,
+      "prerequisites": [],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "SOC1001",
+      "source_code": "SOC 1001",
+      "title": "Introduction to Sociology",
+      "credits": 4,
+      "prerequisites": [],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "SOC3005",
+      "source_code": "SOC 3005",
+      "title": "Research Methods",
+      "credits": 4,
+      "prerequisites": ["SOC1001"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "SOC3006",
+      "source_code": "SOC 3006",
+      "title": "Social Statistics",
+      "credits": 4,
+      "prerequisites": ["SOC1001"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "SOC4010",
+      "source_code": "SOC 4010",
+      "title": "Senior Seminar",
+      "credits": 4,
+      "prerequisites": ["SOC3005"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "SOC2009",
+      "source_code": "SOC 2009",
+      "title": "Institutional Racism",
+      "credits": 4,
+      "prerequisites": ["SOC1001"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "SOC2015",
+      "source_code": "SOC 2015",
+      "title": "Class, Status and Social Mobility",
+      "credits": 4,
+      "prerequisites": ["SOC1001"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "SOC3011",
+      "source_code": "SOC 3011",
+      "title": "The American Community",
+      "credits": 4,
+      "prerequisites": ["SOC1001"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "SOC3019",
+      "source_code": "SOC 3019",
+      "title": "Urban Sociology",
+      "credits": 4,
+      "prerequisites": ["SOC1001"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "SOC3034",
+      "source_code": "SOC 3034",
+      "title": "Social Movements and Change",
+      "credits": 4,
+      "prerequisites": ["SOC1001"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "ANT2001",
+      "source_code": "ANT 2001",
+      "title": "General Anthropology",
+      "credits": 4,
+      "prerequisites": ["SOC1001"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "ANT2005",
+      "source_code": "ANT 2005",
+      "title": "Marriage and the Family",
+      "credits": 4,
+      "prerequisites": ["SOC1001"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "ANT2008",
+      "source_code": "ANT 2008",
+      "title": "Political Anthropology of African Societies",
+      "credits": 4,
+      "prerequisites": ["SOC1001"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "ANT3003",
+      "source_code": "ANT 3003",
+      "title": "Cultural Anthropology",
+      "credits": 4,
+      "prerequisites": ["ANT2001"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "ANT3021",
+      "source_code": "ANT 3021",
+      "title": "Ethnography of West Africa",
+      "credits": 4,
+      "prerequisites": ["SOC1001"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "ANT3054",
+      "source_code": "ANT 3054",
+      "title": "Anthropology of Religion",
+      "credits": 4,
+      "prerequisites": ["SOC1001"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "ANT4095",
+      "source_code": "ANT 4095",
+      "title": "Independent Study",
+      "credits": 4,
+      "prerequisites": [],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "CRJ2003",
+      "source_code": "CRJ 2003",
+      "title": "Introduction to the Criminal Justice System",
+      "credits": 4,
+      "prerequisites": [],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "CRJ2007",
+      "source_code": "CRJ 2007",
+      "title": "Criminal Law I",
+      "credits": 4,
+      "prerequisites": [],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "CRJ3001",
+      "source_code": "CRJ 3001",
+      "title": "Law and Society",
+      "credits": 4,
+      "prerequisites": ["CRJ2003"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "CRJ3014",
+      "source_code": "CRJ 3014",
+      "title": "Criminological Theory",
+      "credits": 4,
+      "prerequisites": ["CRJ2003"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "CRJ3015",
+      "source_code": "CRJ 3015",
+      "title": "Court and Corrections",
+      "credits": 4,
+      "prerequisites": ["CRJ2003"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "CRJ3020",
+      "source_code": "CRJ 3020",
+      "title": "Introduction to Law Enforcement",
+      "credits": 4,
+      "prerequisites": ["CRJ2003"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "CRJ3022",
+      "source_code": "CRJ 3022",
+      "title": "Forensic Science",
+      "credits": 4,
+      "prerequisites": ["CRJ2003"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "CRJ3023",
+      "source_code": "CRJ 3023",
+      "title": "Criminal Justice Administration",
+      "credits": 4,
+      "prerequisites": ["CRJ2003"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "CRJ3045",
+      "source_code": "CRJ 3045",
+      "title": "Criminal Investigation",
+      "credits": 4,
+      "prerequisites": ["CRJ2003"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "CRJ3046",
+      "source_code": "CRJ 3046",
+      "title": "Community Based Corrections",
+      "credits": 4,
+      "prerequisites": ["CRJ2003"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "CRJ3048",
+      "source_code": "CRJ 3048",
+      "title": "Juvenile Delinquency",
+      "credits": 4,
+      "prerequisites": ["CRJ2003"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "CRJ3049",
+      "source_code": "CRJ 3049",
+      "title": "Introduction to Victimology",
+      "credits": 4,
+      "prerequisites": ["CRJ2003"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "CRJ3052",
+      "source_code": "CRJ 3052",
+      "title": "Criminal Law II",
+      "credits": 4,
+      "prerequisites": ["CRJ2007"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "CRJ4095",
+      "source_code": "CRJ 4095",
+      "title": "Internship or Independent Study",
+      "credits": 4,
+      "prerequisites": [],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "PSY1001",
+      "source_code": "PSY 1001",
+      "title": "General Psychology",
+      "credits": 4,
+      "prerequisites": [],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "PSY2006",
+      "source_code": "PSY 2006",
+      "title": "Lifespan Developmental Psychology",
+      "credits": 4,
+      "prerequisites": ["PSY1001"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "PSY2014",
+      "source_code": "PSY 2014",
+      "title": "Abnormal Psychology",
+      "credits": 4,
+      "prerequisites": ["PSY1001"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "PSY3001",
+      "source_code": "PSY 3001",
+      "title": "Social Psychology",
+      "credits": 4,
+      "prerequisites": ["PSY1001"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "PSY3012",
+      "source_code": "PSY 3012",
+      "title": "Statistics I w/Lab",
+      "credits": 4,
+      "prerequisites": ["PSY1001"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "PSY3024",
+      "source_code": "PSY 3024",
+      "title": "History and Systems Psychology",
+      "credits": 4,
+      "prerequisites": ["PSY1001"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "HUS2043",
+      "source_code": "HUS 2043",
+      "title": "Intro to Human Services and Social Policy",
+      "credits": 4,
+      "prerequisites": [],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "HUS2045",
+      "source_code": "HUS 2045",
+      "title": "Human Growth and Development",
+      "credits": 4,
+      "prerequisites": [],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "HUS3012",
+      "source_code": "HUS 3012",
+      "title": "Statistics w/Lab",
+      "credits": 4,
+      "prerequisites": [],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "POL1001",
+      "source_code": "POL 1001",
+      "title": "American National Government",
+      "credits": 4,
+      "prerequisites": [],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "POL3010",
+      "source_code": "POL 3010",
+      "title": "Race and American Law",
+      "credits": 4,
+      "prerequisites": ["POL1001"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "POL4001",
+      "source_code": "POL 4001",
+      "title": "Supreme Court and Constitutional Law",
+      "credits": 4,
+      "prerequisites": ["POL1001"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "PHL1011",
+      "source_code": "PHL 1011",
+      "title": "Everyday Ethics",
+      "credits": 4,
+      "prerequisites": [],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "PHL2015",
+      "source_code": "PHL 2015",
+      "title": "Ethics",
+      "credits": 4,
+      "prerequisites": [],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "PHL3003",
+      "source_code": "PHL 3003",
+      "title": "Legal Philosophy",
+      "credits": 4,
+      "prerequisites": [],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "HIS1003",
+      "source_code": "HIS 1003",
+      "title": "World History",
+      "credits": 4,
+      "prerequisites": [],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "REL2000",
+      "source_code": "REL 2000",
+      "title": "Introduction to Religion",
+      "credits": 4,
+      "prerequisites": [],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "ENG3014",
+      "source_code": "ENG 3014",
+      "title": "Legal Analysis and Writing",
+      "credits": 4,
+      "prerequisites": ["ENG1002"],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "ENS1000",
+      "source_code": "ENS 1000",
+      "title": "Introduction to Engineering",
+      "credits": 4,
+      "prerequisites": [],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "GSC1011",
+      "source_code": "GSC 1011",
+      "title": "Environmental Science",
+      "credits": 4,
+      "prerequisites": [],
+      "offered_terms": ["Fall", "Spring"]
+    },
+    {
+      "course_id": "GSC2000",
+      "source_code": "GSC 2000",
+      "title": "Climate Studies",
+      "credits": 4,
+      "prerequisites": [],
+      "offered_terms": ["Fall", "Spring"]
     }
   ]
 }

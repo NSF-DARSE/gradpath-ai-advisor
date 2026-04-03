@@ -37,7 +37,14 @@ def resolve_student_record(student_ref: str) -> Dict[str, Any]:
 
 def load_student_profile(student_ref: str) -> Dict[str, Any]:
     """Load one normalized student transcript if it is ready for runtime use."""
-    record = resolve_student_record(student_ref)
+    try:
+        record = resolve_student_record(student_ref)
+    except ValueError:
+        return {
+            "student_ref": student_ref,
+            "status": "not_found",
+            "message": f"Student '{student_ref}' is not in the GradPath registry. Use transcript data from session state instead.",
+        }
     transcript_file = record.get("transcript_file")
 
     if record.get("status") != "ready" or not transcript_file:

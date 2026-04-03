@@ -1,4 +1,4 @@
-"""Adapter that turns the existing GradPath agent/tool outputs into UI-ready data."""
+"""Adapter that turns ADK agent and tool outputs into UI-ready data."""
 
 from __future__ import annotations
 
@@ -8,9 +8,8 @@ from typing import Any, Dict, List, Optional, Tuple
 from uuid import uuid4
 
 from tools.catalog_tools import load_catalog_data, load_major_planning_context
-from tools.student_tools import load_student_profile, load_student_index
+from tools.student_tools import load_student_index, load_student_profile
 
-from ..config import DEFAULT_MAX_CREDITS, DEFAULT_TARGET_SEMESTER, USE_ADK_WRAPPER
 from ..models import (
     AdvisingNote,
     ChatMessage,
@@ -22,6 +21,7 @@ from ..models import (
     StudentSnapshot,
     StructuredAgentResponse,
 )
+from .adk_service import get_adk_runner_service
 from .transcript_parser import ParsedTranscript
 
 
@@ -37,7 +37,7 @@ def build_placeholder_dashboard() -> DashboardData:
         completed_courses=[],
         progress_summary=ProgressSummary(
             major="Unknown",
-            target_semester=DEFAULT_TARGET_SEMESTER,
+            target_semester="Not specified",
             credits_earned=0,
             required_courses_total=0,
             required_courses_completed=0,
@@ -87,10 +87,11 @@ def build_schema_example() -> ResponseSchemaExample:
                 {"course_id": "CS102", "term": "Spring 2026", "grade": "B+", "credits": 3},
             ],
             "source": "example",
+            "status": "ready",
         },
-        target_semester=DEFAULT_TARGET_SEMESTER,
-        max_credits=DEFAULT_MAX_CREDITS,
+        target_semester="Not specified",
         extra_notes=[],
+        adk_plan={"recommended_courses": ["CS201", "MATH201"], "total_recommended_credits": 6, "skipped_courses": []},
     )
     return ResponseSchemaExample(
         completed_courses=dashboard.completed_courses,
@@ -100,19 +101,30 @@ def build_schema_example() -> ResponseSchemaExample:
     )
 
 
-def analyze_request(message: str, transcript: Optional[ParsedTranscript]) -> StructuredAgentResponse:
-    target_semester = _extract_target_semester(message) or DEFAULT_TARGET_SEMESTER
-    max_credits = _extract_max_credits(message) or DEFAULT_MAX_CREDITS
+async def analyze_request(
+    message: str,
+    transcript: Optional[ParsedTranscript],
+    web_session_id: str,
+    session_profile: Optional[Dict[str, Any]] = None,
+) -> StructuredAgentResponse:
     student_ref = _extract_student_ref(message)
 
     extra_notes: List[AdvisingNote] = []
     profile: Optional[Dict[str, Any]] = None
 
     if transcript is not None:
+        if transcript.status == "ocr_required":
+            dashboard = build_placeholder_dashboard()
+            dashboard.advising_notes = [
+                AdvisingNote(
+                    level="warning",
+                    title="OCR support needed",
+                    message=transcript.message,
+                )
+            ]
+            return StructuredAgentResponse(reply_text=transcript.message, dashboard=dashboard)
         if transcript.profile is None:
-            raise ValueError(
-                "Transcript uploaded successfully, but I could not extract enough course history to plan from it."
-            )
+            raise ValueError(transcript.message)
         profile = transcript.profile
         extra_notes.append(
             AdvisingNote(
@@ -128,18 +140,15 @@ def analyze_request(message: str, transcript: Optional[ParsedTranscript]) -> Str
     elif student_ref:
         profile = load_student_profile(student_ref)
 
-    if USE_ADK_WRAPPER and profile is not None:
-        # Plug your Google ADK orchestration call in here if you want the web UI to
-        # invoke the existing multi-agent flow directly instead of using the local
-        # adapter below. Keep the return value mapped into the dashboard schema.
-        adk_result = _try_invoke_google_adk_agent(
-            message=message,
-            profile=profile,
-            target_semester=target_semester,
-            max_credits=max_credits,
-        )
-        if adk_result is not None:
-            return adk_result
+    # Use the profile saved from a previous turn in this session (e.g. transcript uploaded earlier)
+    if profile is None and session_profile is not None:
+        profile = session_profile
+
+    # If the student declared their major in this message, update the session profile
+    if profile is not None and profile.get("major", "Unknown") in {"Unknown", "Undergraduate", "Undeclared", ""}:
+        inferred_major = _extract_major_from_message(message)
+        if inferred_major:
+            profile = {**profile, "major": inferred_major}
 
     if profile is None:
         inferred_profile = _infer_profile_from_message(message)
@@ -155,7 +164,6 @@ def analyze_request(message: str, transcript: Optional[ParsedTranscript]) -> Str
 
     if profile is None:
         dashboard = build_placeholder_dashboard()
-        dashboard.progress_summary.target_semester = target_semester
         dashboard.advising_notes.insert(
             0,
             AdvisingNote(
@@ -170,6 +178,7 @@ def analyze_request(message: str, transcript: Optional[ParsedTranscript]) -> Str
                 "Please share a student ID, transcript file, or completed courses."
             ),
             dashboard=dashboard,
+            profile=None,
         )
 
     if profile.get("status") != "ready":
@@ -191,35 +200,99 @@ def analyze_request(message: str, transcript: Optional[ParsedTranscript]) -> Str
         return StructuredAgentResponse(
             reply_text=dashboard.advising_notes[0].message,
             dashboard=dashboard,
+            profile=profile,
         )
 
+    if profile.get("major", "Unknown") in {"Unknown", "Undergraduate", "Undeclared", ""}:
+        dashboard = build_placeholder_dashboard()
+        dashboard.student = StudentSnapshot(
+            student_name=profile.get("student_name", "Student"),
+            student_id=profile.get("student_id", "uploaded-transcript"),
+            major="Not declared",
+            current_semester=profile.get("current_semester", "Unknown"),
+            source=profile.get("source", "uploaded_transcript"),
+        )
+        dashboard.advising_notes = [
+            *extra_notes,
+            AdvisingNote(
+                level="warning",
+                title="Major not declared on transcript",
+                message=(
+                    "Your transcript does not list a declared major. "
+                    "Please reply with your major (e.g. 'My major is Computer Science') "
+                    "so GradPath can build your degree plan."
+                ),
+            ),
+        ]
+        return StructuredAgentResponse(
+            reply_text=(
+                f"Hi {profile.get('student_name', 'there')}! Your transcript was parsed successfully, "
+                "but it does not list a declared major. "
+                "Please tell me your major (e.g. 'My major is Computer Science') so I can build your plan."
+            ),
+            dashboard=dashboard,
+            profile=profile,
+        )
+
+    return await _try_invoke_google_adk_agent(
+        web_session_id=web_session_id,
+        message=message,
+        profile=profile,
+        transcript=transcript,
+        extra_notes=extra_notes,
+    )
+
+
+async def _try_invoke_google_adk_agent(
+    web_session_id: str,
+    message: str,
+    profile: Dict[str, Any],
+    transcript: Optional[ParsedTranscript],
+    extra_notes: List[AdvisingNote],
+) -> StructuredAgentResponse:
+    adk_service = get_adk_runner_service()
+    adk_result = await adk_service.run_planner(
+        web_session_id=web_session_id,
+        message=message,
+        student_id=str(profile.get("student_id", profile.get("student_ref", ""))),
+        student_name=str(profile.get("student_name", "Student")),
+        major=str(profile.get("major", "CS")),
+        current_semester=str(profile.get("current_semester", "Unknown")),
+        transcript=transcript,
+    )
+
+    target_semester = adk_result.target_semester or "Not specified"
+
+    if adk_result.planner_json is None:
+        return StructuredAgentResponse(
+            reply_text=adk_result.final_text or "GradPath needs a little more information before it can plan.",
+            dashboard=build_placeholder_dashboard(),
+            profile=profile,
+        )
+
+    notes = [
+        AdvisingNote(
+            level="success",
+            title="Google ADK workflow active",
+            message="The dashboard recommendations were generated by the live GradPath multi-agent flow.",
+        ),
+        *extra_notes,
+    ]
     dashboard = _build_dashboard_from_profile(
         profile=profile,
         target_semester=target_semester,
-        max_credits=max_credits,
-        extra_notes=extra_notes,
+        extra_notes=notes,
+        adk_plan=adk_result.planner_json,
     )
     reply_text = _build_reply_text(dashboard, target_semester)
-    return StructuredAgentResponse(reply_text=reply_text, dashboard=dashboard)
-
-
-def _try_invoke_google_adk_agent(
-    message: str,
-    profile: Dict[str, Any],
-    target_semester: str,
-    max_credits: int,
-) -> Optional[StructuredAgentResponse]:
-    # This is intentionally conservative because ADK session bootstrapping varies
-    # by project setup. Replace this stub with your real ADK runner if needed.
-    _ = (message, profile, target_semester, max_credits)
-    return None
+    return StructuredAgentResponse(reply_text=reply_text, dashboard=dashboard, profile=profile)
 
 
 def _build_dashboard_from_profile(
     profile: Dict[str, Any],
     target_semester: str,
-    max_credits: int,
     extra_notes: List[AdvisingNote],
+    adk_plan: Dict[str, Any],
 ) -> DashboardData:
     catalog = load_catalog_data()
     major = str(profile.get("major") or "CS")
@@ -240,12 +313,9 @@ def _build_dashboard_from_profile(
         for course in completed_courses_raw
     ]
 
-    recommended_courses, skipped_notes, total_recommended_credits = _recommend_courses(
-        completed_ids=completed_ids,
-        required_courses=required_courses,
-        planning_context=planning_context,
+    recommended_courses, skipped_notes, total_recommended_credits = _apply_adk_plan(
+        adk_plan=adk_plan,
         course_lookup=course_lookup,
-        max_credits=max_credits,
     )
 
     credits_earned = sum(course.credits for course in completed_courses)
@@ -296,66 +366,43 @@ def _build_dashboard_from_profile(
     )
 
 
-def _recommend_courses(
-    completed_ids: set,
-    required_courses: List[str],
-    planning_context: Dict[str, Any],
+
+def _apply_adk_plan(
+    adk_plan: Dict[str, Any],
     course_lookup: Dict[str, Dict[str, Any]],
-    max_credits: int,
 ) -> Tuple[List[RecommendedCourse], List[AdvisingNote], int]:
     recommended: List[RecommendedCourse] = []
     notes: List[AdvisingNote] = []
-    total_credits = 0
-    offered = set(planning_context.get("offered_in_target_semester", []))
-    details = planning_context.get("course_details", {})
 
-    for course_id in required_courses:
-        if course_id in completed_ids:
-            continue
-
-        prerequisites = details.get(course_id, {}).get("prerequisites", [])
-        unmet = [pre for pre in prerequisites if pre not in completed_ids]
-        if unmet:
-            notes.append(
-                AdvisingNote(
-                    level="warning",
-                    title=f"{course_id} deferred",
-                    message=f"Missing prerequisites: {', '.join(unmet)}.",
-                )
-            )
-            continue
-
-        if course_id not in offered:
-            notes.append(
-                AdvisingNote(
-                    level="info",
-                    title=f"{course_id} not offered",
-                    message="This required course is not available in the selected semester.",
-                )
-            )
-            continue
-
-        credits = int(details.get(course_id, {}).get("credits", course_lookup.get(course_id, {}).get("credits", 0)))
-        if total_credits + credits > max_credits:
-            notes.append(
-                AdvisingNote(
-                    level="info",
-                    title=f"{course_id} held for later",
-                    message="Adding this course would exceed the max credit limit.",
-                )
-            )
-            continue
-
+    for course_id in adk_plan.get("recommended_courses", []):
+        course = course_lookup.get(course_id, {})
         recommended.append(
             RecommendedCourse(
                 course_id=course_id,
-                title=course_lookup.get(course_id, {}).get("title", "Unknown Course"),
-                credits=credits,
-                reason="Fits remaining degree requirements, prerequisites, and term availability.",
+                title=course.get("title", "Unknown Course"),
+                credits=int(course.get("credits", 0)),
+                reason="Selected by the GradPath ADK planner after evaluating history, prerequisites, and offerings.",
             )
         )
-        total_credits += credits
 
+    reason_map = {
+        "completed": "Already completed.",
+        "unmet_prerequisites": "Prerequisites are not yet satisfied.",
+        "not_offered": "Not offered in the selected semester.",
+        "credit_limit": "Would exceed the requested credit limit.",
+    }
+    for skipped in adk_plan.get("skipped_courses", []):
+        course_id = skipped.get("course_id", "UNKNOWN")
+        reason = skipped.get("reason", "deferred")
+        notes.append(
+            AdvisingNote(
+                level="warning" if reason in {"unmet_prerequisites", "credit_limit"} else "info",
+                title="Transcript issue" if course_id == "TRANSCRIPT" else f"{course_id} skipped",
+                message=reason_map.get(reason, reason),
+            )
+        )
+
+    total_credits = int(adk_plan.get("total_recommended_credits", 0))
     return recommended, notes, total_credits
 
 
@@ -377,6 +424,33 @@ def _build_reply_text(dashboard: DashboardData, target_semester: str) -> str:
     )
 
 
+
+_MESSAGE_MAJOR_PATTERNS = {
+    "computer science": "CS",
+    "cs": "CS",
+    "biology": "BIO",
+    "chemistry": "CHE",
+    "biochemistry": "BIOCHEM",
+    "health science": "HSC",
+    "accounting": "ACC",
+    "finance": "FIN",
+    "management": "MGT",
+    "information systems": "ISM",
+    "criminal justice": "CRJ",
+    "anthropology": "ANT",
+    "data science": "CS",
+}
+
+
+def _extract_major_from_message(message: str) -> Optional[str]:
+    """Extract a major declaration from a follow-up message like 'I am a CS student'."""
+    lower = message.lower()
+    for phrase, major_key in sorted(_MESSAGE_MAJOR_PATTERNS.items(), key=lambda x: -len(x[0])):
+        if phrase in lower:
+            return major_key
+    return None
+
+
 def _extract_student_ref(message: str) -> Optional[str]:
     index = load_student_index()
     aliases = []
@@ -391,25 +465,6 @@ def _extract_student_ref(message: str) -> Optional[str]:
     return match.group(1) if match else None
 
 
-def _extract_target_semester(message: str) -> Optional[str]:
-    match = re.search(r"\b(Fall|Spring|Summer)\s+(20\d{2})\b", message, re.IGNORECASE)
-    if not match:
-        return None
-    return f"{match.group(1).title()} {match.group(2)}"
-
-
-def _extract_max_credits(message: str) -> Optional[int]:
-    patterns = [
-        r"max credits?\s*(?:is|=|:)?\s*(\d+)",
-        r"up to\s*(\d+)\s*credits?",
-        r"(\d+)\s*credits?\s*max",
-    ]
-    for pattern in patterns:
-        match = re.search(pattern, message, re.IGNORECASE)
-        if match:
-            return int(match.group(1))
-    return None
-
 
 def _infer_profile_from_message(message: str) -> Optional[Dict[str, Any]]:
     course_lookup = {course["course_id"] for course in load_catalog_data().get("courses", [])}
@@ -421,6 +476,7 @@ def _infer_profile_from_message(message: str) -> Optional[Dict[str, Any]]:
     if not found_courses:
         return None
 
+    catalog = load_catalog_data()
     completed_courses = []
     seen = set()
     for course_id in found_courses:
@@ -435,7 +491,7 @@ def _infer_profile_from_message(message: str) -> Optional[Dict[str, Any]]:
                 "credits": next(
                     (
                         int(course.get("credits", 0))
-                        for course in load_catalog_data().get("courses", [])
+                        for course in catalog.get("courses", [])
                         if course.get("course_id") == course_id
                     ),
                     0,

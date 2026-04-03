@@ -18,8 +18,11 @@ def load_semester_offerings(term: str) -> Dict[str, Any]:
     """Load schedule JSON for a given term.
 
     Example: 'Fall 2026' -> data/schedules/fall_2026.json
+    Returns an empty offerings dict if the semester file does not exist.
     """
     file_path = SCHEDULES_DIR / _term_to_filename(term)
+    if not file_path.exists():
+        return {"term": term, "offerings": []}
     with file_path.open("r", encoding="utf-8") as f:
         return json.load(f)
 

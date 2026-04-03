@@ -61,13 +61,22 @@ def build_chat_router(session_store: SessionStore) -> APIRouter:
         user_message = build_user_message(user_text, attachment_name=attachment_name)
 
         try:
-            analysis = analyze_request(user_text, parsed_transcript)
+            analysis = await analyze_request(
+                user_text, parsed_transcript, session_id, session_profile=state.profile
+            )
         except ValueError as exc:
             raise HTTPException(status_code=400, detail=str(exc)) from exc
+        except Exception as exc:
+            raise HTTPException(status_code=500, detail=str(exc)) from exc
 
         assistant_message = build_assistant_message(analysis.reply_text)
         history = [*state.history, user_message, assistant_message]
-        session_store.save(session_id=session_id, dashboard=analysis.dashboard, history=history)
+        session_store.save(
+            session_id=session_id,
+            dashboard=analysis.dashboard,
+            history=history,
+            profile=analysis.profile,
+        )
 
         return ChatResponse(
             session_id=session_id,
