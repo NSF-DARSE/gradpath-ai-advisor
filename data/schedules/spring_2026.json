@@ -1,1311 +1,7839 @@
-{
-  "term": "Spring 2026",
-  "source": "COURSE_SCHEDULE2026SPNEW.pdf",
-  "offerings": [
-    {
-      "course_id": "ACC2005",
-      "section": "01",
-      "source_code": "ACC-2005"
-    },
-    {
-      "course_id": "ACC3032",
-      "section": "01",
-      "source_code": "ACC-3032"
-    },
-    {
-      "course_id": "ACC3038",
-      "section": "01",
-      "source_code": "ACC-3038"
-    },
-    {
-      "course_id": "ACC3040",
-      "section": "01",
-      "source_code": "ACC-3040"
-    },
-    {
-      "course_id": "ACC4031",
-      "section": "01",
-      "source_code": "ACC-4031"
-    },
-    {
-      "course_id": "ACC4050",
-      "section": "01",
-      "source_code": "ACC-4050"
-    },
-    {
-      "course_id": "ANT2001",
-      "section": "01",
-      "source_code": "ANT-2001"
-    },
-    {
-      "course_id": "ANT2005",
-      "section": "G1",
-      "source_code": "ANT-2005"
-    },
-    {
-      "course_id": "ANT2008",
-      "section": "01",
-      "source_code": "ANT-2008"
-    },
-    {
-      "course_id": "ARA1001",
-      "section": "01",
-      "source_code": "ARA-1001"
-    },
-    {
-      "course_id": "ARA1002",
-      "section": "02",
-      "source_code": "ARA-1002"
-    },
-    {
-      "course_id": "ARH2012",
-      "section": "01",
-      "source_code": "ARH-2012"
-    },
-    {
-      "course_id": "ARH2076",
-      "section": "01",
-      "source_code": "ARH-2076"
-    },
-    {
-      "course_id": "ART1000",
-      "section": "01",
-      "source_code": "ART-1000"
-    },
-    {
-      "course_id": "ART1001",
-      "section": "01",
-      "source_code": "ART-1001"
-    },
-    {
-      "course_id": "ART1002",
-      "section": "01",
-      "source_code": "ART-1002"
-    },
-    {
-      "course_id": "ART2000",
-      "section": "01",
-      "source_code": "ART-2000"
-    },
-    {
-      "course_id": "ART2005",
-      "section": "01",
-      "source_code": "ART-2005"
-    },
-    {
-      "course_id": "ART2010",
-      "section": "01",
-      "source_code": "ART-2010"
-    },
-    {
-      "course_id": "ART2015",
-      "section": "01",
-      "source_code": "ART-2015"
-    },
-    {
-      "course_id": "ART2020",
-      "section": "01",
-      "source_code": "ART-2020"
-    },
-    {
-      "course_id": "ART2025",
-      "section": "01",
-      "source_code": "ART-2025"
-    },
-    {
-      "course_id": "ART2061",
-      "section": "01",
-      "source_code": "ART-2061"
-    },
-    {
-      "course_id": "ART3010",
-      "section": "01",
-      "source_code": "ART-3010"
-    },
-    {
-      "course_id": "ART3060",
-      "section": "01",
-      "source_code": "ART-3060"
-    },
-    {
-      "course_id": "ART3090",
-      "section": "01",
-      "source_code": "ART-3090"
-    },
-    {
-      "course_id": "ART3095",
-      "section": "01",
-      "source_code": "ART-3095"
-    },
-    {
-      "course_id": "ART4091",
-      "section": "01",
-      "source_code": "ART-4091"
-    },
-    {
-      "course_id": "ART4095",
-      "section": "I1",
-      "source_code": "ART-4095"
-    },
-    {
-      "course_id": "BES1010",
-      "section": "01",
-      "source_code": "BES-1010"
-    },
-    {
-      "course_id": "BES1014",
-      "section": "01",
-      "source_code": "BES-1014"
-    },
-    {
-      "course_id": "BES4030",
-      "section": "01",
-      "source_code": "BES-4030"
-    },
-    {
-      "course_id": "BES4059",
-      "section": "W1",
-      "source_code": "BES-4059"
-    },
-    {
-      "course_id": "BIO1001",
-      "section": "01",
-      "source_code": "BIO-1001"
-    },
-    {
-      "course_id": "BIO1003",
-      "section": "01",
-      "source_code": "BIO-1003"
-    },
-    {
-      "course_id": "BIO1004",
-      "section": "01",
-      "source_code": "BIO-1004"
-    },
-    {
-      "course_id": "BIO2000",
-      "section": "G1",
-      "source_code": "BIO-2000"
-    },
-    {
-      "course_id": "BIO2005",
-      "section": "01",
-      "source_code": "BIO-2005"
-    },
-    {
-      "course_id": "BIO2006",
-      "section": "01",
-      "source_code": "BIO-2006"
-    },
-    {
-      "course_id": "BIO2007",
-      "section": "01",
-      "source_code": "BIO-2007"
-    },
-    {
-      "course_id": "BIO2008",
-      "section": "01",
-      "source_code": "BIO-2008"
-    },
-    {
-      "course_id": "BIO2011",
-      "section": "01",
-      "source_code": "BIO-2011"
-    },
-    {
-      "course_id": "BIO3001",
-      "section": "01",
-      "source_code": "BIO-3001"
-    },
-    {
-      "course_id": "BIO3004",
-      "section": "01",
-      "source_code": "BIO-3004"
-    },
-    {
-      "course_id": "BIO3005",
-      "section": "01",
-      "source_code": "BIO-3005"
-    },
-    {
-      "course_id": "BIO3008",
-      "section": "01",
-      "source_code": "BIO-3008"
-    },
-    {
-      "course_id": "BIO3011",
-      "section": "01",
-      "source_code": "BIO-3011"
-    },
-    {
-      "course_id": "BIO3090",
-      "section": "01",
-      "source_code": "BIO-3090"
-    },
-    {
-      "course_id": "BIO4001",
-      "section": "01",
-      "source_code": "BIO-4001"
-    },
-    {
-      "course_id": "BIO4014",
-      "section": "01",
-      "source_code": "BIO-4014"
-    },
-    {
-      "course_id": "BUS1001",
-      "section": "02",
-      "source_code": "BUS-1001"
-    },
-    {
-      "course_id": "BUS3034",
-      "section": "01",
-      "source_code": "BUS-3034"
-    },
-    {
-      "course_id": "BUS4041",
-      "section": "01",
-      "source_code": "BUS-4041"
-    },
-    {
-      "course_id": "CHE1001",
-      "section": "01",
-      "source_code": "CHE-1001"
-    },
-    {
-      "course_id": "CHE1003",
-      "section": "01",
-      "source_code": "CHE-1003"
-    },
-    {
-      "course_id": "CHE1004",
-      "section": "01",
-      "source_code": "CHE-1004"
-    },
-    {
-      "course_id": "CHE1020",
-      "section": "01",
-      "source_code": "CHE-1020"
-    },
-    {
-      "course_id": "CHE2001",
-      "section": "01",
-      "source_code": "CHE-2001"
-    },
-    {
-      "course_id": "CHE2003",
-      "section": "01",
-      "source_code": "CHE-2003"
-    },
-    {
-      "course_id": "CHE2004",
-      "section": "01",
-      "source_code": "CHE-2004"
-    },
-    {
-      "course_id": "CHE2005",
-      "section": "01",
-      "source_code": "CHE-2005"
-    },
-    {
-      "course_id": "CHE3001",
-      "section": "01",
-      "source_code": "CHE-3001"
-    },
-    {
-      "course_id": "CHE3003",
-      "section": "01",
-      "source_code": "CHE-3003"
-    },
-    {
-      "course_id": "CHE3004",
-      "section": "01",
-      "source_code": "CHE-3004"
-    },
-    {
-      "course_id": "CHE3010",
-      "section": "01",
-      "source_code": "CHE-3010"
-    },
-    {
-      "course_id": "CHE3090",
-      "section": "01",
-      "source_code": "CHE-3090"
-    },
-    {
-      "course_id": "CHI1001",
-      "section": "01",
-      "source_code": "CHI-1001"
-    },
-    {
-      "course_id": "COM2001",
-      "section": "01",
-      "source_code": "COM-2001"
-    },
-    {
-      "course_id": "COM2002",
-      "section": "W1",
-      "source_code": "COM-2002"
-    },
-    {
-      "course_id": "COM2003",
-      "section": "01",
-      "source_code": "COM-2003"
-    },
-    {
-      "course_id": "COM2005",
-      "section": "01",
-      "source_code": "COM-2005"
-    },
-    {
-      "course_id": "COM2007",
-      "section": "01",
-      "source_code": "COM-2007"
-    },
-    {
-      "course_id": "COM3000",
-      "section": "01",
-      "source_code": "COM-3000"
-    },
-    {
-      "course_id": "COM3002",
-      "section": "01",
-      "source_code": "COM-3002"
-    },
-    {
-      "course_id": "COM3012",
-      "section": "01",
-      "source_code": "COM-3012"
-    },
-    {
-      "course_id": "COM3020",
-      "section": "01",
-      "source_code": "COM-3020"
-    },
-    {
-      "course_id": "COM3022",
-      "section": "01",
-      "source_code": "COM-3022"
-    },
-    {
-      "course_id": "COM3023",
-      "section": "01",
-      "source_code": "COM-3023"
-    },
-    {
-      "course_id": "COM3032",
-      "section": "01",
-      "source_code": "COM-3032"
-    },
-    {
-      "course_id": "COM4001",
-      "section": "W1",
-      "source_code": "COM-4001"
-    },
-    {
-      "course_id": "COM4005",
-      "section": "01",
-      "source_code": "COM-4005"
-    },
-    {
-      "course_id": "COM4050",
-      "section": "01",
-      "source_code": "COM-4050"
-    },
-    {
-      "course_id": "COM4052",
-      "section": "01",
-      "source_code": "COM-4052"
-    },
-    {
-      "course_id": "CRJ2003",
-      "section": "01",
-      "source_code": "CRJ-2003"
-    },
-    {
-      "course_id": "CRJ2007",
-      "section": "01",
-      "source_code": "CRJ-2007"
-    },
-    {
-      "course_id": "CRJ3001",
-      "section": "01",
-      "source_code": "CRJ-3001"
-    },
-    {
-      "course_id": "CRJ3014",
-      "section": "01",
-      "source_code": "CRJ-3014"
-    },
-    {
-      "course_id": "CRJ3015",
-      "section": "01",
-      "source_code": "CRJ-3015"
-    },
-    {
-      "course_id": "CRJ3020",
-      "section": "01",
-      "source_code": "CRJ-3020"
-    },
-    {
-      "course_id": "CRJ3023",
-      "section": "01",
-      "source_code": "CRJ-3023"
-    },
-    {
-      "course_id": "CRJ3052",
-      "section": "01",
-      "source_code": "CRJ-3052"
-    },
-    {
-      "course_id": "CSC1051",
-      "section": "03",
-      "source_code": "CSC-1051"
-    },
-    {
-      "course_id": "CSC1052",
-      "section": "01",
-      "source_code": "CSC-1052"
-    },
-    {
-      "course_id": "CSC1058",
-      "section": "01",
-      "source_code": "CSC-1058"
-    },
-    {
-      "course_id": "CSC1059",
-      "section": "01",
-      "source_code": "CSC-1059"
-    },
-    {
-      "course_id": "CSC2054",
-      "section": "01",
-      "source_code": "CSC-2054"
-    },
-    {
-      "course_id": "CSC3053",
-      "section": "01",
-      "source_code": "CSC-3053"
-    },
-    {
-      "course_id": "CSC3054",
-      "section": "01",
-      "source_code": "CSC-3054"
-    },
-    {
-      "course_id": "CSC3058",
-      "section": "01",
-      "source_code": "CSC-3058"
-    },
-    {
-      "course_id": "CSC3059",
-      "section": "01",
-      "source_code": "CSC-3059"
-    },
-    {
-      "course_id": "CSC3090",
-      "section": "01",
-      "source_code": "CSC-3090"
-    },
-    {
-      "course_id": "CSC4054",
-      "section": "01",
-      "source_code": "CSC-4054"
-    },
-    {
-      "course_id": "CSC4095",
-      "section": "I1",
-      "source_code": "CSC-4095"
-    },
-    {
-      "course_id": "CSC4098",
-      "section": "01",
-      "source_code": "CSC-4098"
-    },
-    {
-      "course_id": "ECO2003",
-      "section": "01",
-      "source_code": "ECO-2003"
-    },
-    {
-      "course_id": "ECO3036",
-      "section": "01",
-      "source_code": "ECO-3036"
-    },
-    {
-      "course_id": "ENG1001",
-      "section": "01",
-      "source_code": "ENG-1001"
-    },
-    {
-      "course_id": "ENG1002",
-      "section": "01",
-      "source_code": "ENG-1002"
-    },
-    {
-      "course_id": "ENG2007",
-      "section": "G1",
-      "source_code": "ENG-2007"
-    },
-    {
-      "course_id": "ENG2008",
-      "section": "03",
-      "source_code": "ENG-2008"
-    },
-    {
-      "course_id": "ENG2009",
-      "section": "01",
-      "source_code": "ENG-2009"
-    },
-    {
-      "course_id": "ENG2085",
-      "section": "01",
-      "source_code": "ENG-2085"
-    },
-    {
-      "course_id": "ENG3014",
-      "section": "01",
-      "source_code": "ENG-3014"
-    },
-    {
-      "course_id": "ENG3015",
-      "section": "01",
-      "source_code": "ENG-3015"
-    },
-    {
-      "course_id": "ENG3020",
-      "section": "01",
-      "source_code": "ENG-3020"
-    },
-    {
-      "course_id": "ENG3025",
-      "section": "01",
-      "source_code": "ENG-3025"
-    },
-    {
-      "course_id": "ENG4012",
-      "section": "01",
-      "source_code": "ENG-4012"
-    },
-    {
-      "course_id": "ENS3011",
-      "section": "01",
-      "source_code": "ENS-3011"
-    },
-    {
-      "course_id": "ETP2020",
-      "section": "01",
-      "source_code": "ETP-2020"
-    },
-    {
-      "course_id": "FIN3041",
-      "section": "01",
-      "source_code": "FIN-3041"
-    },
-    {
-      "course_id": "FIN3042",
-      "section": "01",
-      "source_code": "FIN-3042"
-    },
-    {
-      "course_id": "FIN3047",
-      "section": "01",
-      "source_code": "FIN-3047"
-    },
-    {
-      "course_id": "FIN3050",
-      "section": "01",
-      "source_code": "FIN-3050"
-    },
-    {
-      "course_id": "FIN4047",
-      "section": "01",
-      "source_code": "FIN-4047"
-    },
-    {
-      "course_id": "FIN4053",
-      "section": "01",
-      "source_code": "FIN-4053"
-    },
-    {
-      "course_id": "FIN4055",
-      "section": "01",
-      "source_code": "FIN-4055"
-    },
-    {
-      "course_id": "FRE1002",
-      "section": "01",
-      "source_code": "FRE-1002"
-    },
-    {
-      "course_id": "FRE2002",
-      "section": "01",
-      "source_code": "FRE-2002"
-    },
-    {
-      "course_id": "GSC1002",
-      "section": "01",
-      "source_code": "GSC-1002"
-    },
-    {
-      "course_id": "GSC1011",
-      "section": "01",
-      "source_code": "GSC-1011"
-    },
-    {
-      "course_id": "GSC1012",
-      "section": "G1",
-      "source_code": "GSC-1012"
-    },
-    {
-      "course_id": "HIS1002",
-      "section": "01",
-      "source_code": "HIS-1002"
-    },
-    {
-      "course_id": "HIS1003",
-      "section": "01",
-      "source_code": "HIS-1003"
-    },
-    {
-      "course_id": "HIS2006",
-      "section": "01",
-      "source_code": "HIS-2006"
-    },
-    {
-      "course_id": "HON3000",
-      "section": "01",
-      "source_code": "HON-3000"
-    },
-    {
-      "course_id": "HSC1030",
-      "section": "01",
-      "source_code": "HSC-1030"
-    },
-    {
-      "course_id": "HSC1040",
-      "section": "01",
-      "source_code": "HSC-1040"
-    },
-    {
-      "course_id": "HSC1060",
-      "section": "01",
-      "source_code": "HSC-1060"
-    },
-    {
-      "course_id": "HSC2007",
-      "section": "W1",
-      "source_code": "HSC-2007"
-    },
-    {
-      "course_id": "HSC2046",
-      "section": "W1",
-      "source_code": "HSC-2046"
-    },
-    {
-      "course_id": "HSC2050",
-      "section": "01",
-      "source_code": "HSC-2050"
-    },
-    {
-      "course_id": "HSC3008",
-      "section": "01",
-      "source_code": "HSC-3008"
-    },
-    {
-      "course_id": "HSC3015",
-      "section": "01",
-      "source_code": "HSC-3015"
-    },
-    {
-      "course_id": "HSC3080",
-      "section": "01",
-      "source_code": "HSC-3080"
-    },
-    {
-      "course_id": "HSC3097",
-      "section": "01",
-      "source_code": "HSC-3097"
-    },
-    {
-      "course_id": "HSC3099",
-      "section": "01",
-      "source_code": "HSC-3099"
-    },
-    {
-      "course_id": "HSC4010",
-      "section": "W1",
-      "source_code": "HSC-4010"
-    },
-    {
-      "course_id": "HSC4014",
-      "section": "W1",
-      "source_code": "HSC-4014"
-    },
-    {
-      "course_id": "HUS2043",
-      "section": "01",
-      "source_code": "HUS-2043"
-    },
-    {
-      "course_id": "HUS2045",
-      "section": "01",
-      "source_code": "HUS-2045"
-    },
-    {
-      "course_id": "HUS3007",
-      "section": "01",
-      "source_code": "HUS-3007"
-    },
-    {
-      "course_id": "HUS3012",
-      "section": "01",
-      "source_code": "HUS-3012"
-    },
-    {
-      "course_id": "HUS3019",
-      "section": "01",
-      "source_code": "HUS-3019"
-    },
-    {
-      "course_id": "HUS3025",
-      "section": "01",
-      "source_code": "HUS-3025"
-    },
-    {
-      "course_id": "HUS3027",
-      "section": "01",
-      "source_code": "HUS-3027"
-    },
-    {
-      "course_id": "HUS3090",
-      "section": "G1",
-      "source_code": "HUS-3090"
-    },
-    {
-      "course_id": "HUS4041",
-      "section": "01",
-      "source_code": "HUS-4041"
-    },
-    {
-      "course_id": "HUS4095",
-      "section": "I3",
-      "source_code": "HUS-4095"
-    },
-    {
-      "course_id": "INF2010",
-      "section": "01",
-      "source_code": "INF-2010"
-    },
-    {
-      "course_id": "INF3030",
-      "section": "01",
-      "source_code": "INF-3030"
-    },
-    {
-      "course_id": "INF3054",
-      "section": "01",
-      "source_code": "INF-3054"
-    },
-    {
-      "course_id": "INF4020",
-      "section": "01",
-      "source_code": "INF-4020"
-    },
-    {
-      "course_id": "INF4040",
-      "section": "01",
-      "source_code": "INF-4040"
-    },
-    {
-      "course_id": "MAT1001",
-      "section": "01",
-      "source_code": "MAT-1001"
-    },
-    {
-      "course_id": "MAT1006",
-      "section": "01",
-      "source_code": "MAT-1006"
-    },
-    {
-      "course_id": "MAT1010",
-      "section": "01",
-      "source_code": "MAT-1010"
-    },
-    {
-      "course_id": "MAT1011",
-      "section": "01",
-      "source_code": "MAT-1011"
-    },
-    {
-      "course_id": "MAT1014",
-      "section": "01",
-      "source_code": "MAT-1014"
-    },
-    {
-      "course_id": "MAT1017",
-      "section": "01",
-      "source_code": "MAT-1017"
-    },
-    {
-      "course_id": "MAT1020",
-      "section": "01",
-      "source_code": "MAT-1020"
-    },
-    {
-      "course_id": "MAT1021",
-      "section": "01",
-      "source_code": "MAT-1021"
-    },
-    {
-      "course_id": "MAT1022",
-      "section": "01",
-      "source_code": "MAT-1022"
-    },
-    {
-      "course_id": "MAT2013",
-      "section": "01",
-      "source_code": "MAT-2013"
-    },
-    {
-      "course_id": "MAT2021",
-      "section": "01",
-      "source_code": "MAT-2021"
-    },
-    {
-      "course_id": "MAT2022",
-      "section": "01",
-      "source_code": "MAT-2022"
-    },
-    {
-      "course_id": "MAT3025",
-      "section": "01",
-      "source_code": "MAT-3025"
-    },
-    {
-      "course_id": "MDL4051",
-      "section": "01",
-      "source_code": "MDL-4051"
-    },
-    {
-      "course_id": "MGT3006",
-      "section": "01",
-      "source_code": "MGT-3006"
-    },
-    {
-      "course_id": "MGT3035",
-      "section": "01",
-      "source_code": "MGT-3035"
-    },
-    {
-      "course_id": "MGT3050",
-      "section": "01",
-      "source_code": "MGT-3050"
-    },
-    {
-      "course_id": "MGT4035",
-      "section": "01",
-      "source_code": "MGT-4035"
-    },
-    {
-      "course_id": "MGT4037",
-      "section": "01",
-      "source_code": "MGT-4037"
-    },
-    {
-      "course_id": "MGT4090",
-      "section": "01",
-      "source_code": "MGT-4090"
-    },
-    {
-      "course_id": "MGT4095",
-      "section": "I3",
-      "source_code": "MGT-4095"
-    },
-    {
-      "course_id": "MKT3037",
-      "section": "01",
-      "source_code": "MKT-3037"
-    },
-    {
-      "course_id": "MSM2010",
-      "section": "01",
-      "source_code": "MSM-2010"
-    },
-    {
-      "course_id": "MUS1006",
-      "section": "01",
-      "source_code": "MUS-1006"
-    },
-    {
-      "course_id": "MUS1007",
-      "section": "01",
-      "source_code": "MUS-1007"
-    },
-    {
-      "course_id": "MUS1008",
-      "section": "01",
-      "source_code": "MUS-1008"
-    },
-    {
-      "course_id": "MUS1090",
-      "section": "01",
-      "source_code": "MUS-1090"
-    },
-    {
-      "course_id": "MUS2000",
-      "section": "01",
-      "source_code": "MUS-2000"
-    },
-    {
-      "course_id": "MUS2004",
-      "section": "01",
-      "source_code": "MUS-2004"
-    },
-    {
-      "course_id": "MUS2006",
-      "section": "01",
-      "source_code": "MUS-2006"
-    },
-    {
-      "course_id": "MUS2027",
-      "section": "01",
-      "source_code": "MUS-2027"
-    },
-    {
-      "course_id": "MUS3023",
-      "section": "01",
-      "source_code": "MUS-3023"
-    },
-    {
-      "course_id": "MUS4007",
-      "section": "01",
-      "source_code": "MUS-4007"
-    },
-    {
-      "course_id": "MUS4009",
-      "section": "01",
-      "source_code": "MUS-4009"
-    },
-    {
-      "course_id": "PAS1092",
-      "section": "01",
-      "source_code": "PAS-1092"
-    },
-    {
-      "course_id": "PAS2006",
-      "section": "01",
-      "source_code": "PAS-2006"
-    },
-    {
-      "course_id": "PAS2092",
-      "section": "01",
-      "source_code": "PAS-2092"
-    },
-    {
-      "course_id": "PAS3001",
-      "section": "01",
-      "source_code": "PAS-3001"
-    },
-    {
-      "course_id": "PHL2000",
-      "section": "01",
-      "source_code": "PHL-2000"
-    },
-    {
-      "course_id": "PHL2014",
-      "section": "01",
-      "source_code": "PHL-2014"
-    },
-    {
-      "course_id": "PHL2015",
-      "section": "01",
-      "source_code": "PHL-2015"
-    },
-    {
-      "course_id": "PHL2016",
-      "section": "G1",
-      "source_code": "PHL-2016"
-    },
-    {
-      "course_id": "PHL2017",
-      "section": "01",
-      "source_code": "PHL-2017"
-    },
-    {
-      "course_id": "PHL2019",
-      "section": "01",
-      "source_code": "PHL-2019"
-    },
-    {
-      "course_id": "PHL3003",
-      "section": "01",
-      "source_code": "PHL-3003"
-    },
-    {
-      "course_id": "PHL4001",
-      "section": "01",
-      "source_code": "PHL-4001"
-    },
-    {
-      "course_id": "PHY1003",
-      "section": "01",
-      "source_code": "PHY-1003"
-    },
-    {
-      "course_id": "PHY1004",
-      "section": "01",
-      "source_code": "PHY-1004"
-    },
-    {
-      "course_id": "PHY1005",
-      "section": "01",
-      "source_code": "PHY-1005"
-    },
-    {
-      "course_id": "PHY1006",
-      "section": "01",
-      "source_code": "PHY-1006"
-    },
-    {
-      "course_id": "PHY1081",
-      "section": "01",
-      "source_code": "PHY-1081"
-    },
-    {
-      "course_id": "PHY2051",
-      "section": "01",
-      "source_code": "PHY-2051"
-    },
-    {
-      "course_id": "PHY3042",
-      "section": "01",
-      "source_code": "PHY-3042"
-    },
-    {
-      "course_id": "POL1001",
-      "section": "01",
-      "source_code": "POL-1001"
-    },
-    {
-      "course_id": "POL1002",
-      "section": "01",
-      "source_code": "POL-1002"
-    },
-    {
-      "course_id": "POL2004",
-      "section": "01",
-      "source_code": "POL-2004"
-    },
-    {
-      "course_id": "POL3001",
-      "section": "01",
-      "source_code": "POL-3001"
-    },
-    {
-      "course_id": "POL3003",
-      "section": "01",
-      "source_code": "POL-3003"
-    },
-    {
-      "course_id": "POL3004",
-      "section": "01",
-      "source_code": "POL-3004"
-    },
-    {
-      "course_id": "POL3010",
-      "section": "01",
-      "source_code": "POL-3010"
-    },
-    {
-      "course_id": "POL4060",
-      "section": "01",
-      "source_code": "POL-4060"
-    },
-    {
-      "course_id": "POL4082",
-      "section": "01",
-      "source_code": "POL-4082"
-    },
-    {
-      "course_id": "POL4095",
-      "section": "I2",
-      "source_code": "POL-4095"
-    },
-    {
-      "course_id": "PSY1001",
-      "section": "01",
-      "source_code": "PSY-1001"
-    },
-    {
-      "course_id": "PSY2006",
-      "section": "01",
-      "source_code": "PSY-2006"
-    },
-    {
-      "course_id": "PSY2008",
-      "section": "01",
-      "source_code": "PSY-2008"
-    },
-    {
-      "course_id": "PSY2009",
-      "section": "01",
-      "source_code": "PSY-2009"
-    },
-    {
-      "course_id": "PSY2014",
-      "section": "01",
-      "source_code": "PSY-2014"
-    },
-    {
-      "course_id": "PSY3001",
-      "section": "01",
-      "source_code": "PSY-3001"
-    },
-    {
-      "course_id": "PSY3006",
-      "section": "01",
-      "source_code": "PSY-3006"
-    },
-    {
-      "course_id": "PSY3013",
-      "section": "01",
-      "source_code": "PSY-3013"
-    },
-    {
-      "course_id": "PSY3016",
-      "section": "01",
-      "source_code": "PSY-3016"
-    },
-    {
-      "course_id": "PSY3019",
-      "section": "01",
-      "source_code": "PSY-3019"
-    },
-    {
-      "course_id": "PSY3021",
-      "section": "G1",
-      "source_code": "PSY-3021"
-    },
-    {
-      "course_id": "PSY3024",
-      "section": "01",
-      "source_code": "PSY-3024"
-    },
-    {
-      "course_id": "PSY4004",
-      "section": "01",
-      "source_code": "PSY-4004"
-    },
-    {
-      "course_id": "PSY4095",
-      "section": "I1",
-      "source_code": "PSY-4095"
-    },
-    {
-      "course_id": "REL2000",
-      "section": "01",
-      "source_code": "REL-2000"
-    },
-    {
-      "course_id": "REL3010",
-      "section": "01",
-      "source_code": "REL-3010"
-    },
-    {
-      "course_id": "REL4095",
-      "section": "I1",
-      "source_code": "REL-4095"
-    },
-    {
-      "course_id": "SOC1001",
-      "section": "01",
-      "source_code": "SOC-1001"
-    },
-    {
-      "course_id": "SOC2009",
-      "section": "01",
-      "source_code": "SOC-2009"
-    },
-    {
-      "course_id": "SOC3005",
-      "section": "01",
-      "source_code": "SOC-3005"
-    },
-    {
-      "course_id": "SOC3006",
-      "section": "01",
-      "source_code": "SOC-3006"
-    },
-    {
-      "course_id": "SOC3018",
-      "section": "01",
-      "source_code": "SOC-3018"
-    },
-    {
-      "course_id": "SOC3019",
-      "section": "01",
-      "source_code": "SOC-3019"
-    },
-    {
-      "course_id": "SOC4010",
-      "section": "W1",
-      "source_code": "SOC-4010"
-    },
-    {
-      "course_id": "SOS1051",
-      "section": "01",
-      "source_code": "SOS-1051"
-    },
-    {
-      "course_id": "SPM2001",
-      "section": "01",
-      "source_code": "SPM-2001"
-    },
-    {
-      "course_id": "SPM2005",
-      "section": "01",
-      "source_code": "SPM-2005"
-    },
-    {
-      "course_id": "SPN1001",
-      "section": "01",
-      "source_code": "SPN-1001"
-    },
-    {
-      "course_id": "SPN1002",
-      "section": "01",
-      "source_code": "SPN-1002"
-    },
-    {
-      "course_id": "SPN2001",
-      "section": "01",
-      "source_code": "SPN-2001"
-    },
-    {
-      "course_id": "SPN2002",
-      "section": "01",
-      "source_code": "SPN-2002"
-    },
-    {
-      "course_id": "SPN3002",
-      "section": "W1",
-      "source_code": "SPN-3002"
-    },
-    {
-      "course_id": "SPN4095",
-      "section": "I1",
-      "source_code": "SPN-4095"
-    },
-    {
-      "course_id": "SWA1001",
-      "section": "01",
-      "source_code": "SWA-1001"
-    },
-    {
-      "course_id": "SWA1002",
-      "section": "02",
-      "source_code": "SWA-1002"
-    }
-  ]
-}
+[
+  {
+    "course_id": "ACC-2005",
+    "section": "01",
+    "credits": 4,
+    "title": "Principles of Accounting",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "16:00",
+    "end_time": "17:40",
+    "faculty": "S. Duncan",
+    "building": "DHAL",
+    "room": "253",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ACC-3032",
+    "section": "01",
+    "credits": 4,
+    "title": "Intermediate Accounting II",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "I. Uqdah",
+    "building": "DHAL",
+    "room": "205",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ACC-3038",
+    "section": "01",
+    "credits": 4,
+    "title": "Federal & Ind Income Taxation",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": null,
+    "building": "DHAL",
+    "room": "253",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ACC-3040",
+    "section": "01",
+    "credits": 4,
+    "title": "Accounting Information Systems",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "16:00",
+    "end_time": "17:40",
+    "faculty": null,
+    "building": "DHAL",
+    "room": "254",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ACC-4031",
+    "section": "01",
+    "credits": 4,
+    "title": "Advanced Accounting",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "I. Uqdah",
+    "building": "DHAL",
+    "room": "253",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ACC-4050",
+    "section": "01",
+    "credits": 4,
+    "title": "Accounting Practicum",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "16:00",
+    "end_time": "17:40",
+    "faculty": "I. Uqdah",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "ANT-2001",
+    "section": "01",
+    "credits": 4,
+    "title": "General Anthropology",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "E. Babatunde",
+    "building": "DHAL",
+    "room": "326",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ANT-2005",
+    "section": "G1",
+    "credits": 4,
+    "title": "Marriage and the Family",
+    "location": "GC",
+    "days": [
+      "S"
+    ],
+    "start_time": "08:00",
+    "end_time": "11:30",
+    "faculty": "B. Dawson",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "ANT-2008",
+    "section": "01",
+    "credits": 4,
+    "title": "Pol. Anthro. - African Society",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "12:00",
+    "end_time": "13:40",
+    "faculty": "E. Babatunde",
+    "building": "DHAL",
+    "room": "326",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ARA-1001",
+    "section": "01",
+    "credits": 4,
+    "title": "Elementary Arabic I",
+    "location": "MC",
+    "days": [
+      "M",
+      "T",
+      "W",
+      "F"
+    ],
+    "start_time": "10:00",
+    "end_time": "10:50",
+    "faculty": "B. Mohamed",
+    "building": "UNIV",
+    "room": "203",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ARA-1002",
+    "section": "02",
+    "credits": 4,
+    "title": "Elementary Arabic II",
+    "location": "MC",
+    "days": [
+      "M",
+      "T",
+      "W",
+      "F"
+    ],
+    "start_time": "11:00",
+    "end_time": "11:50",
+    "faculty": "B. Mohamed",
+    "building": "UNIV",
+    "room": "203",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ARH-2012",
+    "section": "01",
+    "credits": 4,
+    "title": "Art History II",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "M. Wilson",
+    "building": "AMOS",
+    "room": "201",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ARH-2076",
+    "section": "01",
+    "credits": 4,
+    "title": "African American Art History",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "M. Wilson",
+    "building": "AMOS",
+    "room": "204",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ART-1000",
+    "section": "01",
+    "credits": 4,
+    "title": "Fundamentals of 2-D Design",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "08:00",
+    "end_time": "09:40",
+    "faculty": "C. Lacy",
+    "building": "AMOS",
+    "room": "205",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ART-1000",
+    "section": "02",
+    "credits": 4,
+    "title": "Fundamentals of 2-D Design",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "M. Downing",
+    "building": "AMOS",
+    "room": "204",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ART-1000",
+    "section": "03",
+    "credits": 4,
+    "title": "Fundamentals of 2-D Design",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "12:00",
+    "end_time": "13:40",
+    "faculty": "P. Moshanko",
+    "building": "AMOS",
+    "room": "204",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ART-1000",
+    "section": "04",
+    "credits": 4,
+    "title": "Fundamentals of 2-D Design",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "P. Moshanko",
+    "building": "AMOS",
+    "room": "204",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ART-1001",
+    "section": "01",
+    "credits": 4,
+    "title": "Fundamentals of 3-D Design",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "To",
+    "building": "BE",
+    "room": "Announced",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ART-1002",
+    "section": "01",
+    "credits": 4,
+    "title": "Introduction to Graphic Arts",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "A. Kuhn",
+    "building": "AMOS",
+    "room": "201",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ART-1002",
+    "section": "02",
+    "credits": 4,
+    "title": "Introduction to Graphic Arts",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "12:00",
+    "end_time": "13:40",
+    "faculty": "A. Kuhn",
+    "building": "AMOS",
+    "room": "201",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ART-1002",
+    "section": "03",
+    "credits": 4,
+    "title": "Introduction to Graphic Arts",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "16:00",
+    "end_time": "17:40",
+    "faculty": null,
+    "building": "AMOS",
+    "room": "201",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ART-1002",
+    "section": "04",
+    "credits": 4,
+    "title": "Introduction to Graphic Arts",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "G. Stillman",
+    "building": "AMOS",
+    "room": "202",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ART-2000",
+    "section": "01",
+    "credits": 4,
+    "title": "Intro to Art",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "08:00",
+    "end_time": "09:40",
+    "faculty": "M. Downing",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "ART-2005",
+    "section": "01",
+    "credits": 4,
+    "title": "Intermediate Drawing",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "16:00",
+    "end_time": "17:40",
+    "faculty": "D. Beach",
+    "building": "AMOS",
+    "room": "206",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ART-2010",
+    "section": "01",
+    "credits": 4,
+    "title": "Introduction to Ceramics",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "12:00",
+    "end_time": "13:40",
+    "faculty": "T. Osei",
+    "building": "AMOS",
+    "room": "114",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ART-2010",
+    "section": "02",
+    "credits": 4,
+    "title": "Introduction to Ceramics",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": null,
+    "building": "AMOS",
+    "room": "114",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ART-2015",
+    "section": "01",
+    "credits": 4,
+    "title": "Intro to Printmaking",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "C. Lacy",
+    "building": "AMOS",
+    "room": "210",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ART-2020",
+    "section": "01",
+    "credits": 4,
+    "title": "Design for Print and Web",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "G. Stillman STUDO",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "ART-2025",
+    "section": "01",
+    "credits": 4,
+    "title": "Introduction to Painting",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "D. Beach",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "ART-2061",
+    "section": "01",
+    "credits": 4,
+    "title": "Intro to Darkroom Photo",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "C. Kerns",
+    "building": "AMOS",
+    "room": "008",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ART-3010",
+    "section": "01",
+    "credits": 4,
+    "title": "Sculptural Ceramics",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "T. Osei",
+    "building": "AMOS",
+    "room": "114",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ART-3060",
+    "section": "01",
+    "credits": 4,
+    "title": "Digital Photo Manipulation",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "C. Kerns",
+    "building": "AMOS",
+    "room": "202",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ART-3090",
+    "section": "01",
+    "credits": 4,
+    "title": "ST: Art and Black Thought",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "16:00",
+    "end_time": "17:40",
+    "faculty": "M. Wilson",
+    "building": "AMOS",
+    "room": "201",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ART-3090",
+    "section": "02",
+    "credits": 4,
+    "title": "ST: Mixed Media",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "C. Lacy",
+    "building": "AMOS",
+    "room": "210",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ART-3090",
+    "section": "03",
+    "credits": 4,
+    "title": "ST: Taking Shape",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "A. Hassinger",
+    "building": "AMOS",
+    "room": "205",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ART-3090",
+    "section": "04",
+    "credits": 4,
+    "title": "ST: Making a Brand",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "A. Hassinger",
+    "building": "AMOS",
+    "room": "201",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ART-3090",
+    "section": "05",
+    "credits": 4,
+    "title": "ST: Intermediate Painting",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "A. Kuhn",
+    "building": "AMOS",
+    "room": "206",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ART-3095",
+    "section": "01",
+    "credits": 4,
+    "title": "Junior Seminar",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "12:00",
+    "end_time": "13:40",
+    "faculty": "A. Hassinger",
+    "building": "AMOS",
+    "room": "205",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ART-4091",
+    "section": "01",
+    "credits": 2,
+    "title": "Senior Seminar II",
+    "location": "MC",
+    "days": [
+      "M"
+    ],
+    "start_time": "12:00",
+    "end_time": "13:40",
+    "faculty": "C. Kerns",
+    "building": "AMOS",
+    "room": "202",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ART-4095",
+    "section": "I1",
+    "credits": 1,
+    "title": "Independent Study",
+    "location": "MC",
+    "days": [
+      "T"
+    ],
+    "start_time": null,
+    "end_time": null,
+    "faculty": ". Osei",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "ART-4095",
+    "section": "I2",
+    "credits": 1,
+    "title": "Independent Study",
+    "location": "MC",
+    "days": [
+      "T"
+    ],
+    "start_time": null,
+    "end_time": null,
+    "faculty": "o",
+    "building": "BE",
+    "room": "Announced",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ART-4095",
+    "section": "I3",
+    "credits": 1,
+    "title": "Independent Study",
+    "location": "MC",
+    "days": [
+      "T"
+    ],
+    "start_time": null,
+    "end_time": null,
+    "faculty": "o be Announced",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "ART-4095",
+    "section": "I4",
+    "credits": 1,
+    "title": "Independent Study",
+    "location": "MC",
+    "days": [
+      "T"
+    ],
+    "start_time": null,
+    "end_time": null,
+    "faculty": "o be Announced",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "BES-1010",
+    "section": "01",
+    "credits": 4,
+    "title": "Business Mathematics",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "16:00",
+    "end_time": "17:40",
+    "faculty": "P. White",
+    "building": "DHAL",
+    "room": "205",
+    "type": "LEC"
+  },
+  {
+    "course_id": "BES-1014",
+    "section": "01",
+    "credits": 4,
+    "title": "Business Statistics",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "P. White",
+    "building": "DHAL",
+    "room": "254",
+    "type": "LEC"
+  },
+  {
+    "course_id": "BES-4030",
+    "section": "01",
+    "credits": 4,
+    "title": "Internship",
+    "location": "MC",
+    "days": [
+      "T"
+    ],
+    "start_time": null,
+    "end_time": null,
+    "faculty": "o",
+    "building": "BE",
+    "room": "Announced",
+    "type": "LEC"
+  },
+  {
+    "course_id": "BES-4059",
+    "section": "W1",
+    "credits": 4,
+    "title": "BES Senior Seminar",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "H. Dameron, D. ElliDHAL 205",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "BIO-1001",
+    "section": "01",
+    "credits": 4,
+    "title": "Human Biology",
+    "location": "MC",
+    "days": [
+      "M",
+      "W",
+      "F"
+    ],
+    "start_time": "10:00",
+    "end_time": "10:50",
+    "faculty": "K. Baskerville",
+    "building": "SCIB",
+    "room": "119",
+    "type": "LEC"
+  },
+  {
+    "course_id": "BIO-1001",
+    "section": "02",
+    "credits": 4,
+    "title": "Human Biology",
+    "location": "MC",
+    "days": [
+      "W",
+      "F"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:15",
+    "faculty": "M. Norman",
+    "building": "SCIB",
+    "room": "123",
+    "type": "LEC"
+  },
+  {
+    "course_id": "BIO-1001",
+    "section": "03",
+    "credits": 4,
+    "title": "Human Biology",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:15",
+    "faculty": "C. Long",
+    "building": "SCIB",
+    "room": "113",
+    "type": "LEC"
+  },
+  {
+    "course_id": "BIO-1001L",
+    "section": "01",
+    "credits": 0,
+    "title": "Human Biology Lab",
+    "location": "MC",
+    "days": [
+      "M"
+    ],
+    "start_time": "12:00",
+    "end_time": "13:50",
+    "faculty": null,
+    "building": "SCIB",
+    "room": "239",
+    "type": "LAB"
+  },
+  {
+    "course_id": "BIO-1001L",
+    "section": "02",
+    "credits": 0,
+    "title": "Human Biology Lab",
+    "location": "MC",
+    "days": [
+      "T"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:50",
+    "faculty": "J. Gallagher",
+    "building": "SCIB",
+    "room": "239",
+    "type": "LAB"
+  },
+  {
+    "course_id": "BIO-1001L",
+    "section": "03",
+    "credits": 0,
+    "title": "Human Biology Lab",
+    "location": "MC",
+    "days": [
+      "M"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:50",
+    "faculty": null,
+    "building": "SCIB",
+    "room": "239",
+    "type": "LAB"
+  },
+  {
+    "course_id": "BIO-1001L",
+    "section": "04",
+    "credits": 0,
+    "title": "Human Biology Lab",
+    "location": "MC",
+    "days": [
+      "R"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:50",
+    "faculty": "M. Norman",
+    "building": "SCIB",
+    "room": "239",
+    "type": "LAB"
+  },
+  {
+    "course_id": "BIO-1003",
+    "section": "01",
+    "credits": 4,
+    "title": "General Biology I for Bio Maj",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:15",
+    "faculty": "M. Norman",
+    "building": "SCIB",
+    "room": "123",
+    "type": "LEC"
+  },
+  {
+    "course_id": "BIO-1003L",
+    "section": "01",
+    "credits": 0,
+    "title": "Gen Biology I Lab for Bio Maj",
+    "location": "MC",
+    "days": [
+      "M"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:50",
+    "faculty": "B. Rehill",
+    "building": "SCIB",
+    "room": "237",
+    "type": "LAB"
+  },
+  {
+    "course_id": "BIO-1003L",
+    "section": "02",
+    "credits": 0,
+    "title": "Gen Biology I Lab for Bio Maj",
+    "location": "MC",
+    "days": [
+      "T"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:50",
+    "faculty": "M. Norman",
+    "building": "SCIB",
+    "room": "237",
+    "type": "LAB"
+  },
+  {
+    "course_id": "BIO-1004",
+    "section": "01",
+    "credits": 4,
+    "title": "General Biology II for Bio Maj",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:15",
+    "faculty": "J. McCarthy",
+    "building": "SCIB",
+    "room": "119",
+    "type": "LEC"
+  },
+  {
+    "course_id": "BIO-1004",
+    "section": "02",
+    "credits": 4,
+    "title": "General Biology II for Bio Maj",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:15",
+    "faculty": "E. Humphrey",
+    "building": "SCIB",
+    "room": "111",
+    "type": "LEC"
+  },
+  {
+    "course_id": "BIO-1004L",
+    "section": "01",
+    "credits": 0,
+    "title": "Gen Biology II Lab for Bio Maj",
+    "location": "MC",
+    "days": [
+      "W"
+    ],
+    "start_time": "12:00",
+    "end_time": "13:50",
+    "faculty": "J. Gallagher",
+    "building": "SCIB",
+    "room": "237",
+    "type": "LAB"
+  },
+  {
+    "course_id": "BIO-1004L",
+    "section": "02",
+    "credits": 0,
+    "title": "Gen Biology II Lab for Bio Maj",
+    "location": "MC",
+    "days": [
+      "W"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:50",
+    "faculty": "M. Norman",
+    "building": "SCIB",
+    "room": "237",
+    "type": "LAB"
+  },
+  {
+    "course_id": "BIO-1004L",
+    "section": "03",
+    "credits": 0,
+    "title": "Gen Biology II Lab for Bio Maj",
+    "location": "MC",
+    "days": [
+      "W"
+    ],
+    "start_time": "12:00",
+    "end_time": "13:50",
+    "faculty": "E. Humphrey",
+    "building": "SCIB",
+    "room": "239",
+    "type": "LAB"
+  },
+  {
+    "course_id": "BIO-1004L",
+    "section": "04",
+    "credits": 0,
+    "title": "Gen Biology II Lab for Bio Maj",
+    "location": "MC",
+    "days": [
+      "R"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:50",
+    "faculty": "B. Rehill",
+    "building": "SCIB",
+    "room": "237",
+    "type": "LAB"
+  },
+  {
+    "course_id": "BIO-1004L",
+    "section": "05",
+    "credits": 0,
+    "title": "Gen Biology II Lab for Bio Maj",
+    "location": "MC",
+    "days": [
+      "R"
+    ],
+    "start_time": "16:00",
+    "end_time": "17:50",
+    "faculty": "B. Rehill",
+    "building": "SCIB",
+    "room": "237",
+    "type": "LAB"
+  },
+  {
+    "course_id": "BIO-2000",
+    "section": "G1",
+    "credits": 4,
+    "title": "HIV/Aids",
+    "location": "GC",
+    "days": [
+      "M"
+    ],
+    "start_time": "17:30",
+    "end_time": "21:00",
+    "faculty": "J. Williams",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "BIO-2005",
+    "section": "01",
+    "credits": 4,
+    "title": "Anatomy and Physiology I",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:15",
+    "faculty": "J. Parnell-Peake",
+    "building": "SCIB",
+    "room": "118",
+    "type": "LEC"
+  },
+  {
+    "course_id": "BIO-2005L",
+    "section": "01",
+    "credits": 0,
+    "title": "Anat & Phys I Lab",
+    "location": "MC",
+    "days": [
+      "R"
+    ],
+    "start_time": "14:00",
+    "end_time": "16:50",
+    "faculty": "J. Parnell-Peake",
+    "building": "SCIB",
+    "room": "217",
+    "type": "LAB"
+  },
+  {
+    "course_id": "BIO-2006",
+    "section": "01",
+    "credits": 4,
+    "title": "Anatomy and Physiology II",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "08:30",
+    "end_time": "09:45",
+    "faculty": "E. Humphrey",
+    "building": "SCIB",
+    "room": "118",
+    "type": "LEC"
+  },
+  {
+    "course_id": "BIO-2006L",
+    "section": "01",
+    "credits": 0,
+    "title": "Anat & Phys II Lab",
+    "location": "MC",
+    "days": [
+      "T"
+    ],
+    "start_time": "09:00",
+    "end_time": "11:50",
+    "faculty": "E. Humphrey",
+    "building": "SCIB",
+    "room": "217",
+    "type": "LAB"
+  },
+  {
+    "course_id": "BIO-2006L",
+    "section": "02",
+    "credits": 0,
+    "title": "Anat & Phys II Lab",
+    "location": "MC",
+    "days": [
+      "T"
+    ],
+    "start_time": "14:00",
+    "end_time": "16:50",
+    "faculty": "E. Humphrey",
+    "building": "SCIB",
+    "room": "217",
+    "type": "LAB"
+  },
+  {
+    "course_id": "BIO-2007",
+    "section": "01",
+    "credits": 4,
+    "title": "Cell Biology",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "08:30",
+    "end_time": "09:45",
+    "faculty": "J. Parnell-Peake",
+    "building": "SCIB",
+    "room": "118",
+    "type": "LEC"
+  },
+  {
+    "course_id": "BIO-2007L",
+    "section": "01",
+    "credits": 0,
+    "title": "Cell Biology Lab",
+    "location": "MC",
+    "days": [
+      "W"
+    ],
+    "start_time": "14:00",
+    "end_time": "16:50",
+    "faculty": "J. Parnell-Peake",
+    "building": "SCIB",
+    "room": "201",
+    "type": "LAB"
+  },
+  {
+    "course_id": "BIO-2007L",
+    "section": "02",
+    "credits": 0,
+    "title": "Cell Biology Lab",
+    "location": "MC",
+    "days": [
+      "M"
+    ],
+    "start_time": "14:00",
+    "end_time": "16:50",
+    "faculty": "J. Parnell-Peake",
+    "building": "SCIB",
+    "room": "201",
+    "type": "LAB"
+  },
+  {
+    "course_id": "BIO-2008",
+    "section": "01",
+    "credits": 4,
+    "title": "Genetics",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:15",
+    "faculty": "A. Hull",
+    "building": "SCIB",
+    "room": "111",
+    "type": "LEC"
+  },
+  {
+    "course_id": "BIO-2008L",
+    "section": "01",
+    "credits": 0,
+    "title": "Genetics Lab",
+    "location": "MC",
+    "days": [
+      "R"
+    ],
+    "start_time": "14:00",
+    "end_time": "16:50",
+    "faculty": "A. Hull",
+    "building": "SCIB",
+    "room": "205",
+    "type": "LAB"
+  },
+  {
+    "course_id": "BIO-2008L",
+    "section": "02",
+    "credits": 0,
+    "title": "Genetics Lab",
+    "location": "MC",
+    "days": [
+      "W"
+    ],
+    "start_time": "14:00",
+    "end_time": "16:50",
+    "faculty": "A. Hull",
+    "building": "SCIB",
+    "room": "205",
+    "type": "LAB"
+  },
+  {
+    "course_id": "BIO-2011",
+    "section": "01",
+    "credits": 4,
+    "title": "Intro to Biological Research",
+    "location": "MC",
+    "days": [
+      "W",
+      "F"
+    ],
+    "start_time": "10:00",
+    "end_time": "12:00",
+    "faculty": "S. Safford",
+    "building": "SCIB",
+    "room": "201",
+    "type": "LEC"
+  },
+  {
+    "course_id": "BIO-3001",
+    "section": "01",
+    "credits": 4,
+    "title": "Endocrinology",
+    "location": "MC",
+    "days": [
+      "M",
+      "T",
+      "W",
+      "F"
+    ],
+    "start_time": "09:00",
+    "end_time": "09:50",
+    "faculty": "S. Safford",
+    "building": "SCIB",
+    "room": "111",
+    "type": "LEC"
+  },
+  {
+    "course_id": "BIO-3004",
+    "section": "01",
+    "credits": 4,
+    "title": "Developmental Biology",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:15",
+    "faculty": "J. Zoodsma, C. Dre",
+    "building": "SCIB",
+    "room": "120",
+    "type": "LEC"
+  },
+  {
+    "course_id": "BIO-3004L",
+    "section": "01",
+    "credits": 0,
+    "title": "Developmental Biology Lab",
+    "location": "MC",
+    "days": [
+      "R"
+    ],
+    "start_time": "14:00",
+    "end_time": "16:50",
+    "faculty": "J. Zoodsma, C. Dre",
+    "building": "SCIB",
+    "room": "223",
+    "type": "LAB"
+  },
+  {
+    "course_id": "BIO-3005",
+    "section": "01",
+    "credits": 4,
+    "title": "Biological Techniques",
+    "location": "MC",
+    "days": [
+      "W"
+    ],
+    "start_time": "14:00",
+    "end_time": "18:00",
+    "faculty": "J. Gallagher",
+    "building": "SCIB",
+    "room": "223",
+    "type": "LEC"
+  },
+  {
+    "course_id": "BIO-3005",
+    "section": "01",
+    "credits": 4,
+    "title": "Biological Techniques",
+    "location": "MC",
+    "days": [
+      "M"
+    ],
+    "start_time": "14:00",
+    "end_time": "16:00",
+    "faculty": "J. Gallagher",
+    "building": "SCIB",
+    "room": "223",
+    "type": "LEC"
+  },
+  {
+    "course_id": "BIO-3008",
+    "section": "01",
+    "credits": 4,
+    "title": "Histology",
+    "location": "MC",
+    "days": [
+      "M",
+      "W",
+      "F"
+    ],
+    "start_time": "09:00",
+    "end_time": "09:50",
+    "faculty": "K. Baskerville",
+    "building": "SCIB",
+    "room": "130",
+    "type": "LEC"
+  },
+  {
+    "course_id": "BIO-3008L",
+    "section": "01",
+    "credits": 0,
+    "title": "Histology Lab",
+    "location": "MC",
+    "days": [
+      "M"
+    ],
+    "start_time": "14:00",
+    "end_time": "16:50",
+    "faculty": "K. Baskerville",
+    "building": "SCIB",
+    "room": "217",
+    "type": "LAB"
+  },
+  {
+    "course_id": "BIO-3011",
+    "section": "01",
+    "credits": 4,
+    "title": "Conservation Biology",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "12:00",
+    "end_time": "13:45",
+    "faculty": "J. McCarthy",
+    "building": "SCIB",
+    "room": "111",
+    "type": "LEC"
+  },
+  {
+    "course_id": "BIO-3090",
+    "section": "01",
+    "credits": 4,
+    "title": "ST: Life Science Innovation",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:45",
+    "faculty": "R. Saunders",
+    "building": "SCIB",
+    "room": "118",
+    "type": "LEC"
+  },
+  {
+    "course_id": "BIO-4001",
+    "section": "01",
+    "credits": 4,
+    "title": "Microbiology",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:15",
+    "faculty": "R. Saunders",
+    "building": "SCIB",
+    "room": "122",
+    "type": "LEC"
+  },
+  {
+    "course_id": "BIO-4001L",
+    "section": "01",
+    "credits": 0,
+    "title": "Microbiology Lab",
+    "location": "MC",
+    "days": [
+      "T"
+    ],
+    "start_time": "14:00",
+    "end_time": "16:50",
+    "faculty": "R. Saunders",
+    "building": "SCIB",
+    "room": "201",
+    "type": "LAB"
+  },
+  {
+    "course_id": "BIO-4014",
+    "section": "01",
+    "credits": 2,
+    "title": "Biology Research II",
+    "location": "MC",
+    "days": [
+      "F"
+    ],
+    "start_time": "12:00",
+    "end_time": "12:50",
+    "faculty": "K. Baskerville",
+    "building": "SCIB",
+    "room": "130",
+    "type": "LEC"
+  },
+  {
+    "course_id": "BUS-1001",
+    "section": "02",
+    "credits": 4,
+    "title": "Introduction to Business",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "G. Ridgely",
+    "building": "DHAL",
+    "room": "253",
+    "type": "LEC"
+  },
+  {
+    "course_id": "BUS-3034",
+    "section": "01",
+    "credits": 4,
+    "title": "Business Law",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "D. Zhang",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "BUS-4041",
+    "section": "01",
+    "credits": 4,
+    "title": "International Business",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "D. Elliott",
+    "building": "DHAL",
+    "room": "254",
+    "type": "LEC"
+  },
+  {
+    "course_id": "CHE-1001",
+    "section": "01",
+    "credits": 4,
+    "title": "Chemistry in Action",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "A. Tung",
+    "building": "SCIB",
+    "room": "128",
+    "type": "LEC"
+  },
+  {
+    "course_id": "CHE-1003",
+    "section": "01",
+    "credits": 4,
+    "title": "General Chemistry I",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "08:30",
+    "end_time": "09:45",
+    "faculty": "T. Booker",
+    "building": "SCIB",
+    "room": "123",
+    "type": "LEC"
+  },
+  {
+    "course_id": "CHE-1003L",
+    "section": "01",
+    "credits": 0,
+    "title": "Gen. Chemistry I Lab",
+    "location": "MC",
+    "days": [
+      "M"
+    ],
+    "start_time": "14:00",
+    "end_time": "16:50",
+    "faculty": "T. Booker",
+    "building": "SCIB",
+    "room": "305",
+    "type": "LAB"
+  },
+  {
+    "course_id": "CHE-1003L",
+    "section": "02",
+    "credits": 0,
+    "title": "Gen. Chemistry I Lab",
+    "location": "MC",
+    "days": [
+      "T"
+    ],
+    "start_time": "14:00",
+    "end_time": "16:50",
+    "faculty": "S. Mahmud",
+    "building": "SCIB",
+    "room": "305",
+    "type": "LAB"
+  },
+  {
+    "course_id": "CHE-1003L",
+    "section": "03",
+    "credits": 0,
+    "title": "Gen. Chemistry I Lab",
+    "location": "MC",
+    "days": [
+      "W"
+    ],
+    "start_time": "14:00",
+    "end_time": "16:50",
+    "faculty": "S. Mahmud",
+    "building": "SCIB",
+    "room": "305",
+    "type": "LAB"
+  },
+  {
+    "course_id": "CHE-1004",
+    "section": "01",
+    "credits": 4,
+    "title": "General Chemistry II",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "08:30",
+    "end_time": "09:45",
+    "faculty": "J. Hayes",
+    "building": "SCIB",
+    "room": "119",
+    "type": "LEC"
+  },
+  {
+    "course_id": "CHE-1004L",
+    "section": "01",
+    "credits": 0,
+    "title": "Gen. Chemistry II Lab",
+    "location": "MC",
+    "days": [
+      "R"
+    ],
+    "start_time": "14:00",
+    "end_time": "16:50",
+    "faculty": "A. Tung",
+    "building": "SCIB",
+    "room": "301",
+    "type": "LAB"
+  },
+  {
+    "course_id": "CHE-1004L",
+    "section": "02",
+    "credits": 0,
+    "title": "Gen. Chemistry II Lab",
+    "location": "MC",
+    "days": [
+      "F"
+    ],
+    "start_time": "11:00",
+    "end_time": "13:50",
+    "faculty": "T. Grimes",
+    "building": "SCIB",
+    "room": "301",
+    "type": "LAB"
+  },
+  {
+    "course_id": "CHE-1004L",
+    "section": "03",
+    "credits": 0,
+    "title": "Gen. Chemistry II Lab",
+    "location": "MC",
+    "days": [
+      "F"
+    ],
+    "start_time": "14:00",
+    "end_time": "16:50",
+    "faculty": "T. Grimes",
+    "building": "SCIB",
+    "room": "301",
+    "type": "LAB"
+  },
+  {
+    "course_id": "CHE-1020",
+    "section": "01",
+    "credits": 4,
+    "title": "Che. for Health Science",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:15",
+    "faculty": "S. Mahmud",
+    "building": "SCIB",
+    "room": "130",
+    "type": "LEC"
+  },
+  {
+    "course_id": "CHE-1020L",
+    "section": "01",
+    "credits": 0,
+    "title": "Che Lab for Health Sciences",
+    "location": "MC",
+    "days": [
+      "M"
+    ],
+    "start_time": "14:00",
+    "end_time": "16:50",
+    "faculty": "S. Mahmud",
+    "building": "SCIB",
+    "room": "301",
+    "type": "LAB"
+  },
+  {
+    "course_id": "CHE-2001",
+    "section": "01",
+    "credits": 4,
+    "title": "Quantitative Analysis",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:15",
+    "faculty": "T. Booker",
+    "building": "SCIB",
+    "room": "303",
+    "type": "LEC"
+  },
+  {
+    "course_id": "CHE-2001L",
+    "section": "01",
+    "credits": 0,
+    "title": "Quant. Analysis Lab",
+    "location": "MC",
+    "days": [
+      "M"
+    ],
+    "start_time": "14:00",
+    "end_time": "16:50",
+    "faculty": "T. Gluodenis",
+    "building": "SCIB",
+    "room": "337",
+    "type": "LAB"
+  },
+  {
+    "course_id": "CHE-2003",
+    "section": "01",
+    "credits": 4,
+    "title": "Organic Chemistry I",
+    "location": "MC",
+    "days": [
+      "M",
+      "W",
+      "F"
+    ],
+    "start_time": "10:00",
+    "end_time": "10:50",
+    "faculty": "T. Gluodenis",
+    "building": "SCIB",
+    "room": "318",
+    "type": "LEC"
+  },
+  {
+    "course_id": "CHE-2003L",
+    "section": "01",
+    "credits": 0,
+    "title": "Organic Chem. I Lab",
+    "location": "MC",
+    "days": [
+      "T"
+    ],
+    "start_time": "14:00",
+    "end_time": "16:50",
+    "faculty": "A. Tung",
+    "building": "SCIB",
+    "room": "317",
+    "type": "LAB"
+  },
+  {
+    "course_id": "CHE-2004",
+    "section": "01",
+    "credits": 4,
+    "title": "Organic Chemistry II",
+    "location": "MC",
+    "days": [
+      "M",
+      "W",
+      "F"
+    ],
+    "start_time": "11:00",
+    "end_time": "11:50",
+    "faculty": "T. Gluodenis",
+    "building": "SCIB",
+    "room": "318",
+    "type": "LEC"
+  },
+  {
+    "course_id": "CHE-2004L",
+    "section": "01",
+    "credits": 0,
+    "title": "Organic Chemistry II Lab",
+    "location": "MC",
+    "days": [
+      "M"
+    ],
+    "start_time": "14:00",
+    "end_time": "16:50",
+    "faculty": "A. Tung",
+    "building": "SCIB",
+    "room": "317",
+    "type": "LAB"
+  },
+  {
+    "course_id": "CHE-2005",
+    "section": "01",
+    "credits": 4,
+    "title": "Inorganic Chemistry",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:15",
+    "faculty": "V. Herrera",
+    "building": "SCIB",
+    "room": "130",
+    "type": "LEC"
+  },
+  {
+    "course_id": "CHE-2005L",
+    "section": "01",
+    "credits": 0,
+    "title": "Inorganic Chem Lab",
+    "location": "MC",
+    "days": [
+      "W"
+    ],
+    "start_time": "17:00",
+    "end_time": "19:50",
+    "faculty": "J. Hayes",
+    "building": "SCIB",
+    "room": "337",
+    "type": "LAB"
+  },
+  {
+    "course_id": "CHE-3001",
+    "section": "01",
+    "credits": 4,
+    "title": "Physical Chemistry II",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "11:00",
+    "end_time": "12:15",
+    "faculty": "J. Hayes",
+    "building": "SCIB",
+    "room": "107",
+    "type": "LEC"
+  },
+  {
+    "course_id": "CHE-3001L",
+    "section": "01",
+    "credits": 0,
+    "title": "Physical Chemistry II Lab",
+    "location": "MC",
+    "days": [
+      "W"
+    ],
+    "start_time": "14:00",
+    "end_time": "16:50",
+    "faculty": "J. Hayes",
+    "building": "SCIB",
+    "room": "107",
+    "type": "LEC"
+  },
+  {
+    "course_id": "CHE-3003",
+    "section": "01",
+    "credits": 4,
+    "title": "Biochemistry I",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:15",
+    "faculty": "C. Gallagher",
+    "building": "SCIB",
+    "room": "303",
+    "type": "LEC"
+  },
+  {
+    "course_id": "CHE-3003L",
+    "section": "01",
+    "credits": 0,
+    "title": "Biochemistry Lab I",
+    "location": "MC",
+    "days": [
+      "W"
+    ],
+    "start_time": "14:00",
+    "end_time": "16:50",
+    "faculty": "A. Tung",
+    "building": "SCIB",
+    "room": "325",
+    "type": "LAB"
+  },
+  {
+    "course_id": "CHE-3004",
+    "section": "01",
+    "credits": 4,
+    "title": "Biochemistry II",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "08:30",
+    "end_time": "09:45",
+    "faculty": "V. Herrera",
+    "building": "SCIB",
+    "room": "130",
+    "type": "LEC"
+  },
+  {
+    "course_id": "CHE-3004L",
+    "section": "01",
+    "credits": 0,
+    "title": "Biochemistry II Lab",
+    "location": "MC",
+    "days": [
+      "F"
+    ],
+    "start_time": "09:00",
+    "end_time": "11:00",
+    "faculty": "T. Grimes",
+    "building": "SCIB",
+    "room": "325",
+    "type": "LAB"
+  },
+  {
+    "course_id": "CHE-3010",
+    "section": "01",
+    "credits": 4,
+    "title": "Research Seminar I",
+    "location": "MC",
+    "days": [
+      "W"
+    ],
+    "start_time": "08:00",
+    "end_time": "09:50",
+    "faculty": "C. Gallagher",
+    "building": "SCIB",
+    "room": "303",
+    "type": "LEC"
+  },
+  {
+    "course_id": "CHE-3090",
+    "section": "01",
+    "credits": 4,
+    "title": "ST: Metabolism",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "12:00",
+    "end_time": "13:40",
+    "faculty": "C. Gallagher",
+    "building": "SCIB",
+    "room": "303",
+    "type": "LEC"
+  },
+  {
+    "course_id": "CHI-1001",
+    "section": "01",
+    "credits": 4,
+    "title": "Elementary Chinese I",
+    "location": "MC",
+    "days": [
+      "M",
+      "T",
+      "W",
+      "F"
+    ],
+    "start_time": "09:00",
+    "end_time": "09:50",
+    "faculty": "M. Yang",
+    "building": "UNIV",
+    "room": "205",
+    "type": "LEC"
+  },
+  {
+    "course_id": "COM-2001",
+    "section": "01",
+    "credits": 4,
+    "title": "Intro to Media Studies",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "M. Sneed-Jacobs",
+    "building": "SCIB",
+    "room": "109",
+    "type": "LEC"
+  },
+  {
+    "course_id": "COM-2002",
+    "section": "W1",
+    "credits": 4,
+    "title": "Writing for Communication Prof",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "16:00",
+    "end_time": "17:40",
+    "faculty": "M. Sneed-Jacobs",
+    "building": "GRIM",
+    "room": "306",
+    "type": "LEC"
+  },
+  {
+    "course_id": "COM-2003",
+    "section": "01",
+    "credits": 4,
+    "title": "Public Speaking",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "12:00",
+    "end_time": "13:40",
+    "faculty": "T. Whitfield",
+    "building": "GRIM",
+    "room": "306",
+    "type": "LEC"
+  },
+  {
+    "course_id": "COM-2005",
+    "section": "01",
+    "credits": 4,
+    "title": "Human Communication",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "N. Files-ThompsonGRIM 206",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "COM-2007",
+    "section": "01",
+    "credits": 4,
+    "title": "Media Technology",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "J. Smith",
+    "building": "GRIM",
+    "room": "207",
+    "type": "LEC"
+  },
+  {
+    "course_id": "COM-3000",
+    "section": "01",
+    "credits": 4,
+    "title": "Communication Theory",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "16:00",
+    "end_time": "17:40",
+    "faculty": "T. Whitfield",
+    "building": "GRIM",
+    "room": "306",
+    "type": "LEC"
+  },
+  {
+    "course_id": "COM-3002",
+    "section": "01",
+    "credits": 4,
+    "title": "Strategic Communication",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "12:00",
+    "end_time": "13:40",
+    "faculty": "K. Stephens",
+    "building": "GRIM",
+    "room": "116",
+    "type": "LEC"
+  },
+  {
+    "course_id": "COM-3012",
+    "section": "01",
+    "credits": 4,
+    "title": "Audio Production",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "12:00",
+    "end_time": "13:40",
+    "faculty": "J. Smith",
+    "building": "GRIM",
+    "room": "207",
+    "type": "LEC"
+  },
+  {
+    "course_id": "COM-3020",
+    "section": "01",
+    "credits": 4,
+    "title": "Gender and the Media",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "T. Whitfield",
+    "building": "GRIM",
+    "room": "306",
+    "type": "LEC"
+  },
+  {
+    "course_id": "COM-3022",
+    "section": "01",
+    "credits": 4,
+    "title": "African Americans and Media",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "M. Sneed-Jacobs",
+    "building": "GRIM",
+    "room": "307",
+    "type": "LEC"
+  },
+  {
+    "course_id": "COM-3023",
+    "section": "01",
+    "credits": 4,
+    "title": "Media and Popular Culture",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "N. Files-ThompsonGRIM 207",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "COM-3032",
+    "section": "01",
+    "credits": 4,
+    "title": "Digital Media Strategies",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "J. Smith",
+    "building": "GRIM",
+    "room": "116",
+    "type": "LEC"
+  },
+  {
+    "course_id": "COM-4001",
+    "section": "W1",
+    "credits": 4,
+    "title": "Research Methods in Mass Com",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "L. Pelliccio",
+    "building": "GRIM",
+    "room": "313",
+    "type": "LEC"
+  },
+  {
+    "course_id": "COM-4005",
+    "section": "01",
+    "credits": 4,
+    "title": "Strategic Communication Campa",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "K. Stephens",
+    "building": "GRIM",
+    "room": "116",
+    "type": "LEC"
+  },
+  {
+    "course_id": "COM-4050",
+    "section": "01",
+    "credits": 4,
+    "title": "Social Media Management",
+    "location": "MC",
+    "days": [
+      "M"
+    ],
+    "start_time": "16:00",
+    "end_time": "20:00",
+    "faculty": "L. Pelliccio",
+    "building": "GRIM",
+    "room": "116",
+    "type": "LEC"
+  },
+  {
+    "course_id": "COM-4052",
+    "section": "01",
+    "credits": 4,
+    "title": "Lincolnian Practicum",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "16:00",
+    "end_time": "17:40",
+    "faculty": "T. Davis",
+    "building": "LHML",
+    "room": "310",
+    "type": "LEC"
+  },
+  {
+    "course_id": "CRJ-2003",
+    "section": "01",
+    "credits": 4,
+    "title": "Intro to Criminal Justice Sys",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "16:00",
+    "end_time": "17:40",
+    "faculty": "B. Miller",
+    "building": "DHAL",
+    "room": "326",
+    "type": "LEC"
+  },
+  {
+    "course_id": "CRJ-2007",
+    "section": "01",
+    "credits": 4,
+    "title": "Criminal Law I",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "K. Smith-WilliamsoDHAL 105",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "CRJ-3001",
+    "section": "01",
+    "credits": 4,
+    "title": "Law and Society",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "08:00",
+    "end_time": "09:40",
+    "faculty": "G. Koon",
+    "building": "DHAL",
+    "room": "326",
+    "type": "LEC"
+  },
+  {
+    "course_id": "CRJ-3014",
+    "section": "01",
+    "credits": 4,
+    "title": "Criminological Theory",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "M. Pass",
+    "building": "DHAL",
+    "room": "375",
+    "type": "LEC"
+  },
+  {
+    "course_id": "CRJ-3015",
+    "section": "01",
+    "credits": 4,
+    "title": "Ct & Corrections",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "G. Koon",
+    "building": "DHAL",
+    "room": "326",
+    "type": "LEC"
+  },
+  {
+    "course_id": "CRJ-3020",
+    "section": "01",
+    "credits": 4,
+    "title": "Intro to Law Enforcement",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "R. Gibbs",
+    "building": "DHAL",
+    "room": "326",
+    "type": "LEC"
+  },
+  {
+    "course_id": "CRJ-3023",
+    "section": "01",
+    "credits": 4,
+    "title": "Criminal Justice Admin",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "16:00",
+    "end_time": "17:40",
+    "faculty": "K. Smith-WilliamsoDHAL 373",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "CRJ-3052",
+    "section": "01",
+    "credits": 4,
+    "title": "Criminal Law II",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "K. Smith-WilliamsoDHAL 373",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "CSC-1051",
+    "section": "03",
+    "credits": 4,
+    "title": "Computer Applications & Coding",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": null,
+    "building": "SCIB",
+    "room": "122",
+    "type": "LEC"
+  },
+  {
+    "course_id": "CSC-1052",
+    "section": "01",
+    "credits": 4,
+    "title": "Introduction to Computer Progr",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "08:00",
+    "end_time": "09:40",
+    "faculty": "M. Samizadeh",
+    "building": "SCIB",
+    "room": "122",
+    "type": "LEC"
+  },
+  {
+    "course_id": "CSC-1052",
+    "section": "02",
+    "credits": 4,
+    "title": "Introduction to Computer Progr",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "B. Falah",
+    "building": "SCIB",
+    "room": "124",
+    "type": "LEC"
+  },
+  {
+    "course_id": "CSC-1058",
+    "section": "01",
+    "credits": 4,
+    "title": "Computer Programming I",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "M. Samizadeh",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "CSC-1059",
+    "section": "01",
+    "credits": 4,
+    "title": "Computer Programming II",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "16:00",
+    "end_time": "17:40",
+    "faculty": "D. Dedefa",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "CSC-2054",
+    "section": "01",
+    "credits": 4,
+    "title": "Data Structures",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "O. Tawose",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "CSC-3053",
+    "section": "01",
+    "credits": 4,
+    "title": "Computer Orgnztn & Archictr",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "B. Falah",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "CSC-3054",
+    "section": "01",
+    "credits": 4,
+    "title": "Database Design & Development",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "12:00",
+    "end_time": "13:40",
+    "faculty": "D. Dedefa",
+    "building": "SCIB",
+    "room": "250",
+    "type": "LEC"
+  },
+  {
+    "course_id": "CSC-3058",
+    "section": "01",
+    "credits": 4,
+    "title": "Artfcl Intllgnc &",
+    "location": "MC",
+    "days": [],
+    "start_time": null,
+    "end_time": null,
+    "faculty": "Hn Lrng MC MW 02:00 PM 03:40 PM M. Samizadeh",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "CSC-3059",
+    "section": "01",
+    "credits": 4,
+    "title": "Cyber Scrty & Informtn Assrnc",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "D. Dedefa",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "CSC-3090",
+    "section": "01",
+    "credits": 4,
+    "title": "Special Topics",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "08:00",
+    "end_time": "09:40",
+    "faculty": "B. Falah",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "CSC-4054",
+    "section": "01",
+    "credits": 4,
+    "title": "Software Engineering",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "O. Tawose",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "CSC-4095",
+    "section": "I1",
+    "credits": 1,
+    "title": "Independent Study",
+    "location": "MC",
+    "days": [
+      "T"
+    ],
+    "start_time": null,
+    "end_time": null,
+    "faculty": "o be Announced",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "CSC-4095",
+    "section": "I2",
+    "credits": 1,
+    "title": "Independent Study",
+    "location": "MC",
+    "days": [
+      "T"
+    ],
+    "start_time": null,
+    "end_time": null,
+    "faculty": "o be Announced",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "CSC-4095",
+    "section": "I3",
+    "credits": 1,
+    "title": "Independent Study",
+    "location": "MC",
+    "days": [
+      "T"
+    ],
+    "start_time": null,
+    "end_time": null,
+    "faculty": "o be Announced",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "CSC-4098",
+    "section": "01",
+    "credits": 4,
+    "title": "Topics in Computer Science",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "16:00",
+    "end_time": "17:40",
+    "faculty": "T. Smith",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "ECO-2003",
+    "section": "01",
+    "credits": 4,
+    "title": "Principles of Economics",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "08:00",
+    "end_time": "09:40",
+    "faculty": "G. Ridgely",
+    "building": "DHAL",
+    "room": "253",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ECO-3036",
+    "section": "01",
+    "credits": 4,
+    "title": "Managerial Economics",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "08:00",
+    "end_time": "09:40",
+    "faculty": "C. Phillips",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "EDU-501",
+    "section": "21",
+    "credits": 12,
+    "title": "Student Teaching",
+    "location": "GC",
+    "days": [
+      "F"
+    ],
+    "start_time": "17:30",
+    "end_time": "20:30",
+    "faculty": "D. Jordan",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "EDU-503",
+    "section": "22",
+    "credits": 6,
+    "title": "Student Teaching",
+    "location": "GC",
+    "days": [
+      "F"
+    ],
+    "start_time": "17:30",
+    "end_time": "20:30",
+    "faculty": "D. Rosario",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "EDU-503",
+    "section": "23",
+    "credits": 6,
+    "title": "Student Teaching",
+    "location": "GC",
+    "days": [
+      "S"
+    ],
+    "start_time": "10:00",
+    "end_time": "13:00",
+    "faculty": "D. Rosario HYB",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "EDU-599",
+    "section": "01B",
+    "credits": 0,
+    "title": "Pect Prep Lab",
+    "location": "GC",
+    "days": [
+      "S"
+    ],
+    "start_time": "09:00",
+    "end_time": "10:00",
+    "faculty": "To",
+    "building": "BE",
+    "room": "Announced",
+    "type": "LEC"
+  },
+  {
+    "course_id": "EDU-604",
+    "section": "01A",
+    "credits": 3,
+    "title": "Educational Assessment & Eval.",
+    "location": "GC",
+    "days": [
+      "W"
+    ],
+    "start_time": "17:00",
+    "end_time": "22:00",
+    "faculty": "S. Wallace HYB",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "EDU-606",
+    "section": "01B",
+    "credits": 3,
+    "title": "Foundations of Education",
+    "location": "GC",
+    "days": [
+      "T"
+    ],
+    "start_time": "17:00",
+    "end_time": "22:00",
+    "faculty": "To be Announced HYB",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "EDU-607",
+    "section": "01B",
+    "credits": 3,
+    "title": "Literature and Literacy",
+    "location": "GC",
+    "days": [
+      "R"
+    ],
+    "start_time": "17:00",
+    "end_time": "22:00",
+    "faculty": "S. Browne",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "EDU-612",
+    "section": "01A",
+    "credits": 3,
+    "title": "Child Development",
+    "location": "GC",
+    "days": [
+      "T"
+    ],
+    "start_time": "17:00",
+    "end_time": "22:00",
+    "faculty": "L. Daniel HYB",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "EDU-614",
+    "section": "01A",
+    "credits": 3,
+    "title": "Foundations of Spec. Edu.",
+    "location": "GC",
+    "days": [
+      "W"
+    ],
+    "start_time": "17:00",
+    "end_time": "22:00",
+    "faculty": "T. Bemiah RSYN",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "EDU-616",
+    "section": "01A",
+    "credits": 3,
+    "title": "Cult & Ling Diver: Inst Strat",
+    "location": "GC",
+    "days": [
+      "M"
+    ],
+    "start_time": "17:00",
+    "end_time": "22:00",
+    "faculty": "T. Powell",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "EDU-622",
+    "section": "01A",
+    "credits": 3,
+    "title": "Inc Spc Child Reg Cl",
+    "location": "GC",
+    "days": [
+      "T"
+    ],
+    "start_time": "17:00",
+    "end_time": "22:00",
+    "faculty": "L. Johnson RSYN",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "EDU-623",
+    "section": "01A",
+    "credits": 3,
+    "title": "Methods in Science & Social St",
+    "location": "GC",
+    "days": [
+      "R"
+    ],
+    "start_time": "17:00",
+    "end_time": "22:00",
+    "faculty": "S. Browne",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "EDU-625",
+    "section": "01A",
+    "credits": 3,
+    "title": "Methods: Elementary Math",
+    "location": "GC",
+    "days": [
+      "T"
+    ],
+    "start_time": "17:00",
+    "end_time": "22:00",
+    "faculty": "T. Powell",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "EDU-626",
+    "section": "01B",
+    "credits": 3,
+    "title": "Sch/Fam/Comm",
+    "location": "GC",
+    "days": [
+      "W"
+    ],
+    "start_time": "17:00",
+    "end_time": "22:00",
+    "faculty": "C. Lesesne",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "EDU-631",
+    "section": "01A",
+    "credits": 3,
+    "title": "H R Management in Education",
+    "location": "GC",
+    "days": [
+      "T"
+    ],
+    "start_time": "17:00",
+    "end_time": "22:00",
+    "faculty": "S. Wallace HYB",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "EDU-632",
+    "section": "01A",
+    "credits": 3,
+    "title": "Ethics in Educ Leadership",
+    "location": "GC",
+    "days": [
+      "W"
+    ],
+    "start_time": "17:00",
+    "end_time": "22:00",
+    "faculty": "C. Lesesne",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "EDU-634",
+    "section": "01B",
+    "credits": 3,
+    "title": "School Law",
+    "location": "GC",
+    "days": [
+      "M"
+    ],
+    "start_time": "17:00",
+    "end_time": "22:00",
+    "faculty": "J. Spencer HYB",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "EDU-647",
+    "section": "01A",
+    "credits": 3,
+    "title": "Sch. Finance & Fiscal Affairs",
+    "location": "GC",
+    "days": [
+      "M"
+    ],
+    "start_time": "17:00",
+    "end_time": "22:00",
+    "faculty": "A. Tucho",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "EDU-656",
+    "section": "01A",
+    "credits": 3,
+    "title": "The Principalship",
+    "location": "GC",
+    "days": [
+      "R"
+    ],
+    "start_time": "17:00",
+    "end_time": "22:00",
+    "faculty": "J. Spencer",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "EDU-659",
+    "section": "22",
+    "credits": 3,
+    "title": "K-12 Principal Internship I",
+    "location": "GC",
+    "days": [
+      "M"
+    ],
+    "start_time": "17:30",
+    "end_time": "20:30",
+    "faculty": "Y. Roundtree",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "EDU-660",
+    "section": "22",
+    "credits": 3,
+    "title": "K-12 Principal Intership II",
+    "location": "GC",
+    "days": [
+      "F"
+    ],
+    "start_time": "17:30",
+    "end_time": "20:30",
+    "faculty": "Y. Roundtree",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "EDU-661",
+    "section": "01A",
+    "credits": 3,
+    "title": "Research Methods in Education",
+    "location": "GC",
+    "days": [
+      "M"
+    ],
+    "start_time": "17:00",
+    "end_time": "22:00",
+    "faculty": "C. Lesesne",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "EDU-661",
+    "section": "01B",
+    "credits": 3,
+    "title": "Research Methods in Education",
+    "location": "GC",
+    "days": [
+      "R"
+    ],
+    "start_time": "17:00",
+    "end_time": "22:00",
+    "faculty": "L. Johnson",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "EDU-663",
+    "section": "01B",
+    "credits": 3,
+    "title": "M.Ed.El Comprehensive Exam.",
+    "location": "GC",
+    "days": [
+      "W"
+    ],
+    "start_time": "17:00",
+    "end_time": "22:00",
+    "faculty": "A. Tucho",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "EDU-664",
+    "section": "01A",
+    "credits": 3,
+    "title": "Assistive Technology",
+    "location": "GC",
+    "days": [
+      "T"
+    ],
+    "start_time": null,
+    "end_time": null,
+    "faculty": ". Bemiah",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "EDU-665",
+    "section": "01A",
+    "credits": 3,
+    "title": "Special Ed Law",
+    "location": "GC",
+    "days": [
+      "M"
+    ],
+    "start_time": "17:00",
+    "end_time": "22:00",
+    "faculty": "L. Johnson RSYN",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "EDU-666",
+    "section": "01B",
+    "credits": 3,
+    "title": "Instr Strat - High Incid",
+    "location": "GC",
+    "days": [
+      "M"
+    ],
+    "start_time": "17:00",
+    "end_time": "22:00",
+    "faculty": "T. Bemiah RSYN",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "EDU-667",
+    "section": "01B",
+    "credits": 3,
+    "title": "Instr Strat - Low Incid",
+    "location": "GC",
+    "days": [
+      "T"
+    ],
+    "start_time": "17:00",
+    "end_time": "22:00",
+    "faculty": "T. Bemiah",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "ENG-1001",
+    "section": "01",
+    "credits": 4,
+    "title": "English Composition I",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "W. Young",
+    "building": "UNIV",
+    "room": "101",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ENG-1001",
+    "section": "02",
+    "credits": 4,
+    "title": "English Composition I",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "12:00",
+    "end_time": "13:40",
+    "faculty": "W. Young",
+    "building": "UNIV",
+    "room": "104",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ENG-1002",
+    "section": "01",
+    "credits": 4,
+    "title": "English Comp II",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "08:00",
+    "end_time": "09:40",
+    "faculty": "T. Davis",
+    "building": "UNIV",
+    "room": "104",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ENG-1002",
+    "section": "02",
+    "credits": 4,
+    "title": "English Comp II",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "S. Robinson",
+    "building": "UNIV",
+    "room": "202",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ENG-1002",
+    "section": "03",
+    "credits": 4,
+    "title": "English Comp II",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "08:00",
+    "end_time": "09:40",
+    "faculty": "R. Sample",
+    "building": "UNIV",
+    "room": "104",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ENG-1002",
+    "section": "04",
+    "credits": 4,
+    "title": "English Comp II",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "12:00",
+    "end_time": "13:40",
+    "faculty": "A. Lazar",
+    "building": "UNIV",
+    "room": "103",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ENG-1002",
+    "section": "05",
+    "credits": 4,
+    "title": "English Comp II",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "T. Pennamon",
+    "building": "UNIV",
+    "room": "202",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ENG-1002",
+    "section": "06",
+    "credits": 4,
+    "title": "English Comp II",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "C. Borror",
+    "building": "UNIV",
+    "room": "101",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ENG-1002",
+    "section": "07",
+    "credits": 4,
+    "title": "English Comp II",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "T. Davis",
+    "building": "UNIV",
+    "room": "201",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ENG-1002",
+    "section": "08",
+    "credits": 4,
+    "title": "English Comp II",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "A. Lazar",
+    "building": "UNIV",
+    "room": "103",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ENG-1002",
+    "section": "09",
+    "credits": 4,
+    "title": "English Comp II",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "J. Ayewoh",
+    "building": "UNIV",
+    "room": "101",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ENG-1002",
+    "section": "10",
+    "credits": 4,
+    "title": "English Comp II",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "L. Stratton",
+    "building": "UNIV",
+    "room": "104",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ENG-1002",
+    "section": "11",
+    "credits": 4,
+    "title": "English Comp II",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "D. Amadio",
+    "building": "UNIV",
+    "room": "201",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ENG-1002",
+    "section": "12",
+    "credits": 4,
+    "title": "English Comp II",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "A. Rogers",
+    "building": "UNIV",
+    "room": "204",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ENG-1002",
+    "section": "13",
+    "credits": 4,
+    "title": "English Comp II",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "J. Ayewoh",
+    "building": "LHML",
+    "room": "307",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ENG-1002",
+    "section": "14",
+    "credits": 4,
+    "title": "English Comp II",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "S. Gamie",
+    "building": "UNIV",
+    "room": "202",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ENG-1002",
+    "section": "15",
+    "credits": 4,
+    "title": "English Comp II",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "12:00",
+    "end_time": "13:40",
+    "faculty": "W. Donohue",
+    "building": "LHML",
+    "room": "309",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ENG-1002",
+    "section": "16",
+    "credits": 4,
+    "title": "English Comp II",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "12:00",
+    "end_time": "13:40",
+    "faculty": "C. Calderon",
+    "building": "UNIV",
+    "room": "101",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ENG-1002",
+    "section": "17",
+    "credits": 4,
+    "title": "English Comp II",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "K. Spangler",
+    "building": "UNIV",
+    "room": "102",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ENG-1002",
+    "section": "18",
+    "credits": 4,
+    "title": "English Comp II",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "A. Rogers",
+    "building": "UNIV",
+    "room": "203",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ENG-1002",
+    "section": "19",
+    "credits": 4,
+    "title": "English Comp II",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "A. Lazar",
+    "building": "UNIV",
+    "room": "103",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ENG-1002",
+    "section": "20",
+    "credits": 4,
+    "title": "English Comp II",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "C. Borror",
+    "building": "UNIV",
+    "room": "204",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ENG-1002",
+    "section": "G1",
+    "credits": 4,
+    "title": "English Comp II",
+    "location": "GC",
+    "days": [
+      "T"
+    ],
+    "start_time": "17:30",
+    "end_time": "21:00",
+    "faculty": "L. Thomas, J. Wadl",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "ENG-2007",
+    "section": "G1",
+    "credits": 4,
+    "title": "World Literature I",
+    "location": "GC",
+    "days": [
+      "S"
+    ],
+    "start_time": "15:40",
+    "end_time": "19:10",
+    "faculty": "To",
+    "building": "BE",
+    "room": "Announced",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ENG-2007",
+    "section": "W1",
+    "credits": 4,
+    "title": "World Literature I",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "S. Gamie",
+    "building": "UNIV",
+    "room": "206",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ENG-2008",
+    "section": "03",
+    "credits": 4,
+    "title": "World Literature II",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "12:00",
+    "end_time": "13:40",
+    "faculty": "K. Spangler",
+    "building": "UNIV",
+    "room": "201",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ENG-2008",
+    "section": "04",
+    "credits": 4,
+    "title": "World Literature II",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "C. Calderon",
+    "building": "UNIV",
+    "room": "102",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ENG-2009",
+    "section": "01",
+    "credits": 4,
+    "title": "Womens Literature",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "S. Robinson",
+    "building": "GRIM",
+    "room": "206",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ENG-2085",
+    "section": "01",
+    "credits": 4,
+    "title": "Harlem Renaissance",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "S. Robinson",
+    "building": "UNIV",
+    "room": "205",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ENG-3014",
+    "section": "01",
+    "credits": 4,
+    "title": "Legal Analysis and Writing",
+    "location": "MC",
+    "days": [
+      "T"
+    ],
+    "start_time": "17:30",
+    "end_time": "20:00",
+    "faculty": "T. Williams",
+    "building": "UNIV",
+    "room": "103",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ENG-3015",
+    "section": "01",
+    "credits": 4,
+    "title": "Literary Magazine Publishing",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "16:00",
+    "end_time": "17:40",
+    "faculty": "D. Amadio",
+    "building": "UNIV",
+    "room": "201",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ENG-3020",
+    "section": "01",
+    "credits": 4,
+    "title": "Studies in Afro American Lit.",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "T. Pennamon",
+    "building": "UNIV",
+    "room": "205",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ENG-3025",
+    "section": "01",
+    "credits": 4,
+    "title": "Screenwriting",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "D. Amadio",
+    "building": "UNIV",
+    "room": "101",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ENG-4012",
+    "section": "01",
+    "credits": 4,
+    "title": "ST: History Makers",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "16:00",
+    "end_time": "17:40",
+    "faculty": "M. Button",
+    "building": "UNIV",
+    "room": "206",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ENS-3011",
+    "section": "01",
+    "credits": 4,
+    "title": "Digital Signal Processing",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "08:00",
+    "end_time": "09:45",
+    "faculty": "V. Zeljkovic",
+    "building": "SCIB",
+    "room": "105",
+    "type": "LEC"
+  },
+  {
+    "course_id": "ETP-2020",
+    "section": "01",
+    "credits": 4,
+    "title": "Principles of Entrepreneurship",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "16:00",
+    "end_time": "17:40",
+    "faculty": null,
+    "building": "DHAL",
+    "room": "254",
+    "type": "LEC"
+  },
+  {
+    "course_id": "FIN-3041",
+    "section": "01",
+    "credits": 4,
+    "title": "Financial Management",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "16:00",
+    "end_time": "17:40",
+    "faculty": "R. Chambers",
+    "building": "DHAL",
+    "room": "205",
+    "type": "LEC"
+  },
+  {
+    "course_id": "FIN-3042",
+    "section": "01",
+    "credits": 4,
+    "title": "Advanced Financial Managemen",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "12:00",
+    "end_time": "13:40",
+    "faculty": "C. Phillips",
+    "building": "DHAL",
+    "room": "205",
+    "type": "LEC"
+  },
+  {
+    "course_id": "FIN-3047",
+    "section": "01",
+    "credits": 4,
+    "title": "International Financial Mgmt",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "16:00",
+    "end_time": "17:40",
+    "faculty": null,
+    "building": "DHAL",
+    "room": "253",
+    "type": "LEC"
+  },
+  {
+    "course_id": "FIN-3050",
+    "section": "01",
+    "credits": 4,
+    "title": "Principles of Investments",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "C. Phillips",
+    "building": "DHAL",
+    "room": "205",
+    "type": "LEC"
+  },
+  {
+    "course_id": "FIN-4047",
+    "section": "01",
+    "credits": 4,
+    "title": "Risk Management and Insurance",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "16:00",
+    "end_time": "17:40",
+    "faculty": null,
+    "building": "DHAL",
+    "room": "255",
+    "type": "LEC"
+  },
+  {
+    "course_id": "FIN-4053",
+    "section": "01",
+    "credits": 4,
+    "title": "Investment & Portfolio Mgmt",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "P. White",
+    "building": "DHAL",
+    "room": "254",
+    "type": "LEC"
+  },
+  {
+    "course_id": "FIN-4055",
+    "section": "01",
+    "credits": 4,
+    "title": "Financial Institutional Mgmt.",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "H. Dameron",
+    "building": "DHAL",
+    "room": "255",
+    "type": "LEC"
+  },
+  {
+    "course_id": "FRE-1002",
+    "section": "01",
+    "credits": 4,
+    "title": "Elementary French II",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "N. Siamundele",
+    "building": "UNIV",
+    "room": "206",
+    "type": "LEC"
+  },
+  {
+    "course_id": "FRE-2002",
+    "section": "01",
+    "credits": 4,
+    "title": "Intermediate French II",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "N. Siamundele",
+    "building": "UNIV",
+    "room": "206",
+    "type": "LEC"
+  },
+  {
+    "course_id": "GSC-1002",
+    "section": "01",
+    "credits": 4,
+    "title": "Physical Science II",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "08:30",
+    "end_time": "09:45",
+    "faculty": "M. Badea",
+    "building": "SCIB",
+    "room": "123",
+    "type": "LEC"
+  },
+  {
+    "course_id": "GSC-1002L",
+    "section": "01",
+    "credits": 0,
+    "title": "Physical Science Lab II",
+    "location": "MC",
+    "days": [
+      "T"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:20",
+    "faculty": "M. Badea",
+    "building": "SCIB",
+    "room": "336",
+    "type": "LAB"
+  },
+  {
+    "course_id": "GSC-1002L",
+    "section": "02",
+    "credits": 0,
+    "title": "Physical Science Lab II",
+    "location": "MC",
+    "days": [
+      "T"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:20",
+    "faculty": "M. Badea",
+    "building": "SCIB",
+    "room": "336",
+    "type": "LAB"
+  },
+  {
+    "course_id": "GSC-1011",
+    "section": "01",
+    "credits": 4,
+    "title": "Environmental Science",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:45",
+    "faculty": "J. McCarthy",
+    "building": "SCIB",
+    "room": "106",
+    "type": "LEC"
+  },
+  {
+    "course_id": "GSC-1012",
+    "section": "G1",
+    "credits": 4,
+    "title": "Food: You and the World",
+    "location": "GC",
+    "days": [
+      "S"
+    ],
+    "start_time": "12:00",
+    "end_time": "15:30",
+    "faculty": "S. Beyah",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "HIS-1002",
+    "section": "01",
+    "credits": 4,
+    "title": "Modern European History II",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "G. Muzorewa",
+    "building": "UNIV",
+    "room": "105",
+    "type": "LEC"
+  },
+  {
+    "course_id": "HIS-1003",
+    "section": "01",
+    "credits": 4,
+    "title": "Contemporary World History I",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "S. Edwards",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "HIS-1003",
+    "section": "02",
+    "credits": 4,
+    "title": "Contemporary World History I",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "16:00",
+    "end_time": "17:40",
+    "faculty": "G. Muzorewa",
+    "building": "DHAL",
+    "room": "135a",
+    "type": "LEC"
+  },
+  {
+    "course_id": "HIS-2006",
+    "section": "01",
+    "credits": 4,
+    "title": "Afr Amer. History II 1861-1954",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "12:00",
+    "end_time": "13:40",
+    "faculty": "S. Edwards",
+    "building": "DHAL",
+    "room": "374",
+    "type": "LEC"
+  },
+  {
+    "course_id": "HON-3000",
+    "section": "01",
+    "credits": 4,
+    "title": "Honors Seminar",
+    "location": "MC",
+    "days": [
+      "W"
+    ],
+    "start_time": null,
+    "end_time": null,
+    "faculty": "S. Safford",
+    "building": "SCIB",
+    "room": "203",
+    "type": "LEC"
+  },
+  {
+    "course_id": "HSC-1030",
+    "section": "01",
+    "credits": 4,
+    "title": "Introduction to Health Science",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "Y. Hilton",
+    "building": "GRIM",
+    "room": "306",
+    "type": "LEC"
+  },
+  {
+    "course_id": "HSC-1030",
+    "section": "02",
+    "credits": 4,
+    "title": "Introduction to Health Science",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "C. Firkin",
+    "building": "SCIB",
+    "room": "106",
+    "type": "LEC"
+  },
+  {
+    "course_id": "HSC-1040",
+    "section": "01",
+    "credits": 4,
+    "title": "Medical Terminology",
+    "location": "MC",
+    "days": [
+      "M",
+      "W",
+      "R",
+      "F"
+    ],
+    "start_time": "09:00",
+    "end_time": "09:50",
+    "faculty": "K. Robell",
+    "building": "SCIB",
+    "room": "106",
+    "type": "LEC"
+  },
+  {
+    "course_id": "HSC-1060",
+    "section": "01",
+    "credits": 4,
+    "title": "Community Health and Aging",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "D. Butler Aungst",
+    "building": "WELL",
+    "room": "137",
+    "type": "LEC"
+  },
+  {
+    "course_id": "HSC-1060",
+    "section": "02",
+    "credits": 4,
+    "title": "Community Health and Aging",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "K. Robell",
+    "building": "SCIB",
+    "room": "104",
+    "type": "LEC"
+  },
+  {
+    "course_id": "HSC-2007",
+    "section": "W1",
+    "credits": 4,
+    "title": "Health Promo: Theory& Practice",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "C. Firkin",
+    "building": "SCIB",
+    "room": "308",
+    "type": "LEC"
+  },
+  {
+    "course_id": "HSC-2007",
+    "section": "W2",
+    "credits": 4,
+    "title": "Health Promo: Theory& Practice",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "S. Nixon",
+    "building": "SCIB",
+    "room": "104",
+    "type": "LEC"
+  },
+  {
+    "course_id": "HSC-2046",
+    "section": "W1",
+    "credits": 4,
+    "title": "Cultural Competency & Ethics",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "D. Butler Aungst",
+    "building": "SCIB",
+    "room": "106",
+    "type": "LEC"
+  },
+  {
+    "course_id": "HSC-2046",
+    "section": "W2",
+    "credits": 4,
+    "title": "Cultural Competency & Ethics",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "D. Butler Aungst,",
+    "building": "YSCIB",
+    "room": "109",
+    "type": "LEC"
+  },
+  {
+    "course_id": "HSC-2050",
+    "section": "01",
+    "credits": 4,
+    "title": "Nutrition",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "K. Robell",
+    "building": "SCIB",
+    "room": "113",
+    "type": "LEC"
+  },
+  {
+    "course_id": "HSC-3008",
+    "section": "01",
+    "credits": 4,
+    "title": "Kinesiology",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "12:00",
+    "end_time": "13:40",
+    "faculty": "C. Firkin",
+    "building": "SCIB",
+    "room": "308",
+    "type": "LEC"
+  },
+  {
+    "course_id": "HSC-3015",
+    "section": "01",
+    "credits": 4,
+    "title": "Principles of Coaching",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "A. Nelson",
+    "building": "SCIB",
+    "room": "308",
+    "type": "LEC"
+  },
+  {
+    "course_id": "HSC-3080",
+    "section": "01",
+    "credits": 4,
+    "title": "Research and Evaluation",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "A. Oladipo",
+    "building": "WELL",
+    "room": "223",
+    "type": "LEC"
+  },
+  {
+    "course_id": "HSC-3097",
+    "section": "01",
+    "credits": 4,
+    "title": "Internship Seminar",
+    "location": "MC",
+    "days": [
+      "W",
+      "F"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "S. Porter",
+    "building": "WELL",
+    "room": "137",
+    "type": "LEC"
+  },
+  {
+    "course_id": "HSC-3099",
+    "section": "01",
+    "credits": 4,
+    "title": "Health Science Internship",
+    "location": "MC",
+    "days": [
+      "W",
+      "F"
+    ],
+    "start_time": null,
+    "end_time": null,
+    "faculty": "S. Porter",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "HSC-4010",
+    "section": "W1",
+    "credits": 4,
+    "title": "Program Planning",
+    "location": "MC",
+    "days": [
+      "W",
+      "F"
+    ],
+    "start_time": "12:00",
+    "end_time": "13:40",
+    "faculty": "A. Oladipo",
+    "building": "WELL",
+    "room": "223",
+    "type": "LEC"
+  },
+  {
+    "course_id": "HSC-4014",
+    "section": "W1",
+    "credits": 4,
+    "title": "Sport Leadership",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "A. Nelson",
+    "building": "SCIB",
+    "room": "111",
+    "type": "LEC"
+  },
+  {
+    "course_id": "HUS-2043",
+    "section": "01",
+    "credits": 4,
+    "title": "Intro to Hmn Srvcs & Soc Polcy",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "12:00",
+    "end_time": "13:40",
+    "faculty": "D. Brown",
+    "building": "DHAL",
+    "room": "296",
+    "type": "LEC"
+  },
+  {
+    "course_id": "HUS-2045",
+    "section": "01",
+    "credits": 4,
+    "title": "Human Growth and Developme",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "D. Brown",
+    "building": "DHAL",
+    "room": "296",
+    "type": "LEC"
+  },
+  {
+    "course_id": "HUS-2045",
+    "section": "G1",
+    "credits": 4,
+    "title": "Human Growth and Developme",
+    "location": "GC",
+    "days": [
+      "T"
+    ],
+    "start_time": null,
+    "end_time": null,
+    "faculty": "o be Announced",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "HUS-3007",
+    "section": "01",
+    "credits": 4,
+    "title": "Human Services Methods",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "A. Llewellyn",
+    "building": "DHAL",
+    "room": "105",
+    "type": "LEC"
+  },
+  {
+    "course_id": "HUS-3012",
+    "section": "01",
+    "credits": 4,
+    "title": "Statistics",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "12:00",
+    "end_time": "13:40",
+    "faculty": "M. McConatha",
+    "building": "DHAL",
+    "room": "284",
+    "type": "LEC"
+  },
+  {
+    "course_id": "HUS-3012",
+    "section": "G1",
+    "credits": 4,
+    "title": "Statistics",
+    "location": "GC",
+    "days": [
+      "S"
+    ],
+    "start_time": "08:00",
+    "end_time": "11:30",
+    "faculty": "A. Tucho",
+    "building": "GRAD",
+    "room": "325",
+    "type": "LEC"
+  },
+  {
+    "course_id": "HUS-3019",
+    "section": "01",
+    "credits": 4,
+    "title": "Research Design & Analysis",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "D. Brown",
+    "building": "DHAL",
+    "room": "296",
+    "type": "LEC"
+  },
+  {
+    "course_id": "HUS-3019",
+    "section": "G1",
+    "credits": 4,
+    "title": "Research Design & Analysis",
+    "location": "GC",
+    "days": [
+      "S"
+    ],
+    "start_time": "08:00",
+    "end_time": "11:30",
+    "faculty": "S. Beyah",
+    "building": "GRAD",
+    "room": "323",
+    "type": "LEC"
+  },
+  {
+    "course_id": "HUS-3025",
+    "section": "01",
+    "credits": 4,
+    "title": "Social Gerontology",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "A. Llewellyn",
+    "building": "DHAL",
+    "room": "296",
+    "type": "LEC"
+  },
+  {
+    "course_id": "HUS-3027",
+    "section": "01",
+    "credits": 4,
+    "title": "Child Welfare Services",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "16:00",
+    "end_time": "17:40",
+    "faculty": "A. Llewellyn",
+    "building": "DHAL",
+    "room": "102",
+    "type": "LEC"
+  },
+  {
+    "course_id": "HUS-3027",
+    "section": "G1",
+    "credits": 4,
+    "title": "Child Welfare Services",
+    "location": "GC",
+    "days": [
+      "S"
+    ],
+    "start_time": "15:40",
+    "end_time": "19:10",
+    "faculty": "B. Dawson",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "HUS-3090",
+    "section": "G1",
+    "credits": 4,
+    "title": "ST: Critical Reading & Writing",
+    "location": "GC",
+    "days": [
+      "S"
+    ],
+    "start_time": "12:00",
+    "end_time": "15:30",
+    "faculty": "A. Somerville",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "HUS-4041",
+    "section": "01",
+    "credits": 4,
+    "title": "Human Services Capstone",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "M. McConatha",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "HUS-4041",
+    "section": "G1",
+    "credits": 4,
+    "title": "Human Services Capstone",
+    "location": "GC",
+    "days": [],
+    "start_time": "12:00",
+    "end_time": "15:30",
+    "faculty": "B. Dawson",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "HUS-4095",
+    "section": "I3",
+    "credits": 1,
+    "title": "Independent Study",
+    "location": "GC",
+    "days": [
+      "T"
+    ],
+    "start_time": null,
+    "end_time": null,
+    "faculty": "o be Announced",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "HUS-4095",
+    "section": "I4",
+    "credits": 1,
+    "title": "Independent Study",
+    "location": "MC",
+    "days": [
+      "T"
+    ],
+    "start_time": null,
+    "end_time": null,
+    "faculty": "o be Announced",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "HUS-4095",
+    "section": "I5",
+    "credits": 1,
+    "title": "Independent Study",
+    "location": "MC",
+    "days": [
+      "T"
+    ],
+    "start_time": null,
+    "end_time": null,
+    "faculty": "o be Announced",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "INF-2010",
+    "section": "01",
+    "credits": 4,
+    "title": "Application Dev for Business",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "M. Asadi",
+    "building": "DHAL",
+    "room": "135a",
+    "type": "LEC"
+  },
+  {
+    "course_id": "INF-3030",
+    "section": "01",
+    "credits": 4,
+    "title": "Information Technology Mgmt.",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "C. Carlies",
+    "building": "DHAL",
+    "room": "135a",
+    "type": "LEC"
+  },
+  {
+    "course_id": "INF-3054",
+    "section": "01",
+    "credits": 4,
+    "title": "Database Management",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "M. Asadi",
+    "building": "DHAL",
+    "room": "135a",
+    "type": "LEC"
+  },
+  {
+    "course_id": "INF-4020",
+    "section": "01",
+    "credits": 4,
+    "title": "Data Mining",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "12:00",
+    "end_time": "13:40",
+    "faculty": "C. Carlies",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "INF-4040",
+    "section": "01",
+    "credits": 4,
+    "title": "Project Management",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "08:00",
+    "end_time": "09:40",
+    "faculty": "D. Zhang",
+    "building": "DHAL",
+    "room": "255",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MAH-611",
+    "section": "21",
+    "credits": 3,
+    "title": "Writ. Skills for Hum Serv Prac",
+    "location": "GC",
+    "days": [
+      "S"
+    ],
+    "start_time": "09:00",
+    "end_time": "11:30",
+    "faculty": "J. Hill",
+    "building": "GRAD",
+    "room": "327",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MAH-612",
+    "section": "21",
+    "credits": 3,
+    "title": "Life Span Development",
+    "location": "GC",
+    "days": [
+      "S"
+    ],
+    "start_time": "12:30",
+    "end_time": "15:00",
+    "faculty": "P. Kennebrew",
+    "building": "GRAD",
+    "room": "328",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MAH-613",
+    "section": "21",
+    "credits": 3,
+    "title": "Theories of Intervention",
+    "location": "GC",
+    "days": [
+      "S"
+    ],
+    "start_time": "15:10",
+    "end_time": "17:40",
+    "faculty": "Z. Driver-Heath",
+    "building": "GRAD",
+    "room": "325",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MAH-621",
+    "section": "21",
+    "credits": 3,
+    "title": "Profess. Ethics in Client Care",
+    "location": "GC",
+    "days": [
+      "S"
+    ],
+    "start_time": "09:00",
+    "end_time": "11:30",
+    "faculty": "B. Harper",
+    "building": "GRAD",
+    "room": "328",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MAH-622",
+    "section": "21",
+    "credits": 3,
+    "title": "Tools and Models",
+    "location": "GC",
+    "days": [
+      "S"
+    ],
+    "start_time": "12:30",
+    "end_time": "15:00",
+    "faculty": "Z. Driver-Heath",
+    "building": "GRAD",
+    "room": "325",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MAH-623",
+    "section": "21",
+    "credits": 3,
+    "title": "Action Research",
+    "location": "GC",
+    "days": [
+      "S"
+    ],
+    "start_time": "15:10",
+    "end_time": "17:40",
+    "faculty": "L. Thomas",
+    "building": "GRAD",
+    "room": "328",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MAH-641",
+    "section": "21",
+    "credits": 3,
+    "title": "Social Policy & Program Eval.",
+    "location": "GC",
+    "days": [
+      "S"
+    ],
+    "start_time": "09:00",
+    "end_time": "11:30",
+    "faculty": "P. Kennebrew",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "MAH-642",
+    "section": "21",
+    "credits": 3,
+    "title": "Case Management",
+    "location": "GC",
+    "days": [
+      "S"
+    ],
+    "start_time": "12:30",
+    "end_time": "15:00",
+    "faculty": "B. Harper",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "MAH-643",
+    "section": "21",
+    "credits": 3,
+    "title": "Field Experience",
+    "location": "GC",
+    "days": [
+      "S"
+    ],
+    "start_time": "15:10",
+    "end_time": "17:40",
+    "faculty": "J. Wadley",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "MAT-1001",
+    "section": "01",
+    "credits": 4,
+    "title": "Elem and Intermediate Algebra",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "A. Ayele",
+    "building": "SCIB",
+    "room": "244",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MAT-1001",
+    "section": "02",
+    "credits": 4,
+    "title": "Elem and Intermediate Algebra",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "08:00",
+    "end_time": "09:40",
+    "faculty": "C. Tameze",
+    "building": "SCIB",
+    "room": "126",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MAT-1001",
+    "section": "03",
+    "credits": 4,
+    "title": "Elem and Intermediate Algebra",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "12:00",
+    "end_time": "13:40",
+    "faculty": "C. Tameze",
+    "building": "SCIB",
+    "room": "126",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MAT-1001",
+    "section": "04",
+    "credits": 4,
+    "title": "Elem and Intermediate Algebra",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "Z. Carson",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "MAT-1001",
+    "section": "05",
+    "credits": 4,
+    "title": "Elem and Intermediate Algebra",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "Z. Carson",
+    "building": "SCIB",
+    "room": "119",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MAT-1006",
+    "section": "01",
+    "credits": 4,
+    "title": "Math for Liberal Arts",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "12:00",
+    "end_time": "13:40",
+    "faculty": "M. Haimbodi",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "MAT-1006",
+    "section": "02",
+    "credits": 4,
+    "title": "Math for Liberal Arts",
+    "location": "MC",
+    "days": [
+      "M",
+      "W",
+      "F"
+    ],
+    "start_time": "10:20",
+    "end_time": "11:30",
+    "faculty": "P. Xu",
+    "building": "SCIB",
+    "room": "124",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MAT-1006",
+    "section": "03",
+    "credits": 4,
+    "title": "Math for Liberal Arts",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "Z. Carson",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "MAT-1006",
+    "section": "04",
+    "credits": 4,
+    "title": "Math for Liberal Arts",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "15:00",
+    "end_time": "16:40",
+    "faculty": "A. Soboki",
+    "building": "SCIB",
+    "room": "130",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MAT-1006",
+    "section": "05",
+    "credits": 4,
+    "title": "Math for Liberal Arts",
+    "location": "MC",
+    "days": [
+      "M",
+      "W",
+      "F"
+    ],
+    "start_time": "12:00",
+    "end_time": "13:10",
+    "faculty": "R. Naik",
+    "building": "SCIB",
+    "room": "122",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MAT-1006",
+    "section": "G1",
+    "credits": 4,
+    "title": "Math for Liberal Arts",
+    "location": "GC",
+    "days": [
+      "S"
+    ],
+    "start_time": "12:00",
+    "end_time": "15:30",
+    "faculty": "A. Tucho",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "MAT-1010",
+    "section": "01",
+    "credits": 4,
+    "title": "College Algebra",
+    "location": "MC",
+    "days": [
+      "M",
+      "T",
+      "W",
+      "F"
+    ],
+    "start_time": "11:00",
+    "end_time": "11:50",
+    "faculty": "T. Banh",
+    "building": "SCIB",
+    "room": "104",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MAT-1010",
+    "section": "03",
+    "credits": 4,
+    "title": "College Algebra",
+    "location": "MC",
+    "days": [
+      "M",
+      "W",
+      "F"
+    ],
+    "start_time": "12:00",
+    "end_time": "13:10",
+    "faculty": "P. Xu",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "MAT-1010",
+    "section": "04",
+    "credits": 4,
+    "title": "College Algebra",
+    "location": "MC",
+    "days": [
+      "M",
+      "F"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": null,
+    "building": "SCIB",
+    "room": "106",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MAT-1010",
+    "section": "05",
+    "credits": 4,
+    "title": "College Algebra",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": null,
+    "building": "SCIB",
+    "room": "244",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MAT-1011",
+    "section": "01",
+    "credits": 4,
+    "title": "Pre-Calculus",
+    "location": "MC",
+    "days": [
+      "M",
+      "W",
+      "F"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:10",
+    "faculty": "M. Arichi",
+    "building": "SCIB",
+    "room": "120",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MAT-1011",
+    "section": "02",
+    "credits": 4,
+    "title": "Pre-Calculus",
+    "location": "MC",
+    "days": [
+      "M",
+      "W",
+      "F"
+    ],
+    "start_time": "12:45",
+    "end_time": "13:55",
+    "faculty": null,
+    "building": "SCIB",
+    "room": "124",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MAT-1014",
+    "section": "01",
+    "credits": 4,
+    "title": "Elementary Statistics I",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "12:00",
+    "end_time": "13:40",
+    "faculty": "A. Ayele",
+    "building": "SCIB",
+    "room": "244",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MAT-1014",
+    "section": "02",
+    "credits": 4,
+    "title": "Elementary Statistics I",
+    "location": "MC",
+    "days": [
+      "M",
+      "W",
+      "F"
+    ],
+    "start_time": "09:00",
+    "end_time": "10:10",
+    "faculty": "P. Xu",
+    "building": "SCIB",
+    "room": "124",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MAT-1017",
+    "section": "01",
+    "credits": 4,
+    "title": "Finite Mathematics",
+    "location": "MC",
+    "days": [
+      "M",
+      "W",
+      "F"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:10",
+    "faculty": "R. Naik",
+    "building": "SCIB",
+    "room": "128",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MAT-1020",
+    "section": "01",
+    "credits": 4,
+    "title": "Calculus Soc Sci Majors",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "C. Tameze",
+    "building": "SCIB",
+    "room": "126",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MAT-1021",
+    "section": "01",
+    "credits": 4,
+    "title": "Calculus I",
+    "location": "MC",
+    "days": [
+      "M",
+      "W",
+      "F"
+    ],
+    "start_time": "08:40",
+    "end_time": "09:50",
+    "faculty": "M. Arichi",
+    "building": "SCIB",
+    "room": "120",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MAT-1022",
+    "section": "01",
+    "credits": 4,
+    "title": "Calculus II",
+    "location": "MC",
+    "days": [
+      "M",
+      "T",
+      "W",
+      "F"
+    ],
+    "start_time": "10:00",
+    "end_time": "10:50",
+    "faculty": "T. Banh",
+    "building": "SCIB",
+    "room": "104",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MAT-2013",
+    "section": "01",
+    "credits": 4,
+    "title": "Discrete Mathematics",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "A. Ayele",
+    "building": "SCIB",
+    "room": "244",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MAT-2021",
+    "section": "01",
+    "credits": 4,
+    "title": "Calculus III",
+    "location": "MC",
+    "days": [
+      "M",
+      "T",
+      "W",
+      "F"
+    ],
+    "start_time": "14:00",
+    "end_time": "14:50",
+    "faculty": "T. Banh",
+    "building": "SCIB",
+    "room": "318",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MAT-2022",
+    "section": "01",
+    "credits": 4,
+    "title": "Differential Equations",
+    "location": "MC",
+    "days": [
+      "M",
+      "W",
+      "R",
+      "F"
+    ],
+    "start_time": "12:00",
+    "end_time": "12:50",
+    "faculty": "T. Banh",
+    "building": "SCIB",
+    "room": "104",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MAT-3025",
+    "section": "01",
+    "credits": 4,
+    "title": "Modern Algebra I",
+    "location": "MC",
+    "days": [
+      "M",
+      "W",
+      "F"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:10",
+    "faculty": "R. Naik",
+    "building": "SCIB",
+    "room": "128",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MBA-610",
+    "section": "10B",
+    "credits": 3,
+    "title": "Business Statistics",
+    "location": "GC",
+    "days": [
+      "S"
+    ],
+    "start_time": "08:30",
+    "end_time": "13:30",
+    "faculty": "To",
+    "building": "BE",
+    "room": "Announced",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MBA-700",
+    "section": "20B",
+    "credits": 3,
+    "title": "Business Research Methods",
+    "location": "GC",
+    "days": [
+      "S"
+    ],
+    "start_time": "14:00",
+    "end_time": "19:00",
+    "faculty": "C. Gonzalez",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "MBA-705",
+    "section": "10A",
+    "credits": 3,
+    "title": "Business Foundations",
+    "location": "GC",
+    "days": [
+      "S"
+    ],
+    "start_time": "14:00",
+    "end_time": "19:00",
+    "faculty": "To",
+    "building": "BE",
+    "room": "Announced",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MBA-710",
+    "section": "10B",
+    "credits": 3,
+    "title": "Management Information Syste",
+    "location": "GC",
+    "days": [
+      "S"
+    ],
+    "start_time": "14:00",
+    "end_time": "19:00",
+    "faculty": "To",
+    "building": "BE",
+    "room": "Announced",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MBA-714",
+    "section": "20A",
+    "credits": 3,
+    "title": "Adv Fin & Man Acctng",
+    "location": "GC",
+    "days": [
+      "S"
+    ],
+    "start_time": "08:30",
+    "end_time": "13:30",
+    "faculty": "E. Ihejirika",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "MBA-717",
+    "section": "20A",
+    "credits": 3,
+    "title": "Enterprise Risk Management",
+    "location": "GC",
+    "days": [
+      "S"
+    ],
+    "start_time": "14:00",
+    "end_time": "19:00",
+    "faculty": "C. Gonzalez",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "MBA-722",
+    "section": "10A",
+    "credits": 3,
+    "title": "International Human Res. Mgmt",
+    "location": "GC",
+    "days": [
+      "S"
+    ],
+    "start_time": "08:30",
+    "end_time": "13:30",
+    "faculty": "To",
+    "building": "BE",
+    "room": "Announced",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MBA-744",
+    "section": "20B",
+    "credits": 3,
+    "title": "Advanced Corporate Finance",
+    "location": "GC",
+    "days": [
+      "S"
+    ],
+    "start_time": "08:30",
+    "end_time": "13:30",
+    "faculty": "E. Ihejirika",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "MGT-3006",
+    "section": "01",
+    "credits": 4,
+    "title": "Quantitative Methods for Mgmt.",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "08:00",
+    "end_time": "09:40",
+    "faculty": "M. Asadi",
+    "building": "DHAL",
+    "room": "135a",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MGT-3035",
+    "section": "01",
+    "credits": 4,
+    "title": "Principles of Management",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "S. Williams",
+    "building": "DHAL",
+    "room": "227",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MGT-3050",
+    "section": "01",
+    "credits": 4,
+    "title": "Leadership",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "R. Chambers",
+    "building": "DHAL",
+    "room": "227",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MGT-4035",
+    "section": "01",
+    "credits": 4,
+    "title": "Organizational Behavior",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "16:00",
+    "end_time": "17:40",
+    "faculty": "R. Chambers",
+    "building": "DHAL",
+    "room": "227",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MGT-4037",
+    "section": "01",
+    "credits": 4,
+    "title": "Human Resources Management",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "16:00",
+    "end_time": "17:40",
+    "faculty": "R. Chambers",
+    "building": "DHAL",
+    "room": "227",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MGT-4090",
+    "section": "01",
+    "credits": 4,
+    "title": "ST: Shawn Carter CFFL",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "S. Williams",
+    "building": "DHAL",
+    "room": "227",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MGT-4095",
+    "section": "I3",
+    "credits": 1,
+    "title": "Independent Study",
+    "location": "MC",
+    "days": [
+      "T"
+    ],
+    "start_time": null,
+    "end_time": null,
+    "faculty": "o be Announced",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "MKT-3037",
+    "section": "01",
+    "credits": 4,
+    "title": "Principles of Marketing",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "12:00",
+    "end_time": "13:40",
+    "faculty": "S. Williams",
+    "building": "DHAL",
+    "room": "227",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MLS-106",
+    "section": "01",
+    "credits": 1,
+    "title": "Intro to Leadership II",
+    "location": "MC",
+    "days": [
+      "T"
+    ],
+    "start_time": null,
+    "end_time": null,
+    "faculty": "o be Announced",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "MLS-106",
+    "section": "02",
+    "credits": 1,
+    "title": "Intro to Leadership II",
+    "location": "MC",
+    "days": [
+      "W"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:00",
+    "faculty": "To",
+    "building": "BE",
+    "room": "Announced",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MLS-106L",
+    "section": "01",
+    "credits": 1,
+    "title": "Intro to Leadership II Lab",
+    "location": "MC",
+    "days": [
+      "T"
+    ],
+    "start_time": "14:00",
+    "end_time": "16:00",
+    "faculty": "To",
+    "building": "BE",
+    "room": "Announced",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MLS-206",
+    "section": "01",
+    "credits": 1,
+    "title": "Basic Leadership II",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:15",
+    "faculty": "To",
+    "building": "BE",
+    "room": "Announced",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MLS-206L",
+    "section": "01",
+    "credits": 1,
+    "title": "Basic Leadership II Lab",
+    "location": "MC",
+    "days": [
+      "R"
+    ],
+    "start_time": "14:00",
+    "end_time": "16:00",
+    "faculty": "To",
+    "building": "BE",
+    "room": "Announced",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MLS-306",
+    "section": "01",
+    "credits": 2,
+    "title": "Applied Leadership II",
+    "location": "MC",
+    "days": [
+      "W"
+    ],
+    "start_time": "12:40",
+    "end_time": "14:45",
+    "faculty": "To",
+    "building": "BE",
+    "room": "Announced",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MLS-306L",
+    "section": "01",
+    "credits": 1,
+    "title": "Applied Leadership II Lab",
+    "location": "MC",
+    "days": [
+      "R"
+    ],
+    "start_time": "14:00",
+    "end_time": "16:00",
+    "faculty": "To",
+    "building": "BE",
+    "room": "Announced",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MLS-365",
+    "section": "01",
+    "credits": 1,
+    "title": "Military History",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "12:45",
+    "end_time": "14:00",
+    "faculty": "To",
+    "building": "BE",
+    "room": "Announced",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MLS-406",
+    "section": "01",
+    "credits": 2,
+    "title": "Advanced Leadership II",
+    "location": "MC",
+    "days": [
+      "W"
+    ],
+    "start_time": "15:35",
+    "end_time": "17:35",
+    "faculty": "To",
+    "building": "BE",
+    "room": "Announced",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MLS-406L",
+    "section": "01",
+    "credits": 1,
+    "title": "Leadership II Lab",
+    "location": "MC",
+    "days": [
+      "R"
+    ],
+    "start_time": "14:00",
+    "end_time": "16:00",
+    "faculty": "To",
+    "building": "BE",
+    "room": "Announced",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MSM-2010",
+    "section": "01",
+    "credits": 4,
+    "title": "Museums & Collections I",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "16:00",
+    "end_time": "17:40",
+    "faculty": null,
+    "building": "AMOS",
+    "room": "202",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MUS-1006",
+    "section": "01",
+    "credits": 4,
+    "title": "Music Theory II",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "D. Arlotto",
+    "building": "WARE",
+    "room": "106",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MUS-1007",
+    "section": "01",
+    "credits": 1,
+    "title": "Piano I",
+    "location": "MC",
+    "days": [
+      "F"
+    ],
+    "start_time": "12:00",
+    "end_time": "13:40",
+    "faculty": "T. Caldwell-Hall",
+    "building": "WARE",
+    "room": "107",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MUS-1008",
+    "section": "01",
+    "credits": 1,
+    "title": "Piano II",
+    "location": "MC",
+    "days": [
+      "F"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "T. Caldwell-Hall",
+    "building": "WARE",
+    "room": "107",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MUS-1090",
+    "section": "01",
+    "credits": 1,
+    "title": "ST: Jazz Piano (Advanced)",
+    "location": "MC",
+    "days": [
+      "T"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "D. Arlotto",
+    "building": "WARE",
+    "room": "107",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MUS-1090",
+    "section": "02",
+    "credits": 1,
+    "title": "ST: Jazz Piano (Beginner)",
+    "location": "MC",
+    "days": [
+      "R"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "D. Arlotto",
+    "building": "WARE",
+    "room": "107",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MUS-1090",
+    "section": "03",
+    "credits": 1,
+    "title": "ST: Afrofuturism",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "16:00",
+    "end_time": "17:40",
+    "faculty": "I. Ichile",
+    "building": "GRIM",
+    "room": "313",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MUS-1090",
+    "section": "04",
+    "credits": 1,
+    "title": "ST: Hip Hop Music",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "I. Ichile",
+    "building": "GRIM",
+    "room": "313",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MUS-1090",
+    "section": "05",
+    "credits": 1,
+    "title": "ST: History of Mus of Trinidad",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "K. Bishop",
+    "building": "WARE",
+    "room": "112",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MUS-1090",
+    "section": "06",
+    "credits": 1,
+    "title": "ST: Intro to Amer Gospel Music",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "12:00",
+    "end_time": "13:40",
+    "faculty": "K. Bishop",
+    "building": "WARE",
+    "room": "112",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MUS-2000",
+    "section": "01",
+    "credits": 4,
+    "title": "Introduction to Music",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "L. Mallory",
+    "building": "WARE",
+    "room": "139",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MUS-2000",
+    "section": "02",
+    "credits": 4,
+    "title": "Introduction to Music",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "12:00",
+    "end_time": "13:40",
+    "faculty": "L. Mallory",
+    "building": "WARE",
+    "room": "139",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MUS-2000",
+    "section": "03",
+    "credits": 4,
+    "title": "Introduction to Music",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "08:00",
+    "end_time": "09:40",
+    "faculty": "C. Limb",
+    "building": "WARE",
+    "room": "139",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MUS-2000",
+    "section": "04",
+    "credits": 4,
+    "title": "Introduction to Music",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "C. Limb",
+    "building": "WARE",
+    "room": "139",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MUS-2000",
+    "section": "05",
+    "credits": 4,
+    "title": "Introduction to Music",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "08:00",
+    "end_time": "09:40",
+    "faculty": "D. Arlotto",
+    "building": "WARE",
+    "room": "106",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MUS-2000",
+    "section": "06",
+    "credits": 4,
+    "title": "Introduction to Music",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "08:00",
+    "end_time": "09:40",
+    "faculty": "K. Bishop",
+    "building": "WARE",
+    "room": "139",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MUS-2000",
+    "section": "G1",
+    "credits": 4,
+    "title": "Introduction to Music",
+    "location": "GC",
+    "days": [
+      "S"
+    ],
+    "start_time": "15:40",
+    "end_time": "19:10",
+    "faculty": "R. Bradley",
+    "building": "GRAD",
+    "room": "316",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MUS-2004",
+    "section": "01",
+    "credits": 4,
+    "title": "Music Literature and Styles II",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "C. Pettaway",
+    "building": "WARE",
+    "room": "115",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MUS-2006",
+    "section": "01",
+    "credits": 4,
+    "title": "Advanced Theory IV",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "12:00",
+    "end_time": "13:40",
+    "faculty": "C. Pettaway",
+    "building": "WARE",
+    "room": "115",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MUS-2027",
+    "section": "01",
+    "credits": 2,
+    "title": "Vocal Diction (French-German)",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "10:00",
+    "end_time": "10:50",
+    "faculty": "M. Hampton",
+    "building": "WARE",
+    "room": "115",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MUS-3023",
+    "section": "01",
+    "credits": 4,
+    "title": "Jazz in American Culture",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "C. Harter",
+    "building": "WARE",
+    "room": "106",
+    "type": "LEC"
+  },
+  {
+    "course_id": "MUS-4007",
+    "section": "01",
+    "credits": 1,
+    "title": "Piano Pedagogy I",
+    "location": "MC",
+    "days": [],
+    "start_time": null,
+    "end_time": null,
+    "faculty": "C. Pettaway",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "MUS-4009",
+    "section": "01",
+    "credits": 1,
+    "title": "Voice Pedagogy",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "11:00",
+    "end_time": "11:50",
+    "faculty": "M. Hampton",
+    "building": "WARE",
+    "room": "115",
+    "type": "LEC"
+  },
+  {
+    "course_id": "PAS-1092",
+    "section": "01",
+    "credits": 4,
+    "title": "Women Pan-African Mov I",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "12:00",
+    "end_time": "13:40",
+    "faculty": "E. Poe",
+    "building": "DHAL",
+    "room": "102",
+    "type": "LEC"
+  },
+  {
+    "course_id": "PAS-2006",
+    "section": "01",
+    "credits": 4,
+    "title": "Surv of PanAfr Agncy Snc 1961",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "G. Gnaka",
+    "building": "DHAL",
+    "room": "136",
+    "type": "LEC"
+  },
+  {
+    "course_id": "PAS-2092",
+    "section": "01",
+    "credits": 4,
+    "title": "Women of Pan-African Mvmnt II",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "I. Ichile",
+    "building": "DHAL",
+    "room": "114",
+    "type": "LEC"
+  },
+  {
+    "course_id": "PAS-3001",
+    "section": "01",
+    "credits": 4,
+    "title": "Slave Rebellions to Blk Power",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "J. Denson",
+    "building": "DHAL",
+    "room": "296",
+    "type": "LEC"
+  },
+  {
+    "course_id": "PHL-2000",
+    "section": "01",
+    "credits": 4,
+    "title": "Introduction to Philosophy",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "F. Kodena",
+    "building": "DHAL",
+    "room": "374",
+    "type": "LEC"
+  },
+  {
+    "course_id": "PHL-2000",
+    "section": "02",
+    "credits": 4,
+    "title": "Introduction to Philosophy",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "16:00",
+    "end_time": "17:40",
+    "faculty": "F. Kodena",
+    "building": "DHAL",
+    "room": "374",
+    "type": "LEC"
+  },
+  {
+    "course_id": "PHL-2000",
+    "section": "04",
+    "credits": 4,
+    "title": "Introduction to Philosophy",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "A. Thieme",
+    "building": "DHAL",
+    "room": "372",
+    "type": "LEC"
+  },
+  {
+    "course_id": "PHL-2014",
+    "section": "01",
+    "credits": 4,
+    "title": "ST: Philosophies of Freedom",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "C. Gray",
+    "building": "DHAL",
+    "room": "102",
+    "type": "LEC"
+  },
+  {
+    "course_id": "PHL-2015",
+    "section": "01",
+    "credits": 4,
+    "title": "Ethics",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "F. Kodena",
+    "building": "DHAL",
+    "room": "374",
+    "type": "LEC"
+  },
+  {
+    "course_id": "PHL-2016",
+    "section": "G1",
+    "credits": 4,
+    "title": "Contemporary Moral Problems",
+    "location": "GC",
+    "days": [
+      "W"
+    ],
+    "start_time": "17:30",
+    "end_time": "21:00",
+    "faculty": "P. Kennebrew",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "PHL-2017",
+    "section": "01",
+    "credits": 4,
+    "title": "Critical Reasoning",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "D. Flint",
+    "building": "DHAL",
+    "room": "114",
+    "type": "LEC"
+  },
+  {
+    "course_id": "PHL-2019",
+    "section": "01",
+    "credits": 4,
+    "title": "World Philosophy I",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "16:00",
+    "end_time": "17:40",
+    "faculty": "D. Flint",
+    "building": "DHAL",
+    "room": "109",
+    "type": "LEC"
+  },
+  {
+    "course_id": "PHL-3003",
+    "section": "01",
+    "credits": 4,
+    "title": "Legal Philosophy",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "12:00",
+    "end_time": "13:40",
+    "faculty": "A. Thieme",
+    "building": "DHAL",
+    "room": "135a",
+    "type": "LEC"
+  },
+  {
+    "course_id": "PHL-4001",
+    "section": "01",
+    "credits": 4,
+    "title": "Epistemology",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "12:00",
+    "end_time": "13:40",
+    "faculty": "D. Flint",
+    "building": "DHAL",
+    "room": "109",
+    "type": "LEC"
+  },
+  {
+    "course_id": "PHY-1003",
+    "section": "01",
+    "credits": 4,
+    "title": "Introduction to Physics I",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "12:00",
+    "end_time": "13:15",
+    "faculty": "S. Mahmud",
+    "building": "SCIB",
+    "room": "128",
+    "type": "LEC"
+  },
+  {
+    "course_id": "PHY-1004",
+    "section": "01",
+    "credits": 4,
+    "title": "Introduction to Physics II",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "12:00",
+    "end_time": "13:15",
+    "faculty": "V. Zeljkovic",
+    "building": "SCIB",
+    "room": "318",
+    "type": "LEC"
+  },
+  {
+    "course_id": "PHY-1005",
+    "section": "01",
+    "credits": 4,
+    "title": "General Physics I",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "12:00",
+    "end_time": "13:15",
+    "faculty": "V. Lakey",
+    "building": "SCIB",
+    "room": "130",
+    "type": "LEC"
+  },
+  {
+    "course_id": "PHY-1005L",
+    "section": "01",
+    "credits": 0,
+    "title": "Freshman Phy Lab I",
+    "location": "MC",
+    "days": [
+      "W"
+    ],
+    "start_time": "14:00",
+    "end_time": "16:50",
+    "faculty": "V. Lakey",
+    "building": "SCIB",
+    "room": "348",
+    "type": "LAB"
+  },
+  {
+    "course_id": "PHY-1005R",
+    "section": "01",
+    "credits": 0,
+    "title": "Physics I Recitation",
+    "location": "MC",
+    "days": [
+      "W"
+    ],
+    "start_time": "17:00",
+    "end_time": "17:50",
+    "faculty": "V. Lakey SCIB 130 REC",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "PHY-1006",
+    "section": "01",
+    "credits": 4,
+    "title": "General Physics II",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "12:00",
+    "end_time": "13:15",
+    "faculty": "S. Gayen",
+    "building": "SCIB",
+    "room": "109",
+    "type": "LEC"
+  },
+  {
+    "course_id": "PHY-1006L",
+    "section": "01",
+    "credits": 0,
+    "title": "Freshman Phy Lab II",
+    "location": "MC",
+    "days": [
+      "W"
+    ],
+    "start_time": "14:00",
+    "end_time": "16:50",
+    "faculty": "S. Gayen",
+    "building": "SCIB",
+    "room": "336",
+    "type": "LAB"
+  },
+  {
+    "course_id": "PHY-1006L",
+    "section": "02",
+    "credits": 0,
+    "title": "Freshman Phy Lab II",
+    "location": "MC",
+    "days": [
+      "R"
+    ],
+    "start_time": "14:00",
+    "end_time": "16:50",
+    "faculty": "M. Badea",
+    "building": "SCIB",
+    "room": "348",
+    "type": "LAB"
+  },
+  {
+    "course_id": "PHY-1006R",
+    "section": "01",
+    "credits": 0,
+    "title": "Physics II Recitation",
+    "location": "MC",
+    "days": [
+      "T"
+    ],
+    "start_time": "17:00",
+    "end_time": "17:50",
+    "faculty": "S. Gayen SCIB 109 REC",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "PHY-1081",
+    "section": "01",
+    "credits": 4,
+    "title": "Elementary Astronomy",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:15",
+    "faculty": "V. Zeljkovic",
+    "building": "SCIB",
+    "room": "113",
+    "type": "LEC"
+  },
+  {
+    "course_id": "PHY-1081L",
+    "section": "01",
+    "credits": 0,
+    "title": "Elementary Astronomy Lab",
+    "location": "MC",
+    "days": [
+      "M"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:50",
+    "faculty": "V. Zeljkovic",
+    "building": "SCIB",
+    "room": "346",
+    "type": "LAB"
+  },
+  {
+    "course_id": "PHY-1081L",
+    "section": "02",
+    "credits": 0,
+    "title": "Elementary Astronomy Lab",
+    "location": "MC",
+    "days": [
+      "W"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:50",
+    "faculty": "V. Zeljkovic",
+    "building": "SCIB",
+    "room": "346",
+    "type": "LAB"
+  },
+  {
+    "course_id": "PHY-1081L",
+    "section": "03",
+    "credits": 0,
+    "title": "Elementary Astronomy Lab",
+    "location": "MC",
+    "days": [
+      "T"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:50",
+    "faculty": "V. Lakey",
+    "building": "SCIB",
+    "room": "346",
+    "type": "LAB"
+  },
+  {
+    "course_id": "PHY-2051",
+    "section": "01",
+    "credits": 4,
+    "title": "Modern Physics",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "08:00",
+    "end_time": "09:45",
+    "faculty": "V. Lakey",
+    "building": "SCIB",
+    "room": "105",
+    "type": "LEC"
+  },
+  {
+    "course_id": "PHY-3042",
+    "section": "01",
+    "credits": 4,
+    "title": "Electromagnetic Theory",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "S. Gayen",
+    "building": "SCIB",
+    "room": "105",
+    "type": "LEC"
+  },
+  {
+    "course_id": "POL-1001",
+    "section": "01",
+    "credits": 4,
+    "title": "American National Government",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "J. Maxwell",
+    "building": "LLCC",
+    "room": "C214",
+    "type": "LEC"
+  },
+  {
+    "course_id": "POL-1001",
+    "section": "02",
+    "credits": 4,
+    "title": "American National Government",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "W. Edge",
+    "building": "DHAL",
+    "room": "372",
+    "type": "LEC"
+  },
+  {
+    "course_id": "POL-1001",
+    "section": "03",
+    "credits": 4,
+    "title": "American National Government",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "12:00",
+    "end_time": "13:40",
+    "faculty": "L. Hawkins",
+    "building": "DHAL",
+    "room": "105",
+    "type": "LEC"
+  },
+  {
+    "course_id": "POL-1001",
+    "section": "04",
+    "credits": 4,
+    "title": "American National Government",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "08:00",
+    "end_time": "09:40",
+    "faculty": "J. Maxwell",
+    "building": "DHAL",
+    "room": "114",
+    "type": "LEC"
+  },
+  {
+    "course_id": "POL-1002",
+    "section": "01",
+    "credits": 4,
+    "title": "Intro to Political Science",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "C. Ihejirika",
+    "building": "DHAL",
+    "room": "372",
+    "type": "LEC"
+  },
+  {
+    "course_id": "POL-2004",
+    "section": "01",
+    "credits": 4,
+    "title": "Intro International Relations",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "12:00",
+    "end_time": "13:40",
+    "faculty": "S. Ogutcu-Fu",
+    "building": "DHAL",
+    "room": "372",
+    "type": "LEC"
+  },
+  {
+    "course_id": "POL-3001",
+    "section": "01",
+    "credits": 4,
+    "title": "Political Theory II",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "C. Ihejirika",
+    "building": "DHAL",
+    "room": "373",
+    "type": "LEC"
+  },
+  {
+    "course_id": "POL-3003",
+    "section": "01",
+    "credits": 4,
+    "title": "Comparative Politics II",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "W. Edge",
+    "building": "DHAL",
+    "room": "373",
+    "type": "LEC"
+  },
+  {
+    "course_id": "POL-3004",
+    "section": "01",
+    "credits": 4,
+    "title": "Comparative African Politics",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "16:00",
+    "end_time": "17:40",
+    "faculty": "W. Edge",
+    "building": "DHAL",
+    "room": "372",
+    "type": "LEC"
+  },
+  {
+    "course_id": "POL-3010",
+    "section": "01",
+    "credits": 4,
+    "title": "Race and American Law",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "16:00",
+    "end_time": "17:40",
+    "faculty": "A. Scott",
+    "building": "DHAL",
+    "room": "102",
+    "type": "LEC"
+  },
+  {
+    "course_id": "POL-4060",
+    "section": "01",
+    "credits": 4,
+    "title": "Workshop in Intl Affairs",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "08:00",
+    "end_time": "09:40",
+    "faculty": "W. Edge",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "POL-4082",
+    "section": "01",
+    "credits": 4,
+    "title": "Senior Seminar",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "S. Ogutcu-Fu",
+    "building": "DHAL",
+    "room": "372",
+    "type": "LEC"
+  },
+  {
+    "course_id": "POL-4095",
+    "section": "I2",
+    "credits": 4,
+    "title": "Independent Study",
+    "location": "MC",
+    "days": [
+      "T"
+    ],
+    "start_time": null,
+    "end_time": null,
+    "faculty": "o be Announced",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "PSY-1001",
+    "section": "01",
+    "credits": 4,
+    "title": "General Psychology",
+    "location": "MC",
+    "days": [
+      "M"
+    ],
+    "start_time": "17:00",
+    "end_time": "20:30",
+    "faculty": "V. Bennifield",
+    "building": "DHAL",
+    "room": "105",
+    "type": "LEC"
+  },
+  {
+    "course_id": "PSY-1001",
+    "section": "02",
+    "credits": 4,
+    "title": "General Psychology",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "08:00",
+    "end_time": "09:40",
+    "faculty": "D. Weathington",
+    "building": "DHAL",
+    "room": "105",
+    "type": "LEC"
+  },
+  {
+    "course_id": "PSY-1001",
+    "section": "03",
+    "credits": 4,
+    "title": "General Psychology",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "D. Weathington",
+    "building": "DHAL",
+    "room": "105",
+    "type": "LEC"
+  },
+  {
+    "course_id": "PSY-2006",
+    "section": "01",
+    "credits": 4,
+    "title": "Lifespan Dev Psychology",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "16:00",
+    "end_time": "17:40",
+    "faculty": "C. Warner",
+    "building": "DHAL",
+    "room": "105",
+    "type": "LEC"
+  },
+  {
+    "course_id": "PSY-2008",
+    "section": "01",
+    "credits": 4,
+    "title": "Black Psychology",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "C. Warner",
+    "building": "DHAL",
+    "room": "102",
+    "type": "LEC"
+  },
+  {
+    "course_id": "PSY-2008",
+    "section": "G1",
+    "credits": 4,
+    "title": "Black Psychology",
+    "location": "GC",
+    "days": [
+      "T"
+    ],
+    "start_time": "17:30",
+    "end_time": "21:00",
+    "faculty": null,
+    "building": "GRAD",
+    "room": "328",
+    "type": "LEC"
+  },
+  {
+    "course_id": "PSY-2009",
+    "section": "01",
+    "credits": 4,
+    "title": "Multicultural Psychology",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "D. Gaither-Hardy",
+    "building": "DHAL",
+    "room": "284",
+    "type": "LEC"
+  },
+  {
+    "course_id": "PSY-2014",
+    "section": "01",
+    "credits": 4,
+    "title": "Abnormal Psychology",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "16:00",
+    "end_time": "17:40",
+    "faculty": "V. Duncan",
+    "building": "DHAL",
+    "room": "296",
+    "type": "LEC"
+  },
+  {
+    "course_id": "PSY-2014",
+    "section": "02",
+    "credits": 4,
+    "title": "Abnormal Psychology",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "C. Swinton-Jackso",
+    "building": "DHAL",
+    "room": "375",
+    "type": "LEC"
+  },
+  {
+    "course_id": "PSY-3001",
+    "section": "01",
+    "credits": 4,
+    "title": "Social Psychology",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "K. Favor",
+    "building": "DHAL",
+    "room": "284",
+    "type": "LEC"
+  },
+  {
+    "course_id": "PSY-3001",
+    "section": "G1",
+    "credits": 4,
+    "title": "Social Psychology",
+    "location": "GC",
+    "days": [
+      "T"
+    ],
+    "start_time": "17:30",
+    "end_time": "21:00",
+    "faculty": "J. Wadley",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "PSY-3006",
+    "section": "01",
+    "credits": 4,
+    "title": "Psychobiology",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "08:00",
+    "end_time": "09:40",
+    "faculty": "L. Williams",
+    "building": "DHAL",
+    "room": "284",
+    "type": "LEC"
+  },
+  {
+    "course_id": "PSY-3013",
+    "section": "01",
+    "credits": 4,
+    "title": "Statistics II",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "08:00",
+    "end_time": "09:40",
+    "faculty": "D. Gaither-Hardy",
+    "building": "DHAL",
+    "room": "284",
+    "type": "LEC"
+  },
+  {
+    "course_id": "PSY-3016",
+    "section": "01",
+    "credits": 4,
+    "title": "Psychological Assessment",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "L. Williams",
+    "building": "DHAL",
+    "room": "284",
+    "type": "LEC"
+  },
+  {
+    "course_id": "PSY-3019",
+    "section": "01",
+    "credits": 4,
+    "title": "Research Design & Analysis",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "C. Warner",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "PSY-3021",
+    "section": "G1",
+    "credits": 4,
+    "title": "Psychology of Addictions",
+    "location": "GC",
+    "days": [
+      "R"
+    ],
+    "start_time": "17:30",
+    "end_time": "21:00",
+    "faculty": "M. May",
+    "building": "GRAD",
+    "room": "328",
+    "type": "LEC"
+  },
+  {
+    "course_id": "PSY-3024",
+    "section": "01",
+    "credits": 4,
+    "title": "History and Systems Psychology",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "V. Duncan",
+    "building": "DHAL",
+    "room": "105",
+    "type": "LEC"
+  },
+  {
+    "course_id": "PSY-3024",
+    "section": "G1",
+    "credits": 4,
+    "title": "History and Systems Psychology",
+    "location": "GC",
+    "days": [
+      "F"
+    ],
+    "start_time": "17:30",
+    "end_time": "21:00",
+    "faculty": "P. Kennebrew",
+    "building": "GRAD",
+    "room": "323",
+    "type": "LEC"
+  },
+  {
+    "course_id": "PSY-4004",
+    "section": "01",
+    "credits": 4,
+    "title": "Senior Seminar II",
+    "location": "MC",
+    "days": [
+      "W"
+    ],
+    "start_time": "14:00",
+    "end_time": "17:30",
+    "faculty": "K. Favor",
+    "building": "DHAL",
+    "room": "284",
+    "type": "LEC"
+  },
+  {
+    "course_id": "PSY-4095",
+    "section": "I1",
+    "credits": 1,
+    "title": "Independent Study",
+    "location": "MC",
+    "days": [
+      "T"
+    ],
+    "start_time": null,
+    "end_time": null,
+    "faculty": "o be Announced",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "REL-2000",
+    "section": "01",
+    "credits": 4,
+    "title": "Introduction to Religion",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "08:00",
+    "end_time": "09:40",
+    "faculty": "E. Flores",
+    "building": "DHAL",
+    "room": "102",
+    "type": "LEC"
+  },
+  {
+    "course_id": "REL-2000",
+    "section": "02",
+    "credits": 4,
+    "title": "Introduction to Religion",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "C. Gray",
+    "building": "DHAL",
+    "room": "102",
+    "type": "LEC"
+  },
+  {
+    "course_id": "REL-2000",
+    "section": "03",
+    "credits": 4,
+    "title": "Introduction to Religion",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "08:00",
+    "end_time": "09:40",
+    "faculty": "C. Choi",
+    "building": "DHAL",
+    "room": "374",
+    "type": "LEC"
+  },
+  {
+    "course_id": "REL-2000",
+    "section": "04",
+    "credits": 4,
+    "title": "Introduction to Religion",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "C. Choi",
+    "building": "DHAL",
+    "room": "136",
+    "type": "LEC"
+  },
+  {
+    "course_id": "REL-2000",
+    "section": "05",
+    "credits": 4,
+    "title": "Introduction to Religion",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "E. Flores",
+    "building": "DHAL",
+    "room": "373",
+    "type": "LEC"
+  },
+  {
+    "course_id": "REL-3010",
+    "section": "01",
+    "credits": 4,
+    "title": "Martin and Malcolm",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "C. Choi",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "REL-4095",
+    "section": "I1",
+    "credits": 4,
+    "title": "Indepenedent Study",
+    "location": "MC",
+    "days": [
+      "T"
+    ],
+    "start_time": null,
+    "end_time": null,
+    "faculty": "o be Announced",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "SOC-1001",
+    "section": "01",
+    "credits": 4,
+    "title": "Introduction to Sociology",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "16:00",
+    "end_time": "17:40",
+    "faculty": "R. Gibbs",
+    "building": "DHAL",
+    "room": "326",
+    "type": "LEC"
+  },
+  {
+    "course_id": "SOC-1001",
+    "section": "02",
+    "credits": 4,
+    "title": "Introduction to Sociology",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "M. Lynch",
+    "building": "DHAL",
+    "room": "374",
+    "type": "LEC"
+  },
+  {
+    "course_id": "SOC-1001",
+    "section": "03",
+    "credits": 4,
+    "title": "Introduction to Sociology",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "To",
+    "building": "BE",
+    "room": "Announced",
+    "type": "LEC"
+  },
+  {
+    "course_id": "SOC-1001",
+    "section": "04",
+    "credits": 4,
+    "title": "Introduction to Sociology",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "G. Evans",
+    "building": "DHAL",
+    "room": "102",
+    "type": "LEC"
+  },
+  {
+    "course_id": "SOC-2009",
+    "section": "01",
+    "credits": 4,
+    "title": "Institutional Racism",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "12:00",
+    "end_time": "13:40",
+    "faculty": "K. Smith-WilliamsoDHAL 373",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "SOC-3005",
+    "section": "01",
+    "credits": 4,
+    "title": "Research Methods",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "08:00",
+    "end_time": "09:40",
+    "faculty": "M. Pass",
+    "building": "DHAL",
+    "room": "375",
+    "type": "LEC"
+  },
+  {
+    "course_id": "SOC-3006",
+    "section": "01",
+    "credits": 4,
+    "title": "Social Statistics",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "12:00",
+    "end_time": "13:40",
+    "faculty": "S. Feliciano",
+    "building": "DHAL",
+    "room": "375",
+    "type": "LEC"
+  },
+  {
+    "course_id": "SOC-3018",
+    "section": "01",
+    "credits": 4,
+    "title": "Sociological Theory",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "R. Millette",
+    "building": "DHAL",
+    "room": "375",
+    "type": "LEC"
+  },
+  {
+    "course_id": "SOC-3019",
+    "section": "01",
+    "credits": 4,
+    "title": "Urban Sociology",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "08:00",
+    "end_time": "09:40",
+    "faculty": "G. Evans",
+    "building": "DHAL",
+    "room": "372",
+    "type": "LEC"
+  },
+  {
+    "course_id": "SOC-4010",
+    "section": "W1",
+    "credits": 4,
+    "title": "Senior Seminar",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "S. Feliciano",
+    "building": "DHAL",
+    "room": "375",
+    "type": "LEC"
+  },
+  {
+    "course_id": "SOS-1051",
+    "section": "01",
+    "credits": 4,
+    "title": "African American Experience",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "08:00",
+    "end_time": "09:40",
+    "faculty": "J. Denson",
+    "building": "DHAL",
+    "room": "102",
+    "type": "LEC"
+  },
+  {
+    "course_id": "SOS-1051",
+    "section": "02",
+    "credits": 4,
+    "title": "African American Experience",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "E. Poe",
+    "building": "DHAL",
+    "room": "326",
+    "type": "LEC"
+  },
+  {
+    "course_id": "SOS-1051",
+    "section": "03",
+    "credits": 4,
+    "title": "African American Experience",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "16:00",
+    "end_time": "17:40",
+    "faculty": "E. Poe",
+    "building": "DHAL",
+    "room": "372",
+    "type": "LEC"
+  },
+  {
+    "course_id": "SOS-1051",
+    "section": "04",
+    "credits": 4,
+    "title": "African American Experience",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "12:00",
+    "end_time": "13:40",
+    "faculty": "G. Gnaka",
+    "building": "DHAL",
+    "room": "253",
+    "type": "LEC"
+  },
+  {
+    "course_id": "SOS-1051",
+    "section": "05",
+    "credits": 4,
+    "title": "African American Experience",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "16:00",
+    "end_time": "17:40",
+    "faculty": null,
+    "building": "DHAL",
+    "room": "114",
+    "type": "LEC"
+  },
+  {
+    "course_id": "SOS-1051",
+    "section": "G1",
+    "credits": 4,
+    "title": "African American Experience",
+    "location": "GC",
+    "days": [
+      "S"
+    ],
+    "start_time": "08:00",
+    "end_time": "11:30",
+    "faculty": "S. Webster",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "SPM-2001",
+    "section": "01",
+    "credits": 4,
+    "title": "Princ. of Sports Management",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "K. Merritt",
+    "building": "DHAL",
+    "room": "253",
+    "type": "LEC"
+  },
+  {
+    "course_id": "SPM-2005",
+    "section": "01",
+    "credits": 4,
+    "title": "Sports Marketing",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "12:00",
+    "end_time": "13:40",
+    "faculty": "D. Elliott",
+    "building": "DHAL",
+    "room": "254",
+    "type": "LEC"
+  },
+  {
+    "course_id": "SPN-1001",
+    "section": "01",
+    "credits": 4,
+    "title": "Elementary Spanish I",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "16:00",
+    "end_time": "17:40",
+    "faculty": "N. Ortega-Moran",
+    "building": "UNIV",
+    "room": "104",
+    "type": "LEC"
+  },
+  {
+    "course_id": "SPN-1002",
+    "section": "01",
+    "credits": 4,
+    "title": "Elementary Spanish II",
+    "location": "MC",
+    "days": [
+      "M",
+      "T",
+      "W",
+      "F"
+    ],
+    "start_time": "09:00",
+    "end_time": "09:50",
+    "faculty": "M. Vargas",
+    "building": "UNIV",
+    "room": "101",
+    "type": "LEC"
+  },
+  {
+    "course_id": "SPN-1002",
+    "section": "02",
+    "credits": 4,
+    "title": "Elementary Spanish II",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "N. Gardner",
+    "building": "UNIV",
+    "room": "201",
+    "type": "LEC"
+  },
+  {
+    "course_id": "SPN-1002",
+    "section": "03",
+    "credits": 4,
+    "title": "Elementary Spanish II",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "10:00",
+    "end_time": "11:40",
+    "faculty": "J. Martinez Millan",
+    "building": "UNIV",
+    "room": "102",
+    "type": "LEC"
+  },
+  {
+    "course_id": "SPN-1002",
+    "section": "04",
+    "credits": 4,
+    "title": "Elementary Spanish II",
+    "location": "MC",
+    "days": [
+      "T",
+      "R"
+    ],
+    "start_time": "14:00",
+    "end_time": "15:40",
+    "faculty": "J. Martinez Millan",
+    "building": "UNIV",
+    "room": "104",
+    "type": "LEC"
+  },
+  {
+    "course_id": "SPN-1002",
+    "section": "05",
+    "credits": 4,
+    "title": "Elementary Spanish II",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "15:00",
+    "end_time": "16:40",
+    "faculty": "J. Grulke",
+    "building": "UNIV",
+    "room": "203",
+    "type": "LEC"
+  },
+  {
+    "course_id": "SPN-2001",
+    "section": "01",
+    "credits": 4,
+    "title": "Intermediate Spanish I",
+    "location": "MC",
+    "days": [
+      "T"
+    ],
+    "start_time": null,
+    "end_time": null,
+    "faculty": "o be Announced",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "SPN-2002",
+    "section": "01",
+    "credits": 4,
+    "title": "Intermediate Spanish II",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "16:40",
+    "end_time": "18:20",
+    "faculty": "J. Grulke",
+    "building": "UNIV",
+    "room": "203",
+    "type": "LEC"
+  },
+  {
+    "course_id": "SPN-3002",
+    "section": "W1",
+    "credits": 4,
+    "title": "Adv. Spanish: Comp. & Conv. II",
+    "location": "MC",
+    "days": [
+      "M",
+      "W"
+    ],
+    "start_time": "16:00",
+    "end_time": "17:40",
+    "faculty": "N. Gardner",
+    "building": "UNIV",
+    "room": "206",
+    "type": "LEC"
+  },
+  {
+    "course_id": "SPN-4095",
+    "section": "I1",
+    "credits": 4,
+    "title": "Independent Study",
+    "location": "MC",
+    "days": [
+      "T"
+    ],
+    "start_time": null,
+    "end_time": null,
+    "faculty": "o",
+    "building": "BE",
+    "room": "Announced",
+    "type": "LEC"
+  },
+  {
+    "course_id": "SWA-1001",
+    "section": "01",
+    "credits": 4,
+    "title": "Elementary Swahili I",
+    "location": "MC",
+    "days": [
+      "M",
+      "T",
+      "W",
+      "F"
+    ],
+    "start_time": "09:00",
+    "end_time": "09:50",
+    "faculty": "D. Kariri",
+    "building": "UNIV",
+    "room": "313",
+    "type": "LEC"
+  },
+  {
+    "course_id": "SWA-1002",
+    "section": "02",
+    "credits": 4,
+    "title": "Elementary Swahili II",
+    "location": "MC",
+    "days": [
+      "M",
+      "T",
+      "W",
+      "F"
+    ],
+    "start_time": "11:00",
+    "end_time": "11:50",
+    "faculty": "D. Kariri",
+    "building": "UNIV",
+    "room": "313",
+    "type": "LEC"
+  }
+]

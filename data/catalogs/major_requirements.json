@@ -1,0 +1,131 @@
+{
+  "CS": {
+    "name": "Computer Science",
+    "degree": "BS/BA",
+    "required_courses": [
+      "MAT-1010", "ENG-1001", "ENG-1002",
+      "CSC-1058", "CSC-1059", "CSC-2001", "CSC-2054",
+      "CSC-3053", "CSC-3054", "CSC-3055",
+      "CSC-4054", "CSC-4057", "CSC-4098",
+      "MAT-1014", "MAT-2013"
+    ]
+  },
+  "BIO": {
+    "name": "Biology",
+    "degree": "BS/BA",
+    "required_courses": [
+      "ENG-1001", "ENG-1002", "MAT-1010",
+      "BIO-1003", "BIO-1003L", "BIO-1004", "BIO-1004L",
+      "BIO-2007", "BIO-2007L", "BIO-2008", "BIO-2008L",
+      "CHE-1003", "CHE-1003L", "CHE-1004", "CHE-1004L",
+      "CHE-2003", "CHE-2004",
+      "MAT-1014", "PHY-1005", "PHY-1006"
+    ]
+  },
+  "CHE": {
+    "name": "Chemistry",
+    "degree": "BS/BA",
+    "required_courses": [
+      "ENG-1001", "ENG-1002", "MAT-1021", "MAT-1022",
+      "BIO-1003", "BIO-1004",
+      "CHE-1003", "CHE-1004", "CHE-2001", "CHE-2003",
+      "CHE-2004", "CHE-2005", "CHE-3000", "CHE-3001",
+      "CHE-3003", "CHE-3004", "CHE-3010", "CHE-4002",
+      "PHY-1005", "PHY-1006"
+    ]
+  },
+  "BIOCHEM": {
+    "name": "Biochemistry and Molecular Biology",
+    "degree": "BS/BA",
+    "required_courses": [
+      "ENG-1001", "ENG-1002", "MAT-1021", "MAT-1022",
+      "BIO-1003", "BIO-1004", "BIO-2007", "BIO-2008", "BIO-4007",
+      "CHE-1003", "CHE-1004", "CHE-2001", "CHE-2003",
+      "CHE-2004", "CHE-2005", "CHE-3000", "CHE-3003",
+      "CHE-3004", "CHE-3010", "CHE-4002",
+      "PHY-1005", "PHY-1006"
+    ]
+  },
+  "HSC": {
+    "name": "Health Science",
+    "degree": "BS/BA",
+    "required_courses": [
+      "ENG-1001", "ENG-1002", "MAT-1006",
+      "BIO-1003", "BIO-1004",
+      "PSY-1001", "SOC-1001",
+      "HSC-1030", "HSC-1040", "HSC-1060",
+      "HSC-2007", "HSC-2046", "HSC-2050",
+      "HSC-3080", "HSC-3097", "HSC-3099"
+    ]
+  },
+  "ACC": {
+    "name": "Accounting",
+    "degree": "BS/BA",
+    "required_courses": [
+      "ENG-1001", "ENG-1002", "MAT-1014",
+      "ECO-2003", "ECO-2002",
+      "ACC-2003", "ACC-2005", "ACC-3032", "ACC-3033",
+      "ACC-3038", "ACC-3040", "ACC-4031", "ACC-4032",
+      "BES-1014", "BES-4059",
+      "MGT-3035", "FIN-3041", "MKT-3037"
+    ]
+  },
+  "FIN": {
+    "name": "Finance",
+    "degree": "BS/BA",
+    "required_courses": [
+      "ENG-1001", "ENG-1002", "MAT-1014",
+      "ECO-2003", "ECO-2002",
+      "ACC-2003", "ACC-2005",
+      "FIN-2041", "FIN-3041", "FIN-3043", "FIN-3045",
+      "FIN-4041", "FIN-4043",
+      "BES-1014", "BES-4059",
+      "MGT-3035", "MKT-3037"
+    ]
+  },
+  "MGT": {
+    "name": "Management",
+    "degree": "BS/BA",
+    "required_courses": [
+      "ENG-1001", "ENG-1002", "MAT-1014",
+      "ECO-2003", "ECO-2002",
+      "ACC-2003", "ACC-2005",
+      "MGT-3035", "MGT-3050", "MGT-4035", "MGT-4037",
+      "BES-1014", "BES-4059",
+      "FIN-3041", "MKT-3037",
+      "INF-3030"
+    ]
+  },
+  "ISM": {
+    "name": "Information Systems Management",
+    "degree": "BS/BA",
+    "required_courses": [
+      "ENG-1001", "ENG-1002", "MAT-1014",
+      "ECO-2003", "ECO-2002",
+      "ACC-2003", "ACC-2005",
+      "INF-2010", "INF-3030", "INF-3045", "INF-3049",
+      "INF-3054", "INF-4020", "INF-4040",
+      "MGT-3035", "BES-4059"
+    ]
+  },
+  "CRJ": {
+    "name": "Criminal Justice",
+    "degree": "BS/BA",
+    "required_courses": [
+      "ENG-1001", "ENG-1002", "MAT-1014",
+      "SOC-1001", "PSY-1001",
+      "CRJ-2003", "CRJ-2007", "CRJ-3015", "CRJ-3022",
+      "CRJ-3025", "CRJ-3045", "CRJ-4010", "CRJ-4095"
+    ]
+  },
+  "ANT": {
+    "name": "Anthropology",
+    "degree": "BS/BA",
+    "required_courses": [
+      "ENG-1001", "ENG-1002", "MAT-1006",
+      "SOC-1001",
+      "ANT-2001", "ANT-2005", "ANT-3003", "ANT-3054",
+      "SOC-3005", "SOC-3006", "SOC-4010"
+    ]
+  }
+}

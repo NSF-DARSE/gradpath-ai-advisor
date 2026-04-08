@@ -10,25 +10,35 @@ SCHEDULES_DIR = DATA_DIR / "schedules"
 
 
 def _term_to_filename(term: str) -> str:
-    """Convert a term like 'Fall 2026' to 'fall_2026.json'."""
+    """Convert a term like 'Spring 2026' to 'spring_2026.json'."""
     return term.lower().replace(" ", "_") + ".json"
 
 
-def load_semester_offerings(term: str) -> Dict[str, Any]:
+def load_semester_offerings(term: str) -> List[Dict[str, Any]]:
     """Load schedule JSON for a given term.
 
-    Example: 'Fall 2026' -> data/schedules/fall_2026.json
-    Returns an empty offerings dict if the semester file does not exist.
+    Returns a flat list of section dicts.
+    Returns empty list if no schedule file exists for that term.
     """
     file_path = SCHEDULES_DIR / _term_to_filename(term)
     if not file_path.exists():
-        return {"term": term, "offerings": []}
+        return []
     with file_path.open("r", encoding="utf-8") as f:
-        return json.load(f)
+        data = json.load(f)
+    # Support both flat list and old {"offerings": [...]} format
+    if isinstance(data, list):
+        return data
+    return data.get("offerings", [])
 
 
 def get_offered_course_ids(term: str) -> List[str]:
-    """Return the list of course IDs offered in a given term."""
-    schedule = load_semester_offerings(term)
-    offerings = schedule.get("offerings", [])
-    return [item["course_id"] for item in offerings]
+    """Return unique course IDs offered in a given term (deduplicated across sections)."""
+    sections = load_semester_offerings(term)
+    seen = set()
+    result = []
+    for item in sections:
+        cid = item.get("course_id")
+        if cid and cid not in seen:
+            seen.add(cid)
+            result.append(cid)
+    return result

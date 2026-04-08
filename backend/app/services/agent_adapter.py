@@ -298,7 +298,7 @@ def _build_dashboard_from_profile(
     major = str(profile.get("major") or "CS")
     planning_context = load_major_planning_context(major, target_semester)
     required_courses = planning_context.get("required_courses", [])
-    course_lookup = {course["course_id"]: course for course in catalog.get("courses", [])}
+    course_lookup = {course["course_id"]: course for course in (catalog if isinstance(catalog, list) else catalog.get("courses", []))}
 
     completed_courses_raw = profile.get("completed_courses", [])
     completed_ids = {course["course_id"] for course in completed_courses_raw}
@@ -467,16 +467,17 @@ def _extract_student_ref(message: str) -> Optional[str]:
 
 
 def _infer_profile_from_message(message: str) -> Optional[Dict[str, Any]]:
-    course_lookup = {course["course_id"] for course in load_catalog_data().get("courses", [])}
+    catalog = load_catalog_data()
+    catalog_list = catalog if isinstance(catalog, list) else catalog.get("courses", [])
+    course_lookup = {course["course_id"] for course in catalog_list}
     found_courses = [
         course_id
-        for course_id in re.findall(r"\b[A-Z]{2,4}\d{3}\b", message.upper())
+        for course_id in re.findall(r"\b[A-Z]{2,4}-\d{3,4}\b", message.upper())
         if course_id in course_lookup
     ]
     if not found_courses:
         return None
 
-    catalog = load_catalog_data()
     completed_courses = []
     seen = set()
     for course_id in found_courses:
@@ -491,7 +492,7 @@ def _infer_profile_from_message(message: str) -> Optional[Dict[str, Any]]:
                 "credits": next(
                     (
                         int(course.get("credits", 0))
-                        for course in catalog.get("courses", [])
+                        for course in catalog_list
                         if course.get("course_id") == course_id
                     ),
                     0,
