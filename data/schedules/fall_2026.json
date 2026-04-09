@@ -1,1056 +1,1052 @@
-{
-  "term": "Fall 2026",
-  "source": "Lincoln University catalog 2025-2026",
-  "offerings": [
-    {
-      "course_id": "ENG1001",
-      "section": "01",
-      "source_code": "ENG 1001"
-    },
-    {
-      "course_id": "ENG1002",
-      "section": "01",
-      "source_code": "ENG 1002"
-    },
-    {
-      "course_id": "MAT1001",
-      "section": "01",
-      "source_code": "MAT 1001"
-    },
-    {
-      "course_id": "MAT1002",
-      "section": "01",
-      "source_code": "MAT 1002"
-    },
-    {
-      "course_id": "MAT1006",
-      "section": "01",
-      "source_code": "MAT 1006"
-    },
-    {
-      "course_id": "MAT1010",
-      "section": "01",
-      "source_code": "MAT 1010"
-    },
-    {
-      "course_id": "MAT1011",
-      "section": "01",
-      "source_code": "MAT 1011"
-    },
-    {
-      "course_id": "MAT1014",
-      "section": "01",
-      "source_code": "MAT 1014"
-    },
-    {
-      "course_id": "MAT1020",
-      "section": "01",
-      "source_code": "MAT 1020"
-    },
-    {
-      "course_id": "MAT1021",
-      "section": "01",
-      "source_code": "MAT 1021"
-    },
-    {
-      "course_id": "MAT1022",
-      "section": "01",
-      "source_code": "MAT 1022"
-    },
-    {
-      "course_id": "MAT2013",
-      "section": "01",
-      "source_code": "MAT 2013"
-    },
-    {
-      "course_id": "MAT2021",
-      "section": "01",
-      "source_code": "MAT 2021"
-    },
-    {
-      "course_id": "CSC1051",
-      "section": "01",
-      "source_code": "CSC 1051"
-    },
-    {
-      "course_id": "CSC1052",
-      "section": "01",
-      "source_code": "CSC 1052"
-    },
-    {
-      "course_id": "CSC1058",
-      "section": "01",
-      "source_code": "CSC 1058"
-    },
-    {
-      "course_id": "CSC1059",
-      "section": "01",
-      "source_code": "CSC 1059"
-    },
-    {
-      "course_id": "CSC2001",
-      "section": "01",
-      "source_code": "CSC 2001"
-    },
-    {
-      "course_id": "CSC2054",
-      "section": "01",
-      "source_code": "CSC 2054"
-    },
-    {
-      "course_id": "CSC3002",
-      "section": "01",
-      "source_code": "CSC 3002"
-    },
-    {
-      "course_id": "CSC3053",
-      "section": "01",
-      "source_code": "CSC 3053"
-    },
-    {
-      "course_id": "CSC3054",
-      "section": "01",
-      "source_code": "CSC 3054"
-    },
-    {
-      "course_id": "CSC3055",
-      "section": "01",
-      "source_code": "CSC 3055"
-    },
-    {
-      "course_id": "CSC3056",
-      "section": "01",
-      "source_code": "CSC 3056"
-    },
-    {
-      "course_id": "CSC3058",
-      "section": "01",
-      "source_code": "CSC 3058"
-    },
-    {
-      "course_id": "CSC3059",
-      "section": "01",
-      "source_code": "CSC 3059"
-    },
-    {
-      "course_id": "CSC3090",
-      "section": "01",
-      "source_code": "CSC 3090"
-    },
-    {
-      "course_id": "CSC3095",
-      "section": "01",
-      "source_code": "CSC 3095"
-    },
-    {
-      "course_id": "CSC3099",
-      "section": "01",
-      "source_code": "CSC 3099"
-    },
-    {
-      "course_id": "CSC4053",
-      "section": "01",
-      "source_code": "CSC 4053"
-    },
-    {
-      "course_id": "CSC4054",
-      "section": "01",
-      "source_code": "CSC 4054"
-    },
-    {
-      "course_id": "CSC4057",
-      "section": "01",
-      "source_code": "CSC 4057"
-    },
-    {
-      "course_id": "CSC4058",
-      "section": "01",
-      "source_code": "CSC 4058"
-    },
-    {
-      "course_id": "CSC4091",
-      "section": "01",
-      "source_code": "CSC 4091"
-    },
-    {
-      "course_id": "CSC4095",
-      "section": "01",
-      "source_code": "CSC 4095"
-    },
-    {
-      "course_id": "CSC4098",
-      "section": "01",
-      "source_code": "CSC 4098"
-    },
-    {
-      "course_id": "BIO1003",
-      "section": "01",
-      "source_code": "BIO 1003"
-    },
-    {
-      "course_id": "BIO1004",
-      "section": "01",
-      "source_code": "BIO 1004"
-    },
-    {
-      "course_id": "BIO2005",
-      "section": "01",
-      "source_code": "BIO 2005"
-    },
-    {
-      "course_id": "BIO2006",
-      "section": "01",
-      "source_code": "BIO 2006"
-    },
-    {
-      "course_id": "BIO2007",
-      "section": "01",
-      "source_code": "BIO 2007"
-    },
-    {
-      "course_id": "BIO2008",
-      "section": "01",
-      "source_code": "BIO 2008"
-    },
-    {
-      "course_id": "BIO3001",
-      "section": "01",
-      "source_code": "BIO 3001"
-    },
-    {
-      "course_id": "BIO3002",
-      "section": "01",
-      "source_code": "BIO 3002"
-    },
-    {
-      "course_id": "BIO3004",
-      "section": "01",
-      "source_code": "BIO 3004"
-    },
-    {
-      "course_id": "BIO3005",
-      "section": "01",
-      "source_code": "BIO 3005"
-    },
-    {
-      "course_id": "BIO3008",
-      "section": "01",
-      "source_code": "BIO 3008"
-    },
-    {
-      "course_id": "BIO3009",
-      "section": "01",
-      "source_code": "BIO 3009"
-    },
-    {
-      "course_id": "BIO3010",
-      "section": "01",
-      "source_code": "BIO 3010"
-    },
-    {
-      "course_id": "BIO3011",
-      "section": "01",
-      "source_code": "BIO 3011"
-    },
-    {
-      "course_id": "BIO3012",
-      "section": "01",
-      "source_code": "BIO 3012"
-    },
-    {
-      "course_id": "BIO3017",
-      "section": "01",
-      "source_code": "BIO 3017"
-    },
-    {
-      "course_id": "BIO3019",
-      "section": "01",
-      "source_code": "BIO 3019"
-    },
-    {
-      "course_id": "BIO3090",
-      "section": "01",
-      "source_code": "BIO 3090"
-    },
-    {
-      "course_id": "BIO4001",
-      "section": "01",
-      "source_code": "BIO 4001"
-    },
-    {
-      "course_id": "BIO4002",
-      "section": "01",
-      "source_code": "BIO 4002"
-    },
-    {
-      "course_id": "BIO4005",
-      "section": "01",
-      "source_code": "BIO 4005"
-    },
-    {
-      "course_id": "BIO4007",
-      "section": "01",
-      "source_code": "BIO 4007"
-    },
-    {
-      "course_id": "BIO4008",
-      "section": "01",
-      "source_code": "BIO 4008"
-    },
-    {
-      "course_id": "BIO4012",
-      "section": "01",
-      "source_code": "BIO 4012"
-    },
-    {
-      "course_id": "BIO4013",
-      "section": "01",
-      "source_code": "BIO 4013"
-    },
-    {
-      "course_id": "BIO4014",
-      "section": "01",
-      "source_code": "BIO 4014"
-    },
-    {
-      "course_id": "BIO4020",
-      "section": "01",
-      "source_code": "BIO 4020"
-    },
-    {
-      "course_id": "CHE1003",
-      "section": "01",
-      "source_code": "CHE 1003"
-    },
-    {
-      "course_id": "CHE1004",
-      "section": "01",
-      "source_code": "CHE 1004"
-    },
-    {
-      "course_id": "CHE1020",
-      "section": "01",
-      "source_code": "CHE 1020"
-    },
-    {
-      "course_id": "CHE2001",
-      "section": "01",
-      "source_code": "CHE 2001"
-    },
-    {
-      "course_id": "CHE2003",
-      "section": "01",
-      "source_code": "CHE 2003"
-    },
-    {
-      "course_id": "CHE2004",
-      "section": "01",
-      "source_code": "CHE 2004"
-    },
-    {
-      "course_id": "CHE2005",
-      "section": "01",
-      "source_code": "CHE 2005"
-    },
-    {
-      "course_id": "CHE2055",
-      "section": "01",
-      "source_code": "CHE 2055"
-    },
-    {
-      "course_id": "CHE3000",
-      "section": "01",
-      "source_code": "CHE 3000"
-    },
-    {
-      "course_id": "CHE3001",
-      "section": "01",
-      "source_code": "CHE 3001"
-    },
-    {
-      "course_id": "CHE3003",
-      "section": "01",
-      "source_code": "CHE 3003"
-    },
-    {
-      "course_id": "CHE3004",
-      "section": "01",
-      "source_code": "CHE 3004"
-    },
-    {
-      "course_id": "CHE3005",
-      "section": "01",
-      "source_code": "CHE 3005"
-    },
-    {
-      "course_id": "CHE3010",
-      "section": "01",
-      "source_code": "CHE 3010"
-    },
-    {
-      "course_id": "CHE3011",
-      "section": "01",
-      "source_code": "CHE 3011"
-    },
-    {
-      "course_id": "CHE3013",
-      "section": "01",
-      "source_code": "CHE 3013"
-    },
-    {
-      "course_id": "CHE3090",
-      "section": "01",
-      "source_code": "CHE 3090"
-    },
-    {
-      "course_id": "CHE4002",
-      "section": "01",
-      "source_code": "CHE 4002"
-    },
-    {
-      "course_id": "CHE4003",
-      "section": "01",
-      "source_code": "CHE 4003"
-    },
-    {
-      "course_id": "CHE4095",
-      "section": "01",
-      "source_code": "CHE 4095"
-    },
-    {
-      "course_id": "PHY1003",
-      "section": "01",
-      "source_code": "PHY 1003"
-    },
-    {
-      "course_id": "PHY1004",
-      "section": "01",
-      "source_code": "PHY 1004"
-    },
-    {
-      "course_id": "PHY1005",
-      "section": "01",
-      "source_code": "PHY 1005"
-    },
-    {
-      "course_id": "PHY1006",
-      "section": "01",
-      "source_code": "PHY 1006"
-    },
-    {
-      "course_id": "HSC1030",
-      "section": "01",
-      "source_code": "HSC 1030"
-    },
-    {
-      "course_id": "HSC1040",
-      "section": "01",
-      "source_code": "HSC 1040"
-    },
-    {
-      "course_id": "HSC1060",
-      "section": "01",
-      "source_code": "HSC 1060"
-    },
-    {
-      "course_id": "HSC2007",
-      "section": "01",
-      "source_code": "HSC 2007"
-    },
-    {
-      "course_id": "HSC2020",
-      "section": "01",
-      "source_code": "HSC 2020"
-    },
-    {
-      "course_id": "HSC2046",
-      "section": "01",
-      "source_code": "HSC 2046"
-    },
-    {
-      "course_id": "HSC2050",
-      "section": "01",
-      "source_code": "HSC 2050"
-    },
-    {
-      "course_id": "HSC2055",
-      "section": "01",
-      "source_code": "HSC 2055"
-    },
-    {
-      "course_id": "HSC3008",
-      "section": "01",
-      "source_code": "HSC 3008"
-    },
-    {
-      "course_id": "HSC3013",
-      "section": "01",
-      "source_code": "HSC 3013"
-    },
-    {
-      "course_id": "HSC3015",
-      "section": "01",
-      "source_code": "HSC 3015"
-    },
-    {
-      "course_id": "HSC3025",
-      "section": "01",
-      "source_code": "HSC 3025"
-    },
-    {
-      "course_id": "HSC3027",
-      "section": "01",
-      "source_code": "HSC 3027"
-    },
-    {
-      "course_id": "HSC3080",
-      "section": "01",
-      "source_code": "HSC 3080"
-    },
-    {
-      "course_id": "HSC3097",
-      "section": "01",
-      "source_code": "HSC 3097"
-    },
-    {
-      "course_id": "HSC3099",
-      "section": "01",
-      "source_code": "HSC 3099"
-    },
-    {
-      "course_id": "HSC4001",
-      "section": "01",
-      "source_code": "HSC 4001"
-    },
-    {
-      "course_id": "HSC4007",
-      "section": "01",
-      "source_code": "HSC 4007"
-    },
-    {
-      "course_id": "HSC4010",
-      "section": "01",
-      "source_code": "HSC 4010"
-    },
-    {
-      "course_id": "HSC4012",
-      "section": "01",
-      "source_code": "HSC 4012"
-    },
-    {
-      "course_id": "HSC4013",
-      "section": "01",
-      "source_code": "HSC 4013"
-    },
-    {
-      "course_id": "HSC4014",
-      "section": "01",
-      "source_code": "HSC 4014"
-    },
-    {
-      "course_id": "HSC4015",
-      "section": "01",
-      "source_code": "HSC 4015"
-    },
-    {
-      "course_id": "ACC2005",
-      "section": "01",
-      "source_code": "ACC 2005"
-    },
-    {
-      "course_id": "ACC3031",
-      "section": "01",
-      "source_code": "ACC 3031"
-    },
-    {
-      "course_id": "ACC3032",
-      "section": "01",
-      "source_code": "ACC 3032"
-    },
-    {
-      "course_id": "ACC3038",
-      "section": "01",
-      "source_code": "ACC 3038"
-    },
-    {
-      "course_id": "ACC3040",
-      "section": "01",
-      "source_code": "ACC 3040"
-    },
-    {
-      "course_id": "ACC3051",
-      "section": "01",
-      "source_code": "ACC 3051"
-    },
-    {
-      "course_id": "ACC4031",
-      "section": "01",
-      "source_code": "ACC 4031"
-    },
-    {
-      "course_id": "ACC4041",
-      "section": "01",
-      "source_code": "ACC 4041"
-    },
-    {
-      "course_id": "ACC4050",
-      "section": "01",
-      "source_code": "ACC 4050"
-    },
-    {
-      "course_id": "BES1010",
-      "section": "01",
-      "source_code": "BES 1010"
-    },
-    {
-      "course_id": "BES1014",
-      "section": "01",
-      "source_code": "BES 1014"
-    },
-    {
-      "course_id": "BES4059",
-      "section": "01",
-      "source_code": "BES 4059"
-    },
-    {
-      "course_id": "BUS1001",
-      "section": "01",
-      "source_code": "BUS 1001"
-    },
-    {
-      "course_id": "BUS3034",
-      "section": "01",
-      "source_code": "BUS 3034"
-    },
-    {
-      "course_id": "BUS3036",
-      "section": "01",
-      "source_code": "BUS 3036"
-    },
-    {
-      "course_id": "BUS4041",
-      "section": "01",
-      "source_code": "BUS 4041"
-    },
-    {
-      "course_id": "ECO2003",
-      "section": "01",
-      "source_code": "ECO 2003"
-    },
-    {
-      "course_id": "ECO3010",
-      "section": "01",
-      "source_code": "ECO 3010"
-    },
-    {
-      "course_id": "ECO3013",
-      "section": "01",
-      "source_code": "ECO 3013"
-    },
-    {
-      "course_id": "ECO3015",
-      "section": "01",
-      "source_code": "ECO 3015"
-    },
-    {
-      "course_id": "ECO3020",
-      "section": "01",
-      "source_code": "ECO 3020"
-    },
-    {
-      "course_id": "ECO3036",
-      "section": "01",
-      "source_code": "ECO 3036"
-    },
-    {
-      "course_id": "ETP1051",
-      "section": "01",
-      "source_code": "ETP 1051"
-    },
-    {
-      "course_id": "ETP2020",
-      "section": "01",
-      "source_code": "ETP 2020"
-    },
-    {
-      "course_id": "ETP4059",
-      "section": "01",
-      "source_code": "ETP 4059"
-    },
-    {
-      "course_id": "FIN1001",
-      "section": "01",
-      "source_code": "FIN 1001"
-    },
-    {
-      "course_id": "FIN3013",
-      "section": "01",
-      "source_code": "FIN 3013"
-    },
-    {
-      "course_id": "FIN3041",
-      "section": "01",
-      "source_code": "FIN 3041"
-    },
-    {
-      "course_id": "FIN3042",
-      "section": "01",
-      "source_code": "FIN 3042"
-    },
-    {
-      "course_id": "FIN3047",
-      "section": "01",
-      "source_code": "FIN 3047"
-    },
-    {
-      "course_id": "FIN3050",
-      "section": "01",
-      "source_code": "FIN 3050"
-    },
-    {
-      "course_id": "FIN4047",
-      "section": "01",
-      "source_code": "FIN 4047"
-    },
-    {
-      "course_id": "FIN4053",
-      "section": "01",
-      "source_code": "FIN 4053"
-    },
-    {
-      "course_id": "FIN4055",
-      "section": "01",
-      "source_code": "FIN 4055"
-    },
-    {
-      "course_id": "INF2010",
-      "section": "01",
-      "source_code": "INF 2010"
-    },
-    {
-      "course_id": "INF3030",
-      "section": "01",
-      "source_code": "INF 3030"
-    },
-    {
-      "course_id": "INF3045",
-      "section": "01",
-      "source_code": "INF 3045"
-    },
-    {
-      "course_id": "INF3049",
-      "section": "01",
-      "source_code": "INF 3049"
-    },
-    {
-      "course_id": "INF3054",
-      "section": "01",
-      "source_code": "INF 3054"
-    },
-    {
-      "course_id": "INF4020",
-      "section": "01",
-      "source_code": "INF 4020"
-    },
-    {
-      "course_id": "INF4040",
-      "section": "01",
-      "source_code": "INF 4040"
-    },
-    {
-      "course_id": "MGT3006",
-      "section": "01",
-      "source_code": "MGT 3006"
-    },
-    {
-      "course_id": "MGT3035",
-      "section": "01",
-      "source_code": "MGT 3035"
-    },
-    {
-      "course_id": "MGT3050",
-      "section": "01",
-      "source_code": "MGT 3050"
-    },
-    {
-      "course_id": "MGT4035",
-      "section": "01",
-      "source_code": "MGT 4035"
-    },
-    {
-      "course_id": "MGT4037",
-      "section": "01",
-      "source_code": "MGT 4037"
-    },
-    {
-      "course_id": "MKT3037",
-      "section": "01",
-      "source_code": "MKT 3037"
-    },
-    {
-      "course_id": "SPM2001",
-      "section": "01",
-      "source_code": "SPM 2001"
-    },
-    {
-      "course_id": "SPM2005",
-      "section": "01",
-      "source_code": "SPM 2005"
-    },
-    {
-      "course_id": "SOC1001",
-      "section": "01",
-      "source_code": "SOC 1001"
-    },
-    {
-      "course_id": "SOC3005",
-      "section": "01",
-      "source_code": "SOC 3005"
-    },
-    {
-      "course_id": "SOC3006",
-      "section": "01",
-      "source_code": "SOC 3006"
-    },
-    {
-      "course_id": "SOC4010",
-      "section": "01",
-      "source_code": "SOC 4010"
-    },
-    {
-      "course_id": "SOC2009",
-      "section": "01",
-      "source_code": "SOC 2009"
-    },
-    {
-      "course_id": "SOC2015",
-      "section": "01",
-      "source_code": "SOC 2015"
-    },
-    {
-      "course_id": "SOC3011",
-      "section": "01",
-      "source_code": "SOC 3011"
-    },
-    {
-      "course_id": "SOC3019",
-      "section": "01",
-      "source_code": "SOC 3019"
-    },
-    {
-      "course_id": "SOC3034",
-      "section": "01",
-      "source_code": "SOC 3034"
-    },
-    {
-      "course_id": "ANT2001",
-      "section": "01",
-      "source_code": "ANT 2001"
-    },
-    {
-      "course_id": "ANT2005",
-      "section": "01",
-      "source_code": "ANT 2005"
-    },
-    {
-      "course_id": "ANT2008",
-      "section": "01",
-      "source_code": "ANT 2008"
-    },
-    {
-      "course_id": "ANT3003",
-      "section": "01",
-      "source_code": "ANT 3003"
-    },
-    {
-      "course_id": "ANT3021",
-      "section": "01",
-      "source_code": "ANT 3021"
-    },
-    {
-      "course_id": "ANT3054",
-      "section": "01",
-      "source_code": "ANT 3054"
-    },
-    {
-      "course_id": "ANT4095",
-      "section": "01",
-      "source_code": "ANT 4095"
-    },
-    {
-      "course_id": "CRJ2003",
-      "section": "01",
-      "source_code": "CRJ 2003"
-    },
-    {
-      "course_id": "CRJ2007",
-      "section": "01",
-      "source_code": "CRJ 2007"
-    },
-    {
-      "course_id": "CRJ3001",
-      "section": "01",
-      "source_code": "CRJ 3001"
-    },
-    {
-      "course_id": "CRJ3014",
-      "section": "01",
-      "source_code": "CRJ 3014"
-    },
-    {
-      "course_id": "CRJ3015",
-      "section": "01",
-      "source_code": "CRJ 3015"
-    },
-    {
-      "course_id": "CRJ3020",
-      "section": "01",
-      "source_code": "CRJ 3020"
-    },
-    {
-      "course_id": "CRJ3022",
-      "section": "01",
-      "source_code": "CRJ 3022"
-    },
-    {
-      "course_id": "CRJ3023",
-      "section": "01",
-      "source_code": "CRJ 3023"
-    },
-    {
-      "course_id": "CRJ3045",
-      "section": "01",
-      "source_code": "CRJ 3045"
-    },
-    {
-      "course_id": "CRJ3046",
-      "section": "01",
-      "source_code": "CRJ 3046"
-    },
-    {
-      "course_id": "CRJ3048",
-      "section": "01",
-      "source_code": "CRJ 3048"
-    },
-    {
-      "course_id": "CRJ3049",
-      "section": "01",
-      "source_code": "CRJ 3049"
-    },
-    {
-      "course_id": "CRJ3052",
-      "section": "01",
-      "source_code": "CRJ 3052"
-    },
-    {
-      "course_id": "CRJ4095",
-      "section": "01",
-      "source_code": "CRJ 4095"
-    },
-    {
-      "course_id": "PSY1001",
-      "section": "01",
-      "source_code": "PSY 1001"
-    },
-    {
-      "course_id": "PSY2006",
-      "section": "01",
-      "source_code": "PSY 2006"
-    },
-    {
-      "course_id": "PSY2014",
-      "section": "01",
-      "source_code": "PSY 2014"
-    },
-    {
-      "course_id": "PSY3001",
-      "section": "01",
-      "source_code": "PSY 3001"
-    },
-    {
-      "course_id": "PSY3012",
-      "section": "01",
-      "source_code": "PSY 3012"
-    },
-    {
-      "course_id": "PSY3024",
-      "section": "01",
-      "source_code": "PSY 3024"
-    },
-    {
-      "course_id": "HUS2043",
-      "section": "01",
-      "source_code": "HUS 2043"
-    },
-    {
-      "course_id": "HUS2045",
-      "section": "01",
-      "source_code": "HUS 2045"
-    },
-    {
-      "course_id": "HUS3012",
-      "section": "01",
-      "source_code": "HUS 3012"
-    },
-    {
-      "course_id": "POL1001",
-      "section": "01",
-      "source_code": "POL 1001"
-    },
-    {
-      "course_id": "POL3010",
-      "section": "01",
-      "source_code": "POL 3010"
-    },
-    {
-      "course_id": "POL4001",
-      "section": "01",
-      "source_code": "POL 4001"
-    },
-    {
-      "course_id": "PHL1011",
-      "section": "01",
-      "source_code": "PHL 1011"
-    },
-    {
-      "course_id": "PHL2015",
-      "section": "01",
-      "source_code": "PHL 2015"
-    },
-    {
-      "course_id": "PHL3003",
-      "section": "01",
-      "source_code": "PHL 3003"
-    },
-    {
-      "course_id": "HIS1003",
-      "section": "01",
-      "source_code": "HIS 1003"
-    },
-    {
-      "course_id": "REL2000",
-      "section": "01",
-      "source_code": "REL 2000"
-    },
-    {
-      "course_id": "ENG3014",
-      "section": "01",
-      "source_code": "ENG 3014"
-    },
-    {
-      "course_id": "ENS1000",
-      "section": "01",
-      "source_code": "ENS 1000"
-    },
-    {
-      "course_id": "GSC1011",
-      "section": "01",
-      "source_code": "GSC 1011"
-    },
-    {
-      "course_id": "GSC2000",
-      "section": "01",
-      "source_code": "GSC 2000"
-    }
-  ]
-}
+[
+  {
+    "course_id": "ENG-1001",
+    "section": "01",
+    "source_code": "ENG 1001"
+  },
+  {
+    "course_id": "ENG-1002",
+    "section": "01",
+    "source_code": "ENG 1002"
+  },
+  {
+    "course_id": "MAT-1001",
+    "section": "01",
+    "source_code": "MAT 1001"
+  },
+  {
+    "course_id": "MAT-1002",
+    "section": "01",
+    "source_code": "MAT 1002"
+  },
+  {
+    "course_id": "MAT-1006",
+    "section": "01",
+    "source_code": "MAT 1006"
+  },
+  {
+    "course_id": "MAT-1010",
+    "section": "01",
+    "source_code": "MAT 1010"
+  },
+  {
+    "course_id": "MAT-1011",
+    "section": "01",
+    "source_code": "MAT 1011"
+  },
+  {
+    "course_id": "MAT-1014",
+    "section": "01",
+    "source_code": "MAT 1014"
+  },
+  {
+    "course_id": "MAT-1020",
+    "section": "01",
+    "source_code": "MAT 1020"
+  },
+  {
+    "course_id": "MAT-1021",
+    "section": "01",
+    "source_code": "MAT 1021"
+  },
+  {
+    "course_id": "MAT-1022",
+    "section": "01",
+    "source_code": "MAT 1022"
+  },
+  {
+    "course_id": "MAT-2013",
+    "section": "01",
+    "source_code": "MAT 2013"
+  },
+  {
+    "course_id": "MAT-2021",
+    "section": "01",
+    "source_code": "MAT 2021"
+  },
+  {
+    "course_id": "CSC-1051",
+    "section": "01",
+    "source_code": "CSC 1051"
+  },
+  {
+    "course_id": "CSC-1052",
+    "section": "01",
+    "source_code": "CSC 1052"
+  },
+  {
+    "course_id": "CSC-1058",
+    "section": "01",
+    "source_code": "CSC 1058"
+  },
+  {
+    "course_id": "CSC-1059",
+    "section": "01",
+    "source_code": "CSC 1059"
+  },
+  {
+    "course_id": "CSC-2001",
+    "section": "01",
+    "source_code": "CSC 2001"
+  },
+  {
+    "course_id": "CSC-2054",
+    "section": "01",
+    "source_code": "CSC 2054"
+  },
+  {
+    "course_id": "CSC-3002",
+    "section": "01",
+    "source_code": "CSC 3002"
+  },
+  {
+    "course_id": "CSC-3053",
+    "section": "01",
+    "source_code": "CSC 3053"
+  },
+  {
+    "course_id": "CSC-3054",
+    "section": "01",
+    "source_code": "CSC 3054"
+  },
+  {
+    "course_id": "CSC-3055",
+    "section": "01",
+    "source_code": "CSC 3055"
+  },
+  {
+    "course_id": "CSC-3056",
+    "section": "01",
+    "source_code": "CSC 3056"
+  },
+  {
+    "course_id": "CSC-3058",
+    "section": "01",
+    "source_code": "CSC 3058"
+  },
+  {
+    "course_id": "CSC-3059",
+    "section": "01",
+    "source_code": "CSC 3059"
+  },
+  {
+    "course_id": "CSC-3090",
+    "section": "01",
+    "source_code": "CSC 3090"
+  },
+  {
+    "course_id": "CSC-3095",
+    "section": "01",
+    "source_code": "CSC 3095"
+  },
+  {
+    "course_id": "CSC-3099",
+    "section": "01",
+    "source_code": "CSC 3099"
+  },
+  {
+    "course_id": "CSC-4053",
+    "section": "01",
+    "source_code": "CSC 4053"
+  },
+  {
+    "course_id": "CSC-4054",
+    "section": "01",
+    "source_code": "CSC 4054"
+  },
+  {
+    "course_id": "CSC-4057",
+    "section": "01",
+    "source_code": "CSC 4057"
+  },
+  {
+    "course_id": "CSC-4058",
+    "section": "01",
+    "source_code": "CSC 4058"
+  },
+  {
+    "course_id": "CSC-4091",
+    "section": "01",
+    "source_code": "CSC 4091"
+  },
+  {
+    "course_id": "CSC-4095",
+    "section": "01",
+    "source_code": "CSC 4095"
+  },
+  {
+    "course_id": "CSC-4098",
+    "section": "01",
+    "source_code": "CSC 4098"
+  },
+  {
+    "course_id": "BIO-1003",
+    "section": "01",
+    "source_code": "BIO 1003"
+  },
+  {
+    "course_id": "BIO-1004",
+    "section": "01",
+    "source_code": "BIO 1004"
+  },
+  {
+    "course_id": "BIO-2005",
+    "section": "01",
+    "source_code": "BIO 2005"
+  },
+  {
+    "course_id": "BIO-2006",
+    "section": "01",
+    "source_code": "BIO 2006"
+  },
+  {
+    "course_id": "BIO-2007",
+    "section": "01",
+    "source_code": "BIO 2007"
+  },
+  {
+    "course_id": "BIO-2008",
+    "section": "01",
+    "source_code": "BIO 2008"
+  },
+  {
+    "course_id": "BIO-3001",
+    "section": "01",
+    "source_code": "BIO 3001"
+  },
+  {
+    "course_id": "BIO-3002",
+    "section": "01",
+    "source_code": "BIO 3002"
+  },
+  {
+    "course_id": "BIO-3004",
+    "section": "01",
+    "source_code": "BIO 3004"
+  },
+  {
+    "course_id": "BIO-3005",
+    "section": "01",
+    "source_code": "BIO 3005"
+  },
+  {
+    "course_id": "BIO-3008",
+    "section": "01",
+    "source_code": "BIO 3008"
+  },
+  {
+    "course_id": "BIO-3009",
+    "section": "01",
+    "source_code": "BIO 3009"
+  },
+  {
+    "course_id": "BIO-3010",
+    "section": "01",
+    "source_code": "BIO 3010"
+  },
+  {
+    "course_id": "BIO-3011",
+    "section": "01",
+    "source_code": "BIO 3011"
+  },
+  {
+    "course_id": "BIO-3012",
+    "section": "01",
+    "source_code": "BIO 3012"
+  },
+  {
+    "course_id": "BIO-3017",
+    "section": "01",
+    "source_code": "BIO 3017"
+  },
+  {
+    "course_id": "BIO-3019",
+    "section": "01",
+    "source_code": "BIO 3019"
+  },
+  {
+    "course_id": "BIO-3090",
+    "section": "01",
+    "source_code": "BIO 3090"
+  },
+  {
+    "course_id": "BIO-4001",
+    "section": "01",
+    "source_code": "BIO 4001"
+  },
+  {
+    "course_id": "BIO-4002",
+    "section": "01",
+    "source_code": "BIO 4002"
+  },
+  {
+    "course_id": "BIO-4005",
+    "section": "01",
+    "source_code": "BIO 4005"
+  },
+  {
+    "course_id": "BIO-4007",
+    "section": "01",
+    "source_code": "BIO 4007"
+  },
+  {
+    "course_id": "BIO-4008",
+    "section": "01",
+    "source_code": "BIO 4008"
+  },
+  {
+    "course_id": "BIO-4012",
+    "section": "01",
+    "source_code": "BIO 4012"
+  },
+  {
+    "course_id": "BIO-4013",
+    "section": "01",
+    "source_code": "BIO 4013"
+  },
+  {
+    "course_id": "BIO-4014",
+    "section": "01",
+    "source_code": "BIO 4014"
+  },
+  {
+    "course_id": "BIO-4020",
+    "section": "01",
+    "source_code": "BIO 4020"
+  },
+  {
+    "course_id": "CHE-1003",
+    "section": "01",
+    "source_code": "CHE 1003"
+  },
+  {
+    "course_id": "CHE-1004",
+    "section": "01",
+    "source_code": "CHE 1004"
+  },
+  {
+    "course_id": "CHE-1020",
+    "section": "01",
+    "source_code": "CHE 1020"
+  },
+  {
+    "course_id": "CHE-2001",
+    "section": "01",
+    "source_code": "CHE 2001"
+  },
+  {
+    "course_id": "CHE-2003",
+    "section": "01",
+    "source_code": "CHE 2003"
+  },
+  {
+    "course_id": "CHE-2004",
+    "section": "01",
+    "source_code": "CHE 2004"
+  },
+  {
+    "course_id": "CHE-2005",
+    "section": "01",
+    "source_code": "CHE 2005"
+  },
+  {
+    "course_id": "CHE-2055",
+    "section": "01",
+    "source_code": "CHE 2055"
+  },
+  {
+    "course_id": "CHE-3000",
+    "section": "01",
+    "source_code": "CHE 3000"
+  },
+  {
+    "course_id": "CHE-3001",
+    "section": "01",
+    "source_code": "CHE 3001"
+  },
+  {
+    "course_id": "CHE-3003",
+    "section": "01",
+    "source_code": "CHE 3003"
+  },
+  {
+    "course_id": "CHE-3004",
+    "section": "01",
+    "source_code": "CHE 3004"
+  },
+  {
+    "course_id": "CHE-3005",
+    "section": "01",
+    "source_code": "CHE 3005"
+  },
+  {
+    "course_id": "CHE-3010",
+    "section": "01",
+    "source_code": "CHE 3010"
+  },
+  {
+    "course_id": "CHE-3011",
+    "section": "01",
+    "source_code": "CHE 3011"
+  },
+  {
+    "course_id": "CHE-3013",
+    "section": "01",
+    "source_code": "CHE 3013"
+  },
+  {
+    "course_id": "CHE-3090",
+    "section": "01",
+    "source_code": "CHE 3090"
+  },
+  {
+    "course_id": "CHE-4002",
+    "section": "01",
+    "source_code": "CHE 4002"
+  },
+  {
+    "course_id": "CHE-4003",
+    "section": "01",
+    "source_code": "CHE 4003"
+  },
+  {
+    "course_id": "CHE-4095",
+    "section": "01",
+    "source_code": "CHE 4095"
+  },
+  {
+    "course_id": "PHY-1003",
+    "section": "01",
+    "source_code": "PHY 1003"
+  },
+  {
+    "course_id": "PHY-1004",
+    "section": "01",
+    "source_code": "PHY 1004"
+  },
+  {
+    "course_id": "PHY-1005",
+    "section": "01",
+    "source_code": "PHY 1005"
+  },
+  {
+    "course_id": "PHY-1006",
+    "section": "01",
+    "source_code": "PHY 1006"
+  },
+  {
+    "course_id": "HSC-1030",
+    "section": "01",
+    "source_code": "HSC 1030"
+  },
+  {
+    "course_id": "HSC-1040",
+    "section": "01",
+    "source_code": "HSC 1040"
+  },
+  {
+    "course_id": "HSC-1060",
+    "section": "01",
+    "source_code": "HSC 1060"
+  },
+  {
+    "course_id": "HSC-2007",
+    "section": "01",
+    "source_code": "HSC 2007"
+  },
+  {
+    "course_id": "HSC-2020",
+    "section": "01",
+    "source_code": "HSC 2020"
+  },
+  {
+    "course_id": "HSC-2046",
+    "section": "01",
+    "source_code": "HSC 2046"
+  },
+  {
+    "course_id": "HSC-2050",
+    "section": "01",
+    "source_code": "HSC 2050"
+  },
+  {
+    "course_id": "HSC-2055",
+    "section": "01",
+    "source_code": "HSC 2055"
+  },
+  {
+    "course_id": "HSC-3008",
+    "section": "01",
+    "source_code": "HSC 3008"
+  },
+  {
+    "course_id": "HSC-3013",
+    "section": "01",
+    "source_code": "HSC 3013"
+  },
+  {
+    "course_id": "HSC-3015",
+    "section": "01",
+    "source_code": "HSC 3015"
+  },
+  {
+    "course_id": "HSC-3025",
+    "section": "01",
+    "source_code": "HSC 3025"
+  },
+  {
+    "course_id": "HSC-3027",
+    "section": "01",
+    "source_code": "HSC 3027"
+  },
+  {
+    "course_id": "HSC-3080",
+    "section": "01",
+    "source_code": "HSC 3080"
+  },
+  {
+    "course_id": "HSC-3097",
+    "section": "01",
+    "source_code": "HSC 3097"
+  },
+  {
+    "course_id": "HSC-3099",
+    "section": "01",
+    "source_code": "HSC 3099"
+  },
+  {
+    "course_id": "HSC-4001",
+    "section": "01",
+    "source_code": "HSC 4001"
+  },
+  {
+    "course_id": "HSC-4007",
+    "section": "01",
+    "source_code": "HSC 4007"
+  },
+  {
+    "course_id": "HSC-4010",
+    "section": "01",
+    "source_code": "HSC 4010"
+  },
+  {
+    "course_id": "HSC-4012",
+    "section": "01",
+    "source_code": "HSC 4012"
+  },
+  {
+    "course_id": "HSC-4013",
+    "section": "01",
+    "source_code": "HSC 4013"
+  },
+  {
+    "course_id": "HSC-4014",
+    "section": "01",
+    "source_code": "HSC 4014"
+  },
+  {
+    "course_id": "HSC-4015",
+    "section": "01",
+    "source_code": "HSC 4015"
+  },
+  {
+    "course_id": "ACC-2005",
+    "section": "01",
+    "source_code": "ACC 2005"
+  },
+  {
+    "course_id": "ACC-3031",
+    "section": "01",
+    "source_code": "ACC 3031"
+  },
+  {
+    "course_id": "ACC-3032",
+    "section": "01",
+    "source_code": "ACC 3032"
+  },
+  {
+    "course_id": "ACC-3038",
+    "section": "01",
+    "source_code": "ACC 3038"
+  },
+  {
+    "course_id": "ACC-3040",
+    "section": "01",
+    "source_code": "ACC 3040"
+  },
+  {
+    "course_id": "ACC-3051",
+    "section": "01",
+    "source_code": "ACC 3051"
+  },
+  {
+    "course_id": "ACC-4031",
+    "section": "01",
+    "source_code": "ACC 4031"
+  },
+  {
+    "course_id": "ACC-4041",
+    "section": "01",
+    "source_code": "ACC 4041"
+  },
+  {
+    "course_id": "ACC-4050",
+    "section": "01",
+    "source_code": "ACC 4050"
+  },
+  {
+    "course_id": "BES-1010",
+    "section": "01",
+    "source_code": "BES 1010"
+  },
+  {
+    "course_id": "BES-1014",
+    "section": "01",
+    "source_code": "BES 1014"
+  },
+  {
+    "course_id": "BES-4059",
+    "section": "01",
+    "source_code": "BES 4059"
+  },
+  {
+    "course_id": "BUS-1001",
+    "section": "01",
+    "source_code": "BUS 1001"
+  },
+  {
+    "course_id": "BUS-3034",
+    "section": "01",
+    "source_code": "BUS 3034"
+  },
+  {
+    "course_id": "BUS-3036",
+    "section": "01",
+    "source_code": "BUS 3036"
+  },
+  {
+    "course_id": "BUS-4041",
+    "section": "01",
+    "source_code": "BUS 4041"
+  },
+  {
+    "course_id": "ECO-2003",
+    "section": "01",
+    "source_code": "ECO 2003"
+  },
+  {
+    "course_id": "ECO-3010",
+    "section": "01",
+    "source_code": "ECO 3010"
+  },
+  {
+    "course_id": "ECO-3013",
+    "section": "01",
+    "source_code": "ECO 3013"
+  },
+  {
+    "course_id": "ECO-3015",
+    "section": "01",
+    "source_code": "ECO 3015"
+  },
+  {
+    "course_id": "ECO-3020",
+    "section": "01",
+    "source_code": "ECO 3020"
+  },
+  {
+    "course_id": "ECO-3036",
+    "section": "01",
+    "source_code": "ECO 3036"
+  },
+  {
+    "course_id": "ETP-1051",
+    "section": "01",
+    "source_code": "ETP 1051"
+  },
+  {
+    "course_id": "ETP-2020",
+    "section": "01",
+    "source_code": "ETP 2020"
+  },
+  {
+    "course_id": "ETP-4059",
+    "section": "01",
+    "source_code": "ETP 4059"
+  },
+  {
+    "course_id": "FIN-1001",
+    "section": "01",
+    "source_code": "FIN 1001"
+  },
+  {
+    "course_id": "FIN-3013",
+    "section": "01",
+    "source_code": "FIN 3013"
+  },
+  {
+    "course_id": "FIN-3041",
+    "section": "01",
+    "source_code": "FIN 3041"
+  },
+  {
+    "course_id": "FIN-3042",
+    "section": "01",
+    "source_code": "FIN 3042"
+  },
+  {
+    "course_id": "FIN-3047",
+    "section": "01",
+    "source_code": "FIN 3047"
+  },
+  {
+    "course_id": "FIN-3050",
+    "section": "01",
+    "source_code": "FIN 3050"
+  },
+  {
+    "course_id": "FIN-4047",
+    "section": "01",
+    "source_code": "FIN 4047"
+  },
+  {
+    "course_id": "FIN-4053",
+    "section": "01",
+    "source_code": "FIN 4053"
+  },
+  {
+    "course_id": "FIN-4055",
+    "section": "01",
+    "source_code": "FIN 4055"
+  },
+  {
+    "course_id": "INF-2010",
+    "section": "01",
+    "source_code": "INF 2010"
+  },
+  {
+    "course_id": "INF-3030",
+    "section": "01",
+    "source_code": "INF 3030"
+  },
+  {
+    "course_id": "INF-3045",
+    "section": "01",
+    "source_code": "INF 3045"
+  },
+  {
+    "course_id": "INF-3049",
+    "section": "01",
+    "source_code": "INF 3049"
+  },
+  {
+    "course_id": "INF-3054",
+    "section": "01",
+    "source_code": "INF 3054"
+  },
+  {
+    "course_id": "INF-4020",
+    "section": "01",
+    "source_code": "INF 4020"
+  },
+  {
+    "course_id": "INF-4040",
+    "section": "01",
+    "source_code": "INF 4040"
+  },
+  {
+    "course_id": "MGT-3006",
+    "section": "01",
+    "source_code": "MGT 3006"
+  },
+  {
+    "course_id": "MGT-3035",
+    "section": "01",
+    "source_code": "MGT 3035"
+  },
+  {
+    "course_id": "MGT-3050",
+    "section": "01",
+    "source_code": "MGT 3050"
+  },
+  {
+    "course_id": "MGT-4035",
+    "section": "01",
+    "source_code": "MGT 4035"
+  },
+  {
+    "course_id": "MGT-4037",
+    "section": "01",
+    "source_code": "MGT 4037"
+  },
+  {
+    "course_id": "MKT-3037",
+    "section": "01",
+    "source_code": "MKT 3037"
+  },
+  {
+    "course_id": "SPM-2001",
+    "section": "01",
+    "source_code": "SPM 2001"
+  },
+  {
+    "course_id": "SPM-2005",
+    "section": "01",
+    "source_code": "SPM 2005"
+  },
+  {
+    "course_id": "SOC-1001",
+    "section": "01",
+    "source_code": "SOC 1001"
+  },
+  {
+    "course_id": "SOC-3005",
+    "section": "01",
+    "source_code": "SOC 3005"
+  },
+  {
+    "course_id": "SOC-3006",
+    "section": "01",
+    "source_code": "SOC 3006"
+  },
+  {
+    "course_id": "SOC-4010",
+    "section": "01",
+    "source_code": "SOC 4010"
+  },
+  {
+    "course_id": "SOC-2009",
+    "section": "01",
+    "source_code": "SOC 2009"
+  },
+  {
+    "course_id": "SOC-2015",
+    "section": "01",
+    "source_code": "SOC 2015"
+  },
+  {
+    "course_id": "SOC-3011",
+    "section": "01",
+    "source_code": "SOC 3011"
+  },
+  {
+    "course_id": "SOC-3019",
+    "section": "01",
+    "source_code": "SOC 3019"
+  },
+  {
+    "course_id": "SOC-3034",
+    "section": "01",
+    "source_code": "SOC 3034"
+  },
+  {
+    "course_id": "ANT-2001",
+    "section": "01",
+    "source_code": "ANT 2001"
+  },
+  {
+    "course_id": "ANT-2005",
+    "section": "01",
+    "source_code": "ANT 2005"
+  },
+  {
+    "course_id": "ANT-2008",
+    "section": "01",
+    "source_code": "ANT 2008"
+  },
+  {
+    "course_id": "ANT-3003",
+    "section": "01",
+    "source_code": "ANT 3003"
+  },
+  {
+    "course_id": "ANT-3021",
+    "section": "01",
+    "source_code": "ANT 3021"
+  },
+  {
+    "course_id": "ANT-3054",
+    "section": "01",
+    "source_code": "ANT 3054"
+  },
+  {
+    "course_id": "ANT-4095",
+    "section": "01",
+    "source_code": "ANT 4095"
+  },
+  {
+    "course_id": "CRJ-2003",
+    "section": "01",
+    "source_code": "CRJ 2003"
+  },
+  {
+    "course_id": "CRJ-2007",
+    "section": "01",
+    "source_code": "CRJ 2007"
+  },
+  {
+    "course_id": "CRJ-3001",
+    "section": "01",
+    "source_code": "CRJ 3001"
+  },
+  {
+    "course_id": "CRJ-3014",
+    "section": "01",
+    "source_code": "CRJ 3014"
+  },
+  {
+    "course_id": "CRJ-3015",
+    "section": "01",
+    "source_code": "CRJ 3015"
+  },
+  {
+    "course_id": "CRJ-3020",
+    "section": "01",
+    "source_code": "CRJ 3020"
+  },
+  {
+    "course_id": "CRJ-3022",
+    "section": "01",
+    "source_code": "CRJ 3022"
+  },
+  {
+    "course_id": "CRJ-3023",
+    "section": "01",
+    "source_code": "CRJ 3023"
+  },
+  {
+    "course_id": "CRJ-3045",
+    "section": "01",
+    "source_code": "CRJ 3045"
+  },
+  {
+    "course_id": "CRJ-3046",
+    "section": "01",
+    "source_code": "CRJ 3046"
+  },
+  {
+    "course_id": "CRJ-3048",
+    "section": "01",
+    "source_code": "CRJ 3048"
+  },
+  {
+    "course_id": "CRJ-3049",
+    "section": "01",
+    "source_code": "CRJ 3049"
+  },
+  {
+    "course_id": "CRJ-3052",
+    "section": "01",
+    "source_code": "CRJ 3052"
+  },
+  {
+    "course_id": "CRJ-4095",
+    "section": "01",
+    "source_code": "CRJ 4095"
+  },
+  {
+    "course_id": "PSY-1001",
+    "section": "01",
+    "source_code": "PSY 1001"
+  },
+  {
+    "course_id": "PSY-2006",
+    "section": "01",
+    "source_code": "PSY 2006"
+  },
+  {
+    "course_id": "PSY-2014",
+    "section": "01",
+    "source_code": "PSY 2014"
+  },
+  {
+    "course_id": "PSY-3001",
+    "section": "01",
+    "source_code": "PSY 3001"
+  },
+  {
+    "course_id": "PSY-3012",
+    "section": "01",
+    "source_code": "PSY 3012"
+  },
+  {
+    "course_id": "PSY-3024",
+    "section": "01",
+    "source_code": "PSY 3024"
+  },
+  {
+    "course_id": "HUS-2043",
+    "section": "01",
+    "source_code": "HUS 2043"
+  },
+  {
+    "course_id": "HUS-2045",
+    "section": "01",
+    "source_code": "HUS 2045"
+  },
+  {
+    "course_id": "HUS-3012",
+    "section": "01",
+    "source_code": "HUS 3012"
+  },
+  {
+    "course_id": "POL-1001",
+    "section": "01",
+    "source_code": "POL 1001"
+  },
+  {
+    "course_id": "POL-3010",
+    "section": "01",
+    "source_code": "POL 3010"
+  },
+  {
+    "course_id": "POL-4001",
+    "section": "01",
+    "source_code": "POL 4001"
+  },
+  {
+    "course_id": "PHL-1011",
+    "section": "01",
+    "source_code": "PHL 1011"
+  },
+  {
+    "course_id": "PHL-2015",
+    "section": "01",
+    "source_code": "PHL 2015"
+  },
+  {
+    "course_id": "PHL-3003",
+    "section": "01",
+    "source_code": "PHL 3003"
+  },
+  {
+    "course_id": "HIS-1003",
+    "section": "01",
+    "source_code": "HIS 1003"
+  },
+  {
+    "course_id": "REL-2000",
+    "section": "01",
+    "source_code": "REL 2000"
+  },
+  {
+    "course_id": "ENG-3014",
+    "section": "01",
+    "source_code": "ENG 3014"
+  },
+  {
+    "course_id": "ENS-1000",
+    "section": "01",
+    "source_code": "ENS 1000"
+  },
+  {
+    "course_id": "GSC-1011",
+    "section": "01",
+    "source_code": "GSC 1011"
+  },
+  {
+    "course_id": "GSC-2000",
+    "section": "01",
+    "source_code": "GSC 2000"
+  }
+]
