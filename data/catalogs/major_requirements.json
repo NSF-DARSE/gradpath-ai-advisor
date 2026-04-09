@@ -15,10 +15,9 @@
     "degree": "BS/BA",
     "required_courses": [
       "ENG-1001", "ENG-1002", "MAT-1010",
-      "BIO-1003", "BIO-1003L", "BIO-1004", "BIO-1004L",
-      "BIO-2007", "BIO-2007L", "BIO-2008", "BIO-2008L",
-      "CHE-1003", "CHE-1003L", "CHE-1004", "CHE-1004L",
-      "CHE-2003", "CHE-2004",
+      "BIO-1003", "BIO-1004",
+      "BIO-2007", "BIO-2008",
+      "CHE-1003", "CHE-1004", "CHE-2003", "CHE-2004",
       "MAT-1014", "PHY-1005", "PHY-1006"
     ]
   },
@@ -46,6 +45,40 @@
       "PHY-1005", "PHY-1006"
     ]
   },
+  "FORENSIC": {
+    "name": "Chemistry: Forensic Science Concentration",
+    "degree": "BS",
+    "required_courses": [
+      "ENG-1001", "ENG-1002", "MAT-1014",
+      "BIO-1003", "BIO-1004", "BIO-2008", "BIO-3005",
+      "CHE-1003", "CHE-1004", "CHE-2001", "CHE-2003",
+      "CHE-2004", "CHE-2005", "CHE-3000", "CHE-3003",
+      "CHE-3004", "CHE-3005", "CHE-3010", "CHE-4002",
+      "CRJ-2003", "CRJ-3015", "CRJ-3022"
+    ]
+  },
+  "ENV": {
+    "name": "Environmental Science",
+    "degree": "BS/BA",
+    "required_courses": [
+      "ENG-1001", "ENG-1002", "MAT-1014", "MAT-1021",
+      "BIO-1003", "BIO-1004", "BIO-3005", "BIO-3009",
+      "BIO-3010", "BIO-3012", "BIO-4001", "BIO-4020",
+      "CHE-1003", "CHE-1004",
+      "GSC-1011", "GSC-2000"
+    ]
+  },
+  "PHY": {
+    "name": "Physics",
+    "degree": "BS/BA",
+    "required_courses": [
+      "ENG-1001", "ENG-1002",
+      "MAT-1021", "MAT-1022", "MAT-2021", "MAT-2022",
+      "PHY-1005", "PHY-1006",
+      "PHY-2021", "PHY-2051", "PHY-2071", "PHY-2091",
+      "PHY-3041", "PHY-3042", "PHY-3091", "PHY-4051"
+    ]
+  },
   "HSC": {
     "name": "Health Science",
     "degree": "BS/BA",
@@ -58,14 +91,138 @@
       "HSC-3080", "HSC-3097", "HSC-3099"
     ]
   },
+  "COM": {
+    "name": "Communication",
+    "degree": "BS/BA",
+    "required_courses": [
+      "ENG-1001", "ENG-1002",
+      "COM-2001", "COM-2002", "COM-2005", "COM-2007",
+      "COM-3000", "COM-3002", "COM-3031", "COM-3032", "COM-3033", "COM-3044",
+      "COM-4001", "COM-4002", "COM-4004", "COM-4005", "COM-4016"
+    ]
+  },
+  "MAT": {
+    "name": "Mathematics",
+    "degree": "BS/BA",
+    "required_courses": [
+      "ENG-1001", "ENG-1002",
+      "CSC-1058", "CSC-1059",
+      "MAT-1021", "MAT-1022", "MAT-2013", "MAT-2021", "MAT-2022",
+      "MAT-3025", "MAT-3041", "MAT-4021"
+    ]
+  },
+  "HIS": {
+    "name": "History",
+    "degree": "BS/BA",
+    "required_courses": [
+      "ENG-1001", "ENG-1002",
+      "HIS-1001", "HIS-1002", "HIS-1005", "HIS-1006",
+      "HIS-2005", "HIS-2006",
+      "HIS-3001", "HIS-3007", "HIS-3008", "HIS-3010", "HIS-3013", "HIS-3017", "HIS-3018",
+      "HIS-4001", "HIS-4002"
+    ]
+  },
+  "PHL": {
+    "name": "Philosophy",
+    "degree": "BS/BA",
+    "required_courses": [
+      "ENG-1001", "ENG-1002",
+      "PHL-2001", "PHL-2002", "PHL-2015", "PHL-2017", "PHL-2018", "PHL-2019",
+      "PHL-3001", "PHL-4001", "PHL-4011"
+    ]
+  },
+  "MUS": {
+    "name": "Music",
+    "degree": "BA",
+    "required_courses": [
+      "MUS-1005", "MUS-1006", "MUS-1007", "MUS-1008",
+      "MUS-2003", "MUS-2004", "MUS-2005", "MUS-2006",
+      "MUS-2020", "MUS-2026", "MUS-2027",
+      "MUS-3003", "MUS-3021",
+      "MUS-4007", "MUS-4008", "MUS-4009", "MUS-4021"
+    ]
+  },
+  "PAS": {
+    "name": "Pan-Africana Studies",
+    "degree": "BS/BA",
+    "required_courses": [
+      "ENG-1001", "ENG-1002",
+      "PAS-1001", "PAS-1003", "PAS-1092",
+      "PAS-2001", "PAS-2005", "PAS-2006",
+      "PAS-3009", "PAS-4011", "PAS-4012"
+    ]
+  },
+  "POL": {
+    "name": "Political Science",
+    "degree": "BS/BA",
+    "required_courses": [
+      "ENG-1001", "ENG-1002",
+      "POL-1001", "POL-1002",
+      "POL-2002", "POL-2004", "POL-2005",
+      "POL-3000", "POL-3001", "POL-3003", "POL-3004", "POL-3011", "POL-3013",
+      "POL-4001", "POL-4080", "POL-4082", "POL-4090"
+    ]
+  },
+  "PSY": {
+    "name": "Psychology",
+    "degree": "BS/BA",
+    "required_courses": [
+      "ENG-1001", "ENG-1002",
+      "PSY-1001", "PSY-2006", "PSY-2008", "PSY-2014",
+      "PSY-3001", "PSY-3006", "PSY-3012", "PSY-3013", "PSY-3018", "PSY-3019", "PSY-3024",
+      "PSY-4003", "PSY-4004",
+      "PHL-2015"
+    ]
+  },
+  "HUS": {
+    "name": "Human Services",
+    "degree": "BS/BA",
+    "required_courses": [
+      "ENG-1001", "ENG-1002",
+      "PSY-1001", "SOC-1001",
+      "HUS-2043", "HUS-2045", "HUS-3007", "HUS-3012", "HUS-3019", "HUS-4041",
+      "ANT-2001", "SOC-2009", "SOC-3018",
+      "HSC-1060", "PHL-1011", "PHL-2015"
+    ]
+  },
+  "ART": {
+    "name": "Visual Arts",
+    "degree": "BS/BA",
+    "required_courses": [
+      "ENG-1001", "ENG-1002",
+      "ART-1000", "ART-1001", "ART-1002", "ART-1005",
+      "ARH-2011", "ARH-2012", "ARH-2076",
+      "MSM-2010", "MSM-2018",
+      "ART-3095", "ART-4090", "ART-4091"
+    ]
+  },
+  "SOC": {
+    "name": "Sociology",
+    "degree": "BS/BA",
+    "required_courses": [
+      "ENG-1001", "ENG-1002",
+      "SOC-1001", "ANT-2001", "ANT-2005",
+      "SOC-3005", "SOC-3006", "SOC-3011", "SOC-3018", "SOC-4010"
+    ]
+  },
+  "ENG": {
+    "name": "English Liberal Arts",
+    "degree": "BA",
+    "required_courses": [
+      "ENG-1001", "ENG-1002",
+      "ENG-2014", "ENG-3019", "ENG-3020",
+      "ENG-4013", "ENG-4014",
+      "PHL-2017", "POL-3010"
+    ]
+  },
   "ACC": {
     "name": "Accounting",
     "degree": "BS/BA",
     "required_courses": [
       "ENG-1001", "ENG-1002", "MAT-1014",
-      "ECO-2003", "ECO-2002",
-      "ACC-2003", "ACC-2005", "ACC-3032", "ACC-3033",
-      "ACC-3038", "ACC-3040", "ACC-4031", "ACC-4032",
+      "ECO-2003",
+      "ACC-2005", "ACC-3031", "ACC-3032",
+      "ACC-3038", "ACC-3040", "ACC-3051", "ACC-4031",
       "BES-1014", "BES-4059",
       "MGT-3035", "FIN-3041", "MKT-3037"
     ]
@@ -75,10 +232,10 @@
     "degree": "BS/BA",
     "required_courses": [
       "ENG-1001", "ENG-1002", "MAT-1014",
-      "ECO-2003", "ECO-2002",
-      "ACC-2003", "ACC-2005",
-      "FIN-2041", "FIN-3041", "FIN-3043", "FIN-3045",
-      "FIN-4041", "FIN-4043",
+      "ECO-2003",
+      "ACC-2005",
+      "FIN-3041", "FIN-3042", "FIN-3047", "FIN-3050",
+      "FIN-4047", "FIN-4053",
       "BES-1014", "BES-4059",
       "MGT-3035", "MKT-3037"
     ]
@@ -88,12 +245,11 @@
     "degree": "BS/BA",
     "required_courses": [
       "ENG-1001", "ENG-1002", "MAT-1014",
-      "ECO-2003", "ECO-2002",
-      "ACC-2003", "ACC-2005",
+      "ECO-2003",
+      "ACC-2005",
       "MGT-3035", "MGT-3050", "MGT-4035", "MGT-4037",
       "BES-1014", "BES-4059",
-      "FIN-3041", "MKT-3037",
-      "INF-3030"
+      "FIN-3041", "MKT-3037", "INF-3030"
     ]
   },
   "ISM": {
@@ -101,8 +257,8 @@
     "degree": "BS/BA",
     "required_courses": [
       "ENG-1001", "ENG-1002", "MAT-1014",
-      "ECO-2003", "ECO-2002",
-      "ACC-2003", "ACC-2005",
+      "ECO-2003",
+      "ACC-2005",
       "INF-2010", "INF-3030", "INF-3045", "INF-3049",
       "INF-3054", "INF-4020", "INF-4040",
       "MGT-3035", "BES-4059"
@@ -114,8 +270,8 @@
     "required_courses": [
       "ENG-1001", "ENG-1002", "MAT-1014",
       "SOC-1001", "PSY-1001",
-      "CRJ-2003", "CRJ-2007", "CRJ-3015", "CRJ-3022",
-      "CRJ-3025", "CRJ-3045", "CRJ-4010", "CRJ-4095"
+      "CRJ-2003", "CRJ-2007", "CRJ-3014", "CRJ-3015",
+      "CRJ-3020", "CRJ-3022", "CRJ-3045", "CRJ-3052"
     ]
   },
   "ANT": {
@@ -126,6 +282,39 @@
       "SOC-1001",
       "ANT-2001", "ANT-2005", "ANT-3003", "ANT-3054",
       "SOC-3005", "SOC-3006", "SOC-4010"
+    ]
+  },
+  "REL": {
+    "name": "Religion",
+    "degree": "BS/BA",
+    "required_courses": [
+      "ENG-1001", "ENG-1002",
+      "REL-2000", "REL-2002", "REL-2004",
+      "REL-3001", "REL-3002", "REL-3003", "REL-3007",
+      "REL-3009", "REL-3040", "REL-3041",
+      "REL-4002"
+    ]
+  },
+  "FRE": {
+    "name": "French",
+    "degree": "BA",
+    "required_courses": [
+      "ENG-1001", "ENG-1002",
+      "FRE-1001", "FRE-1002",
+      "FRE-2001", "FRE-2002",
+      "FRE-3001", "FRE-3002", "FRE-3003", "FRE-3004",
+      "FRE-4002", "FRE-4005", "FRE-4007", "FRE-4008"
+    ]
+  },
+  "SPN": {
+    "name": "Spanish",
+    "degree": "BA",
+    "required_courses": [
+      "ENG-1001", "ENG-1002",
+      "SPN-1001", "SPN-1002",
+      "SPN-2001", "SPN-2002",
+      "SPN-3001", "SPN-3002", "SPN-3003", "SPN-3004",
+      "SPN-4007", "SPN-4008"
     ]
   }
 }

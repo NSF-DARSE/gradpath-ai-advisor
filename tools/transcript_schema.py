@@ -191,22 +191,83 @@ class TranscriptDocument(BaseModel):
 
 
 _PROGRAM_TO_MAJOR = {
+    # Computer Science
     "computer science": "CS",
     "cs": "CS",
+    # Biology
     "biology": "BIO",
     "bio": "BIO",
+    # Chemistry
     "chemistry": "CHE",
+    # Biochemistry
     "biochemistry": "BIOCHEM",
     "biochemistry and molecular biology": "BIOCHEM",
+    # Forensic Science
+    "forensic science": "FORENSIC",
+    "chemistry forensic science": "FORENSIC",
+    "chemistry: forensic science concentration": "FORENSIC",
+    # Environmental Science
+    "environmental science": "ENV",
+    "environmental studies": "ENV",
+    # Physics
+    "physics": "PHY",
+    # Health Science
     "health science": "HSC",
     "health sciences": "HSC",
+    # Communication
+    "communication": "COM",
+    "communications": "COM",
+    # Mathematics
+    "mathematics": "MAT",
+    "math": "MAT",
+    "mathematical sciences": "MAT",
+    # History
+    "history": "HIS",
+    # Philosophy
+    "philosophy": "PHL",
+    # Music
+    "music": "MUS",
+    # Pan-Africana Studies
+    "pan-africana studies": "PAS",
+    "pan africana studies": "PAS",
+    "black studies": "PAS",
+    # Political Science
+    "political science": "POL",
+    "politics": "POL",
+    # Psychology
+    "psychology": "PSY",
+    # Human Services
+    "human services": "HUS",
+    # Visual Arts
+    "visual arts": "ART",
+    "art": "ART",
+    "fine arts": "ART",
+    # Sociology
+    "sociology": "SOC",
+    # English
+    "english": "ENG",
+    "english liberal arts": "ENG",
+    "english literature": "ENG",
+    # Accounting
     "accounting": "ACC",
+    # Finance
     "finance": "FIN",
+    # Management
     "management": "MGT",
+    # Information Systems
     "information systems management": "ISM",
     "information systems": "ISM",
+    # Criminal Justice
     "criminal justice": "CRJ",
+    # Anthropology
     "anthropology": "ANT",
+    # Religion
+    "religion": "REL",
+    "religious studies": "REL",
+    # French
+    "french": "FRE",
+    # Spanish
+    "spanish": "SPN",
 }
 
 _PREFIX_TO_MAJOR = {
@@ -220,6 +281,23 @@ _PREFIX_TO_MAJOR = {
     ("INF",): "ISM",
     ("CRJ",): "CRJ",
     ("ANT",): "ANT",
+    ("PHY",): "PHY",
+    ("COM",): "COM",
+    ("MAT",): "MAT",
+    ("HIS",): "HIS",
+    ("PHL",): "PHL",
+    ("MUS",): "MUS",
+    ("PAS",): "PAS",
+    ("POL",): "POL",
+    ("PSY",): "PSY",
+    ("HUS",): "HUS",
+    ("ART", "ARH", "MSM"): "ART",
+    ("SOC",): "SOC",
+    ("ENG",): "ENG",
+    ("ENV", "GSC", "ENS"): "ENV",
+    ("REL",): "REL",
+    ("FRE",): "FRE",
+    ("SPN",): "SPN",
 }
 
 
