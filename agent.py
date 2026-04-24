@@ -7,7 +7,7 @@ Two pipelines:
 - planner_only_agent: slim pipeline for follow-up messages (profile already in session)
 """
 
-from google.adk.agents import ParallelAgent, SequentialAgent
+from google.adk.agents import LlmAgent, ParallelAgent, SequentialAgent
 
 from gradpath.agents import (
     catalog_agent,
@@ -15,6 +15,15 @@ from gradpath.agents import (
     history_agent,
     planner_agent,
     transcript_agent,
+)
+
+# ADK does not allow the same agent instance to have two parent agents.
+# We need a separate greeting agent instance for the slim follow-up pipeline.
+_followup_greeting_agent = LlmAgent(
+    name="followup_greeting_agent",
+    description="Collects only changed planning inputs on follow-up messages.",
+    model="gemini-2.5-flash",
+    instruction=greeting_agent.instruction,
 )
 
 # transcript + catalog are independent — run them at the same time
@@ -41,7 +50,7 @@ planner_only_agent = SequentialAgent(
     name="gradpath_planner_only_agent",
     description="Runs greeting + planner only for follow-up messages.",
     sub_agents=[
-        greeting_agent,  # Step 1: parse any updated inputs from the message
-        planner_agent,   # Step 2: re-plan using injected profile data
+        _followup_greeting_agent,  # Step 1: parse any updated inputs from the message
+        planner_agent,             # Step 2: re-plan using injected profile data
     ],
 )
