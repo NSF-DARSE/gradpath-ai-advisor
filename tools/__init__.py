@@ -6,7 +6,7 @@ from .catalog_tools import (
     get_course_prerequisites,
     load_major_planning_context,
 )
-from .planning_tools import recommend_courses, build_next_semester_schedule
+from .planning_tools import recommend_courses, build_next_semester_schedule, get_available_courses, validate_course_plan
 from .schedule_tools import load_semester_offerings, get_offered_course_ids
 from .student_tools import load_student_index, list_student_records, resolve_student_record, load_student_profile
 from .transcript_tools import (
@@ -39,4 +39,6 @@ __all__ = [
     "get_offered_course_ids",
     "recommend_courses",
     "build_next_semester_schedule",
+    "get_available_courses",
+    "validate_course_plan",
 ]

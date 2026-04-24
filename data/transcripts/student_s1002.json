@@ -10,41 +10,13 @@
   "preferences": "fastest",
   "email": "mayapatel@udel.edu",
   "completed_courses": [
-    {
-      "course_id": "CS101",
-      "term": "Fall 2024",
-      "grade": "A",
-      "credits": 3
-    },
-    {
-      "course_id": "CS102",
-      "term": "Spring 2025",
-      "grade": "A-",
-      "credits": 3
-    },
-    {
-      "course_id": "CS201",
-      "term": "Fall 2025",
-      "grade": "B+",
-      "credits": 3
-    },
-    {
-      "course_id": "MATH101",
-      "term": "Fall 2024",
-      "grade": "B+",
-      "credits": 4
-    },
-    {
-      "course_id": "MATH201",
-      "term": "Spring 2025",
-      "grade": "B",
-      "credits": 4
-    },
-    {
-      "course_id": "ENG101",
-      "term": "Fall 2025",
-      "grade": "A-",
-      "credits": 3
-    }
+    { "course_id": "ENG-1001", "term": "Fall 2023", "grade": "A", "credits": 4 },
+    { "course_id": "MAT-1010", "term": "Fall 2023", "grade": "B+", "credits": 4 },
+    { "course_id": "ENG-1002", "term": "Spring 2024", "grade": "A-", "credits": 4 },
+    { "course_id": "CSC-1058", "term": "Spring 2024", "grade": "A", "credits": 4 },
+    { "course_id": "MAT-1014", "term": "Fall 2024", "grade": "B", "credits": 4 },
+    { "course_id": "CSC-1059", "term": "Fall 2024", "grade": "A-", "credits": 4 },
+    { "course_id": "CSC-2001", "term": "Spring 2025", "grade": "B+", "credits": 4 },
+    { "course_id": "CSC-2054", "term": "Spring 2025", "grade": "A", "credits": 4 }
   ]
 }

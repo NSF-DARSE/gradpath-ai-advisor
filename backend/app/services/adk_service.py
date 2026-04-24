@@ -35,6 +35,7 @@ class AdkRunResult:
     raw_texts: List[str]
     target_semester: Optional[str]
     max_credits: Optional[int]
+    greeting_json: Optional[Dict[str, Any]] = None
 
 
 class AdkRunnerService:
@@ -93,6 +94,94 @@ class AdkRunnerService:
             target_semester=target_semester,
             max_credits=max_credits,
         )
+
+    async def run_followup(
+        self,
+        *,
+        web_session_id: str,
+        message: str,
+        profile: Dict[str, Any],
+    ) -> AdkRunResult:
+        """Slim pipeline for follow-up messages — runs greeting + planner only.
+
+        The student profile (completed courses, major, transcript) is already
+        known from the previous turn, so we inject it directly into the prompt
+        and skip transcript_agent, history_agent, and catalog_agent entirely.
+        """
+        runner = self._get_followup_runner()
+        session_meta = await self._ensure_followup_session(web_session_id)
+
+        completed_ids = [c["course_id"] for c in profile.get("completed_courses", [])]
+        prompt = (
+            f"My student_id is {profile.get('student_id', '')}.\n"
+            f"My name is {profile.get('student_name', 'Student')}.\n"
+            f"My major is {profile.get('major', 'CS')}.\n"
+            f"My current semester is {profile.get('current_semester', 'Unknown')}.\n"
+            f"My completed courses are: {', '.join(completed_ids) or 'none'}.\n"
+            f"My credits earned so far: {profile.get('credits_earned', 0)}.\n"
+            f"{message.strip() or 'Please update my semester plan.'}\n"
+            "Return the full GradPath planning result."
+        )
+        content = types.Content(role="user", parts=[types.Part.from_text(text=prompt)])
+
+        raw_texts: List[str] = []
+        async for event in runner.run_async(
+            user_id=session_meta["user_id"],
+            session_id=session_meta["adk_session_id"],
+            new_message=content,
+        ):
+            event_text = _extract_text(event)
+            if event_text:
+                raw_texts.append(event_text)
+
+        final_text = raw_texts[-1] if raw_texts else ""
+        planner_json = _extract_planner_json(raw_texts)
+        greeting_json = _extract_greeting_json(raw_texts)
+        target_semester = greeting_json.get("target_semester") if greeting_json else None
+        max_credits_val = greeting_json.get("max_credits") if greeting_json else None
+        max_credits = int(max_credits_val) if max_credits_val is not None else None
+        return AdkRunResult(
+            final_text=final_text,
+            planner_json=planner_json,
+            raw_texts=raw_texts,
+            target_semester=target_semester,
+            max_credits=max_credits,
+            greeting_json=greeting_json,
+        )
+
+    async def _ensure_followup_session(self, web_session_id: str) -> Dict[str, str]:
+        """Get or create an ADK session for the slim follow-up pipeline."""
+        followup_key = f"followup-{web_session_id}"
+        if followup_key in self._session_map:
+            return self._session_map[followup_key]
+
+        runner = self._get_followup_runner()
+        user_id = f"web-{web_session_id}"
+        session = await runner.session_service.create_session(
+            app_name=runner.app_name,
+            user_id=user_id,
+            session_id=f"adk-followup-{web_session_id}",
+            state={},
+        )
+        meta = {"user_id": user_id, "adk_session_id": session.id}
+        self._session_map[followup_key] = meta
+        return meta
+
+    def _get_followup_runner(self) -> InMemoryRunner:
+        if hasattr(self, "_followup_runner") and self._followup_runner is not None:
+            return self._followup_runner
+
+        load_dotenv(ROOT_DIR / ".env")
+        repo_parent = str(ROOT_DIR.parent)
+        if repo_parent not in sys.path:
+            sys.path.insert(0, repo_parent)
+
+        from gradpath.agent import planner_only_agent
+
+        self._followup_runner: Optional[InMemoryRunner] = InMemoryRunner(
+            agent=planner_only_agent, app_name="gradpath-followup"
+        )
+        return self._followup_runner
 
     async def _ensure_session(
         self, web_session_id: str, initial_state: Optional[Dict[str, Any]] = None

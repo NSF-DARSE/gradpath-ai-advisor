@@ -1,35 +1,38 @@
 """Planning agent for GradPath.
 
-This agent recommends next-semester courses from compact history/catalog summaries.
+This agent uses available course data and student context to intelligently
+recommend next-semester courses based on career goals and preferences.
 """
 
 from google.adk.agents import LlmAgent
 
+from gradpath.tools import get_available_courses, validate_course_plan
+
 planner_agent = LlmAgent(
     name="planner_agent",
-    description="Uses compact history and catalog summaries to recommend next-semester courses.",
+    description="Intelligently recommends next-semester courses based on student goals, career path, and preferences.",
     model="gemini-2.5-flash",
+    tools=[get_available_courses, validate_course_plan],
     instruction="""
-You are the Planning Agent for GradPath.
+You are the Planning Agent for GradPath — an intelligent academic advisor.
 
-Goal:
-- Recommend courses for the student's target semester using only the summaries from the earlier agents.
+Your job is to DECIDE the best courses for the student, not just list what is available.
 
-How to find the inputs (all are in the conversation history above):
-- student_id, target_semester, max_credits → from the GREETING AGENT's JSON output
-- completed_courses (list of course_id strings) → from the HISTORY AGENT's JSON output
-- required_courses, course_details, offered_in_target_semester → from the CATALOG AGENT's JSON output
+Inputs (from conversation history):
+- student_id, target_semester, max_credits, career_goal, preferences → from GREETING AGENT JSON
+- completed_courses, major, current_semester → from HISTORY AGENT JSON
 
 How to work:
-1. Read the greeting agent JSON for: target_semester, max_credits, student_id.
-2. Read the history agent JSON for: completed_courses (already-taken course IDs).
-3. Read the catalog agent JSON for: required_courses, course_details (credits + prerequisites), offered_in_target_semester.
-4. For each required course not yet completed:
-   a. Skip if not in offered_in_target_semester (reason: not_offered). If offered_in_target_semester is empty, assume all courses could be offered.
-   b. Skip if prerequisites include any course not in completed_courses (reason: unmet_prerequisites).
-   c. Skip if adding its credits would exceed max_credits (reason: credit_limit).
-   d. Otherwise add it to recommended_courses.
-5. Return the plan JSON.
+1. Get student_id, major, target_semester, max_credits, career_goal, preferences from the conversation history.
+2. Call get_available_courses(student_id, major, target_semester) to see what courses the student CAN take.
+3. From the available courses, INTELLIGENTLY select the best ones:
+   - If career_goal is set (e.g. "Software Engineer", "Data Scientist"), prioritize courses relevant to that goal.
+   - If preferences is "fastest", pick courses that unlock the most future courses (prerequisites for later courses).
+   - If preferences is "balanced", spread credits evenly and avoid heavy loads.
+   - Never exceed max_credits total.
+4. Call validate_course_plan(student_id, major, proposed_courses, target_semester, max_credits) to verify your selection.
+5. If validation fails, adjust your selection and validate again.
+6. Return the final plan JSON with your reasoning for each course.
 
 Output format:
 Return only JSON with this shape:
@@ -39,18 +42,24 @@ Return only JSON with this shape:
   "max_credits": 0,
   "recommended_courses": ["COURSE_ID", ...],
   "total_recommended_credits": 0,
+  "reasoning": {
+    "COURSE_ID": "Why this course was chosen"
+  },
   "skipped_courses": [
     {
       "course_id": "...",
-      "reason": "completed | unmet_prerequisites | not_offered | credit_limit"
+      "reason": "completed | unmet_prerequisites | not_offered | credit_limit | not_relevant"
     }
   ]
 }
 
 Rules:
-- Never recommend a course already in completed_courses.
-- Never exceed max_credits total.
-- If offered_in_target_semester is empty, skip the not_offered check and recommend based on prerequisites and credits only.
-- Use exactly these reason labels: completed, unmet_prerequisites, not_offered, credit_limit.
+- You MUST call get_available_courses first before proposing any plan.
+- You MUST validate your plan using validate_course_plan before returning.
+- If validation fails, fix the plan and validate again — do not return an invalid plan.
+- Never recommend a course already completed.
+- Never exceed max_credits.
+- Always explain your reasoning for each chosen course.
+- If career_goal is provided, mention it in your reasoning.
 """,
 )

@@ -1,0 +1,37 @@
+{
+  "student_id": "0498908",
+  "student_name": "Devine,McKenzie N",
+  "major": "BIO",
+  "student_type": "undergraduate",
+  "gpa": null,
+  "current_semester": "Spring 2026",
+  "expected_graduation": null,
+  "career_goal": null,
+  "preferences": "balanced",
+  "completed_courses": [
+    {
+      "course_id": "BIO-1003",
+      "source_course_code": "BIO 1003",
+      "source_course_title": "General Biology I for Bio Maj",
+      "term": "Fall 2025",
+      "grade": "C",
+      "credits": 4
+    },
+    {
+      "course_id": "ENG-1001",
+      "source_course_code": "ENG 1001",
+      "source_course_title": "English Composition I",
+      "term": "Fall 2025",
+      "grade": "A",
+      "credits": 4
+    },
+    {
+      "course_id": "REL-2000",
+      "source_course_code": "REL 2000",
+      "source_course_title": "Introduction to Religion",
+      "term": "Fall 2025",
+      "grade": "C",
+      "credits": 4
+    }
+  ]
+}
