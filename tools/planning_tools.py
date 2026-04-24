@@ -37,10 +37,11 @@ def _normalize(cid: str) -> str:
     return cid
 
 
-_MAX_SEMESTERS: Dict[str, int] = {
-    "undergraduate": 12,  # allow up to 12 semesters for students who are behind
-    "graduate": 6,
-    "phd": 12,
+# Total expected semesters for each student type (standard program length)
+_TOTAL_SEMESTERS: Dict[str, int] = {
+    "undergraduate": 8,   # 4-year degree = 8 semesters
+    "graduate": 4,        # 2-year master's = 4 semesters
+    "phd": 10,            # PhD = ~5 years = 10 semesters
 }
 
 
@@ -309,13 +310,20 @@ def build_full_graduation_plan(
     max_credits_per_semester: int = 12,
     min_credits_per_semester: int = 9,
     student_type: str = "undergraduate",
+    semesters_used: int = 0,
 ) -> List[Dict[str, Any]]:
     """Plan all remaining semesters until graduation.
 
     Uses the stored 2026 schedules as repeating templates for each season.
     Includes prerequisite courses that are not in major requirements but are
     needed to unlock required courses (e.g. MAT-1001 → MAT-1002 → MAT-1010).
+
+    semesters_used: how many semesters the student has already completed.
+    Remaining semesters = total for student type - semesters_used.
+
     Returns a list of planned semester dicts with course_ids and credits.
+    If courses cannot fit in remaining semesters, plans as many as possible
+    and the caller should flag a warning.
     """
     required_courses = get_required_courses(major)
     catalog = load_catalog_data()
@@ -332,11 +340,12 @@ def build_full_graduation_plan(
     all_to_plan = blocker_prereqs + required_normalized
     remaining = [c for c in all_to_plan if c not in placed]
 
-    max_semesters = _MAX_SEMESTERS.get(student_type.lower(), 8)
+    total_semesters = _TOTAL_SEMESTERS.get(student_type.lower(), 8)
+    remaining_semesters = max(total_semesters - semesters_used, 0)
     current_term = _next_semester(current_semester)
     planned: List[Dict[str, Any]] = []
 
-    for _ in range(max_semesters):
+    for _ in range(remaining_semesters):
         if not remaining:
             break
 
@@ -374,4 +383,10 @@ def build_full_graduation_plan(
 
         current_term = _next_semester(current_term)
 
-    return planned
+    return {
+        "planned": planned,
+        "unplanned": remaining,  # courses that couldn't fit in remaining semesters
+        "remaining_semesters": remaining_semesters,
+        "total_semesters": total_semesters,
+        "semesters_used": semesters_used,
+    }

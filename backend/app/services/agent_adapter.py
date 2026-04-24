@@ -408,14 +408,39 @@ def _build_dashboard_from_profile(
     # Build multi-semester graduation plan
     current_semester = profile.get("current_semester", "Spring 2026")
     student_type = profile.get("student_type", "undergraduate")
-    raw_planned = build_full_graduation_plan(
+
+    # Count distinct semesters already completed from transcript
+    completed_courses_raw = profile.get("completed_courses", [])
+    semesters_used = len({c.get("term") for c in completed_courses_raw if c.get("term")})
+
+    graduation_result = build_full_graduation_plan(
         major=major,
         completed_course_ids=list(completed_ids),
         current_semester=current_semester,
         max_credits_per_semester=DEFAULT_MAX_CREDITS,
         min_credits_per_semester=DEFAULT_MIN_CREDITS,
         student_type=student_type,
+        semesters_used=semesters_used,
     )
+    raw_planned = graduation_result["planned"]
+    unplanned = graduation_result["unplanned"]
+    remaining_semesters = graduation_result["remaining_semesters"]
+    total_semesters = graduation_result["total_semesters"]
+
+    # Warn if student cannot finish all required courses in remaining semesters
+    if unplanned:
+        notes.append(AdvisingNote(
+            level="warning",
+            title="Cannot finish on time",
+            message=(
+                f"You have used {semesters_used} of {total_semesters} semesters. "
+                f"With {remaining_semesters} semester(s) remaining, "
+                f"{len(unplanned)} required course(s) could not be scheduled: "
+                f"{', '.join(unplanned[:5])}{'...' if len(unplanned) > 5 else ''}. "
+                "Consider speaking with your advisor about overloading or extending your program."
+            ),
+        ))
+
     planned_semesters = [
         PlannedSemester(
             term=sem["term"],
