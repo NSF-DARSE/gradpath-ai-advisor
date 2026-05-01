@@ -221,6 +221,83 @@ def get_available_courses(
     }
 
 
+def get_all_remaining_courses(
+    student_id: str,
+    major: str,
+    current_semester: str,
+    semesters_remaining: int = 3,
+) -> Dict[str, Any]:
+    """Return all remaining required courses with full context for multi-semester planning.
+
+    For each remaining course, returns:
+    - prerequisites (normalized)
+    - which semesters it is offered (Fall/Spring/Summer)
+    - credits
+    - whether prereqs are already met
+
+    Also includes prerequisite blocker courses not in major requirements.
+    The LLM uses this to plan all remaining semesters intelligently.
+    """
+    profile = load_student_profile(student_id)
+    completed_raw = profile.get("completed_courses", []) if profile.get("status") == "ready" else []
+    completed = {_normalize(c["course_id"]) for c in completed_raw if isinstance(c, dict)}
+
+    catalog = load_catalog_data()
+    catalog_list = catalog if isinstance(catalog, list) else catalog.get("courses", [])
+    course_lookup = {_normalize(c["course_id"]): c for c in catalog_list}
+
+    required_courses = [_normalize(c) for c in get_required_courses(major)]
+
+    # Include transitive prereq blockers not in major requirements
+    blocker_prereqs = _collect_all_prerequisites(required_courses, course_lookup)
+    all_courses = blocker_prereqs + required_courses
+    remaining = [c for c in all_courses if c not in completed]
+
+    # Build upcoming semester sequence
+    upcoming_semesters = []
+    term = _next_semester(current_semester)
+    for _ in range(semesters_remaining):
+        upcoming_semesters.append(term)
+        term = _next_semester(term)
+
+    # For each remaining course, build full context
+    courses_info = []
+    for course_id in remaining:
+        prereqs = get_course_prerequisites(course_id)
+        unmet = [p for p in prereqs if p not in completed]
+        course_info = course_lookup.get(course_id, {})
+        offered_seasons = course_info.get("offered_semesters", ["Fall", "Spring"])
+
+        # Which upcoming semesters is it offered in?
+        offered_in = []
+        for sem in upcoming_semesters:
+            season = sem.split()[0]
+            if season in offered_seasons:
+                offered_in.append(sem)
+
+        courses_info.append({
+            "course_id": course_id,
+            "title": course_info.get("title", "Unknown"),
+            "credits": int(course_info.get("credits", 0)),
+            "prerequisites": prereqs,
+            "unmet_prerequisites": unmet,
+            "prereqs_met": len(unmet) == 0,
+            "offered_in_upcoming": offered_in,
+            "is_major_requirement": course_id in required_courses,
+        })
+
+    return {
+        "student_id": student_id,
+        "major": major,
+        "current_semester": current_semester,
+        "upcoming_semesters": upcoming_semesters,
+        "semesters_remaining": semesters_remaining,
+        "max_credits_per_semester": 12,
+        "remaining_courses": courses_info,
+        "total_remaining": len(courses_info),
+    }
+
+
 def validate_course_plan(
     student_id: str,
     major: str,

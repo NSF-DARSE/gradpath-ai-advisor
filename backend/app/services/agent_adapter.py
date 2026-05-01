@@ -167,6 +167,49 @@ async def analyze_request(
             )
 
     if profile is None:
+        if session_profile is None:
+            # First message with no student data — let the conversational greeting agent handle it
+            adk_service = get_adk_runner_service()
+            greeting_result = await adk_service.run_greeting(
+                web_session_id=web_session_id,
+                message=message,
+            )
+            if greeting_result.greeting_json:
+                # Agent collected enough info — build a profile and run the full pipeline
+                gj = greeting_result.greeting_json
+                loaded = load_student_profile(str(gj.get("student_id", "")))
+                if loaded and loaded.get("status") == "ready":
+                    profile = loaded
+                else:
+                    profile = {
+                        "student_id": gj.get("student_id", "chat"),
+                        "student_name": gj.get("student_name", "Student"),
+                        "major": gj.get("major", "CS"),
+                        "current_semester": gj.get("current_semester", "Spring 2026"),
+                        "target_semester": gj.get("target_semester"),
+                        "max_credits": gj.get("max_credits", 12),
+                        "career_goal": gj.get("career_goal"),
+                        "preferences": gj.get("preferences", "balanced"),
+                        "completed_courses": [],
+                        "status": "ready",
+                        "source": "chat_session",
+                    }
+                return await _try_invoke_google_adk_agent(
+                    web_session_id=web_session_id,
+                    message=message,
+                    profile=profile,
+                    transcript=None,
+                    extra_notes=extra_notes,
+                )
+            # Still in conversation — return Maya's response with placeholder dashboard
+            return StructuredAgentResponse(
+                reply_text=greeting_result.final_text or (
+                    "Hey! I'm your GradPath AI advisor. What's your name and student ID so I can get started?"
+                ),
+                dashboard=build_placeholder_dashboard(),
+                profile=None,
+            )
+
         dashboard = build_placeholder_dashboard()
         dashboard.advising_notes.insert(
             0,
@@ -265,14 +308,22 @@ async def _try_invoke_google_adk_agent(
     extra_notes: List[AdvisingNote],
 ) -> StructuredAgentResponse:
     adk_service = get_adk_runner_service()
+    _current_sem = str(profile.get("current_semester", "Unknown"))
+    _student_type = profile.get("student_type", "undergraduate")
+    _completed_terms = {c.get("term") for c in profile.get("completed_courses", []) if c.get("term")}
+    if _current_sem:
+        _completed_terms.add(_current_sem)
+    _semesters_used = len(_completed_terms)
     adk_result = await adk_service.run_planner(
         web_session_id=web_session_id,
         message=message,
         student_id=str(profile.get("student_id", profile.get("student_ref", ""))),
         student_name=str(profile.get("student_name", "Student")),
         major=str(profile.get("major", "CS")),
-        current_semester=str(profile.get("current_semester", "Unknown")),
+        current_semester=_current_sem,
         transcript=transcript,
+        semesters_used=_semesters_used,
+        student_type=_student_type,
     )
 
     target_semester = adk_result.target_semester or "Not specified"
@@ -298,7 +349,7 @@ async def _try_invoke_google_adk_agent(
         extra_notes=notes,
         adk_plan=adk_result.planner_json,
     )
-    reply_text = _build_reply_text(dashboard, target_semester)
+    reply_text = _build_reply_text(dashboard, target_semester, adk_plan=adk_result.planner_json, message=message, profile=profile)
     return StructuredAgentResponse(reply_text=reply_text, dashboard=dashboard, profile=profile)
 
 
@@ -310,17 +361,40 @@ async def _try_invoke_followup_agent(
 ) -> StructuredAgentResponse:
     """Slim pipeline for follow-up messages — greeting + planner only."""
     adk_service = get_adk_runner_service()
-    adk_result = await adk_service.run_followup(
+
+    # Detect intent first — avoids running the planner for questions and chat
+    intent_result = await adk_service.run_followup_intent(
         web_session_id=web_session_id,
         message=message,
         profile=profile,
     )
+    intent = (intent_result.greeting_json or {}).get("intent", "plan_change")
+
+    if intent in ("question", "chat"):
+        return StructuredAgentResponse(
+            reply_text=intent_result.final_text or "Let me know if you have any other questions!",
+            dashboard=None,  # Keep existing dashboard unchanged
+            profile=profile,
+        )
+
+    _current_sem = str(profile.get("current_semester", "Unknown"))
+    _student_type = profile.get("student_type", "undergraduate")
+    _completed_terms = {c.get("term") for c in profile.get("completed_courses", []) if c.get("term")}
+    if _current_sem:
+        _completed_terms.add(_current_sem)
+    _semesters_used = len(_completed_terms)
+    adk_result = await adk_service.run_followup(
+        web_session_id=web_session_id,
+        message=message,
+        profile=profile,
+        semesters_used=_semesters_used,
+        student_type=_student_type,
+    )
 
     # Merge any fields the student explicitly changed (non-null) into the saved profile.
-    # This ensures changes like career_goal or target_semester persist across messages.
     updated_profile = profile
     if adk_result.greeting_json:
-        changed = {k: v for k, v in adk_result.greeting_json.items() if v is not None}
+        changed = {k: v for k, v in adk_result.greeting_json.items() if v is not None and k != "intent"}
         if changed:
             updated_profile = {**profile, **changed}
 
@@ -347,7 +421,7 @@ async def _try_invoke_followup_agent(
         extra_notes=notes,
         adk_plan=adk_result.planner_json,
     )
-    reply_text = _build_reply_text(dashboard, target_semester)
+    reply_text = _build_reply_text(dashboard, target_semester, adk_plan=adk_result.planner_json, message=message, profile=updated_profile)
     return StructuredAgentResponse(reply_text=reply_text, dashboard=dashboard, profile=updated_profile)
 
 
@@ -364,6 +438,7 @@ def _build_dashboard_from_profile(
     course_lookup = {course["course_id"]: course for course in (catalog if isinstance(catalog, list) else catalog.get("courses", []))}
 
     completed_courses_raw = profile.get("completed_courses", [])
+    in_progress_raw = profile.get("in_progress_courses", [])
     completed_ids = {course["course_id"] for course in completed_courses_raw}
     completed_courses = [
         CompletedCourse(
@@ -374,6 +449,17 @@ def _build_dashboard_from_profile(
             credits=int(course.get("credits", course_lookup.get(course["course_id"], {}).get("credits", 0))),
         )
         for course in completed_courses_raw
+    ]
+    # Append in-progress courses so current semester appears in the history
+    completed_courses += [
+        CompletedCourse(
+            course_id=course["course_id"],
+            title=course_lookup.get(course["course_id"], {}).get("title", course.get("source_course_title", "Unknown Course")),
+            term=course.get("term"),
+            grade="In Progress",
+            credits=0,
+        )
+        for course in in_progress_raw
     ]
 
     recommended_courses, skipped_notes, total_recommended_credits = _apply_adk_plan(
@@ -408,54 +494,93 @@ def _build_dashboard_from_profile(
     # Build multi-semester graduation plan
     current_semester = profile.get("current_semester", "Spring 2026")
     student_type = profile.get("student_type", "undergraduate")
-
-    # Count distinct semesters already completed from transcript
     completed_courses_raw = profile.get("completed_courses", [])
-    semesters_used = len({c.get("term") for c in completed_courses_raw if c.get("term")})
+    completed_terms = {c.get("term") for c in completed_courses_raw if c.get("term")}
+    if current_semester:
+        completed_terms.add(current_semester)
+    semesters_used = len(completed_terms)
 
-    graduation_result = build_full_graduation_plan(
-        major=major,
-        completed_course_ids=list(completed_ids),
-        current_semester=current_semester,
-        max_credits_per_semester=DEFAULT_MAX_CREDITS,
-        min_credits_per_semester=DEFAULT_MIN_CREDITS,
-        student_type=student_type,
-        semesters_used=semesters_used,
-    )
-    raw_planned = graduation_result["planned"]
-    unplanned = graduation_result["unplanned"]
-    remaining_semesters = graduation_result["remaining_semesters"]
-    total_semesters = graduation_result["total_semesters"]
+    # Use LLM-generated full plan if available, otherwise fall back to Python planner
+    llm_full_plan = adk_plan.get("full_plan") if adk_plan else None
 
-    # Warn if student cannot finish all required courses in remaining semesters
-    if unplanned:
-        notes.append(AdvisingNote(
-            level="warning",
-            title="Cannot finish on time",
-            message=(
-                f"You have used {semesters_used} of {total_semesters} semesters. "
-                f"With {remaining_semesters} semester(s) remaining, "
-                f"{len(unplanned)} required course(s) could not be scheduled: "
-                f"{', '.join(unplanned[:5])}{'...' if len(unplanned) > 5 else ''}. "
-                "Consider speaking with your advisor about overloading or extending your program."
-            ),
-        ))
-
-    planned_semesters = [
-        PlannedSemester(
-            term=sem["term"],
-            total_credits=sem["total_credits"],
-            courses=[
-                PlannedCourse(
-                    course_id=cid,
-                    title=course_lookup.get(cid, {}).get("title", "Unknown Course"),
-                    credits=int(course_lookup.get(cid, {}).get("credits", 0)),
-                )
-                for cid in sem["course_ids"]
-            ],
+    if llm_full_plan:
+        # LLM generated the full plan — use it directly
+        planned_semesters = [
+            PlannedSemester(
+                term=sem["term"],
+                total_credits=sem.get("total_credits", sum(
+                    int(course_lookup.get(cid, {}).get("credits", 0)) for cid in sem.get("courses", [])
+                )),
+                courses=[
+                    PlannedCourse(
+                        course_id=cid,
+                        title=course_lookup.get(cid, {}).get("title", "Unknown Course"),
+                        credits=int(course_lookup.get(cid, {}).get("credits", 0)),
+                    )
+                    for cid in sem.get("courses", [])
+                ],
+            )
+            for sem in llm_full_plan
+        ]
+        # Add graduation note from LLM if present
+        graduation_note = adk_plan.get("graduation_note")
+        can_graduate_on_time = adk_plan.get("can_graduate_on_time", True)
+        if not can_graduate_on_time and graduation_note:
+            notes.append(AdvisingNote(
+                level="warning",
+                title="Cannot finish on time",
+                message=graduation_note,
+            ))
+        elif graduation_note:
+            notes.append(AdvisingNote(
+                level="info",
+                title="Graduation timeline",
+                message=graduation_note,
+            ))
+    else:
+        # Fallback to Python planner
+        graduation_result = build_full_graduation_plan(
+            major=major,
+            completed_course_ids=list(completed_ids),
+            current_semester=current_semester,
+            max_credits_per_semester=DEFAULT_MAX_CREDITS,
+            min_credits_per_semester=DEFAULT_MIN_CREDITS,
+            student_type=student_type,
+            semesters_used=semesters_used,
         )
-        for sem in raw_planned
-    ]
+        raw_planned = graduation_result["planned"]
+        unplanned = graduation_result["unplanned"]
+        remaining_semesters = graduation_result["remaining_semesters"]
+        total_semesters = graduation_result["total_semesters"]
+
+        if unplanned:
+            notes.append(AdvisingNote(
+                level="warning",
+                title="Cannot finish on time",
+                message=(
+                    f"You have used {semesters_used} of {total_semesters} semesters. "
+                    f"With {remaining_semesters} semester(s) remaining, "
+                    f"{len(unplanned)} required course(s) could not be scheduled: "
+                    f"{', '.join(unplanned[:5])}{'...' if len(unplanned) > 5 else ''}. "
+                    "Consider speaking with your advisor about overloading or extending your program."
+                ),
+            ))
+
+        planned_semesters = [
+            PlannedSemester(
+                term=sem["term"],
+                total_credits=sem["total_credits"],
+                courses=[
+                    PlannedCourse(
+                        course_id=cid,
+                        title=course_lookup.get(cid, {}).get("title", "Unknown Course"),
+                        credits=int(course_lookup.get(cid, {}).get("credits", 0)),
+                    )
+                    for cid in sem["course_ids"]
+                ],
+            )
+            for sem in raw_planned
+        ]
 
     return DashboardData(
         student=StudentSnapshot(
@@ -556,22 +681,82 @@ def _apply_adk_plan(
     return recommended, notes, total_credits
 
 
-def _build_reply_text(dashboard: DashboardData, target_semester: str) -> str:
+def _build_reply_text(
+    dashboard: DashboardData,
+    target_semester: str,
+    adk_plan: Optional[Dict[str, Any]] = None,
+    message: str = "",
+    profile: Optional[Dict[str, Any]] = None,
+) -> str:
     student = dashboard.student
-    if not dashboard.recommended_courses:
-        return (
-            f"I reviewed {student.student_name}'s record for {target_semester}, but I couldn't assemble a valid next-term plan yet. "
-            "Check the advising notes for prerequisite, availability, or transcript issues."
-        )
+    career_goal = (profile or {}).get("career_goal")
+    reasoning = (adk_plan or {}).get("reasoning", {})
+    skipped = (adk_plan or {}).get("skipped_courses", [])
 
-    recommendations = ", ".join(
-        f"{course.course_id} ({course.title})" for course in dashboard.recommended_courses
+    # Check if the student cannot graduate on time — surface this in chat
+    cannot_graduate = not (adk_plan or {}).get("can_graduate_on_time", True)
+    if not cannot_graduate:
+        cannot_graduate = any(
+            n.title == "Cannot finish on time" for n in (dashboard.advising_notes or [])
+        )
+    advisor_warning = (
+        "Your required courses cannot fit within the standard graduation timeline. "
+        "Your plan below shows the best schedule possible — please contact your academic advisor "
+        "to discuss your options.\n\n"
+        if cannot_graduate else ""
     )
-    return (
-        f"I analyzed {student.student_name}'s academic history and updated the dashboard for {target_semester}. "
-        f"Recommended next courses: {recommendations}. "
-        f"Degree progress is now shown on the left, along with advising notes and warnings."
+
+    # Count skipped reasons
+    skipped_reasons: Dict[str, List[str]] = {}
+    for s in skipped:
+        skipped_reasons.setdefault(s.get("reason", "other"), []).append(s.get("course_id", ""))
+
+    if not dashboard.recommended_courses:
+        base = advisor_warning
+        base += f"I reviewed your record for {target_semester} but couldn't find any eligible courses right now."
+        if skipped_reasons.get("unmet_prerequisites"):
+            base += f" Most required courses are locked behind prerequisites you haven't completed yet."
+        if career_goal:
+            base += f" For your goal of becoming a {career_goal}, you'll need to work through the prerequisite chain first before relevant courses become available."
+        return base
+
+    course_list = ", ".join(
+        f"{c.course_id} ({c.title})" for c in dashboard.recommended_courses
     )
+
+    # Build opening line
+    if career_goal:
+        reply = advisor_warning + f"I've updated your plan for {target_semester} with your goal of becoming a {career_goal} in mind. "
+    else:
+        reply = advisor_warning + f"I've updated your plan for {target_semester}. "
+
+    reply += f"Here's what I recommend: {course_list}. "
+
+    # Add reasoning for each course if available
+    if reasoning:
+        reply += "\n\n"
+        for course in dashboard.recommended_courses:
+            reason = reasoning.get(course.course_id)
+            if reason:
+                reply += f"• **{course.course_id}** — {reason}\n"
+
+    # Explain what was skipped and why
+    unmet = skipped_reasons.get("unmet_prerequisites", [])
+    in_progress = skipped_reasons.get("in_progress", [])
+    not_offered = skipped_reasons.get("not_offered", [])
+
+    if career_goal and (unmet or not_offered):
+        reply += f"\nFor your {career_goal} goal, some relevant courses couldn't be added this semester"
+        if unmet:
+            reply += f" — {', '.join(unmet[:3])} require prerequisites you haven't completed yet"
+        if not_offered:
+            reply += f" — {', '.join(not_offered[:3])} aren't offered this semester"
+        reply += ". These will open up as you progress."
+
+    if in_progress:
+        reply += f"\n\nNote: {', '.join(in_progress)} are currently in progress and will unlock more courses once completed."
+
+    return reply.strip()
 
 
 

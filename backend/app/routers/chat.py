@@ -71,9 +71,11 @@ def build_chat_router(session_store: SessionStore) -> APIRouter:
 
         assistant_message = build_assistant_message(analysis.reply_text)
         history = [*state.history, user_message, assistant_message]
+        # If dashboard is None (e.g. question/chat intent), keep the existing session dashboard
+        dashboard = analysis.dashboard if analysis.dashboard is not None else state.dashboard
         session_store.save(
             session_id=session_id,
-            dashboard=analysis.dashboard,
+            dashboard=dashboard,
             history=history,
             profile=analysis.profile,
         )
@@ -81,7 +83,7 @@ def build_chat_router(session_store: SessionStore) -> APIRouter:
         return ChatResponse(
             session_id=session_id,
             reply=assistant_message,
-            dashboard=analysis.dashboard,
+            dashboard=dashboard,
             history=history,
         )
 

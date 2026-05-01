@@ -97,7 +97,7 @@ class SessionBootstrap(BaseModel):
 
 class StructuredAgentResponse(BaseModel):
     reply_text: str
-    dashboard: DashboardData
+    dashboard: Optional[DashboardData] = None  # None means keep the existing dashboard unchanged
     profile: Optional[Dict[str, Any]] = None
 
 

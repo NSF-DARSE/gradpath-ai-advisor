@@ -112,6 +112,7 @@ def _auto_register_student(profile: Dict[str, Any], source_filename: str) -> Dic
         "career_goal": profile.get("career_goal"),
         "preferences": profile.get("preferences", "balanced"),
         "completed_courses": profile.get("completed_courses", []),
+        "in_progress_courses": profile.get("in_progress_courses", []),
     }
 
     # Save JSON file

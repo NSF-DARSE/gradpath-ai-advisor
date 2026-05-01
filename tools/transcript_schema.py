@@ -179,12 +179,30 @@ class TranscriptDocument(BaseModel):
             }
             for course in self.completed_courses
         ]
+
+        # Collect CIP (currently in-progress) courses from the last term
+        in_progress_courses = []
+        if self.terms:
+            last_term = self.terms[-1]
+            for course in last_term.courses:
+                grade_upper = (course.grade or "").upper()
+                if grade_upper in {"CIP", "IP", "I"} or (grade_upper == "" and course.credits == 0):
+                    in_progress_courses.append({
+                        "course_id": _map_course_to_planner_id(course.course_code, course.course_title),
+                        "source_course_code": course.course_code,
+                        "source_course_title": course.course_title,
+                        "term": last_term.term,
+                        "grade": "In Progress",
+                        "credits": 0,
+                    })
+
         return {
             "student_id": self.student.student_id or "uploaded-transcript",
             "student_name": self.student.name or "Uploaded Student",
             "major": _normalize_major(self.student.program, self.completed_courses),
             "current_semester": current_semester,
             "completed_courses": completed_courses,
+            "in_progress_courses": in_progress_courses,
             "status": "ready",
             "source": "uploaded_transcript",
         }

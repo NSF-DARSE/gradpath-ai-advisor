@@ -38,11 +38,15 @@ def load_transcript_data(student_id: str) -> Dict[str, Any]:
 
 
 def get_completed_courses(student_id: str) -> List[str]:
-    """Return only the list of completed course IDs for a student."""
+    """Return completed + in-progress course IDs for a student.
 
+    In-progress (CIP) courses are included because they will be finished
+    before the next planned semester and should not be re-scheduled.
+    """
     transcript = load_transcript_data(student_id)
     completed = transcript.get("completed_courses", [])
-    return [course["course_id"] for course in completed]
+    in_progress = transcript.get("in_progress_courses", [])
+    return [course["course_id"] for course in completed + in_progress]
 
 
 async def extract_transcript_to_json(
