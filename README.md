@@ -1,13 +1,15 @@
 # GradPath — AI-Powered Academic Planning Assistant
 
-GradPath is an AI-powered academic advising tool we built for Lincoln University students. It helps students figure out which courses to take next semester based on their transcript, declared major, and Lincoln University's real course catalog and schedule data.
+GradPath is an AI-powered academic advising tool built for Lincoln University students. It helps students figure out which courses to take next semester — and maps out their full graduation roadmap — based on their transcript, declared major, and Lincoln University's real course catalog and schedule data.
 
-A student uploads their transcript PDF, and GradPath automatically:
-- Parses their academic history (completed courses, GPA, credits earned)
-- Checks which required courses for their major they still need
-- Verifies prerequisites and semester availability
+A student uploads their transcript PDF and GradPath automatically:
+- Parses their academic history (completed courses, in-progress courses, GPA, credits earned)
+- Checks which required major courses they still need and which prerequisites are satisfied
+- Verifies semester availability from the real LU schedule
 - Recommends a personalized next-semester course plan
-- Displays everything in a live dashboard
+- Generates a full multi-semester graduation roadmap
+- Displays a live dashboard with a 3-state degree progress breakdown (Core/Major + Electives)
+- Remembers the student across follow-up messages in the same session
 
 ---
 
@@ -15,10 +17,48 @@ A student uploads their transcript PDF, and GradPath automatically:
 
 This project combines a multi-agent AI backend with a full web UI:
 
-- **5-agent AI pipeline** using Google ADK (Agent Development Kit) with Gemini 2.5 Flash
-- **FastAPI backend** that handles transcript uploads, session memory, and API routing
-- **React + Vite frontend** with a two-panel layout (dashboard on left, chat on right)
-- **Real Lincoln University data** — 597 courses from the 2026 catalog, Spring 2026 schedule with 468 sections, and degree requirements for 11 majors
+- **Two ADK pipelines** using Google ADK (SequentialAgent + ParallelAgent) with Gemini 2.5 Flash
+  - **Full pipeline** (first message): greeting → [transcript + catalog in parallel] → history → planner
+  - **Slim pipeline** (follow-up): intent detection → planner only (skips transcript re-parsing)
+- **Guardrails** on every pipeline entry point — off-topic blocking and input length limit via ADK `before_agent_callback`
+- **FastAPI backend** with session memory, transcript uploads, and structured JSON responses
+- **React + Vite frontend** — two-panel layout (dashboard left, chat right), print/PDF export
+- **Real Lincoln University data** — 597 courses, 29 majors, Spring 2026 schedule with 468+ sections
+
+---
+
+## Key Features
+
+### Multi-Semester Graduation Plan
+GradPath doesn't just recommend next semester's courses — it builds a full semester-by-semester roadmap from the student's current position to graduation, respecting:
+- Prerequisite chains
+- Credit limits per semester (configurable)
+- Total degree credit requirement (120 UG / 36 Graduate / 60 PhD)
+- Courses already in progress (not re-scheduled)
+
+### 3-State Degree Progress Summary
+The dashboard shows a clear split between:
+
+| Section | Tracks |
+|---|---|
+| **Core / Major Courses** | Required courses from the major requirements list |
+| **Electives & Gen Ed** | All other completed / in-progress courses |
+
+Each section shows Completed / In Progress / Remaining with a segmented credit bar (green = done, blue = in progress, gray = remaining).
+
+### In-Progress Course Awareness
+Courses the student is currently taking are recognized as a distinct state — they count toward earned credits and are never re-scheduled in future semesters.
+
+### What-If Scenario Support
+Students can ask things like "What if I switch to Biology?" or "What if I can only take 12 credits?" — the intent agent detects the change, updates the profile, and re-runs the planner with the new parameters.
+
+### Guardrails
+Every pipeline entry point blocks:
+- Messages over 2,000 characters
+- Off-topic messages with no academic keywords (greetings and short messages always pass)
+
+### Print / Export
+A "Download Plan" button appears once a graduation plan is generated and triggers a clean `@media print` layout with all accordions expanded.
 
 ---
 
@@ -26,44 +66,50 @@ This project combines a multi-agent AI backend with a full web UI:
 
 ```
 gradpath/
-├── agent.py                          # Root ADK SequentialAgent (5 sub-agents)
+├── agent.py                          # Root ADK pipelines (full + follow-up)
 ├── agents/
 │   ├── greeting_agent.py             # Collects target semester and credit limit
 │   ├── transcript_agent.py           # Parses uploaded transcript PDF
 │   ├── history_agent.py              # Summarizes completed courses
 │   ├── catalog_agent.py              # Loads major requirements and schedule
-│   └── planner_agent.py              # Recommends next-semester courses
+│   ├── planner_agent.py              # Recommends next-semester courses + full plan
+│   └── guardrails.py                 # before_agent_callback: length + off-topic guard
 ├── tools/
-│   ├── catalog_tools.py              # Reads catalog and major requirements JSON
+│   ├── catalog_tools.py              # Reads catalog, major requirements, credit totals
 │   ├── schedule_tools.py             # Reads semester schedule JSON
+│   ├── planning_tools.py             # Python planner: multi-semester graduation plan
+│   ├── student_tools.py              # Loads student profiles from registry
 │   ├── transcript_tools.py           # ADK tool for transcript extraction
-│   ├── transcript_parser.py          # pdfplumber-based PDF parsing
 │   └── transcript_schema.py          # Pydantic schemas + course ID normalization
 ├── backend/
 │   └── app/
 │       ├── main.py                   # FastAPI app entry point
-│       ├── models.py                 # API response schemas
+│       ├── models.py                 # API response schemas (ProgressSummary etc.)
+│       ├── config.py                 # Credit limits and env config
 │       ├── routers/chat.py           # /api/session and /api/chat endpoints
 │       └── services/
-│           ├── agent_adapter.py      # Converts ADK output to dashboard data
-│           ├── adk_service.py        # Runs the ADK pipeline for web sessions
+│           ├── agent_adapter.py      # Converts ADK output → dashboard data
+│           ├── adk_service.py        # Runs ADK pipelines (InMemoryRunner, reused)
 │           ├── session_store.py      # In-memory session + profile persistence
 │           └── transcript_parser.py  # Upload parsing for the web API
 ├── frontend/
 │   └── src/
-│       ├── App.tsx
-│       ├── styles.css
+│       ├── App.tsx                   # Root component, session + chat state
+│       ├── types.ts                  # TypeScript types for all API shapes
+│       ├── styles.css                # All styles including print media query
 │       └── components/
-│           ├── ChatPanel.tsx
-│           └── DashboardPanel.tsx
+│           ├── ChatPanel.tsx         # Chat thread, composer, file upload
+│           ├── DashboardPanel.tsx    # Dashboard cards, accordions, progress bars
+│           └── DashboardCard.tsx     # Card shell component
 ├── data/
 │   ├── catalogs/
-│   │   ├── catalog_2026.json         # 597 real LU courses
-│   │   └── major_requirements.json   # Required courses for 11 majors
-│   └── schedules/
-│       ├── spring_2026.json          # 468 sections
-│       ├── summer_2026_gc.json       # 17 sections (Graduate Center)
-│       └── summer_2026_ol.json       # 64 sections (Online)
+│   │   ├── catalog_2026.json         # 597 LU courses
+│   │   └── major_requirements.json   # Required courses + credit totals for 29 majors
+│   ├── schedules/
+│   │   ├── spring_2026.json          # 468 sections
+│   │   ├── summer_2026_gc.json       # 17 sections (Graduate Center)
+│   │   └── summer_2026_ol.json       # 64 sections (Online)
+│   └── transcripts/                  # Pre-loaded student profiles (JSON)
 ├── scripts/
 │   └── parse_all.py                  # pdfplumber parser for LU PDFs
 ├── run_gradpath_ui.py                # One-command project launcher
@@ -74,48 +120,59 @@ gradpath/
 
 ## How It Works
 
-### Full Request Flow
+### Full Request Flow (First Message)
 
 1. Student opens the app — a new session is created with a blank dashboard
-2. Student uploads their transcript PDF (or types their student ID)
-3. FastAPI receives the upload and runs `pdfplumber` to extract text
-4. Gemini parses the raw text into structured JSON (courses, GPA, student info)
-5. Course codes are normalized to canonical LU format (e.g. `CSC1058` → `CSC-1058`)
+2. Student uploads their transcript PDF or types their student ID
+3. FastAPI runs `pdfplumber` to extract transcript text
+4. Gemini parses raw text into structured JSON (courses, GPA, student info)
+5. Course codes are normalized to canonical LU format (`CSC1058` → `CSC-1058`)
 6. Failed grades (F, NP, NC, U) are excluded from completed courses
-7. The student profile is passed to the Google ADK pipeline:
+7. In-progress courses (current semester) are tracked separately
+8. The student profile is passed to the **full ADK pipeline**:
 
 ```
-greeting_agent   → determines target semester and max credits
-transcript_agent → reads transcript from session state
-history_agent    → extracts list of completed course IDs
-catalog_agent    → loads required courses, prerequisites, schedule offerings
-planner_agent    → applies constraints and outputs recommended courses
+greeting_agent        → determines target semester and max credits per semester
+  ├── transcript_agent  ┐
+  └── catalog_agent     ┘  (run in parallel)
+history_agent         → extracts completed and in-progress course IDs
+planner_agent         → checks prerequisites, availability, credit cap → outputs plan
 ```
 
-8. The planner checks three constraints for each required course:
-   - Are prerequisites satisfied?
-   - Is the course offered this semester?
-   - Would adding it exceed the credit limit?
-9. The dashboard updates with recommendations, progress %, and advising notes
-10. The student profile is saved in session memory — follow-up messages don't require re-uploading the transcript
+9. The planner outputs:
+   - `recommended_courses` — what to take next semester
+   - `full_plan` — complete semester-by-semester roadmap to graduation
+   - `can_graduate_on_time` + `graduation_note`
+10. The dashboard updates live
+
+### Follow-Up Message Flow
+
+Follow-up messages skip the transcript and catalog agents and use a slim pipeline:
+
+```
+intent_agent   → detects "chat", "question", or "plan_change" + extracts any profile changes
+planner_agent  → re-runs with updated profile if intent is "plan_change"
+```
+
+This keeps follow-ups fast and avoids redundant re-parsing.
 
 ### Session Memory
 
-After the first message, GradPath remembers the student's profile (major, completed courses, semester) for the rest of the browser session. This works by saving the profile dict in `SessionStore` after every request and loading it at the start of the next one. If a student's major was not declared on the transcript, GradPath asks them to type it and automatically detects phrases like "I am a CS student" to update the plan.
+After the first message the student profile (major, completed courses, in-progress courses, semester) is saved in `SessionStore` and restored on every subsequent message. The transcript does not need to be re-uploaded.
 
 ---
 
 ## Data
 
-All data was parsed directly from real Lincoln University PDF files using `scripts/parse_all.py`:
+All data was parsed from real Lincoln University PDF files:
 
 | File | Source | Size |
 |---|---|---|
-| `catalog_2026.json` | LU Academic Catalog 2026 PDF | 597 courses, 44 departments |
-| `major_requirements.json` | LU degree requirements | 11 majors, 11–22 courses each |
-| `spring_2026.json` | LU Spring 2026 Course Schedule PDF | 468 sections |
-| `summer_2026_gc.json` | LU Summer 2026 GC Schedule PDF | 17 sections |
-| `summer_2026_ol.json` | LU Summer 2026 Online Schedule PDF | 64 sections |
+| `catalog_2026.json` | LU Academic Catalog 2026 | 597 courses, 44 departments |
+| `major_requirements.json` | LU degree requirements | 29 majors, required courses + 120 cr cap |
+| `spring_2026.json` | LU Spring 2026 Schedule | 468 sections |
+| `summer_2026_gc.json` | LU Summer 2026 GC Schedule | 17 sections |
+| `summer_2026_ol.json` | LU Summer 2026 Online Schedule | 64 sections |
 
 ---
 
@@ -123,13 +180,13 @@ All data was parsed directly from real Lincoln University PDF files using `scrip
 
 | Component | Technology |
 |---|---|
-| AI Agents | Google ADK (SequentialAgent + LlmAgent) |
+| AI Agents | Google ADK (SequentialAgent, ParallelAgent, LlmAgent) |
 | LLM | Gemini 2.5 Flash |
 | Backend | FastAPI + Uvicorn |
 | Frontend | React + Vite + TypeScript |
 | PDF Parsing | pdfplumber |
-| Data Validation | Pydantic |
-| Session Memory | Python in-memory dict (InMemoryRunner) |
+| Data Validation | Pydantic v2 |
+| Session Memory | InMemoryRunner (reused across messages) |
 
 ---
 
@@ -196,18 +253,18 @@ Opens at **http://127.0.0.1:8000**
 - `.pdf` — text-based PDFs (most LU transcripts)
 - `.json`, `.txt`, `.md` — structured or plain text
 
-Scanned/image-only PDFs return an "OCR required" message with a clear explanation.
+Scanned / image-only PDFs return an "OCR required" message.
 
 ---
 
-## Majors Supported
+## Majors Supported (29)
 
-CS, Biology (BIO), Chemistry (CHE), Biochemistry (BIOCHEM), Health Science (HSC), Accounting (ACC), Finance (FIN), Management (MGT), Information Systems (ISM), Criminal Justice (CRJ), Anthropology (ANT)
+CS, BIO, CHE, BIOCHEM, HSC, ACC, FIN, MGT, ISM, CRJ, ANT, SOC, PSY, COM, HIS, PHL, ENG, MUS, ART, MAT, PHY, ENV, POL, HUS, PAS, REL, FRE, SPN, FORENSIC
 
 ---
 
 ## Known Limitations
 
-- Fall 2026 schedule data is not yet available — fall planning uses catalog-inferred availability
+- Fall 2026 schedule data is not yet available — fall planning infers availability from the catalog
 - Session memory is in-memory only — cleared when the server restarts
-- Currently plans one semester at a time — multi-semester roadmap not yet implemented
+- Scanned PDF transcripts require OCR preprocessing before upload
