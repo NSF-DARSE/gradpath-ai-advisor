@@ -52,7 +52,7 @@ def check_input(callback_context: CallbackContext) -> Optional[types.Content]:
     if len(message) > MAX_INPUT_CHARS:
         return types.Content(
             role="model",
-            parts=[types.Part.from_text(
+            parts=[types.Part.from_text(text=
                 f"Your message is too long ({len(message)} characters). "
                 f"Please keep it under {MAX_INPUT_CHARS} characters and try again."
             )],
@@ -68,7 +68,7 @@ def check_input(callback_context: CallbackContext) -> Optional[types.Content]:
     if not any(kw in lower for kw in _ACADEMIC_KEYWORDS):
         return types.Content(
             role="model",
-            parts=[types.Part.from_text(
+            parts=[types.Part.from_text(text=
                 "I'm GradPath, Lincoln University's AI academic advisor. "
                 "I can only help with course planning, prerequisites, graduation requirements, "
                 "and other academic topics. What can I help you with for your studies?"

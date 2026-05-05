@@ -71,7 +71,7 @@ class TranscriptParserTests(unittest.TestCase):
 
         profile = result.transcript.to_planner_profile()
         completed_ids = {course["course_id"] for course in profile["completed_courses"]}
-        self.assertIn("CS102", completed_ids)
+        self.assertIn("CSC-2054", completed_ids)
         self.assertEqual(profile["major"], "CS")
 
     def test_llm_fallback_can_fill_missing_fields_while_preserving_local_courses(self) -> None:
@@ -126,7 +126,7 @@ class TranscriptParserTests(unittest.TestCase):
         self.assertEqual(len(result.transcript.completed_courses), 1)
         profile = result.transcript.to_planner_profile()
         self.assertEqual(profile["major"], "CS")
-        self.assertEqual(profile["completed_courses"][0]["course_id"], "CS102")
+        self.assertEqual(profile["completed_courses"][0]["course_id"], "CSC-2054")
 
 
 if __name__ == "__main__":
