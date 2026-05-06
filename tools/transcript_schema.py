@@ -168,17 +168,21 @@ class TranscriptDocument(BaseModel):
         """Adapt transcript JSON into the profile shape already used by GradPath."""
 
         current_semester = self.terms[-1].term if self.terms else "Unknown"
-        completed_courses = [
-            {
-                "course_id": _map_course_to_planner_id(course.course_code, course.course_title),
+        seen_course_ids: set = set()
+        completed_courses = []
+        for course in self.completed_courses:
+            course_id = _map_course_to_planner_id(course.course_code, course.course_title)
+            if course_id in seen_course_ids:
+                continue
+            seen_course_ids.add(course_id)
+            completed_courses.append({
+                "course_id": course_id,
                 "source_course_code": course.course_code,
                 "source_course_title": course.course_title,
                 "term": course.term,
                 "grade": course.grade,
                 "credits": int(course.credits) if float(course.credits).is_integer() else course.credits,
-            }
-            for course in self.completed_courses
-        ]
+            })
 
         # Collect CIP (currently in-progress) courses from the last term
         in_progress_courses = []

@@ -114,14 +114,6 @@
       "credits": 3
     },
     {
-      "course_id": "MAT-1010",
-      "source_course_code": "MAT 110",
-      "source_course_title": "College Algebra",
-      "term": "Spring 2024",
-      "grade": "B+",
-      "credits": 4
-    },
-    {
       "course_id": "CSC-3055",
       "source_course_code": "CSC 3055",
       "source_course_title": "Operating Systems W/ Linux",

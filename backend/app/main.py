@@ -8,10 +8,11 @@ from pathlib import Path
 
 # Register 'Gradpath' package under lowercase 'gradpath' alias so agents can
 # import from `gradpath.*` regardless of how uvicorn was launched.
-_parent = Path(__file__).resolve().parents[3]
+_root = Path(__file__).resolve().parents[2]
+_parent = _root.parent
 if str(_parent) not in sys.path:
     sys.path.insert(0, str(_parent))
-_pkg = importlib.import_module("Gradpath")
+_pkg = importlib.import_module(_root.name)
 sys.modules.setdefault("gradpath", _pkg)
 
 from fastapi import FastAPI

@@ -291,6 +291,7 @@ def _extract_terms(raw_lines: Sequence[str], normalized_lines: Sequence[str]) ->
     return standard_terms
 
 
+
 def _build_term(term_name: str, lines: Sequence[str]) -> TranscriptTerm:
     merged_lines = _merge_wrapped_course_lines(lines)
     term_gpa = _search_float(lines, (r"(?:term gpa|semester gpa)\s*[:\-]?\s*(\d+\.\d+)",))
@@ -452,10 +453,14 @@ def _extract_terms_from_columns(raw_lines: Sequence[str]) -> List[TranscriptTerm
     active_terms = [None, None]
     term_courses: Dict[str, List[TranscriptCourse]] = {}
     term_gpas: Dict[str, float] = {}
+    # Keyed by column index — stores (term, fragment_text) for a course whose title
+    # was wrapped across two PDF lines (e.g. "Operating Systems W/" / "Linux 4.00 B- 10.80").
+    pending_fragments: Dict[int, Tuple[Optional[str], str]] = {}
 
     for raw_line in raw_lines:
         normalized_line = re.sub(r"\s+", " ", raw_line).strip()
         if not normalized_line:
+            pending_fragments.clear()
             continue
 
         compact_courses = _extract_course_chunks(normalized_line)
@@ -463,6 +468,9 @@ def _extract_terms_from_columns(raw_lines: Sequence[str]) -> List[TranscriptTerm
         line_starts_with_summary = normalized_line.startswith(("Att Cred", "Term ", "Cum "))
 
         if compact_courses:
+            # A new course starts here — any saved fragments can't be continued.
+            pending_fragments.clear()
+
             if len(compact_courses) >= 2 and active_terms[0] and active_terms[1]:
                 _append_course(term_courses, active_terms[0], compact_courses[0])
                 _append_course(term_courses, active_terms[1], compact_courses[1])
@@ -484,6 +492,7 @@ def _extract_terms_from_columns(raw_lines: Sequence[str]) -> List[TranscriptTerm
 
         segments = _split_transcript_columns(raw_line)
         if not any(segments):
+            pending_fragments.clear()
             continue
 
         for index, segment in enumerate(segments):
@@ -493,6 +502,7 @@ def _extract_terms_from_columns(raw_lines: Sequence[str]) -> List[TranscriptTerm
             if term_name:
                 active_terms[index] = term_name
                 term_courses.setdefault(term_name, [])
+                pending_fragments.pop(index, None)
                 continue
 
             parsed_gpa = _parse_term_gpa(segment)
@@ -504,8 +514,26 @@ def _extract_terms_from_columns(raw_lines: Sequence[str]) -> List[TranscriptTerm
             if current_term is None:
                 continue
 
-            for course in _parse_course_entries(segment):
-                _append_course(term_courses, current_term, course)
+            # Try to complete a pending fragment for this column.
+            if index in pending_fragments:
+                frag_term, frag_text = pending_fragments[index]
+                if not COURSE_CODE_PATTERN.search(segment):
+                    merged = f"{frag_text} {segment}"
+                    merged_courses = _parse_course_entries(merged)
+                    if merged_courses:
+                        for course in merged_courses:
+                            _append_course(term_courses, frag_term, course)
+                        del pending_fragments[index]
+                        continue
+                del pending_fragments[index]
+
+            courses = _parse_course_entries(segment)
+            if courses:
+                for course in courses:
+                    _append_course(term_courses, current_term, course)
+            elif COURSE_CODE_PATTERN.search(segment) and not _extract_term_name(segment):
+                # Course code present but no grade — likely a wrapped title; save fragment.
+                pending_fragments[index] = (current_term, segment)
 
     ordered_terms = []
     for term_name, courses in term_courses.items():

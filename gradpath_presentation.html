@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>GradPath — AI Academic Advisor</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --navy: #0d1b2a;
+    --blue: #1565c0;
+    --blue-light: #2979ff;
+    --teal: #00bcd4;
+    --gold: #ffd54f;
+    --white: #ffffff;
+    --gray-100: #f5f7fa;
+    --gray-300: #cfd8dc;
+    --gray-500: #78909c;
+    --green: #43a047;
+    --red: #e53935;
+  }
+
+  html, body { height: 100%; font-family: 'Inter', sans-serif; background: var(--navy); color: var(--white); overflow: hidden; }
+
+  .deck { width: 100vw; height: 100vh; position: relative; }
+
+  .slide {
+    position: absolute; inset: 0;
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    opacity: 0; pointer-events: none;
+    transition: opacity 0.5s ease;
+    padding: 60px;
+  }
+  .slide.active { opacity: 1; pointer-events: all; }
+
+  /* ── Slide-specific backgrounds ── */
+  .s-dark   { background: var(--navy); }
+  .s-blue   { background: linear-gradient(135deg, #0d1b2a 0%, #1565c0 100%); }
+  .s-teal   { background: linear-gradient(135deg, #004d5e 0%, #00bcd4 100%); }
+  .s-light  { background: var(--gray-100); color: #0d1b2a; }
+  .s-green  { background: linear-gradient(135deg, #1b3a2a 0%, #43a047 100%); }
+  .s-gold   { background: linear-gradient(135deg, #2a1f00 0%, #f9a825 100%); }
+  .s-split  { flex-direction: row; gap: 80px; align-items: center; justify-content: center; }
+
+  /* ── Typography ── */
+  .eyebrow { font-size: 13px; font-weight: 600; letter-spacing: 3px; text-transform: uppercase; opacity: 0.6; margin-bottom: 16px; }
+  .headline { font-size: clamp(36px, 5vw, 64px); font-weight: 800; line-height: 1.1; text-align: center; }
+  .subhead { font-size: clamp(18px, 2.5vw, 28px); font-weight: 400; opacity: 0.75; margin-top: 20px; text-align: center; line-height: 1.4; }
+  .body-text { font-size: 18px; line-height: 1.7; opacity: 0.85; max-width: 640px; text-align: center; }
+  .accent { color: var(--teal); }
+  .gold { color: var(--gold); }
+  .big-stat { font-size: clamp(60px, 10vw, 120px); font-weight: 900; line-height: 1; }
+  .stat-label { font-size: 20px; opacity: 0.7; margin-top: 8px; }
+
+  /* ── Components ── */
+  .pill {
+    display: inline-flex; align-items: center; gap: 8px;
+    padding: 8px 20px; border-radius: 999px; font-size: 14px; font-weight: 600;
+  }
+  .pill-blue { background: rgba(41,121,255,0.2); border: 1px solid rgba(41,121,255,0.5); color: #90caf9; }
+  .pill-teal { background: rgba(0,188,212,0.15); border: 1px solid rgba(0,188,212,0.4); color: #80deea; }
+  .pill-gold { background: rgba(255,213,79,0.15); border: 1px solid rgba(255,213,79,0.4); color: var(--gold); }
+
+  .card {
+    background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 16px; padding: 28px 32px;
+    backdrop-filter: blur(10px);
+  }
+  .card-light {
+    background: #fff; border: 1px solid #e0e0e0;
+    border-radius: 16px; padding: 28px 32px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    color: #0d1b2a;
+  }
+
+  .icon-wrap { width: 64px; height: 64px; border-radius: 16px; display: flex; align-items: center; justify-content: center; font-size: 28px; margin-bottom: 16px; }
+  .icon-blue { background: rgba(41,121,255,0.2); }
+  .icon-teal { background: rgba(0,188,212,0.2); }
+  .icon-gold { background: rgba(255,213,79,0.2); }
+
+  /* ── Grid layouts ── */
+  .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; width: 100%; max-width: 900px; }
+  .grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 24px; width: 100%; max-width: 1000px; }
+  .grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; width: 100%; max-width: 1100px; }
+
+  /* ── Flow diagram ── */
+  .flow { display: flex; align-items: center; gap: 0; }
+  .flow-node {
+    background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 12px; padding: 16px 20px; text-align: center;
+    font-size: 14px; font-weight: 600; min-width: 120px;
+  }
+  .flow-arrow { font-size: 22px; opacity: 0.5; margin: 0 8px; }
+  .flow-node.highlight { background: rgba(0,188,212,0.25); border-color: var(--teal); color: #80deea; }
+
+  /* ── Agent pipeline ── */
+  .pipeline { display: flex; flex-direction: column; gap: 12px; width: 100%; max-width: 700px; }
+  .pipe-row { display: flex; align-items: center; gap: 12px; }
+  .pipe-badge { width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 700; flex-shrink: 0; }
+  .pipe-item { flex: 1; padding: 12px 20px; border-radius: 10px; font-size: 15px; font-weight: 600; }
+  .pipe-desc { font-size: 13px; font-weight: 400; opacity: 0.7; margin-top: 2px; }
+  .pipe-arrow { text-align: center; font-size: 20px; opacity: 0.4; padding-left: 44px; }
+
+  /* ── Progress bar ── */
+  .progress-track { height: 8px; background: rgba(255,255,255,0.15); border-radius: 4px; margin-top: 8px; }
+  .progress-fill { height: 100%; border-radius: 4px; background: linear-gradient(90deg, var(--teal), var(--blue-light)); }
+
+  /* ── Timeline ── */
+  .timeline { display: flex; flex-direction: column; gap: 0; max-width: 680px; width: 100%; }
+  .timeline-item { display: flex; gap: 20px; align-items: flex-start; }
+  .timeline-dot { width: 14px; height: 14px; border-radius: 50%; background: var(--teal); flex-shrink: 0; margin-top: 4px; position: relative; }
+  .timeline-dot::after { content: ''; position: absolute; left: 6px; top: 14px; width: 2px; height: 40px; background: rgba(0,188,212,0.3); }
+  .timeline-item:last-child .timeline-dot::after { display: none; }
+  .timeline-content { padding-bottom: 28px; }
+  .timeline-label { font-size: 13px; opacity: 0.6; margin-bottom: 4px; }
+  .timeline-text { font-size: 17px; font-weight: 600; }
+
+  /* ── Nav ── */
+  .nav {
+    position: fixed; bottom: 32px; left: 50%; transform: translateX(-50%);
+    display: flex; align-items: center; gap: 12px; z-index: 100;
+    background: rgba(255,255,255,0.08); backdrop-filter: blur(12px);
+    border: 1px solid rgba(255,255,255,0.15); border-radius: 999px; padding: 10px 20px;
+  }
+  .nav button {
+    background: none; border: none; color: rgba(255,255,255,0.7); cursor: pointer;
+    font-size: 20px; padding: 4px 12px; border-radius: 8px; transition: all 0.2s;
+  }
+  .nav button:hover { background: rgba(255,255,255,0.12); color: #fff; }
+  .nav-counter { font-size: 13px; font-weight: 600; opacity: 0.5; min-width: 50px; text-align: center; }
+
+  /* ── Progress dots ── */
+  .dots {
+    position: fixed; bottom: 92px; left: 50%; transform: translateX(-50%);
+    display: flex; gap: 6px; z-index: 100;
+  }
+  .dot { width: 6px; height: 6px; border-radius: 3px; background: rgba(255,255,255,0.25); transition: all 0.3s; }
+  .dot.active { width: 24px; background: var(--teal); }
+
+  /* ── Divider ── */
+  .divider { width: 60px; height: 3px; background: var(--teal); border-radius: 2px; margin: 20px auto; }
+
+  /* ── Quote ── */
+  .quote { font-size: clamp(22px, 3vw, 36px); font-weight: 300; font-style: italic; line-height: 1.5; text-align: center; max-width: 760px; }
+  .quote-author { font-size: 16px; opacity: 0.5; margin-top: 20px; }
+
+  /* ── Keyboard hint ── */
+  .hint { position: fixed; top: 24px; right: 32px; font-size: 12px; opacity: 0.3; color: #fff; }
+
+  /* ── Slide number ── */
+  .slide-num { position: fixed; top: 24px; left: 32px; font-size: 12px; font-weight: 600; opacity: 0.2; color: #fff; letter-spacing: 2px; }
+
+  /* ── Tag line ── */
+  .tagline-wrap { margin-top: 32px; display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; }
+
+  /* Utility */
+  .mt-8  { margin-top: 8px; }
+  .mt-16 { margin-top: 16px; }
+  .mt-24 { margin-top: 24px; }
+  .mt-32 { margin-top: 32px; }
+  .mb-8  { margin-bottom: 8px; }
+  .text-left { text-align: left; }
+  .w-full { width: 100%; }
+  .max-900 { max-width: 900px; }
+  .max-700 { max-width: 700px; }
+  .flex-col { display: flex; flex-direction: column; align-items: center; }
+</style>
+</head>
+<body>
+
+<div class="hint">← → or click to navigate</div>
+<div class="slide-num" id="slideNum">01 / 11</div>
+
+<div class="deck" id="deck">
+
+  <!-- ─────────────────────────────────────────
+       SLIDE 1 · OPENING HOOK
+  ───────────────────────────────────────── -->
+  <div class="slide s-dark active" id="s1">
+    <div class="eyebrow">Introducing</div>
+    <div class="headline">
+      One conversation.<br>
+      A complete <span class="accent">graduation plan</span>.
+    </div>
+    <div class="subhead">AI-powered academic advising for every student at Lincoln University</div>
+    <div class="tagline-wrap">
+      <span class="pill pill-teal">🤖 Multi-Agent AI</span>
+      <span class="pill pill-blue">📚 Real Course Data</span>
+      <span class="pill pill-gold">🎓 Full Degree Planning</span>
+    </div>
+    <div style="position:absolute;bottom:120px;left:50%;transform:translateX(-50%);font-size:13px;opacity:0.3;letter-spacing:2px;">GRADPATH · v7</div>
+  </div>
+
+  <!-- ─────────────────────────────────────────
+       SLIDE 2 · THE PROBLEM
+  ───────────────────────────────────────── -->
+  <div class="slide s-dark" id="s2">
+    <div class="eyebrow">The Problem</div>
+    <div class="headline" style="max-width:800px;">
+      Students graduate late — <span class="gold">not because they failed,</span><br>but because no one guided them.
+    </div>
+    <div class="divider"></div>
+    <div class="grid-3" style="margin-top:32px;">
+      <div class="card" style="text-align:center;">
+        <div class="big-stat" style="font-size:56px;">😵</div>
+        <div class="mt-16" style="font-weight:600;font-size:16px;">Confusing prerequisites</div>
+        <div class="mt-8 body-text" style="font-size:14px;">Prerequisite chains are invisible until it's too late</div>
+      </div>
+      <div class="card" style="text-align:center;">
+        <div class="big-stat" style="font-size:56px;">📅</div>
+        <div class="mt-16" style="font-weight:600;font-size:16px;">Overwhelmed advisors</div>
+        <div class="mt-8 body-text" style="font-size:14px;">One advisor, hundreds of students</div>
+      </div>
+      <div class="card" style="text-align:center;">
+        <div class="big-stat" style="font-size:56px;">🔄</div>
+        <div class="mt-16" style="font-weight:600;font-size:16px;">No personalization</div>
+        <div class="mt-8 body-text" style="font-size:14px;">Generic checklists ignore a student's actual history</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ─────────────────────────────────────────
+       SLIDE 3 · THE SOLUTION
+  ───────────────────────────────────────── -->
+  <div class="slide s-blue" id="s3">
+    <div class="eyebrow">The Solution</div>
+    <div class="headline">GradPath <span style="opacity:0.5;font-weight:300;">is your</span><br><span class="gold">24/7 AI academic advisor</span></div>
+    <div class="subhead" style="max-width:640px;">Upload your transcript. Tell it your goals. Get a personalized, prerequisite-validated semester-by-semester graduation roadmap — instantly.</div>
+
+    <div class="flow mt-32">
+      <div class="flow-node">📄<br><span style="font-size:12px;opacity:0.7">Transcript PDF</span></div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node highlight">🤖<br><span style="font-size:12px;">GradPath AI</span></div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">🎓<br><span style="font-size:12px;opacity:0.7">Graduation Plan</span></div>
+    </div>
+  </div>
+
+  <!-- ─────────────────────────────────────────
+       SLIDE 4 · THE STUDENT JOURNEY
+  ───────────────────────────────────────── -->
+  <div class="slide s-dark" id="s4">
+    <div class="eyebrow">The Student Experience</div>
+    <div class="headline" style="font-size:44px;">From transcript to roadmap<br><span class="accent">in one conversation</span></div>
+    <div class="timeline mt-32">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-label">STEP 1</div>
+          <div class="timeline-text">Student uploads their transcript PDF and states their major + goal</div>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-label">STEP 2</div>
+          <div class="timeline-text">AI parses 4 years of coursework, GPA, and completed credits automatically</div>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-label">STEP 3</div>
+          <div class="timeline-text">Agent validates prerequisites, checks live course schedules, respects credit limits</div>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-label">STEP 4 ✓</div>
+          <div class="timeline-text">Full multi-semester graduation plan delivered with reasoning</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ─────────────────────────────────────────
+       SLIDE 5 · THE AI ARCHITECTURE
+  ───────────────────────────────────────── -->
+  <div class="slide s-dark" id="s5">
+    <div class="eyebrow">Under the Hood</div>
+    <div class="headline" style="font-size:42px;margin-bottom:32px;">A <span class="accent">5-agent pipeline</span><br>working in sequence</div>
+    <div class="pipeline">
+      <div class="pipe-row">
+        <div class="pipe-badge" style="background:#1565c0;color:#fff;">1</div>
+        <div class="pipe-item card">
+          <div style="font-size:15px;font-weight:700;">🗣 Greeting Agent</div>
+          <div class="pipe-desc">Collects student name, major, target semester, credit preferences</div>
+        </div>
+      </div>
+      <div class="pipe-arrow">↓</div>
+      <div class="pipe-row">
+        <div class="pipe-badge" style="background:#00838f;color:#fff;">2</div>
+        <div class="pipe-item card">
+          <div style="font-size:15px;font-weight:700;">📄 Transcript Agent</div>
+          <div class="pipe-desc">Parses PDF → structured course history JSON</div>
+        </div>
+      </div>
+      <div class="pipe-arrow">↓</div>
+      <div class="pipe-row">
+        <div class="pipe-badge" style="background:#2e7d32;color:#fff;">3</div>
+        <div class="pipe-item card">
+          <div style="font-size:15px;font-weight:700;">📚 Catalog + History Agents</div>
+          <div class="pipe-desc">Load major requirements, course offerings, completed credits</div>
+        </div>
+      </div>
+      <div class="pipe-arrow">↓</div>
+      <div class="pipe-row">
+        <div class="pipe-badge" style="background:#e65100;color:#fff;">5</div>
+        <div class="pipe-item card" style="border-color:rgba(0,188,212,0.4);">
+          <div style="font-size:15px;font-weight:700;color:#80deea;">🗺 Planner Agent</div>
+          <div class="pipe-desc">Generates validated multi-semester graduation roadmap</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ─────────────────────────────────────────
+       SLIDE 6 · THE DATA
+  ───────────────────────────────────────── -->
+  <div class="slide s-dark" id="s6">
+    <div class="eyebrow">Powered by Real Data</div>
+    <div class="headline" style="margin-bottom:40px;">Lincoln University.<br><span class="accent">Real courses. Real schedules.</span></div>
+    <div class="grid-4">
+      <div class="card" style="text-align:center;padding:24px 16px;">
+        <div style="font-size:48px;font-weight:900;color:#2979ff;">597</div>
+        <div style="font-size:14px;opacity:0.7;margin-top:6px;">Courses in catalog</div>
+      </div>
+      <div class="card" style="text-align:center;padding:24px 16px;">
+        <div style="font-size:48px;font-weight:900;color:#00bcd4;">11</div>
+        <div style="font-size:14px;opacity:0.7;margin-top:6px;">Majors supported</div>
+      </div>
+      <div class="card" style="text-align:center;padding:24px 16px;">
+        <div style="font-size:48px;font-weight:900;color:#ffd54f;">549</div>
+        <div style="font-size:14px;opacity:0.7;margin-top:6px;">Live Spring sections</div>
+      </div>
+      <div class="card" style="text-align:center;padding:24px 16px;">
+        <div style="font-size:48px;font-weight:900;color:#43a047;">3</div>
+        <div style="font-size:14px;opacity:0.7;margin-top:6px;">Terms: Spring / Summer / Fall</div>
+      </div>
+    </div>
+    <div class="body-text mt-32" style="opacity:0.6;">
+      Every recommendation is checked against the live course schedule — not just the catalog.
+    </div>
+  </div>
+
+  <!-- ─────────────────────────────────────────
+       SLIDE 7 · WHAT GRADPATH PRODUCES
+  ───────────────────────────────────────── -->
+  <div class="slide s-dark" id="s7">
+    <div class="eyebrow">What Students Get</div>
+    <div class="headline" style="font-size:40px;margin-bottom:36px;">A dashboard that answers<br><span class="accent">"what do I take next?"</span></div>
+    <div class="grid-2" style="max-width:860px;">
+      <div class="card">
+        <div class="icon-wrap icon-teal">📊</div>
+        <div style="font-weight:700;font-size:17px;">Degree Progress</div>
+        <div style="font-size:14px;opacity:0.7;margin-top:8px;line-height:1.5;">Credits earned, % complete, current standing — at a glance</div>
+        <div class="progress-track mt-16"><div class="progress-fill" style="width:68%"></div></div>
+        <div style="font-size:13px;opacity:0.5;margin-top:6px;">68% toward degree</div>
+      </div>
+      <div class="card">
+        <div class="icon-wrap icon-blue">📅</div>
+        <div style="font-weight:700;font-size:17px;">Next Semester Picks</div>
+        <div style="font-size:14px;opacity:0.7;margin-top:8px;line-height:1.5;">Validated courses — prereqs met, offered this term, within credit limit</div>
+      </div>
+      <div class="card">
+        <div class="icon-wrap icon-gold">🗺</div>
+        <div style="font-weight:700;font-size:17px;">Multi-Semester Roadmap</div>
+        <div style="font-size:14px;opacity:0.7;margin-top:8px;line-height:1.5;">Semester-by-semester plan from now through graduation</div>
+      </div>
+      <div class="card">
+        <div class="icon-wrap icon-teal">💬</div>
+        <div style="font-weight:700;font-size:17px;">Conversational Updates</div>
+        <div style="font-size:14px;opacity:0.7;margin-top:8px;line-height:1.5;">"What if I only take 12 credits next semester?" → plan updates instantly</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ─────────────────────────────────────────
+       SLIDE 8 · WHAT'S NEW IN V7
+  ───────────────────────────────────────── -->
+  <div class="slide s-dark" id="s8">
+    <div class="eyebrow">Version 7 Highlights</div>
+    <div class="headline" style="font-size:42px;margin-bottom:36px;">Three big steps<br>toward <span class="accent">production readiness</span></div>
+    <div class="grid-3">
+      <div class="card" style="text-align:center;">
+        <div style="font-size:44px;margin-bottom:12px;">🛡</div>
+        <div style="font-weight:700;font-size:16px;margin-bottom:8px;">Input Guardrails</div>
+        <div style="font-size:14px;opacity:0.7;line-height:1.6;">Pre-agent callback blocks off-topic or malformed inputs before they reach the LLM</div>
+      </div>
+      <div class="card" style="text-align:center;border-color:rgba(0,188,212,0.4);">
+        <div style="font-size:44px;margin-bottom:12px;">🎓</div>
+        <div style="font-weight:700;font-size:16px;margin-bottom:8px;color:#80deea;">Real Student Data</div>
+        <div style="font-size:14px;opacity:0.7;line-height:1.6;">4 real Lincoln University transcripts added — pipeline validated on authentic records</div>
+      </div>
+      <div class="card" style="text-align:center;">
+        <div style="font-size:44px;margin-bottom:12px;">✨</div>
+        <div style="font-weight:700;font-size:16px;margin-bottom:8px;">Redesigned Dashboard</div>
+        <div style="font-size:14px;opacity:0.7;line-height:1.6;">Accordion-based semester view, course cards, visual progress — no more bullet walls</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ─────────────────────────────────────────
+       SLIDE 9 · WHAT'S NEXT
+  ───────────────────────────────────────── -->
+  <div class="slide s-teal" id="s9">
+    <div class="eyebrow">The Road Ahead</div>
+    <div class="headline" style="font-size:44px;margin-bottom:40px;">From pilot to platform</div>
+    <div class="grid-2" style="max-width:800px;">
+      <div class="card" style="background:rgba(0,0,0,0.2);border-color:rgba(255,255,255,0.15);">
+        <div style="font-weight:700;font-size:16px;margin-bottom:10px;">🔍 OCR for Scanned Transcripts</div>
+        <div style="font-size:14px;opacity:0.8;line-height:1.5;">6 of 10 student transcripts still need OCR processing to unlock</div>
+      </div>
+      <div class="card" style="background:rgba(0,0,0,0.2);border-color:rgba(255,255,255,0.15);">
+        <div style="font-weight:700;font-size:16px;margin-bottom:10px;">🔒 Authentication Layer</div>
+        <div style="font-size:14px;opacity:0.8;line-height:1.5;">Tie into Lincoln's student identity system for secure personalized access</div>
+      </div>
+      <div class="card" style="background:rgba(0,0,0,0.2);border-color:rgba(255,255,255,0.15);">
+        <div style="font-weight:700;font-size:16px;margin-bottom:10px;">💾 Persistent Session Storage</div>
+        <div style="font-size:14px;opacity:0.8;line-height:1.5;">Move from in-memory to database so plans survive restarts and scale to many users</div>
+      </div>
+      <div class="card" style="background:rgba(0,0,0,0.2);border-color:rgba(255,255,255,0.15);">
+        <div style="font-weight:700;font-size:16px;margin-bottom:10px;">🏛 Expand Beyond Lincoln</div>
+        <div style="font-size:14px;opacity:0.8;line-height:1.5;">Modular data layer means any university can plug in their own catalog and schedule</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ─────────────────────────────────────────
+       SLIDE 10 · TECH STACK SUMMARY
+  ───────────────────────────────────────── -->
+  <div class="slide s-dark" id="s10">
+    <div class="eyebrow">Technology Stack</div>
+    <div class="headline" style="font-size:38px;margin-bottom:36px;">Built on <span class="accent">proven foundations</span></div>
+    <div class="grid-4">
+      <div class="card" style="text-align:center;padding:20px 12px;">
+        <div style="font-size:32px;">⚡</div>
+        <div style="font-weight:700;font-size:14px;margin-top:10px;">Google ADK</div>
+        <div style="font-size:12px;opacity:0.6;margin-top:4px;">Agent orchestration</div>
+      </div>
+      <div class="card" style="text-align:center;padding:20px 12px;">
+        <div style="font-size:32px;">✨</div>
+        <div style="font-weight:700;font-size:14px;margin-top:10px;">Gemini 2.5 Flash</div>
+        <div style="font-size:12px;opacity:0.6;margin-top:4px;">LLM backbone</div>
+      </div>
+      <div class="card" style="text-align:center;padding:20px 12px;">
+        <div style="font-size:32px;">🚀</div>
+        <div style="font-weight:700;font-size:14px;margin-top:10px;">FastAPI</div>
+        <div style="font-size:12px;opacity:0.6;margin-top:4px;">Backend API</div>
+      </div>
+      <div class="card" style="text-align:center;padding:20px 12px;">
+        <div style="font-size:32px;">⚛️</div>
+        <div style="font-weight:700;font-size:14px;margin-top:10px;">React + Vite</div>
+        <div style="font-size:12px;opacity:0.6;margin-top:4px;">Frontend UI</div>
+      </div>
+    </div>
+    <div style="margin-top:28px;display:flex;gap:12px;flex-wrap:wrap;justify-content:center;">
+      <span class="pill pill-blue">Python 3.9+</span>
+      <span class="pill pill-teal">TypeScript</span>
+      <span class="pill pill-gold">pdfplumber</span>
+      <span class="pill pill-blue">Pydantic v2</span>
+      <span class="pill pill-teal">Uvicorn</span>
+    </div>
+  </div>
+
+  <!-- ─────────────────────────────────────────
+       SLIDE 11 · CLOSE
+  ───────────────────────────────────────── -->
+  <div class="slide s-blue" id="s11">
+    <div class="eyebrow">The Vision</div>
+    <div class="quote">
+      "Every student deserves an advisor who knows<br>their full history, never gets tired,<br>and is available at 2am."
+    </div>
+    <div class="divider" style="margin-top:32px;"></div>
+    <div class="subhead mt-16">GradPath makes that real — <span class="gold">starting at Lincoln University.</span></div>
+    <div class="tagline-wrap mt-32">
+      <span class="pill pill-teal">🏃 Running at localhost:8000</span>
+      <span class="pill pill-gold">⭐ gradpath-v7</span>
+    </div>
+    <div style="position:absolute;bottom:120px;left:50%;transform:translateX(-50%);font-size:13px;opacity:0.25;letter-spacing:2px;text-align:center;">
+      Thank you
+    </div>
+  </div>
+
+</div><!-- /deck -->
+
+<!-- Dots -->
+<div class="dots" id="dots"></div>
+
+<!-- Nav -->
+<div class="nav">
+  <button onclick="prev()" title="Previous">←</button>
+  <span class="nav-counter" id="counter">1 / 11</span>
+  <button onclick="next()" title="Next">→</button>
+</div>
+
+<script>
+  const TOTAL = 11;
+  let cur = 1;
+
+  const deck  = document.getElementById('deck');
+  const dots  = document.getElementById('dots');
+  const counter = document.getElementById('counter');
+  const slideNum = document.getElementById('slideNum');
+
+  // Build dots
+  for (let i = 1; i <= TOTAL; i++) {
+    const d = document.createElement('div');
+    d.className = 'dot' + (i === 1 ? ' active' : '');
+    d.onclick = () => goTo(i);
+    d.style.cursor = 'pointer';
+    dots.appendChild(d);
+  }
+
+  function goTo(n) {
+    document.getElementById('s' + cur).classList.remove('active');
+    dots.children[cur - 1].classList.remove('active');
+    cur = Math.max(1, Math.min(TOTAL, n));
+    document.getElementById('s' + cur).classList.add('active');
+    dots.children[cur - 1].classList.add('active');
+    counter.textContent = cur + ' / ' + TOTAL;
+    slideNum.textContent = String(cur).padStart(2, '0') + ' / ' + String(TOTAL).padStart(2, '0');
+  }
+
+  function next() { if (cur < TOTAL) goTo(cur + 1); }
+  function prev() { if (cur > 1) goTo(cur - 1); }
+
+  document.addEventListener('keydown', e => {
+    if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'PageDown') next();
+    if (e.key === 'ArrowLeft' || e.key === 'PageUp') prev();
+  });
+
+  // Click right half → next, left half → prev
+  deck.addEventListener('click', e => {
+    if (e.target.closest('button') || e.target.closest('.nav') || e.target.closest('.dots')) return;
+    if (e.clientX > window.innerWidth / 2) next(); else prev();
+  });
+</script>
+</body>
+</html>
