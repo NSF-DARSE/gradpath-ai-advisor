@@ -1,0 +1,118 @@
+{
+  "student_id": "0482879",
+  "student_name": "Green,Bryan J",
+  "major": "CS",
+  "student_type": "undergraduate",
+  "gpa": null,
+  "current_semester": "Summer 2025",
+  "expected_graduation": null,
+  "career_goal": null,
+  "preferences": "balanced",
+  "completed_courses": [
+    {
+      "course_id": "ART-1000",
+      "source_course_code": "ART 1000",
+      "source_course_title": "Fundamentals of 2-D Design",
+      "term": "Fall 2024",
+      "grade": "A",
+      "credits": 4
+    },
+    {
+      "course_id": "CSC-1058",
+      "source_course_code": "CSC 1058",
+      "source_course_title": "Computer Programming I",
+      "term": "Fall 2024",
+      "grade": "A",
+      "credits": 4
+    },
+    {
+      "course_id": "ENG-1001",
+      "source_course_code": "ENG 1001",
+      "source_course_title": "English Composition I",
+      "term": "Fall 2024",
+      "grade": "A-",
+      "credits": 4
+    },
+    {
+      "course_id": "MAT-1010",
+      "source_course_code": "MAT 1010",
+      "source_course_title": "College Algebra",
+      "term": "Fall 2024",
+      "grade": "B",
+      "credits": 4
+    },
+    {
+      "course_id": "MAT-1010L",
+      "source_course_code": "MAT 1010L",
+      "source_course_title": "College Algebra Lab MUS2E1 Concert Choir",
+      "term": "Fall 2024",
+      "grade": "A-",
+      "credits": 1
+    },
+    {
+      "course_id": "CSC-2001",
+      "source_course_code": "CSC 2001",
+      "source_course_title": "Web Design & Development",
+      "term": "Fall 2025",
+      "grade": "A",
+      "credits": 4
+    },
+    {
+      "course_id": "GSC-1011",
+      "source_course_code": "GSC 1011",
+      "source_course_title": "Environmental Science",
+      "term": "Fall 2025",
+      "grade": "A-",
+      "credits": 4
+    },
+    {
+      "course_id": "HIS-3004",
+      "source_course_code": "HIS 3004",
+      "source_course_title": "Seminar: Public History",
+      "term": "Fall 2025",
+      "grade": "A",
+      "credits": 4
+    },
+    {
+      "course_id": "SOS-1051",
+      "source_course_code": "SOS 1051",
+      "source_course_title": "African American Experience",
+      "term": "Fall 2025",
+      "grade": "A",
+      "credits": 4
+    },
+    {
+      "course_id": "CSC-1059",
+      "source_course_code": "CSC 1059",
+      "source_course_title": "Computer Programming II",
+      "term": "Spring 2025",
+      "grade": "A",
+      "credits": 4
+    },
+    {
+      "course_id": "ENG-1002",
+      "source_course_code": "ENG 1002",
+      "source_course_title": "English Comp II",
+      "term": "Spring 2025",
+      "grade": "A",
+      "credits": 4
+    },
+    {
+      "course_id": "PSY-1001",
+      "source_course_code": "PSY 1001",
+      "source_course_title": "General Psychology",
+      "term": "Spring 2025",
+      "grade": "A",
+      "credits": 4
+    },
+    {
+      "course_id": "MAT-1014",
+      "source_course_code": "MAT 1014",
+      "source_course_title": "Elementary Statistics I",
+      "term": "Summer 2025",
+      "grade": "B-",
+      "credits": 4
+    }
+  ],
+  "in_progress_courses": []
+}

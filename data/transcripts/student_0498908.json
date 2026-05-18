@@ -11,30 +11,6 @@
   "completed_courses": [
     {
       "course_id": "BIO-1003",
-      "source_course_code": "BIO1003",
-      "source_course_title": "General Biology I for Bio Maj",
-      "term": "Fall 2025",
-      "grade": "C",
-      "credits": 4
-    },
-    {
-      "course_id": "ENG-1001",
-      "source_course_code": "ENG1001",
-      "source_course_title": "English Composition I",
-      "term": "Fall 2025",
-      "grade": "A",
-      "credits": 4
-    },
-    {
-      "course_id": "REL-2000",
-      "source_course_code": "REL2000",
-      "source_course_title": "Introduction to Religion",
-      "term": "Fall 2025",
-      "grade": "C",
-      "credits": 4
-    },
-    {
-      "course_id": "BIO-1003",
       "source_course_code": "BIO 1003",
       "source_course_title": "General Biology I for Bio Maj",
       "term": "Fall 2025",
@@ -56,6 +32,56 @@
       "term": "Fall 2025",
       "grade": "C",
       "credits": 4
+    }
+  ],
+  "in_progress_courses": [
+    {
+      "course_id": "BIO-1004",
+      "source_course_code": "BIO 1004",
+      "source_course_title": "General Biology II for Bio Maj",
+      "term": "Spring 2026",
+      "grade": "In Progress",
+      "credits": 0
+    },
+    {
+      "course_id": "BIO-1004L",
+      "source_course_code": "BIO 1004L",
+      "source_course_title": "Gen Biology II Lab for Bio Maj",
+      "term": "Spring 2026",
+      "grade": "In Progress",
+      "credits": 0
+    },
+    {
+      "course_id": "CHE-1003",
+      "source_course_code": "CHE 1003",
+      "source_course_title": "General Chemistry I",
+      "term": "Spring 2026",
+      "grade": "In Progress",
+      "credits": 0
+    },
+    {
+      "course_id": "CHE-1003L",
+      "source_course_code": "CHE 1003L",
+      "source_course_title": "Gen. Chemistry I Lab",
+      "term": "Spring 2026",
+      "grade": "In Progress",
+      "credits": 0
+    },
+    {
+      "course_id": "MAT-1010",
+      "source_course_code": "MAT 1010",
+      "source_course_title": "College Algebra",
+      "term": "Spring 2026",
+      "grade": "In Progress",
+      "credits": 0
+    },
+    {
+      "course_id": "MUS-2000",
+      "source_course_code": "MUS 2000",
+      "source_course_title": "Introduction to Music",
+      "term": "Spring 2026",
+      "grade": "In Progress",
+      "credits": 0
     }
   ]
 }

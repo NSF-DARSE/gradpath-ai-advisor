@@ -145,5 +145,31 @@
       "grade": "B",
       "credits": 4
     }
+  ],
+  "in_progress_courses": [
+    {
+      "course_id": "CSC-1051",
+      "source_course_code": "CSC 1051",
+      "source_course_title": "Computer Applications & Coding",
+      "term": "Spring 2026",
+      "grade": "In Progress",
+      "credits": 0
+    },
+    {
+      "course_id": "CSC-1059",
+      "source_course_code": "CSC 1059",
+      "source_course_title": "Computer Programming II",
+      "term": "Spring 2026",
+      "grade": "In Progress",
+      "credits": 0
+    },
+    {
+      "course_id": "MAT-2013",
+      "source_course_code": "MAT 2013",
+      "source_course_title": "Discrete Mathematics",
+      "term": "Spring 2026",
+      "grade": "In Progress",
+      "credits": 0
+    }
   ]
 }

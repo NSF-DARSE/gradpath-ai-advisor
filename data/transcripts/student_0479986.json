@@ -11,46 +11,6 @@
   "completed_courses": [
     {
       "course_id": "CSC-2001",
-      "source_course_code": "CSC2001",
-      "source_course_title": "Web Design & Development",
-      "term": "Fall 2025",
-      "grade": "A-",
-      "credits": 4
-    },
-    {
-      "course_id": "CSC-3002",
-      "source_course_code": "CSC3002",
-      "source_course_title": "Computer Graphics & Animation",
-      "term": "Fall 2025",
-      "grade": "A-",
-      "credits": 4
-    },
-    {
-      "course_id": "CSC-3056",
-      "source_course_code": "CSC3056",
-      "source_course_title": "Visual & Evnt Driven Prgmng",
-      "term": "Fall 2025",
-      "grade": "B",
-      "credits": 4
-    },
-    {
-      "course_id": "CSC-3095",
-      "source_course_code": "CSC3095",
-      "source_course_title": "HCI and UX Design",
-      "term": "Fall 2025",
-      "grade": "D",
-      "credits": 4
-    },
-    {
-      "course_id": "CSC-4057",
-      "source_course_code": "CSC4057",
-      "source_course_title": "Computer Networks & Security",
-      "term": "Fall 2025",
-      "grade": "B-",
-      "credits": 4
-    },
-    {
-      "course_id": "CSC-2001",
       "source_course_code": "CSC 2001",
       "source_course_title": "Web Design & Development",
       "term": "Fall 2025",
@@ -90,38 +50,6 @@
       "credits": 4
     },
     {
-      "course_id": "ACC-2003",
-      "source_course_code": "ACC2003",
-      "source_course_title": "Principles of Financial Acctg",
-      "term": "Fall 2024",
-      "grade": "B",
-      "credits": 4
-    },
-    {
-      "course_id": "CSC-1058",
-      "source_course_code": "CSC1058",
-      "source_course_title": "Computer Programming I",
-      "term": "Fall 2024",
-      "grade": "B+",
-      "credits": 4
-    },
-    {
-      "course_id": "MGT-3035",
-      "source_course_code": "MGT3035",
-      "source_course_title": "Principles of Management",
-      "term": "Fall 2024",
-      "grade": "B+",
-      "credits": 4
-    },
-    {
-      "course_id": "PHY-1081",
-      "source_course_code": "PHY1081",
-      "source_course_title": "Elementary Astronomy",
-      "term": "Fall 2024",
-      "grade": "A-",
-      "credits": 4
-    },
-    {
       "course_id": "MGT-3035",
       "source_course_code": "MGT 3035",
       "source_course_title": "Principles of Management",
@@ -138,30 +66,6 @@
       "credits": 4
     },
     {
-      "course_id": "CSC-1059",
-      "source_course_code": "CSC1059",
-      "source_course_title": "Computer Programming II",
-      "term": "Spring 2025",
-      "grade": "C+",
-      "credits": 4
-    },
-    {
-      "course_id": "ENG-2050",
-      "source_course_code": "ENG2050",
-      "source_course_title": "Introduction to Cinema",
-      "term": "Spring 2025",
-      "grade": "A-",
-      "credits": 4
-    },
-    {
-      "course_id": "MUS-2000",
-      "source_course_code": "MUS2000",
-      "source_course_title": "Introduction to Music",
-      "term": "Spring 2025",
-      "grade": "B",
-      "credits": 4
-    },
-    {
       "course_id": "ENG-2050",
       "source_course_code": "ENG 2050",
       "source_course_title": "Introduction to Cinema",
@@ -169,5 +73,6 @@
       "grade": "A-",
       "credits": 4
     }
-  ]
+  ],
+  "in_progress_courses": []
 }
