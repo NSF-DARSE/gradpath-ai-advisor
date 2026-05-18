@@ -11,7 +11,7 @@ from unittest.mock import MagicMock
 # Import guardrails directly to avoid agents/__init__.py, which transitively
 # imports catalog_agent and other agents that require the 'gradpath' package
 # to be installed (they use 'from gradpath.tools import ...' style paths).
-_guardrails_path = Path(__file__).resolve().parent.parent / "agents" / "guardrails.py"
+_guardrails_path = Path(__file__).resolve().parents[1] / "src" / "backend" / "agents" / "guardrails.py"
 _spec = importlib.util.spec_from_file_location("agents.guardrails", _guardrails_path)
 _guardrails = importlib.util.module_from_spec(_spec)
 _spec.loader.exec_module(_guardrails)
