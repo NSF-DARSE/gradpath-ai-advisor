@@ -11,7 +11,7 @@ build/
 .env
 
 # Node
-frontend/node_modules/
+node_modules/
 
 # macOS
 .DS_Store
