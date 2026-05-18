@@ -17,7 +17,7 @@ from .transcript_parser import parse_transcript_pdf, transcript_from_json
 LOGGER = logging.getLogger(__name__)
 
 # Base folder for all data files.
-DATA_DIR = Path(__file__).resolve().parent.parent / "data"
+DATA_DIR = Path(__file__).resolve().parents[3] / "data"
 TRANSCRIPTS_DIR = DATA_DIR / "transcripts"
 TRANSCRIPT_JSON_STATE_KEY = "transcript_json"
 TRANSCRIPT_PROFILE_STATE_KEY = "transcript_profile"

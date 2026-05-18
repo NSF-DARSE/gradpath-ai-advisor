@@ -6,8 +6,8 @@ import os
 from pathlib import Path
 
 
-ROOT_DIR = Path(__file__).resolve().parents[2]
-FRONTEND_DIST_DIR = ROOT_DIR / "frontend" / "dist"
+ROOT_DIR = Path(__file__).resolve().parents[3]
+FRONTEND_DIST_DIR = ROOT_DIR / "src" / "frontend" / "dist"
 
 API_TITLE = "GradPath UI API"
 API_VERSION = "1.0.0"

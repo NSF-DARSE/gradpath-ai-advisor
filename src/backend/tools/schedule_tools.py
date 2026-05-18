@@ -5,7 +5,7 @@ from pathlib import Path
 from typing import Any, Dict, List
 
 
-DATA_DIR = Path(__file__).resolve().parent.parent / "data"
+DATA_DIR = Path(__file__).resolve().parents[3] / "data"
 SCHEDULES_DIR = DATA_DIR / "schedules"
 
 

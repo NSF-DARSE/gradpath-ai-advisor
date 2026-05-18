@@ -5,7 +5,7 @@ from pathlib import Path
 from typing import Any, Dict, List
 
 
-DATA_DIR = Path(__file__).resolve().parent.parent / "data"
+DATA_DIR = Path(__file__).resolve().parents[3] / "data"
 REGISTRY_DIR = DATA_DIR / "registry"
 TRANSCRIPTS_DIR = DATA_DIR / "transcripts"
 STUDENT_INDEX_FILE = REGISTRY_DIR / "student_index.json"

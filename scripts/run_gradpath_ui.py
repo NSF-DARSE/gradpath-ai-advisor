@@ -2,11 +2,18 @@
 
 from __future__ import annotations
 
+import sys
 import threading
 import time
 import webbrowser
+from pathlib import Path
 
 import uvicorn
+
+# Add src/ so that 'backend' is importable as 'backend.app.main'
+_root = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(_root / "src"))
+sys.path.insert(0, str(_root / "src" / "backend"))
 
 
 def _open_browser() -> None:

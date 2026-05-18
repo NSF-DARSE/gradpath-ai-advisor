@@ -20,3 +20,6 @@ node_modules/
 .idea/
 .vscode/
 .env
+
+# Runtime-generated data (created during test runs)
+src/data/

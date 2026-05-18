@@ -8,12 +8,32 @@ from pathlib import Path
 
 # Register 'Gradpath' package under lowercase 'gradpath' alias so agents can
 # import from `gradpath.*` regardless of how uvicorn was launched.
-_root = Path(__file__).resolve().parents[2]
+_root = Path(__file__).resolve().parents[3]
 _parent = _root.parent
 if str(_parent) not in sys.path:
     sys.path.insert(0, str(_parent))
 _pkg = importlib.import_module(_root.name)
 sys.modules.setdefault("gradpath", _pkg)
+
+# Register gradpath.agents and gradpath.tools aliases so agent.py imports work
+# after moving agents/ and tools/ into src/backend/
+import importlib.util
+
+_src_backend = _root / "src" / "backend"
+if str(_src_backend) not in sys.path:
+    sys.path.insert(0, str(_src_backend))
+
+# Tools: simple import, no circular deps
+_tools_mod = importlib.import_module("tools")
+sys.modules.setdefault("gradpath.tools", _tools_mod)
+
+# Agents: pre-register before executing so internal `from gradpath.agents.x import y`
+# calls inside agents/__init__.py resolve correctly during their own initialization
+_agents_spec = importlib.util.find_spec("agents")
+_agents_mod = importlib.util.module_from_spec(_agents_spec)
+sys.modules["agents"] = _agents_mod
+sys.modules["gradpath.agents"] = _agents_mod  # pre-register BEFORE exec
+_agents_spec.loader.exec_module(_agents_mod)  # now safe to execute
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware

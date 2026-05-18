@@ -18,7 +18,7 @@ def _normalize(cid: str) -> str:
 from .schedule_tools import get_offered_course_ids
 
 
-DATA_DIR = Path(__file__).resolve().parent.parent / "data"
+DATA_DIR = Path(__file__).resolve().parents[3] / "data"
 CATALOGS_DIR = DATA_DIR / "catalogs"
 
 CATALOG_FILE = CATALOGS_DIR / "catalog_2026.json"

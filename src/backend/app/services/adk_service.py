@@ -25,7 +25,7 @@ if TYPE_CHECKING:
     from .transcript_parser import ParsedTranscript
 
 
-ROOT_DIR = Path(__file__).resolve().parents[3]
+ROOT_DIR = Path(__file__).resolve().parents[4]
 
 
 @dataclass

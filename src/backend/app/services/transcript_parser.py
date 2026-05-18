@@ -10,7 +10,7 @@ from typing import Any, Dict, List, Optional
 
 from tools.transcript_parser import parse_transcript_pdf, parse_transcript_text, transcript_from_json
 
-DATA_DIR = Path(__file__).resolve().parents[3] / "data"
+DATA_DIR = Path(__file__).resolve().parents[4] / "data"
 TRANSCRIPTS_DIR = DATA_DIR / "transcripts"
 REGISTRY_FILE = DATA_DIR / "registry" / "student_index.json"
 
