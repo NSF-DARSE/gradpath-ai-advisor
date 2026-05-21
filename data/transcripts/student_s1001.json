@@ -1,0 +1,18 @@
+{
+  "student_id": "s1001",
+  "student_name": "Alex Kim",
+  "major": "CS",
+  "student_type": "undergraduate",
+  "gpa": 3.6,
+  "current_semester": "Spring 2026",
+  "expected_graduation": "Spring 2028",
+  "career_goal": "Software Engineer",
+  "preferences": "balanced",
+  "email": "alexkim@udel.edu",
+  "completed_courses": [
+    { "course_id": "ENG-1001", "term": "Fall 2024", "grade": "A", "credits": 4 },
+    { "course_id": "MAT-1010", "term": "Fall 2024", "grade": "A-", "credits": 4 },
+    { "course_id": "ENG-1002", "term": "Spring 2025", "grade": "B+", "credits": 4 },
+    { "course_id": "CSC-1058", "term": "Spring 2025", "grade": "A", "credits": 4 }
+  ]
+}

@@ -1,0 +1,274 @@
+[
+  {
+    "course_id": "EDU-604",
+    "section": "01A",
+    "credits": 3,
+    "title": "Educational Assessment & Eval.",
+    "location": "GC",
+    "days": [
+      "W"
+    ],
+    "start_time": "17:00",
+    "end_time": "22:00",
+    "faculty": null,
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "EDU-616",
+    "section": "01A",
+    "credits": 3,
+    "title": "Cult & Ling Diver: Inst Strat",
+    "location": "GC",
+    "days": [
+      "M"
+    ],
+    "start_time": "17:00",
+    "end_time": "22:00",
+    "faculty": null,
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "EDU-625",
+    "section": "01A",
+    "credits": 3,
+    "title": "Methods: Elementary Math",
+    "location": "GC",
+    "days": [
+      "T"
+    ],
+    "start_time": "17:00",
+    "end_time": "22:00",
+    "faculty": null,
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "EDU-658",
+    "section": "01A",
+    "credits": 3,
+    "title": "School & Community Relations",
+    "location": "GC",
+    "days": [
+      "W"
+    ],
+    "start_time": "17:00",
+    "end_time": "22:00",
+    "faculty": null,
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "EDU-661",
+    "section": "01A",
+    "credits": 3,
+    "title": "Research Methods in Education",
+    "location": "GC",
+    "days": [
+      "R"
+    ],
+    "start_time": "17:00",
+    "end_time": "22:00",
+    "faculty": null,
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "EDU-664",
+    "section": "01A",
+    "credits": 3,
+    "title": "Assistive Technology",
+    "location": "GC",
+    "days": [
+      "T"
+    ],
+    "start_time": "17:00",
+    "end_time": "22:00",
+    "faculty": null,
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "EDU-666",
+    "section": "01A",
+    "credits": 3,
+    "title": "Instr Strat - High Incid",
+    "location": "GC",
+    "days": [
+      "W"
+    ],
+    "start_time": "17:00",
+    "end_time": "22:00",
+    "faculty": null,
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "HUS-3012",
+    "section": "G1B",
+    "credits": 4,
+    "title": "Statistics",
+    "location": "GC",
+    "days": [
+      "S"
+    ],
+    "start_time": "08:30",
+    "end_time": "14:30",
+    "faculty": "To be Announced GRAD 434",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "MAH-621",
+    "section": "21A",
+    "credits": 3,
+    "title": "Profess. Ethics in Client Care",
+    "location": "GC",
+    "days": [
+      "S"
+    ],
+    "start_time": "08:30",
+    "end_time": "13:30",
+    "faculty": null,
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "MAH-622",
+    "section": "21A",
+    "credits": 3,
+    "title": "Tools and Models",
+    "location": "GC",
+    "days": [
+      "S"
+    ],
+    "start_time": "14:00",
+    "end_time": "19:00",
+    "faculty": null,
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "MAH-631",
+    "section": "21A",
+    "credits": 3,
+    "title": "Group Dynamics",
+    "location": "GC",
+    "days": [
+      "S"
+    ],
+    "start_time": "14:00",
+    "end_time": "19:00",
+    "faculty": null,
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "MAH-632",
+    "section": "21A",
+    "credits": 3,
+    "title": "Community Change",
+    "location": "GC",
+    "days": [
+      "S"
+    ],
+    "start_time": "08:30",
+    "end_time": "13:30",
+    "faculty": null,
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "MBA-700",
+    "section": "30A",
+    "credits": 3,
+    "title": "Business Research Methods",
+    "location": "GC",
+    "days": [
+      "S"
+    ],
+    "start_time": "14:00",
+    "end_time": "19:00",
+    "faculty": null,
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "MBA-780",
+    "section": "30A",
+    "credits": 3,
+    "title": "Entrepreneurship & Venture Cap",
+    "location": "GC",
+    "days": [
+      "S"
+    ],
+    "start_time": "08:30",
+    "end_time": "13:30",
+    "faculty": "To be Announced GRAD 324",
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "MBA-790",
+    "section": "30B",
+    "credits": 3,
+    "title": "Strategic Management",
+    "location": "GC",
+    "days": [
+      "S"
+    ],
+    "start_time": "08:30",
+    "end_time": "13:30",
+    "faculty": null,
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "MBA-800",
+    "section": "30B",
+    "credits": 3,
+    "title": "Int. Capstone Research Proj.",
+    "location": "GC",
+    "days": [
+      "S"
+    ],
+    "start_time": "14:00",
+    "end_time": "19:00",
+    "faculty": null,
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  },
+  {
+    "course_id": "SOC-3018",
+    "section": "G1A",
+    "credits": 4,
+    "title": "Sociological Theory",
+    "location": "GC",
+    "days": [
+      "S"
+    ],
+    "start_time": "08:30",
+    "end_time": "14:30",
+    "faculty": null,
+    "building": null,
+    "room": null,
+    "type": "LEC"
+  }
+]

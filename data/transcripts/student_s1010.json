@@ -1,0 +1,29 @@
+{
+  "student_id": "s1010",
+  "student_name": "Bryan J. Green",
+  "major": "CS",
+  "student_type": "undergraduate",
+  "gpa": 3.77,
+  "current_semester": "Spring 2026",
+  "expected_graduation": "Spring 2028",
+  "career_goal": "Software Engineer",
+  "preferences": "balanced",
+  "email": "bryangreen@udel.edu",
+  "completed_courses": [
+    { "course_id": "ART-1000", "term": "Fall 2024", "grade": "A", "credits": 4 },
+    { "course_id": "CSC-1058", "term": "Fall 2024", "grade": "A", "credits": 4 },
+    { "course_id": "ENG-1001", "term": "Fall 2024", "grade": "A-", "credits": 4 },
+    { "course_id": "MAT-1010", "term": "Fall 2024", "grade": "B", "credits": 4 },
+    { "course_id": "CSC-1059", "term": "Spring 2025", "grade": "A", "credits": 4 },
+    { "course_id": "ENG-1002", "term": "Spring 2025", "grade": "A", "credits": 4 },
+    { "course_id": "MUS-2E1", "term": "Spring 2025", "grade": "A-", "credits": 1 },
+    { "course_id": "PHL-2000", "term": "Spring 2025", "grade": "A", "credits": 4 },
+    { "course_id": "PSY-1001", "term": "Spring 2025", "grade": "A", "credits": 4 },
+    { "course_id": "MAT-1014", "term": "Summer 2025", "grade": "B-", "credits": 4 },
+    { "course_id": "CSC-2001", "term": "Fall 2025", "grade": "A", "credits": 4 },
+    { "course_id": "GSC-1011", "term": "Fall 2025", "grade": "A-", "credits": 4 },
+    { "course_id": "HIS-3004", "term": "Fall 2025", "grade": "A", "credits": 4 },
+    { "course_id": "MUS-2E1", "term": "Fall 2025", "grade": "A-", "credits": 1 },
+    { "course_id": "SOS-1051", "term": "Fall 2025", "grade": "A", "credits": 4 }
+  ]
+}

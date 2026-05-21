@@ -1,0 +1,184 @@
+{
+  "version": 1,
+  "students": [
+    {
+      "student_key": "s1",
+      "aliases": [
+        "T1",
+        "s1",
+        "s1001"
+      ],
+      "status": "ready",
+      "message": "Normalized transcript JSON is available.",
+      "source_pdf": "T1.pdf",
+      "transcript_file": "student_s1001.json"
+    },
+    {
+      "student_key": "s10",
+      "aliases": [
+        "T10",
+        "s10",
+        "s1010"
+      ],
+      "status": "ready",
+      "message": "Normalized transcript JSON is available.",
+      "source_pdf": "T10.pdf",
+      "transcript_file": "student_s1010.json"
+    },
+    {
+      "student_key": "s2",
+      "aliases": [
+        "T2",
+        "s2",
+        "s1002"
+      ],
+      "status": "ready",
+      "message": "Normalized transcript JSON is available.",
+      "source_pdf": "T2.pdf",
+      "transcript_file": "student_s1002.json"
+    },
+    {
+      "student_key": "s3",
+      "aliases": [
+        "T3",
+        "s3"
+      ],
+      "status": "ocr_required",
+      "message": "Transcript PDF is present, but OCR/normalization has not been completed.",
+      "source_pdf": "T3.pdf",
+      "transcript_file": null
+    },
+    {
+      "student_key": "s4",
+      "aliases": [
+        "T4",
+        "s4"
+      ],
+      "status": "ocr_required",
+      "message": "Transcript PDF is present, but OCR/normalization has not been completed.",
+      "source_pdf": "T4.pdf",
+      "transcript_file": null
+    },
+    {
+      "student_key": "s5",
+      "aliases": [
+        "T5",
+        "s5"
+      ],
+      "status": "ocr_required",
+      "message": "Transcript PDF is present, but OCR/normalization has not been completed.",
+      "source_pdf": "T5.pdf",
+      "transcript_file": null
+    },
+    {
+      "student_key": "s6",
+      "aliases": [
+        "T6",
+        "s6"
+      ],
+      "status": "ocr_required",
+      "message": "Transcript PDF is present, but OCR/normalization has not been completed.",
+      "source_pdf": "T6.pdf",
+      "transcript_file": null
+    },
+    {
+      "student_key": "s7",
+      "aliases": [
+        "T7",
+        "s7"
+      ],
+      "status": "ocr_required",
+      "message": "Transcript PDF is present, but OCR/normalization has not been completed.",
+      "source_pdf": "T7.pdf",
+      "transcript_file": null
+    },
+    {
+      "student_key": "s8",
+      "aliases": [
+        "T8",
+        "s8"
+      ],
+      "status": "ocr_required",
+      "message": "Transcript PDF is present, but OCR/normalization has not been completed.",
+      "source_pdf": "T8.pdf",
+      "transcript_file": null
+    },
+    {
+      "student_key": "s9",
+      "aliases": [
+        "T9",
+        "s9"
+      ],
+      "status": "ocr_required",
+      "message": "Transcript PDF is present, but OCR/normalization has not been completed.",
+      "source_pdf": "T9.pdf",
+      "transcript_file": null
+    },
+    {
+      "student_key": "0479986",
+      "aliases": [
+        "0479986",
+        "0479986"
+      ],
+      "status": "ready",
+      "message": "Normalized transcript JSON is available.",
+      "source_pdf": "T5.pdf",
+      "transcript_file": "student_0479986.json"
+    },
+    {
+      "student_key": "0461817",
+      "aliases": [
+        "0461817",
+        "0461817"
+      ],
+      "status": "ready",
+      "message": "Normalized transcript JSON is available.",
+      "source_pdf": "T1.pdf",
+      "transcript_file": "student_0461817.json"
+    },
+    {
+      "student_key": "0498908",
+      "aliases": [
+        "0498908",
+        "0498908"
+      ],
+      "status": "ready",
+      "message": "Normalized transcript JSON is available.",
+      "source_pdf": "T4.pdf",
+      "transcript_file": "student_0498908.json"
+    },
+    {
+      "student_key": "0474352",
+      "aliases": [
+        "0474352",
+        "0474352"
+      ],
+      "status": "ready",
+      "message": "Normalized transcript JSON is available.",
+      "source_pdf": "T3.pdf",
+      "transcript_file": "student_0474352.json"
+    },
+    {
+      "student_key": "0504145",
+      "aliases": [
+        "0504145",
+        "0504145"
+      ],
+      "status": "ready",
+      "message": "Normalized transcript JSON is available.",
+      "source_pdf": "T2.pdf",
+      "transcript_file": "student_0504145.json"
+    },
+    {
+      "student_key": "0482879",
+      "aliases": [
+        "0482879",
+        "0482879"
+      ],
+      "status": "ready",
+      "message": "Normalized transcript JSON is available.",
+      "source_pdf": "T10.pdf",
+      "transcript_file": "student_0482879.json"
+    }
+  ]
+}

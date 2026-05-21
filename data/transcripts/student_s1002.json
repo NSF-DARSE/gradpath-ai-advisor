@@ -1,0 +1,22 @@
+{
+  "student_id": "s1002",
+  "student_name": "Maya Patel",
+  "major": "CS",
+  "student_type": "undergraduate",
+  "gpa": 3.4,
+  "current_semester": "Spring 2026",
+  "expected_graduation": "Fall 2027",
+  "career_goal": "Data Scientist",
+  "preferences": "fastest",
+  "email": "mayapatel@udel.edu",
+  "completed_courses": [
+    { "course_id": "ENG-1001", "term": "Fall 2023", "grade": "A", "credits": 4 },
+    { "course_id": "MAT-1010", "term": "Fall 2023", "grade": "B+", "credits": 4 },
+    { "course_id": "ENG-1002", "term": "Spring 2024", "grade": "A-", "credits": 4 },
+    { "course_id": "CSC-1058", "term": "Spring 2024", "grade": "A", "credits": 4 },
+    { "course_id": "MAT-1014", "term": "Fall 2024", "grade": "B", "credits": 4 },
+    { "course_id": "CSC-1059", "term": "Fall 2024", "grade": "A-", "credits": 4 },
+    { "course_id": "CSC-2001", "term": "Spring 2025", "grade": "B+", "credits": 4 },
+    { "course_id": "CSC-2054", "term": "Spring 2025", "grade": "A", "credits": 4 }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "student_id": "0474352",
+  "student_name": "Connor,J'Shaun Anthony",
+  "major": "CS",
+  "student_type": "undergraduate",
+  "gpa": null,
+  "current_semester": "Spring 2026",
+  "expected_graduation": null,
+  "career_goal": null,
+  "preferences": "balanced",
+  "completed_courses": [
+    {
+      "course_id": "ENG-1001",
+      "source_course_code": "ENG 101",
+      "source_course_title": "English Composition I",
+      "term": "Fall 2023",
+      "grade": "A",
+      "credits": 3
+    },
+    {
+      "course_id": "FYE-101",
+      "source_course_code": "FYE 101",
+      "source_course_title": "First Year Experience",
+      "term": "Fall 2023",
+      "grade": "D",
+      "credits": 3
+    },
+    {
+      "course_id": "MUS-200",
+      "source_course_code": "MUS 200",
+      "source_course_title": "Introduction to Music",
+      "term": "Fall 2023",
+      "grade": "B-",
+      "credits": 3
+    },
+    {
+      "course_id": "SOS-1051",
+      "source_course_code": "SOS 151",
+      "source_course_title": "African American Experience",
+      "term": "Fall 2023",
+      "grade": "B-",
+      "credits": 3
+    },
+    {
+      "course_id": "ART-2000",
+      "source_course_code": "ART 2000",
+      "source_course_title": "Intro to Art",
+      "term": "Spring 2025",
+      "grade": "B-",
+      "credits": 4
+    },
+    {
+      "course_id": "CHE-1001",
+      "source_course_code": "CHE 1001",
+      "source_course_title": "Introductory Chemistry",
+      "term": "Spring 2025",
+      "grade": "A-",
+      "credits": 4
+    },
+    {
+      "course_id": "ENG-1002",
+      "source_course_code": "ENG 1002",
+      "source_course_title": "English Comp II",
+      "term": "Spring 2025",
+      "grade": "A",
+      "credits": 4
+    },
+    {
+      "course_id": "SOC-2009",
+      "source_course_code": "SOC 2009",
+      "source_course_title": "Institutional Racism",
+      "term": "Spring 2025",
+      "grade": "C",
+      "credits": 4
+    },
+    {
+      "course_id": "MAT-1021",
+      "source_course_code": "MAT 1021",
+      "source_course_title": "Calculus I",
+      "term": "Spring 2025",
+      "grade": "D",
+      "credits": 4
+    },
+    {
+      "course_id": "POL-1001",
+      "source_course_code": "POL 1001",
+      "source_course_title": "American National Government",
+      "term": "Spring 2025",
+      "grade": "C+",
+      "credits": 4
+    },
+    {
+      "course_id": "GSC-1002",
+      "source_course_code": "GSC 102",
+      "source_course_title": "Physical Science II",
+      "term": "Spring 2024",
+      "grade": "C+",
+      "credits": 3
+    },
+    {
+      "course_id": "GSC-102L",
+      "source_course_code": "GSC 102L",
+      "source_course_title": "Physical Science Lab II",
+      "term": "Spring 2024",
+      "grade": "D",
+      "credits": 1
+    },
+    {
+      "course_id": "CSC-1058",
+      "source_course_code": "CSC 1058",
+      "source_course_title": "Computer Programming I",
+      "term": "Spring 2024",
+      "grade": "C",
+      "credits": 4
+    },
+    {
+      "course_id": "MAT-1014",
+      "source_course_code": "MAT 1014",
+      "source_course_title": "Elementary Statistics I",
+      "term": "Spring 2024",
+      "grade": "C",
+      "credits": 4
+    },
+    {
+      "course_id": "CSC-1052",
+      "source_course_code": "CSC 1052",
+      "source_course_title": "Introduction to Computer Progr",
+      "term": "Fall 2025",
+      "grade": "B+",
+      "credits": 4
+    },
+    {
+      "course_id": "BIO-1003",
+      "source_course_code": "BIO 1003",
+      "source_course_title": "General Biology I for Bio Maj",
+      "term": "Fall 2024",
+      "grade": "D",
+      "credits": 4
+    },
+    {
+      "course_id": "PAS-2001",
+      "source_course_code": "PAS 2001",
+      "source_course_title": "Theories of Pan-Afr Studies",
+      "term": "Fall 2024",
+      "grade": "B",
+      "credits": 4
+    }
+  ],
+  "in_progress_courses": [
+    {
+      "course_id": "CSC-1051",
+      "source_course_code": "CSC 1051",
+      "source_course_title": "Computer Applications & Coding",
+      "term": "Spring 2026",
+      "grade": "In Progress",
+      "credits": 0
+    },
+    {
+      "course_id": "CSC-1059",
+      "source_course_code": "CSC 1059",
+      "source_course_title": "Computer Programming II",
+      "term": "Spring 2026",
+      "grade": "In Progress",
+      "credits": 0
+    },
+    {
+      "course_id": "MAT-2013",
+      "source_course_code": "MAT 2013",
+      "source_course_title": "Discrete Mathematics",
+      "term": "Spring 2026",
+      "grade": "In Progress",
+      "credits": 0
+    }
+  ]
+}

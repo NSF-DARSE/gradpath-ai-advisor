@@ -1,0 +1,199 @@
+{
+  "total_programs": 38,
+  "total_undergraduate": 31,
+  "total_graduate": 7,
+  "undergraduate_majors": [
+    {
+      "name": "Anthropology",
+      "degree": "BS, BA",
+      "category": "undergraduate"
+    },
+    {
+      "name": "Criminal Justice",
+      "degree": "BS, BA",
+      "category": "undergraduate"
+    },
+    {
+      "name": "Sociology",
+      "degree": "BS, BA",
+      "category": "undergraduate"
+    },
+    {
+      "name": "Biology",
+      "degree": "BS, BA",
+      "category": "undergraduate"
+    },
+    {
+      "name": "Environmental Science",
+      "degree": "BS, BA",
+      "category": "undergraduate"
+    },
+    {
+      "name": "Accounting",
+      "degree": "BS, BA",
+      "category": "undergraduate"
+    },
+    {
+      "name": "Finance",
+      "degree": "BS, BA",
+      "category": "undergraduate"
+    },
+    {
+      "name": "Information Systems Management",
+      "degree": "BS, BA",
+      "category": "undergraduate"
+    },
+    {
+      "name": "Management",
+      "degree": "BS, BA",
+      "category": "undergraduate"
+    },
+    {
+      "name": "Chemistry",
+      "degree": "BS, BA",
+      "category": "undergraduate"
+    },
+    {
+      "name": "Chemistry: Forensic Science Concentration",
+      "degree": "BS",
+      "category": "undergraduate"
+    },
+    {
+      "name": "Biochemistry and Molecular Biology",
+      "degree": "BS, BA",
+      "category": "undergraduate"
+    },
+    {
+      "name": "Physics",
+      "degree": "BS, BA",
+      "category": "undergraduate"
+    },
+    {
+      "name": "Communication",
+      "degree": "BS, BA",
+      "category": "undergraduate"
+    },
+    {
+      "name": "Computer Science",
+      "degree": "BS, BA",
+      "category": "undergraduate"
+    },
+    {
+      "name": "Health Science",
+      "degree": "BS, BA",
+      "category": "undergraduate"
+    },
+    {
+      "name": "History",
+      "degree": "BS, BA",
+      "category": "undergraduate"
+    },
+    {
+      "name": "Philosophy",
+      "degree": "BS, BA",
+      "category": "undergraduate"
+    },
+    {
+      "name": "Religion",
+      "degree": "BS, BA",
+      "category": "undergraduate"
+    },
+    {
+      "name": "English Liberal Arts - Literature",
+      "degree": "BA",
+      "category": "undergraduate"
+    },
+    {
+      "name": "English Liberal Arts - Pre-Law",
+      "degree": "BA",
+      "category": "undergraduate"
+    },
+    {
+      "name": "English Liberal Arts - Creative Writing",
+      "degree": "BA",
+      "category": "undergraduate"
+    },
+    {
+      "name": "French",
+      "degree": "BA",
+      "category": "undergraduate"
+    },
+    {
+      "name": "Spanish",
+      "degree": "BA",
+      "category": "undergraduate"
+    },
+    {
+      "name": "Mathematics",
+      "degree": "BS, BA",
+      "category": "undergraduate"
+    },
+    {
+      "name": "Music",
+      "degree": "BA",
+      "category": "undergraduate"
+    },
+    {
+      "name": "Pan-Africana Studies",
+      "degree": "BS, BA",
+      "category": "undergraduate"
+    },
+    {
+      "name": "Political Science",
+      "degree": "BS, BA",
+      "category": "undergraduate"
+    },
+    {
+      "name": "Psychology",
+      "degree": "BS, BA",
+      "category": "undergraduate"
+    },
+    {
+      "name": "Human Services",
+      "degree": "BS, BA",
+      "category": "undergraduate"
+    },
+    {
+      "name": "Visual Arts",
+      "degree": "BS, BA",
+      "category": "undergraduate"
+    }
+  ],
+  "graduate_programs": [
+    {
+      "name": "Bachelor of Human Services Program",
+      "degree": "BHS-FLEX",
+      "category": "graduate_professional"
+    },
+    {
+      "name": "Master of Business Administration",
+      "degree": "MBA",
+      "category": "graduate"
+    },
+    {
+      "name": "Master of Business Administration - General",
+      "degree": "MBA",
+      "category": "graduate"
+    },
+    {
+      "name": "Early Childhood Education",
+      "degree": "M.Ed.",
+      "category": "graduate"
+    },
+    {
+      "name": "Educational Leadership",
+      "degree": "M.Ed.",
+      "category": "graduate"
+    },
+    {
+      "name": "Early Childhood Education & Special Education - Dual Certification",
+      "degree": "M.Ed.",
+      "category": "graduate"
+    },
+    {
+      "name": "Master of Arts in Human Services",
+      "degree": "MA",
+      "category": "graduate"
+    }
+  ]
+}

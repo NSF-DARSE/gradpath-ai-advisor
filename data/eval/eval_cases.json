@@ -1,0 +1,28 @@
+{
+  "cases": [
+    {
+      "case_id": "case_s1001_fall_2026",
+      "student_id": "s1001",
+      "major": "CS",
+      "target_semester": "Fall 2026",
+      "max_credits": 12,
+      "description": "Alex Kim — 2 semesters completed, early stage"
+    },
+    {
+      "case_id": "case_s1002_fall_2026",
+      "student_id": "s1002",
+      "major": "CS",
+      "target_semester": "Fall 2026",
+      "max_credits": 12,
+      "description": "Maya Patel — 3 semesters completed, mid stage"
+    },
+    {
+      "case_id": "case_s1010_fall_2026",
+      "student_id": "s1010",
+      "major": "CS",
+      "target_semester": "Fall 2026",
+      "max_credits": 12,
+      "description": "Bryan Green — 4 semesters completed, advanced stage"
+    }
+  ]
+}

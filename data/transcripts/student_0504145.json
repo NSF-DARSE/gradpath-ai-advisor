@@ -1,0 +1,55 @@
+{
+  "student_id": "0504145",
+  "student_name": "Chambers Rew,Kaleah Nichelle-Noel",
+  "major": "SOC",
+  "student_type": "undergraduate",
+  "gpa": null,
+  "current_semester": "Spring 2026",
+  "expected_graduation": null,
+  "career_goal": null,
+  "preferences": "balanced",
+  "completed_courses": [
+    {
+      "course_id": "SOC-1001",
+      "source_course_code": "SOC 1001",
+      "source_course_title": "Introduction to Sociology",
+      "term": "Fall 2025",
+      "grade": "C-",
+      "credits": 4
+    },
+    {
+      "course_id": "SOS-1051",
+      "source_course_code": "SOS 1051",
+      "source_course_title": "African American Experience",
+      "term": "Fall 2025",
+      "grade": "B-",
+      "credits": 4
+    }
+  ],
+  "in_progress_courses": [
+    {
+      "course_id": "ENG-1001",
+      "source_course_code": "ENG 1001",
+      "source_course_title": "English Composition I",
+      "term": "Spring 2026",
+      "grade": "In Progress",
+      "credits": 0
+    },
+    {
+      "course_id": "HSC-1030",
+      "source_course_code": "HSC 1030",
+      "source_course_title": "Introduction to Health Science",
+      "term": "Spring 2026",
+      "grade": "In Progress",
+      "credits": 0
+    },
+    {
+      "course_id": "PSY-1001",
+      "source_course_code": "PSY 1001",
+      "source_course_title": "General Psychology",
+      "term": "Spring 2026",
+      "grade": "In Progress",
+      "credits": 0
+    }
+  ]
+}

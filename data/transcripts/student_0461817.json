@@ -1,0 +1,239 @@
+{
+  "student_id": "0461817",
+  "student_name": "Bowen,Christian",
+  "major": "CS",
+  "student_type": "undergraduate",
+  "gpa": null,
+  "current_semester": "Spring 2026",
+  "expected_graduation": null,
+  "career_goal": null,
+  "preferences": "balanced",
+  "completed_courses": [
+    {
+      "course_id": "ENG-1001",
+      "source_course_code": "ENG 101",
+      "source_course_title": "English Composition I",
+      "term": "Fall 2023",
+      "grade": "A",
+      "credits": 3
+    },
+    {
+      "course_id": "FYE-101",
+      "source_course_code": "FYE 101",
+      "source_course_title": "First Year Experience",
+      "term": "Fall 2023",
+      "grade": "A",
+      "credits": 3
+    },
+    {
+      "course_id": "HPR-101",
+      "source_course_code": "HPR 101",
+      "source_course_title": "Dimensions of Wellness",
+      "term": "Fall 2023",
+      "grade": "A",
+      "credits": 2
+    },
+    {
+      "course_id": "MAT-1010",
+      "source_course_code": "MAT 101",
+      "source_course_title": "Elem & Intermediate Algebra",
+      "term": "Fall 2023",
+      "grade": "B",
+      "credits": 4
+    },
+    {
+      "course_id": "MUS-200",
+      "source_course_code": "MUS 200",
+      "source_course_title": "Introduction to Music",
+      "term": "Fall 2023",
+      "grade": "A",
+      "credits": 3
+    },
+    {
+      "course_id": "CSC-2054",
+      "source_course_code": "CSC 2054",
+      "source_course_title": "Data Structures",
+      "term": "Spring 2025",
+      "grade": "B",
+      "credits": 4
+    },
+    {
+      "course_id": "CSC-3090",
+      "source_course_code": "CSC 3090",
+      "source_course_title": "ST: QA & Testing in SD",
+      "term": "Spring 2025",
+      "grade": "B",
+      "credits": 4
+    },
+    {
+      "course_id": "ECO-2002",
+      "source_course_code": "ECO 2002",
+      "source_course_title": "Principles of Microeconomics",
+      "term": "Spring 2025",
+      "grade": "B",
+      "credits": 4
+    },
+    {
+      "course_id": "GSC-1002",
+      "source_course_code": "GSC 1002",
+      "source_course_title": "Physical Science II",
+      "term": "Spring 2025",
+      "grade": "A",
+      "credits": 4
+    },
+    {
+      "course_id": "SOS-1051",
+      "source_course_code": "SOS 1051",
+      "source_course_title": "African American Experience",
+      "term": "Spring 2025",
+      "grade": "A",
+      "credits": 4
+    },
+    {
+      "course_id": "BIO-1002",
+      "source_course_code": "BIO 102",
+      "source_course_title": "Human Health and Disease",
+      "term": "Spring 2024",
+      "grade": "A",
+      "credits": 3
+    },
+    {
+      "course_id": "CSC-1058",
+      "source_course_code": "CSC 158",
+      "source_course_title": "Computer Program I",
+      "term": "Spring 2024",
+      "grade": "A",
+      "credits": 4
+    },
+    {
+      "course_id": "ENG-1002",
+      "source_course_code": "ENG 102",
+      "source_course_title": "English Comp II",
+      "term": "Spring 2024",
+      "grade": "A",
+      "credits": 3
+    },
+    {
+      "course_id": "CSC-3055",
+      "source_course_code": "CSC 3055",
+      "source_course_title": "Operating Systems W/ Linux",
+      "term": "Spring 2024",
+      "grade": "B-",
+      "credits": 4
+    },
+    {
+      "course_id": "SOC-1001",
+      "source_course_code": "SOC 101",
+      "source_course_title": "Introduction to Sociology",
+      "term": "Spring 2024",
+      "grade": "A",
+      "credits": 3
+    },
+    {
+      "course_id": "ART-2000",
+      "source_course_code": "ART 2000",
+      "source_course_title": "Intro to Art",
+      "term": "Fall 2025",
+      "grade": "A-",
+      "credits": 4
+    },
+    {
+      "course_id": "CSC-3002",
+      "source_course_code": "CSC 3002",
+      "source_course_title": "Computer Graphics & Animation",
+      "term": "Fall 2025",
+      "grade": "A",
+      "credits": 4
+    },
+    {
+      "course_id": "CSC-3095",
+      "source_course_code": "CSC 3095",
+      "source_course_title": "HCI and UX Design",
+      "term": "Fall 2025",
+      "grade": "A",
+      "credits": 4
+    },
+    {
+      "course_id": "FIN-3041",
+      "source_course_code": "FIN 3041",
+      "source_course_title": "Financial Management",
+      "term": "Fall 2025",
+      "grade": "B",
+      "credits": 4
+    },
+    {
+      "course_id": "CSC-1059",
+      "source_course_code": "CSC 1059",
+      "source_course_title": "Computer Programming II",
+      "term": "Fall 2024",
+      "grade": "A",
+      "credits": 4
+    },
+    {
+      "course_id": "CSC-2001",
+      "source_course_code": "CSC 2001",
+      "source_course_title": "Web Design & Development",
+      "term": "Fall 2024",
+      "grade": "A",
+      "credits": 4
+    },
+    {
+      "course_id": "FIN-1001",
+      "source_course_code": "FIN 1001",
+      "source_course_title": "Personal Finance",
+      "term": "Fall 2024",
+      "grade": "A",
+      "credits": 4
+    },
+    {
+      "course_id": "MAT-1014",
+      "source_course_code": "MAT 1014",
+      "source_course_title": "Elementary Statistics I",
+      "term": "Fall 2024",
+      "grade": "C+",
+      "credits": 4
+    }
+  ],
+  "in_progress_courses": [
+    {
+      "course_id": "CSC-3053",
+      "source_course_code": "CSC 3053",
+      "source_course_title": "Computer Orgnztn & Archictr",
+      "term": "Spring 2026",
+      "grade": "In Progress",
+      "credits": 0
+    },
+    {
+      "course_id": "CSC-3054",
+      "source_course_code": "CSC 3054",
+      "source_course_title": "Database Design & Development",
+      "term": "Spring 2026",
+      "grade": "In Progress",
+      "credits": 0
+    },
+    {
+      "course_id": "CSC-3058",
+      "source_course_code": "CSC 3058",
+      "source_course_title": "Artfcl Intllgnc & McHn Lrng",
+      "term": "Spring 2026",
+      "grade": "In Progress",
+      "credits": 0
+    },
+    {
+      "course_id": "CSC-3059",
+      "source_course_code": "CSC 3059",
+      "source_course_title": "Cyber Scrty & Informtn Assrnc",
+      "term": "Spring 2026",
+      "grade": "In Progress",
+      "credits": 0
+    },
+    {
+      "course_id": "CSC-4054",
+      "source_course_code": "CSC 4054",
+      "source_course_title": "Software Engineering",
+      "term": "Spring 2026",
+      "grade": "In Progress",
+      "credits": 0
+    }
+  ]
+}
